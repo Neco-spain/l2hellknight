@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Crystals -->
+<!-- © 2010 by mathuza -->
+
+<list maintainEnchantment="true">
+
+  <!-- Crystal: S Grade -->
+  <item id="1">
+    <ingredient id="57" count="500000"/>
+    <production id="1462" count="10"/>
+  </item>
+
+  <!-- Crystal: A-Grade -->
+  <item id="2">
+    <ingredient id="57" count="200000"/>
+    <production id="1461" count="10"/>
+  </item>
+
+  <!-- Crystal: B-Grade -->
+  <item id="3">
+    <ingredient id="57" count="20000"/>
+    <production id="1460" count="10"/>
+  </item>
+
+  <!-- Crystal: C-Grade -->
+  <item id="4">
+    <ingredient id="57" count="30000"/>
+    <production id="1459" count="10"/>
+  </item>
+
+  <!-- Crystal: D-Grade -->
+  <item id="5">
+    <ingredient id="57" count="20000"/>
+    <production id="1458" count="10"/>
+  </item>
+
+
+</list>

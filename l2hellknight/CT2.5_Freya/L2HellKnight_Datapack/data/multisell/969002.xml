@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Phoenix Knight -->
+
+<list>
+<!-- Archer's Will -->
+<item id="1">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10553" count="1" enchant="0"/>
+</item>
+<!-- Fighter's Will -->
+<item id="2">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10552" count="1" enchant="0"/>
+</item>
+<!-- Protection of Alignment -->
+<item id="3">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="4">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="5">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Anti Magic Armor -->
+<item id="6">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10554" count="1" enchant="0"/>
+</item>
+<!-- Flame Icon 
+<item id="7">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10572" count="1" enchant="0"/>
+</item> -->
+<!-- Spirit of Phoenix 81 -->
+<item id="8">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="10591" count="1" enchant="0"/>
+</item>
+<!-- Spirit of Phoenix 83 -->
+<item id="9">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="14172" count="1" enchant="0"/>
+</item>
+<!-- Deflect Magic -->
+<item id="10">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="14207" count="1" enchant="0"/>
+</item>
+<!-- Summon Imperial Phoenix -->
+<item id="11">
+<ingredient id="3487" count="1" enchant="0"/>
+<production id="14200" count="1" enchant="0"/>
+</item>
+</list> 

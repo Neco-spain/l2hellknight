@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+<item id='21716' type="Armor" name="Cloak Of Zaken">
+  <set name="crystal_count" val="666" />
+  <set name="crystal_type" val="s" />
+  <set name="bodypart" val="back" />
+  <for>
+    <add order="0x40" stat="fireRes" val="10"/>
+    <add order="0x40" stat="waterRes" val="10"/>
+    <add order="0x40" stat="windRes" val="10"/>
+    <add order="0x40" stat="earthRes" val="10"/>
+    <add order="0x40" stat="holyRes" val="10"/>
+    <add order="0x40" stat="darkRes" val="10"/>
+    <add order="0x40" stat="pDef" val="20"/>
+    <enchant order="0x0C" stat="pDef" val="0" />
+  </for>
+</item>
+<item id='21717' type="Armor" name="Cloak Of Freya">
+  <set name="crystal_count" val="666" />
+  <set name="crystal_type" val="s" />
+  <set name="bodypart" val="back" />
+  <for>
+    <add order="0x40" stat="fireRes" val="10"/>
+    <add order="0x40" stat="waterRes" val="10"/>
+    <add order="0x40" stat="windRes" val="10"/>
+    <add order="0x40" stat="earthRes" val="10"/>
+    <add order="0x40" stat="holyRes" val="10"/>
+    <add order="0x40" stat="darkRes" val="10"/>
+    <add order="0x40" stat="pDef" val="20"/>
+    <enchant order="0x0C" stat="pDef" val="0" />
+  </for>
+</item>
+<item id='21718' type="Armor" name="Cloak Of Frintezza">
+  <set name="crystal_count" val="666" />
+  <set name="crystal_type" val="s" />
+  <set name="bodypart" val="back" />
+  <for>
+    <add order="0x40" stat="fireRes" val="10"/>
+    <add order="0x40" stat="waterRes" val="10"/>
+    <add order="0x40" stat="windRes" val="10"/>
+    <add order="0x40" stat="earthRes" val="10"/>
+    <add order="0x40" stat="holyRes" val="10"/>
+    <add order="0x40" stat="darkRes" val="10"/>
+    <add order="0x40" stat="pDef" val="20"/>
+    <enchant order="0x0C" stat="pDef" val="0" />
+  </for>
+</item>
+
+</list>
