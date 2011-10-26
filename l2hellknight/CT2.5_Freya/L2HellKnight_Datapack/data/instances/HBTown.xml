@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="HBTown" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="instance.xsd">
+	<activityTime val="30"/>
+	<timeDelay val="24"/>
+	<allowSummon val="false"/>
+	<returnteleport x="13725" y="255403" z="-2023"/>
+	<spawnlist>
+		<spawn npcId="32358" x="13922" y="250386" z="-1940" heading="36022" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="14154" y="250417" z="-1940" heading="51367" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="14430" y="250428" z="-1940" heading="51367" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="15657" y="252413" z="-2015" heading="27397" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="15894" y="252356" z="-2015" heading="5790" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="20034" y="256276" z="-2093" heading="50449" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="20000" y="256176" z="-2091" heading="50449" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="19816" y="256297" z="-2091" heading="28563" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="21933" y="254090" z="-2010" heading="17845" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="22157" y="254198" z="-2010" heading="4685" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="22021" y="254266" z="-2010" heading="27931" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="17258" y="252944" z="-2015" heading="36626" respawn="0" onkilldelay="0" />
+		<spawn npcId="32358" x="17244" y="252746" z="-2015" heading="54259" respawn="0" onkilldelay="0" />
+		<spawn npcId="22359" x="16227" y="255080" z="-2070" heading="10808" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="16281" y="255319" z="-2063" heading="14066" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="16438" y="255163" z="-2077" heading="57377" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="16307" y="254974" z="-2077" heading="42830" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="18963" y="253123" z="-2018" heading="53533" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="20133" y="253513" z="-2031" heading="13111" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="18920" y="253747" z="-2031" heading="19543" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="17294" y="252707" z="-2010" heading="63789" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="17278" y="253006" z="-2010" heading="113" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="15910" y="251292" z="-1963" heading="28063" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="16234" y="251118" z="-1943" heading="48543" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="16097" y="251576" z="-1975" heading="60924" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="14510" y="253803" z="-2027" heading="61414" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="14323" y="253881" z="-2025" heading="37461" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="15925" y="251760" z="-2000" heading="39022" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="14627" y="253996" z="-2024" heading="1592" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="14418" y="254176" z="-2027" heading="32516" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="14633" y="254213" z="-2025" heading="4156" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="15354" y="251281" z="-1974" heading="35993" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="15841" y="253295" z="-2038" heading="46706" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="19195" y="255744" z="-2067" heading="38439" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="20630" y="255107" z="-2025" heading="25460" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="21314" y="254633" z="-2011" heading="17885" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="22656" y="253274" z="-2021" heading="30552" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="22607" y="253031" z="-2022" heading="28863" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="19831" y="250170" z="-2016" heading="14582" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="19529" y="250169" z="-2022" heading="15547" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="19989" y="252883" z="-2036" heading="50258" respawn="120" onkilldelay="0" />
+		<spawn npcId="22359" x="17919" y="253449" z="-2021" heading="21961" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="15626" y="250586" z="-1932" heading="56089" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="16163" y="254466" z="-2082" heading="47441" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="17106" y="256208" z="-2064" heading="25958" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="18051" y="256253" z="-2101" heading="34402" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="21894" y="252039" z="-2019" heading="9185" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="22194" y="251956" z="-2017" heading="17645" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="22678" y="253887" z="-2016" heading="8992" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="19914" y="250973" z="-2020" heading="13028" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="17662" y="251962" z="-2020" heading="37829" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="20301" y="253744" z="-2033" heading="63557" respawn="120" onkilldelay="0" />
+		<spawn npcId="22360" x="19427" y="252757" z="-2033" heading="35158" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="18713" y="251778" z="-2012" heading="32627" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="18862" y="251792" z="-2012" heading="53399" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14068" y="253118" z="-2014" heading="44511" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14109" y="253204" z="-2014" heading="20878" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14149" y="253117" z="-2017" heading="49043" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14156" y="255049" z="-2010" heading="9395" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14011" y="254866" z="-2010" heading="35611" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="15055" y="253762" z="-2015" heading="38605" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="16052" y="250215" z="-1920" heading="35629" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="16187" y="250253" z="-1920" heading="57108" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="13954" y="251878" z="-1936" heading="20501" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14009" y="251746" z="-1936" heading="31762" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14425" y="250257" z="-1940" heading="48847" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14209" y="250423" z="-1940" heading="9095" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="13922" y="250386" z="-1940" heading="46096" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="13998" y="250638" z="-1943" heading="50009" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="14016" y="250974" z="-1940" heading="34564" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="16580" y="253899" z="-2034" heading="32985" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="16724" y="253902" z="-2034" heading="53490" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="15714" y="255700" z="-2015" heading="15659" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="15703" y="255542" z="-2018" heading="64510" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="15561" y="255556" z="-2017" heading="36631" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="16407" y="256292" z="-2018" heading="2414" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="16267" y="256259" z="-2018" heading="24673" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="20125" y="256185" z="-2093" heading="749" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="22154" y="254234" z="-2010" heading="11065" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="22017" y="253989" z="-2013" heading="52566" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17511" y="250463" z="-1923" heading="895" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17209" y="250437" z="-1923" heading="22987" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="19057" y="251236" z="-2010" heading="61423" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="18908" y="251298" z="-2010" heading="21841" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="21212" y="250125" z="-1980" heading="53269" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="21257" y="250479" z="-1980" heading="15569" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="21321" y="251142" z="-2012" heading="29513" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="21507" y="251082" z="-2009" heading="56696" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17491" y="254558" z="-2022" heading="53073" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17282" y="255165" z="-2022" heading="22365" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17406" y="254973" z="-2022" heading="40170" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17676" y="255108" z="-2019" heading="32800" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="19882" y="255101" z="-2011" heading="63507" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="19816" y="255114" z="-2008" heading="10384" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="21841" y="253361" z="-2015" heading="33192" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="22013" y="253368" z="-2015" heading="61050" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="20408" y="251885" z="-2007" heading="54615" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="20706" y="251780" z="-2010" heading="31897" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="20945" y="251760" z="-2010" heading="40385" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="20957" y="251948" z="-2010" heading="36573" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17194" y="253021" z="-2015" heading="13158" respawn="120" onkilldelay="0" />
+		<spawn npcId="22450" x="17269" y="252817" z="-2015" heading="44398" respawn="120" onkilldelay="0" />
+		<spawn npcId="32343" x="19727" y="250110" z="-2029" heading="15254" respawn="0" />
+	</spawnlist>
+</instance>
