@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2011 by NeverMore -->
+
+<list maintainEnchantment="true">
+
+  <!-- Tattoo of Absolute -->
+  <item id="1">
+    <ingredient id="3487" count="50"/>
+    <production id="491" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fire -->
+  <item id="2">
+    <ingredient id="3487" count="50"/>
+    <production id="486" count="1"/>
+  </item>
+
+  <!-- Tattoo of Resolve -->
+  <item id="3">
+    <ingredient id="3487" count="50"/>
+    <production id="487" count="1"/>
+  </item>
+
+  <!-- Tattoo of Power -->
+  <item id="4">
+    <ingredient id="3487" count="50"/>
+    <production id="485" count="1"/>
+  </item>
+  
+    <!-- Tattoo of Divine -->
+  <item id="5">
+    <ingredient id="3487" count="50"/>
+    <production id="496" count="1"/>
+  </item>
+
+  <!-- Tattoo of Pledge -->
+  <item id="6">
+    <ingredient id="3487" count="50"/>
+    <production id="495" count="1"/>
+  </item>
+
+  <!-- Nightmarish Tattoo -->
+  <item id="7">
+    <ingredient id="3487" count="50"/>
+    <production id="2410" count="1"/>
+  </item>
+
+
+</list>
