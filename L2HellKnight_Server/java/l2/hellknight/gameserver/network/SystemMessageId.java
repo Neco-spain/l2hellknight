@@ -14948,8 +14948,36 @@ public final class SystemMessageId
 	 * Message: You have acquired $s1 PC Cafe points.
 	 */
 	public static final SystemMessageId YOU_HAVE_ACQUIRED_S1_PC_CAFE_POINTS;
+	/**
+	 * 3266	1	The angel Nevit has blessed you from above. You are imbued with full Vitality as well as a Vitality Replenishing effect. And should you die, you will not lose Exp!	0	FED7A0	ItemSound2.race_start		2	0	5	0	0	Nevit's Advent Blessing is Upon You!	none
+	 */
+	public static final SystemMessageId THE_ANGEL_NEVIT_HAS_BLESSED_YOU_FROM_ABOVE;
+	/**
+	 * 3267	1	You are starting to feel the effects of Nevit's Advent Blessing.	0	FED7A0			0	0	0	0	0		none
+	 */
+	public static final SystemMessageId YOU_ARE_STARTING_TO_FEEL_THE_EFFECTS_OF_NEVITS_ADVENT_BLESSING;
+	
+	/**
+	 * 3268	1	You are further infused with the blessings of Nevit! Continue to battle evil wherever it may lurk.	0	FED7A0			0	0	0	0	0	none
+	 */
+	public static final SystemMessageId YOU_ARE_FURTHER_INFUSED_WITH_THE_BLESSINGS_OF_NEVIT;
+	
+	/**
+	 * 3269	1	Nevit's Advent Blessing shines strongly from above. You can almost see his divine aura.	0	FED7A0			0	0	0	0	0		none 
+	 */
+	public static final SystemMessageId NEVITS_ADVENT_BLESSING_SHINES_STRONGLY_FROM_ABOVE;
+	
+	/**
+	 * 3275	1	Nevit's Advent Blessing has ended. Continue your journey and you will surely meet his favor again sometime soon.	0	FED7A0			0	0	0	0	0		none
+	 */
+	public static final SystemMessageId NEVITS_ADVENT_BLESSING_HAS_ENDED;
 	static
 	{
+		THE_ANGEL_NEVIT_HAS_BLESSED_YOU_FROM_ABOVE = new SystemMessageId(3266);
+		YOU_ARE_STARTING_TO_FEEL_THE_EFFECTS_OF_NEVITS_ADVENT_BLESSING = new SystemMessageId(3267);
+		YOU_ARE_FURTHER_INFUSED_WITH_THE_BLESSINGS_OF_NEVIT = new SystemMessageId(3268);
+		NEVITS_ADVENT_BLESSING_SHINES_STRONGLY_FROM_ABOVE = new SystemMessageId(3269);
+		NEVITS_ADVENT_BLESSING_HAS_ENDED = new SystemMessageId(3275);
 		THE_MAXMIMUM_ACCUMULATION_ALLOWED_OF_PC_CAFE_POINTS_HAS_BEEN_EXCEEDED = new SystemMessageId(2389);
 		YOU_HAVE_ACQUIRED_S1_PC_CAFE_POINTS = new SystemMessageId(2393);
 		INSTANT_ZONE_RESTRICTED = new SystemMessageId(6507);
