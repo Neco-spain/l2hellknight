@@ -1,0 +1,21 @@
+<html><body>
+Poker Maneger : <br>
+<center>
+Table ID : %tableId%.<br>
+This Table is Free, Do you wish to creat it ? <br>
+<table width = "270">
+<tr><td><edit var="minAdena" width="110" height="15" length="5"></td>
+<td width = "160" align = "left"><font color = "FF0000">Minimum amount of Buy In.</font></td></tr><tr></tr><tr></tr>
+<tr><td><edit var="maxAdena" width="110" height="15" length="5"></td>
+<td width = "160" align = "left"><font color = "FF0000">Maximum amount of Buy In.</font></td></tr><tr></tr><tr></tr>
+<tr><td><edit var="cash" width="110" height="15" length="4"></td>
+<td width = "160" align = "left"><font color = "FF0000">Value of your Buy In.</font></td></tr><tr></tr><tr></tr>
+<tr>
+<td><combobox width="110" height="15" var=ebox list=MillionAdena;EventBoxes></td>
+<td width = "160" align = "left"><font color = "FF0000">Currency of Buy In.</font></td></tr><tr></tr><tr></tr>
+</tr>
+</table><br>
+<a action="bypass -h Quest Poker creatTable%tableId% $minAdena $maxAdena $cash $ebox">Yes Please Creat this Table</a>
+</center>
+</body>
+</html>
