@@ -43,7 +43,7 @@
 				<attribute name="Class-Path" value="${manifest.libs}" />
 				<attribute name="Implementation-URL" value="http://www.l2hellknight.com/" />
 				<attribute name="Implementation-Version" value="${l2j.version}" />
-				<attribute name="Main-Class" value="l2hellknight.communityserver.L2CommunityServer" />
+				<attribute name="Main-Class" value="l2.hellknight.communityserver.L2CommunityServer" />
 			</manifest>
 		</jar>
 	</target>
@@ -53,13 +53,13 @@
 			<fileset dir="dist" />
 		</copy>
 		<concat destfile="${build.dist.community}/config/l2jcs-version.properties">version=${l2j.version}${line.separator}builddate=${build.tstamp}</concat>
-		<concat destfile="${build.dist.doc}/L2HellKnight_Community_CHANGELOG.txt">${l2j.changelog}</concat>
+		<concat destfile="${build.dist.doc}/L2_L2HellKnight_Community_Community_CHANGELOG.txt">${l2j.changelog}</concat>
 		<copy todir="${build.dist.libs}">
 			<fileset dir="lib" />
 		</copy>
 		<fixcrlf srcdir="${build.dist.community}" eol="crlf" eof="remove" includes="**/*.bat" />
 		<fixcrlf srcdir="${build.dist.community}" eol="lf" eof="remove" includes="**/*.sh" />
-		<zip destfile="${build}/L2HellKnight_Community.zip" basedir="${build.dist}" />
+		<zip destfile="${build}/L2_L2HellKnight_Community_Community.zip" basedir="${build.dist}" />
 	</target>
 
 	<target name="clean" description="Remove the output directories">
@@ -79,13 +79,8 @@
 	</target>
 
 	<target name="getChangelogDateVersion" description="Get Changelog, Date, Version">
-		<exec dir="." executable="svn" outputproperty="l2j.changelog">
-			<arg value="log" />
-			<arg value="--stop-on-copy" />
-		</exec>
 		<tstamp>
 			<format property="build.tstamp" pattern="dd/MM/yyyy HH:mm" />
 		</tstamp>
-		<exec dir="." executable="svnversion" outputproperty="l2j.version" />
 	</target>
 </project>
