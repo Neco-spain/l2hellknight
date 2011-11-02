@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19607" type="Weapon" name="Shield (A - 6)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1130" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="427" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19623" type="Weapon" name="Shield (A - 7)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1130" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="479" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19639" type="Weapon" name="Shield (A - 8)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1130" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="502" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19655" type="Weapon" name="Shield (A - 9)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1130" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="380" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19687" type="Weapon" name="Shield (A - 10)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1130" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="505" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+</list>

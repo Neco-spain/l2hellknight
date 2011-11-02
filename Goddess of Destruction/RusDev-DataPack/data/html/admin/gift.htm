@@ -1,0 +1,102 @@
+<html>
+	<title>Gifts Items</title>
+	<body>
+		<table width=260>
+			<tr>
+				<td width=40><button value="Main" action="bypass -h admin_admin" width=45 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				<td width=180><center>Gifts Items Menu</center></td>
+				<td width=40> </td>
+			</tr>
+		</table>
+		<br><br>
+		<table width=270>
+			<tr>
+				<td>Fill the ID number in item-id to create the item that you want, use amount if you need more than one</td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Caution:</td>
+			</tr>
+			<tr>
+				<td>Do not use amount with non-stackable items.</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Legend:</td>
+			</tr>
+			<tr>
+				<td>Player: Gift only the target.</td>
+			</tr>
+			<tr>
+				<td>All: Gift all the players online.</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+		</table>
+		<br><font color="LEVEL">Send text:</font><br>
+		<multiedit var="sendText" width=240 height=30><br>
+		Default: <font color="80FF80">%player%: You received a gift from %server%. Item: %itemName%. Quantity: %itemCount%.</font><br>
+		<br>Use the markers to facilitate the messages:<br1>
+		@server@<br1>
+		@itemName@<br1>
+		@itemCount@<br1>
+		@player@
+		<br>Example: @player@: You received a gift from @server@. Item: @itemName@. Quantity: @itemCount@.<br><br>
+		<center>
+			<table>
+				<tr>
+					<td>Item-ID: <edit var="itemid" width=50 height=10></td>
+					<td>Amount: <edit var="itemnum" width=50 height=10></td>
+					<td>&nbsp;<button value="Player" action="bypass -h admin_gift $itemid $itemnum $sendText" width=70 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+					<td>&nbsp;<button value="All" action="bypass -h admin_gift_all $itemid $itemnum $sendText" width=70 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				</tr>
+			</table>
+		</center>
+		<br><br>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<center>Assets: <edit var="asset" width=70 height=10></center>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table>
+				<tr>
+					<td>Adena</td>
+					<td><button value="Player" action="bypass -h admin_gift 57 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+					<td><button value="All" action="bypass -h admin_gift_all 57 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				</tr>
+				<tr>
+					<td>Ancient Adena</td>
+					<td><button value="Player" action="bypass -h admin_gift 5575 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+					<td><button value="All" action="bypass -h admin_gift_all 5575 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				</tr>
+				<tr>
+					<td>Blue Seal Stones</td>
+					<td><button value="Player" action="bypass -h admin_gift 6360 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+					<td><button value="All" action="bypass -h admin_gift_all 6360 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				</tr>
+				<tr>
+					<td>Green Seal Stones</td>
+					<td><button value="Player" action="bypass -h admin_gift 6361 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+					<td><button value="All" action="bypass -h admin_gift_all 6361 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				</tr>
+				<tr>
+					<td>Red Seal Stones</td>
+					<td><button value="Player" action="bypass -h admin_gift 6362 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+					<td><button value="All" action="bypass -h admin_gift_all 6362 $asset $sendText" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>

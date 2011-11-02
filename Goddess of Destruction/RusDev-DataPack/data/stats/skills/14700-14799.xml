@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="14738" levels="1" name="14738">
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<set name="buffDuration" val="1800000" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="26" abnormalType="ma_up">
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="14740" levels="1" name="14740">
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<set name="buffDuration" val="1800000" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="26" abnormalType="casting_time_down">
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="14741" levels="1" name="14741">
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<set name="buffDuration" val="1800000" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="26" abnormalType="pd_up">
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="14742" levels="1" name="14742">
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<set name="buffDuration" val="1800000" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="26" abnormalType="critical_dmg_up">
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="14743" levels="1" name="3">
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<set name="buffDuration" val="1800000" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="26" abnormalType="hit_up">
+			</effect>
+		</for>
+	</skill>
+</list>

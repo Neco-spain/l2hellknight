@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30190" type="Weapon" name="Dagger (A - 1)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="527" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30191" type="Weapon" name="Dagger (A - 2)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="527" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30192" type="Weapon" name="Dagger (A - 3)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="527" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30193" type="Weapon" name="Sword (S - 1)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="602" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30194" type="Weapon" name="Sword (S - 2)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="602" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30195" type="Weapon" name="Sword (S - 3)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="602" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30196" type="Weapon" name="Bigsword (B - 1)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="733" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30197" type="Weapon" name="Bigsword (B - 2)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="733" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30198" type="Weapon" name="Bigsword (B - 3)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="733" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="30199" type="Weapon" name="Blunt (P - 1)">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1740" />
+		<set name="price" val="0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="element_enabled" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="602" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+</list>

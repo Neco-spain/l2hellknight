@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19401" type="EtcItem" name="Recipe: R95 - 1">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19402" type="EtcItem" name="Recipe: R95 - 2">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19403" type="EtcItem" name="Recipe: R95 - 3">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19404" type="EtcItem" name="Recipe: R95 - 4">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19405" type="EtcItem" name="Recipe: R95 - 5">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19406" type="EtcItem" name="Recipe: R95 - 6">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19407" type="EtcItem" name="Recipe: R95 - 7">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19408" type="EtcItem" name="Recipe: R95 - 8">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19409" type="EtcItem" name="Recipe: R99 - 1">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19410" type="EtcItem" name="Recipe: R99 - 2">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19411" type="EtcItem" name="Recipe: R99 - 3">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19412" type="EtcItem" name="Recipe: R99 - 4">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19413" type="EtcItem" name="Recipe: R99 - 5">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19414" type="EtcItem" name="Recipe: R99 - 6">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19415" type="EtcItem" name="Recipe: R99 - 7">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19416" type="EtcItem" name="Recipe: R99 - 8">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19417" type="EtcItem" name="Recipe: R99 - 9">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19418" type="EtcItem" name="Recipe: R99 - 10">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19419" type="EtcItem" name="Recipe: R99 - 11">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19420" type="EtcItem" name="Recipe: R99 - 12">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19421" type="EtcItem" name="Recipe: R99 - 13">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19422" type="EtcItem" name="Recipe: R99 - 14">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19423" type="EtcItem" name="Recipe: R99 - 15">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19424" type="EtcItem" name="Recipe: R99 - 16">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19425" type="EtcItem" name="Recipe: R99 - 17">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19426" type="EtcItem" name="Recipe: R99 - 18">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19427" type="EtcItem" name="Recipe: R99 - 19">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19428" type="EtcItem" name="Recipe: R99 - 20">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19429" type="EtcItem" name="Recipe: R99 - 21">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19430" type="EtcItem" name="Recipe: R99 - 22">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19431" type="EtcItem" name="Recipe: R99 - 23">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19432" type="EtcItem" name="Recipe: R99 - 24">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19433" type="EtcItem" name="Recipe: R99 - 25">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19434" type="EtcItem" name="Recipe: R99 - 26">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19435" type="EtcItem" name="Recipe: R99 - 27">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19436" type="EtcItem" name="Recipe: R99 - 28">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19437" type="EtcItem" name="Recipe: R99 - 29">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19438" type="EtcItem" name="Recipe: R99 - 30">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19439" type="EtcItem" name="Recipe: R99 - 31">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19440" type="EtcItem" name="Item B - 19">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<item id="19441" type="EtcItem" name="Spiritshot (R-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_spiritshot_s_i00" />
+		<set name="default_action" val="spiritshot" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="SpiritShot" />
+		<set name="item_skill" val="9194-1" />
+	</item>
+	<item id="19442" type="EtcItem" name="Blessed Spiritshot (R-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_blessed_spiritshot_s_i00" />
+		<set name="default_action" val="spiritshot" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="BlessedSpiritShot" />
+		<set name="item_skill" val="9195-1" />
+	</item>
+	<item id="19443" type="EtcItem" name="Ohrikalkum Arrow">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19444" type="EtcItem" name="Item S - 1">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19445" type="EtcItem" name="Item S - 2">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19446" type="EtcItem" name="Item S - 3">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- Blessed -->
+	<item id="19447" type="EtcItem" name="Scroll: Enchant Weapon (R-Grade)">
+		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_wp_s_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="12872-1" />
+	</item>
+	<!-- Blessed -->
+	<item id="19448" type="EtcItem" name="Scroll: Enchant Armor (R-Grade)">
+		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_ap_s_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="bless_scrl_enchant_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="12873-1" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19449" type="Armor" name="Bracelet A - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19450" type="EtcItem" name="Item A - 1">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19451" type="Armor" name="Ring A - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19452" type="Armor" name="Earring A - 2">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19453" type="Armor" name="Necklace A - 3">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19454" type="Armor" name="Belt A - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="414" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19455" type="Armor" name="Bracelet A - 2">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19456" type="Armor" name="Shirt A - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="54" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19457" type="Armor" name="Ring B - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19458" type="Armor" name="Earring B - 2">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19459" type="Armor" name="Necklace B - 3">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19460" type="Armor" name="Belt B - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="414" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19461" type="Armor" name="Bracelet S - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19462" type="Armor" name="Shirt B - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="54" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19463" type="Armor" name="Earring S - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19464" type="Armor" name="Necklace S - 2">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="0" />
+			<add order="0x40" stat="maxMp" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19465" type="EtcItem" name="Item A - 2">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19466" type="EtcItem" name="Item A - 3">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19467" type="EtcItem" name="Item A - 4">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19468" type="EtcItem" name="Item A - 5">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19469" type="EtcItem" name="Item A - 6">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19470" type="Armor" name="Belt S - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="414" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19471" type="Armor" name="Bracelet D - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19472" type="Armor" name="Shirt S - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="54" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19473" type="Armor" name="Belt D - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="414" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19474" type="Armor" name="Bracelet F - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19475" type="Armor" name="Shirt D - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="54" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19476" type="Armor" name="Belt F - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="414" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19477" type="Armor" name="Bracelet G - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19478" type="Armor" name="Shirt F - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="54" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19479" type="Armor" name="Belt G - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="414" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19480" type="Armor" name="Bracelet H - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="125" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19481" type="Armor" name="Shirt G - 1">
+		<set name="icon" val="" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="54" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19482" type="EtcItem" name="Item B - 1">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19482" type="EtcItem" name="Item B - 1">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19483" type="EtcItem" name="Item B - 2">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19484" type="EtcItem" name="Item B - 3">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19485" type="EtcItem" name="Item B - 4">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19486" type="EtcItem" name="Item B - 5">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19487" type="EtcItem" name="Item B - 6">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19488" type="EtcItem" name="Item B - 7">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19489" type="EtcItem" name="Item B - 8">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19490" type="EtcItem" name="Item B - 9">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19491" type="EtcItem" name="Item B - 10">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19492" type="EtcItem" name="Item B - 11">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19493" type="EtcItem" name="Item B - 12">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19494" type="EtcItem" name="Item B - 13">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19495" type="EtcItem" name="Item B - 14">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19496" type="EtcItem" name="Item B - 15">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19497" type="EtcItem" name="Item B - 16">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19498" type="EtcItem" name="Item B - 17">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19499" type="EtcItem" name="Item B - 18">
+		<set name="icon" val="" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+</list>

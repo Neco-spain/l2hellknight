@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="17625" type="EtcItem" name="Dye of STR (Str+3 Dex-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17626" type="EtcItem" name="Dye of Dex (Dex+3 Con-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17627" type="EtcItem" name="Dye of Con (Con+3 Str-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17628" type="EtcItem" name="Dye of Int (Int+3 Wit-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17629" type="EtcItem" name="Dye of Wit (Wit+3 Men-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17630" type="EtcItem" name="Dye of Men (Men+3 Int-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17631" type="EtcItem" name="Dye of STR (Str+3 Dex-2) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17632" type="EtcItem" name="Dye of Dex (Dex+3 Con-2) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17633" type="EtcItem" name="Dye of Con (Con+3 Str-2) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17634" type="EtcItem" name="Dye of Int (Int+3 Wit-2) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17635" type="EtcItem" name="Dye of Wit (Wit+3 Men-2) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17636" type="EtcItem" name="Dye of Men (Men+3 Int-2) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17637" type="EtcItem" name="Dye of STR (Str+3 Dex-1) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17638" type="EtcItem" name="Dye of Dex (Dex+3 Con-1) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17639" type="EtcItem" name="Dye of Con (Con+3 Str-1) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17640" type="EtcItem" name="Dye of Int (Int+3 Wit-1) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17641" type="EtcItem" name="Dye of Wit (Wit+3 Men-1) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17642" type="EtcItem" name="Dye of Men (Men+3 Int-1) ?+5">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17643" type="EtcItem" name="Dye of STR (Str+4 Dex-3)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17644" type="EtcItem" name="Dye of Dex (Dex+4 Con-3)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17645" type="EtcItem" name="Dye of Con (Con+4 Str-3)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17646" type="EtcItem" name="Dye of Int (Int+4 Wit-3)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17647" type="EtcItem" name="Dye of Wit (Wit+4 Men-3)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17648" type="EtcItem" name="Dye of Men (Men+4 Int-3)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17649" type="EtcItem" name="Dye of STR (Str+4 Dex-3) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17650" type="EtcItem" name="Dye of Dex (Dex+4 Con-3) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17651" type="EtcItem" name="Dye of Con (Con+4 Str-3) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17652" type="EtcItem" name="Dye of Int (Int+4 Wit-3) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17653" type="EtcItem" name="Dye of Wit (Wit+4 Men-3) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17654" type="EtcItem" name="Dye of Men (Men+4 Int-3) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17655" type="EtcItem" name="Dye of STR (Str+4 Dex-2) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17656" type="EtcItem" name="Dye of Dex (Dex+4 Con-2) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17657" type="EtcItem" name="Dye of Con (Con+4 Str-2) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17658" type="EtcItem" name="Dye of Int (Int+4 Wit-2) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17659" type="EtcItem" name="Dye of Wit (Wit+4 Men-2) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17660" type="EtcItem" name="Dye of Men (Men+4 Int-2) ?+10">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17661" type="EtcItem" name="Dye of STR (Str+5 Dex-4)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17662" type="EtcItem" name="Dye of Dex (Dex+5 Con-4)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17663" type="EtcItem" name="Dye of Con (Con+5 Str-4)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17664" type="EtcItem" name="Dye of Int (Int+5 Wit-4)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17665" type="EtcItem" name="Dye of Wit (Wit+5 Men-4)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17666" type="EtcItem" name="Dye of Men (Men+5 Int-4)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17667" type="EtcItem" name="Dye of STR (Str+5 Dex-4) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17668" type="EtcItem" name="Dye of Dex (Dex+5 Con-4) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17669" type="EtcItem" name="Dye of Con (Con+5 Str-4) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17670" type="EtcItem" name="Dye of Int (Int+5 Wit-4) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17671" type="EtcItem" name="Dye of Wit (Wit+5 Men-4) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17672" type="EtcItem" name="Dye of Men (Men+5 Int-4) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17673" type="EtcItem" name="Dye of STR (Str+5 Dex-3) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17674" type="EtcItem" name="Dye of Dex (Dex+5 Con-3) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17675" type="EtcItem" name="Dye of Con (Con+5 Str-3) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17676" type="EtcItem" name="Dye of Int (Int+5 Wit-3) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17677" type="EtcItem" name="Dye of Wit (Wit+5 Men-3) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17678" type="EtcItem" name="Dye of Men (Men+5 Int-3) ?+15">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17679" type="EtcItem" name="Dye of STR (Str+5 Dex-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17680" type="EtcItem" name="Dye of Dex (Dex+5 Con-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17681" type="EtcItem" name="Dye of Con (Con+5 Str-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17682" type="EtcItem" name="Dye of Int (Int+5 Wit-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17683" type="EtcItem" name="Dye of Wit (Wit+5 Men-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17684" type="EtcItem" name="Dye of Men (Men+5 Int-2)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17685" type="EtcItem" name="Dye of STR (Str+5 Dex-2) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17686" type="EtcItem" name="Dye of Dex (Dex+5 Con-2) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17687" type="EtcItem" name="Dye of Con (Con+5 Str-2) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17688" type="EtcItem" name="Dye of Int (Int+5 Wit-2) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17689" type="EtcItem" name="Dye of Wit (Wit+5 Men-2) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17690" type="EtcItem" name="Dye of Men (Men+5 Int-2) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17691" type="EtcItem" name="Dye of STR (Str+5 Dex-1) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17692" type="EtcItem" name="Dye of Dex (Dex+5 Con-1) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17693" type="EtcItem" name="Dye of Con (Con+5 Str-1) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17694" type="EtcItem" name="Dye of Int (Int+5 Wit-1) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17695" type="EtcItem" name="Dye of Wit (Wit+5 Men-1) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17696" type="EtcItem" name="Dye of Men (Men+5 Int-1) ?+20">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<item id="17697" type="EtcItem" name="Dye of STR (Str+5 Dex-1)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17698" type="EtcItem" name="Dye of Dex (Dex+5 Con-1)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+	<item id="17699" type="EtcItem" name="Dye of Con (Con+5 Str-1)">
+		<set name="icon" val="icon.etc_str_hena_i00" />
+		<set name="etcitem_type" val="dye" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

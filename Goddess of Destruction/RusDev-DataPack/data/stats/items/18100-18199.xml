@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="18148" type="EtcItem" name="Unknow 4oto">
+		<set name="icon" val="icon.etc_shining_quiver_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="unknow" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="r" />
+		<set name="bodypart" val="none" />
+		<set name="material" val="adamantaite" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="weight" val="3" />
+		<set name="price" val="10" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="false" />
+	</item>
+</list>

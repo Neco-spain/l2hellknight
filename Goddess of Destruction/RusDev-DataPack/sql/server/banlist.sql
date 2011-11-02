@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS banlist (
+  address VARCHAR(15) NOT NULL,
+  expiration DECIMAL(20) NOT NULL DEFAULT 0,
+  reason VARCHAR(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (address)
+);
