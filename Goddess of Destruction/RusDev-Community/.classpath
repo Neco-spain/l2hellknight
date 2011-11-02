@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/*|.svn" kind="src" path="java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/repo/javolution/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/repo/guava/guava-r09.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/repo/jolbox/bonecp-0.7.1.RELEASE.jar" sourcepath="/L2jS-Tools/repo/jolbox/bonecp-0.7.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/repo/slf4j/slf4j-api-1.6.1.jar" sourcepath="/L2jS-Tools/repo/slf4j/slf4j-api-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/repo/slf4j/slf4j-simple-1.6.1.jar" sourcepath="/L2jS-Tools/repo/slf4j/slf4j-simple-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/repo/mysql/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
