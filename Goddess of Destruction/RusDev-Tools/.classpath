@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="repo/ant/7z.jar"/>
+	<classpathentry kind="lib" path="repo/bsf/bsf-2.0.jar"/>
+	<classpathentry kind="lib" path="repo/bsh/bsh-2.0b5.jar"/>
+	<classpathentry kind="lib" path="repo/bsh/bsh-engine.jar"/>
+	<classpathentry kind="lib" path="repo/commons/commons-lang-2.5.jar" sourcepath="repo/commons/commons-lang-2.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/L2jS-Tools/repo/commons/commons-lang-2.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="repo/core/core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="repo/java-engine/java-engine.jar"/>
+	<classpathentry kind="lib" path="repo/javolution/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="repo/jython/jython-engine.jar"/>
+	<classpathentry kind="lib" path="repo/jython/jython.jar"/>
+	<classpathentry kind="lib" path="repo/mmocore/mmocore.jar"/>
+	<classpathentry kind="lib" path="repo/netcon/netcon.jar"/>
+	<classpathentry kind="lib" path="repo/trove/trove-2.1.0.jar"/>
+	<classpathentry kind="lib" path="repo/commons/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="repo/commons/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="repo/commons/commons-net-2.0.jar"/>
+	<classpathentry kind="lib" path="repo/ecj/ecj-3.6.2.jar"/>
+	<classpathentry kind="lib" path="repo/guava/guava-r09.jar"/>
+	<classpathentry kind="lib" path="repo/jolbox/bonecp-0.7.1.RELEASE.jar" sourcepath="repo/jolbox/bonecp-0.7.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="repo/slf4j/slf4j-api-1.6.1.jar" sourcepath="repo/slf4j/slf4j-api-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="repo/slf4j/slf4j-simple-1.6.1.jar" sourcepath="repo/slf4j/slf4j-simple-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="repo/mysql/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="repo/mail/mail.jar"/>
+	<classpathentry kind="lib" path="repo/mail/mailapi.jar"/>
+	<classpathentry kind="lib" path="repo/mail/smtp.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
