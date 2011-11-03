@@ -66,7 +66,7 @@ public class PrivateStoreManageListBuy extends L2GameServerPacket
 			writeD(0x00);	// Augment
 			writeD(-1);		// Mana
 			writeD(-9999);	// Time
-			writeH(1); // при 0 итем красный(заблокирован) 
+			writeH(1); // at 0 item is red (locked) 
 			writeH(item.getAttackElementType());
 			writeH(item.getAttackElementPower());
 			for (byte i = 0; i < 6; i++)

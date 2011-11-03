@@ -82,8 +82,8 @@ public final class SkillList extends L2GameServerPacket
 			writeD(temp.level);
 			writeD(temp.id);
 			writeD(-1); //?
-			writeC(temp.disabled ? 1 : 0);// иконка скилла серая если не 0
-			writeC(temp.enchanted ? 1 : 0);// для заточки: если 1 скилл можно точить
+			writeC(temp.disabled ? 1 : 0);// icon gray if not skill 
+			writeC(temp.enchanted ? 1 : 0);// sharpening: if one can sharpen skills
 		}
 	}
 

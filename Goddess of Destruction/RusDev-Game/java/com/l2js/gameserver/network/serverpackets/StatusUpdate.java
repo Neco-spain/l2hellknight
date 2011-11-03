@@ -142,8 +142,8 @@ public final class StatusUpdate extends L2GameServerPacket
 	{
 		writeC(0x18);
 		writeD(_objectId);
-		writeD(1); //хз че такое Наверно МП 
-		writeD(1); // при 1 идет рег хп 
+		writeD(1); //xs Th is probably magnetic field 
+		writeD(1); // is at 1 x reg 
 		writeD(_attributes.size());
 		
 		for (Attribute temp: _attributes)

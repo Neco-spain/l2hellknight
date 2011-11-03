@@ -62,12 +62,12 @@ public final class ShortCutInit extends L2GameServerPacket
 					writeD(0x00);
 					writeH(0x00);
 					writeH(0x00);*/
-					writeD(1); // неизвестно, если не 1 то черный квадрат 
-					writeD(-1); // если больше чем -1 то показывать реюз 
-					writeD(0); // оставшееся время реюза в секундах 
-					writeD(0); // реюз в секундах 
-					writeH(0); // неизвестно, на изменение клиент не реагирует 
-					writeH(0); // неизвестно, на изменение клиент не реагирует 
+					writeD(1); // do not know if it is not a black box 
+					writeD(-1); // if greater than -1 then show reyuz 
+					writeD(0); // remaining time in seconds reyuza  
+					writeD(0); // reyuz in seconds
+					writeH(0); // unknown, to change the client does not respond 
+					writeH(0); // unknown, to change the client does not respond 
 					break;
 				case L2ShortCut.TYPE_SKILL: //2
 					writeD(sc.getId());
@@ -75,8 +75,8 @@ public final class ShortCutInit extends L2GameServerPacket
 					/*writeC(0x00); // C5
 					writeD(0x01); // C6*/
 					writeD(0);
-					writeC(0); // неизвестно, на изменение клиент не реагирует
-					writeD(0); // неизвестно, на изменение клиент не реагирует
+					writeC(0); // unknown, to change the client does not respond
+					writeD(0); // unknown, to change the client does not respond
 					break;
 				case L2ShortCut.TYPE_ACTION: //3
 					writeD(sc.getId());

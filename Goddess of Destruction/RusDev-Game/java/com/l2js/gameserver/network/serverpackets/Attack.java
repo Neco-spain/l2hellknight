@@ -152,7 +152,7 @@ public class Attack extends L2GameServerPacket
 				writeD(_hits[i]._targetId);
 				writeD(_hits[i]._damage);
 				writeC(_hits[i]._flags);
-				//writeD(Attack.this._ssGrade); // Грейд SoulShot 0x00 - 0x06 (используется если в флаг передано 0x08, 0x0a или 0x0c) 
+				//writeD(Attack.this._ssGrade); // Grade SoulShot 0x00 - 0x06 (used if the flag is passed 0x08, 0x0a or 0x0c) 
 				if(soulshot) 
 					writeD(Attack.this._ssGrade); 
 				else 

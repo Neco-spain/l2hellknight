@@ -77,20 +77,20 @@ public final class MagicSkillUse extends L2GameServerPacket
 	{
 		writeC(0x48);
         // ddd c dddddddd h
-        writeD(1);//тип SetupGauge, ID смотрим в пакете SetupGauge тип SetupGauge(0 первый скил, 1 второй скил, 2 пусто, 3 зеленая полоска, 4 рыжая полоска)
+        writeD(1);//type SetupGauge, ID look in the package type SetupGauge SetupGauge (0 is the first skill, a second skill, 2 blank, 3 green stripe, 4 red stripe)
         writeD(_charObjId);
         writeD(_targetId);
         writeC(0x00); // ?
 
-        writeD(_skillId);// id скила
-        writeD(_skillLevel);// лвл скила
-        writeD(_hitTime);// скорость каста (влияет на полосу каста SetupGauge)
-        writeD(0x00); // время отката (может быть пустым)
+        writeD(_skillId);// id skill
+        writeD(_skillLevel);// lvl skill
+        writeD(_hitTime);// casting speed (affects a strip casting Setup Gauge)
+        writeD(0x00); // cooldown (can be empty)
         writeD(_reuseDelay); // ?
         writeD(_x); // ?
         writeD(_y); // ?
         writeD(_z); // ?
-        writeD(0x00); // анимация удара физ. критом таргета в конце каста
+        writeD(0x00); // animation hit nat. crit target has to end caste
 
         writeD(_tx); // ?
         writeD(_ty); // ?

@@ -28,7 +28,7 @@ public class ExFlyMove extends L2GameServerPacket
         System.out.println("_activeChar = " + _activeChar.getObjectId());
         writeD(_objectId);
         //==
-        if (_type == 1) //прыжек без стрелки
+        if (_type == 1) //jump with no arrow
         {
             writeD(_activeChar.getX());
             writeD(_activeChar.getY());
@@ -44,7 +44,7 @@ public class ExFlyMove extends L2GameServerPacket
         writeD(0x01);
         writeD(0x00);   //???
         writeD(0x00);   //???
-        // возможно 3й тип прыжка подразумевает получение координаты клика мышкой и прыжок в ту сторону.
+        // possible third type of jump is when the coordinates of the mouse click and a jump in the wrong direction.
         writeD(_activeChar.getTarget().getX());
         writeD(_activeChar.getTarget().getY());
         writeD(_activeChar.getTarget().getZ());

@@ -79,7 +79,7 @@ public final class BuyList extends L2GameServerPacket
 		writeD(0x00);
 		writeQ(_money);		// current money
 		writeD(_listId);
-		writeD(0x00); // 0 = 250 количество слотов 
+		writeD(0x00); // 0 = 250 number of slots 
 		
 		writeH(_list.size());
 		
@@ -100,7 +100,7 @@ public final class BuyList extends L2GameServerPacket
 				writeD(0x00);	// Augment
 				writeD(-1);		// Mana
 				writeD(-9999);	// Time
-				writeH(1);      // при 0 итем красный Запрет итема! 
+				writeH(1);      // at 0 item is item is a red ban! 
 				writeH(0x00);	// Element Type
 				writeH(0x00);	// Element Power
 				for (byte i = 0; i < 6; i++)

@@ -70,7 +70,7 @@ public final class WareHouseWithdrawalList extends L2GameServerPacket
 		writeH(_whType);
 		writeQ(_playerAdena);
 		writeH(_items.length);
-		writeD(0x00); // 0 = 100 количество слотов
+		writeD(0x00); // 0 = 100 the number of slots
 		
 		for (L2ItemInstance item : _items)
 		{
@@ -90,7 +90,7 @@ public final class WareHouseWithdrawalList extends L2GameServerPacket
 				writeD(0x00);
 			writeD(item.getMana());
 			writeD(item.isTimeLimitedItem() ? (int) (item.getRemainingTime() / 1000) : -9999);
-			writeH(1); // при 0 итем красный
+			writeH(1); // at 0 item is red
 			writeH(item.getAttackElementType());
 			writeH(item.getAttackElementPower());
 			for (byte i = 0; i < 6; i++)

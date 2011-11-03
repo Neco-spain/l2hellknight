@@ -57,7 +57,7 @@ public class ExBuySellListPacket extends L2GameServerPacket
 		writeC(0xFE);
 		writeH(0xB7);
 		writeD(0x01);
-		writeD(0x00); // 0 = 250 количество слотов 
+		writeD(0x00); // 0 = 250 number of slots 
 		
 		if (_sellList != null && _sellList.length > 0)
 		{
@@ -78,7 +78,7 @@ public class ExBuySellListPacket extends L2GameServerPacket
 				writeD(0x00);
 				writeD(-1);
 				writeD(-9999);
-				writeH(1); // при 0 итем красный 
+				writeH(1); // at 0 item is red 
 				writeH(item.getAttackElementType());
 				writeH(item.getAttackElementPower());
 				for (byte i = 0; i < 6; i++)

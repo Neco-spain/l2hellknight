@@ -700,7 +700,7 @@ public class SortedWareHouseWithdrawalList extends L2GameServerPacket
 		writeH(_whType);
 		writeQ(_playerAdena);
 		writeH(_objects.size());
-		writeD(0x00); // 0 = 100 количество слотов хз мб ниже нужно!
+		writeD(0x00); // 0 = 100 mb xs slots below need!
 		
 		for (L2WarehouseItem item : _objects)
 		{
@@ -720,7 +720,7 @@ public class SortedWareHouseWithdrawalList extends L2GameServerPacket
 				writeD(0x00);
 			writeD(item.getMana());
 			writeD(item.getTime());
-			writeH(1); // при 0 итем красный
+			writeH(1); // at 0 item is red
 			writeH(item.getAttackElementType());
 			writeH(item.getAttackElementPower());
 			for (byte i = 0; i < 6; i++)
