@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/jna.jar"/>
+	<classpathentry kind="lib" path="libs/7z.jar"/>
+	<classpathentry kind="lib" path="libs/bonecp-0.7.1.RELEASE.jar" sourcepath="libs/bonecp-0.7.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/bsf-2.0.jar"/>
+	<classpathentry kind="lib" path="libs/bsh-2.0b5.jar"/>
+	<classpathentry kind="lib" path="libs/bsh-engine.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang-2.5.jar" sourcepath="libs/commons-lang-2.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/L2jS-Tools/libs/commons-lang-2.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-net-2.0.jar"/>
+	<classpathentry kind="lib" path="libs/core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/ecj-3.7.jar"/>
+	<classpathentry kind="lib" path="libs/eclipselink-2.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/guava-r09.jar"/>
+	<classpathentry kind="lib" path="libs/java-engine.jar"/>
+	<classpathentry kind="lib" path="libs/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/jython-engine.jar"/>
+	<classpathentry kind="lib" path="libs/jython.jar"/>
+	<classpathentry kind="lib" path="libs/mail.jar"/>
+	<classpathentry kind="lib" path="libs/mailapi.jar"/>
+	<classpathentry kind="lib" path="libs/mmocore.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="libs/netcon.jar"/>
+	<classpathentry kind="lib" path="libs/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/persistence.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.6.1.jar" sourcepath="libs/slf4j-api-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-simple-1.6.1.jar" sourcepath="libs/slf4j-simple-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="libs/smtp.jar"/>
+	<classpathentry kind="lib" path="libs/trove-2.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
