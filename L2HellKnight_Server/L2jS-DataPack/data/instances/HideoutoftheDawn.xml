@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="Hideout of the Dawn">
+	<activityTime val="60" />
+	<timeDelay val="4" />
+	<allowSummon val="false" />
+	<spawnPoint spawnX="-23770" spawnY="-8961" spawnZ="-5385"/>
+	<emptyDestroyTime val="5" />
+	<spawnlist>
+		<spawn npcId="32597" x="-24034" y="-8962" z="-5362" heading="0" respawn="0"/>
+		<spawn npcId="32582" x="-24013" y="-8877" z="-5386" heading="0" respawn="0"/>
+	</spawnlist>
+</instance>

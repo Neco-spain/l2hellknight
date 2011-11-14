@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="L2jS-Game" default="dist" basedir=".">
+	<description>
+		This script will build the L2jS Game.
+
+		This program is free software; you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation; either version 3, or (at your option)
+		any later version.
+
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with this program; if not, write to the Free Software
+		Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+		02111-1307, USA.
+
+		http://www.gnu.org/copyleft/gpl.html
+	</description>
+
+	<property name="src" location="java" />
+	<property name="src.meta" location="java/META-INF" />
+	<property name="libs" location="../L2jS-Tools/libs" />
+	<property name="build" location="build" />
+	<property name="build.classes" location="${build}/classes" />
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.doc" location="${build.dist}/doc" />
+	<property name="build.dist.game" location="${build.dist}/L2Server" />
+	<property name="build.dist.images" location="${build.dist}/images" />
+	<property name="build.dist.languages" location="${build.dist}/L2Lang" />
+	<property name="build.dist.libs" location="${build.dist}/libs" />
+	<property name="build.dist.login" location="${build.dist}/L2AuthD" />
+	<property name="build.dist.tools" location="${build.dist}/tools" />
+	<property name="svn" value="../L2jS-Tools/dist" />
+
+	<path id="classpath">
+		<fileset dir="${libs}">
+			<exclude name="*-sources*.jar" />
+			<exclude name="*-javadoc*.jar" />
+		</fileset>
+	</path>
+
+	<pathconvert property="manifest.libs" pathsep=" ">
+		<mapper>
+			<chainedmapper>
+				<flattenmapper />
+				<globmapper from="*" to="../libs/*" />
+			</chainedmapper>
+		</mapper>
+		<path>
+			<fileset dir="${libs}">
+				<exclude name="*-sources*.jar" />
+				<exclude name="*-javadoc*.jar" />
+			</fileset>
+		</path>
+	</pathconvert>
+
+	<target name="checkAntVersion" description="Check if Ant 1.8.2 is present">
+		<fail message="Ant 1.8.2 is required. But your version is ${ant.version}">
+			<condition>
+				<not>
+					<antversion atleast="1.8.2" />
+				</not>
+			</condition>
+		</fail>
+	</target>
+
+	<target name="checkJavaVersion" description="Checks if Java JDK 7 is present">
+		<available classname="java.lang.AutoCloseable" property="JDK7.present" />
+		<fail unless="JDK7.present" message="Java 1.7 is required. But your version is Java ${ant.java.version} and probably JDK is not installed." />
+	</target>
+
+	<target name="init" depends="clean, checkAntVersion, checkJavaVersion" description="Create the output directories.">
+		<mkdir dir="${build}" />
+		<mkdir dir="${build.classes}" />
+	</target>
+
+	<target name="compile" depends="version" description="Compile the source.">
+		<javac destdir="${build.classes}" compiler="javac1.7" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.7" target="1.7">
+			<src path="${src}" />
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile" description="Create the jar files">
+
+		<jar destfile="${build.dist.login}/l2js-login.jar">
+			<fileset dir="${build.classes}">
+				<exclude name="**/dbinstaller/**" />
+				<exclude name="**/gameserver/**" />
+			</fileset>
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2js.com.br/" />
+				<attribute name="Implementation-Version" value="${l2j.version}" />
+				<attribute name="Main-Class" value="com.l2js.loginserver.L2LoginServer" />
+			</manifest>
+			<metainf dir="${src.meta}">
+				<include name="persistence.xml" />
+			</metainf>
+		</jar>
+
+		<jar destfile="${build.dist.game}/l2js-game.jar">
+			<fileset dir="${build.classes}">
+				<exclude name="**/dbinstaller/**" />
+				<exclude name="**/loginserver/**" />
+				<exclude name="**/accountmanager/**" />
+				<exclude name="**/gsregistering/**" />
+			</fileset>
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2js.com.br/" />
+				<attribute name="Implementation-Version" value="${l2j.version}" />
+				<attribute name="Main-Class" value="com.l2js.gameserver.GameServer" />
+			</manifest>
+			<metainf dir="${src.meta}">
+				<include name="persistence.xml" />
+			</metainf>
+		</jar>
+
+		<!-- Tools -->
+		<jar destfile="${build.dist.tools}/dbinst_gs.jar">
+			<fileset dir="${build.classes}">
+				<include name="**/dbinstaller/**" />
+				<include name="**/images/**" />
+				<include name="**/util/swing/**" />
+				<exclude name="**/LauncherCS*" />
+				<exclude name="**/LauncherLS*" />
+			</fileset>
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2js.com.br/" />
+				<attribute name="Implementation-Version" value="${l2j.version}" />
+				<attribute name="Main-Class" value="com.l2js.dbinstaller.LauncherGS" />
+			</manifest>
+			<metainf dir="${src.meta}">
+				<include name="persistence.xml" />
+			</metainf>
+		</jar>
+
+		<jar destfile="${build.dist.tools}/dbinst_ls.jar">
+			<fileset dir="${build.classes}">
+				<include name="**/dbinstaller/**" />
+				<include name="**/images/**" />
+				<include name="**/util/swing/**" />
+				<exclude name="**/LauncherCS*" />
+				<exclude name="**/LauncherGS*" />
+			</fileset>
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2js.com.br/" />
+				<attribute name="Implementation-Version" value="${l2j.version}" />
+				<attribute name="Main-Class" value="com.l2js.dbinstaller.LauncherLS" />
+			</manifest>
+			<metainf dir="${src.meta}">
+				<include name="persistence.xml" />
+			</metainf>
+		</jar>
+
+	</target>
+
+	<target name="dist" depends="jar">
+		<copy todir="${build.dist.doc}">
+			<fileset dir="dist/doc" />
+		</copy>
+		<concat destfile="${build.dist.doc}/L2jS_Server_CHANGELOG">${l2js.changelog}</concat>
+		<copy todir="${build.dist.game}">
+			<fileset dir="dist/game" />
+			<fileset dir="misc" />
+		</copy>
+		<concat destfile="${build.dist.game}/config/version/l2j-version.properties">version=${l2js.version}${line.separator}builddate=${build.tstamp}</concat>
+		<copy todir="${build.dist.images}">
+			<fileset dir="dist/images" />
+		</copy>
+		<copy todir="${build.dist.languages}">
+			<fileset dir="dist/languages" />
+		</copy>
+		<copy todir="${build.dist.libs}">
+			<fileset dir="${libs}">
+				<include name="*.jar" />
+				<exclude name="*-sources*.jar" />
+				<exclude name="*-javadoc*.jar" />
+			</fileset>
+		</copy>
+		<copy todir="${build.dist.login}">
+			<fileset dir="dist/login" />
+			<fileset dir="misc" />
+		</copy>
+		<fixcrlf srcdir="${build.dist.game}" eol="crlf" eof="remove" includes="**/*.bat" />
+		<fixcrlf srcdir="${build.dist.game}" eol="lf" eof="remove" includes="**/*.sh" />
+		<fixcrlf srcdir="${build.dist.login}" eol="crlf" eof="remove" includes="**/*.bat" />
+		<fixcrlf srcdir="${build.dist.login}" eol="lf" eof="remove" includes="**/*.sh" />
+		<zip destfile="${build}/L2jS-Server.zip" basedir="${build.dist}" />
+	</target>
+
+	<target name="version" depends="init" description="Create l2js-version.properties file">
+		<exec dir="." executable="svn" outputproperty="l2js.changelog">
+			<arg value="log" />
+			<arg value="--stop-on-copy" />
+		</exec>
+		<tstamp>
+			<format property="build.tstamp" pattern="dd/MM/yyyy HH:mm" />
+		</tstamp>
+		<exec dir="." executable="${svn}/svnversion.exe" outputproperty="l2js.version" />
+	</target>
+
+	<target name="clean" description="Remove the output directories">
+		<delete dir="${build}" />
+	</target>
+</project>

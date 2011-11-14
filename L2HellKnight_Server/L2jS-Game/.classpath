@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/*|.svn" kind="src" path="java"/>
+	<classpathentry excluding="**/.svn/*|.svn" kind="src" path="javaTest"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/jna.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/bonecp-0.7.1.RELEASE.jar" sourcepath="/L2jS-Tools/libs/bonecp-0.7.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/bsf-2.0.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/bsh-2.0b5.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/bsh-engine.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/commons-lang-2.5.jar" sourcepath="/L2jS-Tools/libs/commons-lang-2.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/L2jS-Tools/libs/commons-lang-2.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/commons-net-2.0.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/ecj-3.7.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/eclipselink-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/guava-r09.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/java-engine.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/jython-engine.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/jython.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/mail.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/mailapi.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/mmocore.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/netcon.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/persistence.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/slf4j-api-1.6.1.jar" sourcepath="/L2jS-Tools/libs/slf4j-api-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/slf4j-simple-1.6.1.jar" sourcepath="/L2jS-Tools/libs/slf4j-simple-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/smtp.jar"/>
+	<classpathentry kind="lib" path="/L2jS-Tools/libs/trove-2.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
