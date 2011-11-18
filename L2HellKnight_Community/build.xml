@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="L2HellKnight_Community" default="dist" basedir=".">
+<project name="L2_HellKnight_Community" default="dist" basedir=".">
 	<property name="src" location="java" />
 	<property name="lib" location="lib" />
 	<property name="build" location="build" />
@@ -41,7 +41,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${build.tstamp}" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
-				<attribute name="Implementation-URL" value="http://www.l2hellknight.com/" />
+				<attribute name="Implementation-URL" value="http://l2hellknight.funsite.cz/" />
 				<attribute name="Implementation-Version" value="${l2j.version}" />
 				<attribute name="Main-Class" value="l2.hellknight.communityserver.L2CommunityServer" />
 			</manifest>
@@ -53,13 +53,13 @@
 			<fileset dir="dist" />
 		</copy>
 		<concat destfile="${build.dist.community}/config/l2jcs-version.properties">version=${l2j.version}${line.separator}builddate=${build.tstamp}</concat>
-		<concat destfile="${build.dist.doc}/L2_L2HellKnight_Community_Community_CHANGELOG.txt">${l2j.changelog}</concat>
+		<concat destfile="${build.dist.doc}/L2_HellKnight_Community_CHANGELOG.txt">${l2j.changelog}</concat>
 		<copy todir="${build.dist.libs}">
 			<fileset dir="lib" />
 		</copy>
 		<fixcrlf srcdir="${build.dist.community}" eol="crlf" eof="remove" includes="**/*.bat" />
 		<fixcrlf srcdir="${build.dist.community}" eol="lf" eof="remove" includes="**/*.sh" />
-		<zip destfile="${build}/L2_L2HellKnight_Community_Community.zip" basedir="${build.dist}" />
+		<zip destfile="${build}/L2_HellKnight_Community.zip" basedir="${build.dist}" />
 	</target>
 
 	<target name="clean" description="Remove the output directories">
