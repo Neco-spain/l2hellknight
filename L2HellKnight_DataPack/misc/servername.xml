@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <servers_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="servername.xsd">
-	<server id="1" name="L2HellKnight" />
+	<server id="1" name="Bartz" />
 	<server id="2" name="Sieghardt" />
 	<server id="3" name="Kain" />
 	<server id="4" name="Lionna" />

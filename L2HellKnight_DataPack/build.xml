@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<project name="L2HellKnight_DataPack" default="dist" basedir=".">
+<project name="L2_HellKnight_DataPack" default="dist" basedir=".">
 	<description>
 		This script will build the L2 HellKnight DataPack.
 
@@ -41,11 +41,11 @@
 		<copy todir="${build.dist.login}/data">
 			<fileset dir="misc" />
 		</copy>
-		<zip destfile="${build}/L2HellKnight_DataPack.zip" basedir="${build.dist}" />
+		<zip destfile="${build}/L2_Brick_DataPack.zip" basedir="${build.dist}" />
 	</target>
 
 	<target name="clean" description="Deletes the datapack distribution ZIP file only, preserving synchronized build files.">
-		<delete file="${build}/L2HellKnight_DataPack.zip" />
+		<delete file="${build}/L2_HellKnight_DataPack.zip" />
 	</target>
 
 	<target name="getChangelogDateVersion" description="Get Changelog, Date, Version">
