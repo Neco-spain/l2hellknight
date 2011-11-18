@@ -41,7 +41,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${build.tstamp}" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
-				<attribute name="Implementation-URL" value="http://l2hellknight.funsite.cz/" />
+				<attribute name="Implementation-URL" value="http://www.l2hellknight.com/" />
 				<attribute name="Implementation-Version" value="${l2j.version}" />
 				<attribute name="Main-Class" value="l2.hellknight.communityserver.L2CommunityServer" />
 			</manifest>
