@@ -38,12 +38,14 @@ import l2.hellknight.gameserver.model.L2Object;
 import l2.hellknight.gameserver.model.L2Party;
 import l2.hellknight.gameserver.model.L2Skill;
 import l2.hellknight.gameserver.model.L2Spawn;
+import l2.hellknight.gameserver.model.Location;
 import l2.hellknight.gameserver.model.actor.L2Character;
 import l2.hellknight.gameserver.model.actor.L2Npc;
 import l2.hellknight.gameserver.model.actor.L2Trap;
 import l2.hellknight.gameserver.model.actor.instance.L2MonsterInstance;
 import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
 import l2.hellknight.gameserver.model.actor.instance.L2TrapInstance;
+import l2.hellknight.gameserver.model.olympiad.CompetitionType;
 import l2.hellknight.gameserver.model.zone.L2ZoneType;
 import l2.hellknight.gameserver.network.serverpackets.ActionFailed;
 import l2.hellknight.gameserver.network.serverpackets.NpcHtmlMessage;
@@ -66,7 +68,7 @@ public class Quest extends ManagedScript
 	/** HashMap containing events from String value of the event */
 	private static Map<String, Quest> _allEventsS = new FastMap<String, Quest>();
 	/** HashMap containing lists of timers from the name of the timer */
-	private final Map<String, FastList<QuestTimer>> _allEventTimers = new FastMap<String, FastList<QuestTimer>>();
+	private final Map<String, FastList<QuestTimer>> _allEventTimers = new FastMap<String, FastList<QuestTimer>>().shared();
 	
 	private final ReentrantReadWriteLock _rwLock = new ReentrantReadWriteLock();
 	
@@ -76,6 +78,7 @@ public class Quest extends ManagedScript
 	private final byte _initialState = State.CREATED;
 	protected boolean _onEnterWorld = false;
 	private boolean _isCustom = false;
+	private boolean _isOlympiadUse = false;
 	// NOTE: questItemIds will be overridden by child classes.  Ideally, it should be
 	// protected instead of public.  However, quest scripts written in Jython will
 	// have trouble with protected, as Jython only knows private and public...
@@ -1844,9 +1847,19 @@ public class Quest extends ManagedScript
 		return addSpawn(npcId, x, y, z, heading, randomOffSet, despawnDelay, false);
 	}
 	
+	public L2Npc addSpawn(int npcId, Location loc, boolean randomOffSet, long despawnDelay)
+	{
+		return addSpawn(npcId, loc.getX(), loc.getY(), loc.getZ(), loc.getHeading(), randomOffSet, despawnDelay, false);
+	}
+	
 	public L2Npc addSpawn(int npcId, int x, int y, int z, int heading, boolean randomOffset, long despawnDelay, boolean isSummonSpawn)
 	{
 		return addSpawn(npcId, x, y, z, heading, randomOffset, despawnDelay, isSummonSpawn, 0);
+	}
+	
+	public L2Npc addSpawn(int npcId, Location loc, boolean randomOffset, long despawnDelay, boolean isSummonSpawn)
+	{
+		return addSpawn(npcId, loc.getX(), loc.getY(), loc.getZ(), loc.getHeading(), randomOffset, despawnDelay, isSummonSpawn, 0);
 	}
 	
 	public L2Npc addSpawn(int npcId, int x, int y, int z, int heading, boolean randomOffset, long despawnDelay, boolean isSummonSpawn, int instanceId)
@@ -1992,6 +2005,24 @@ public class Quest extends ManagedScript
 	}
 	
 	/**
+	 * @return true if the quest script is a custom quest.
+	 */
+	public boolean isCustomQuest()
+	{
+		return _isCustom;
+	}
+	
+	public void setOlympiadUse(boolean val)
+	{
+		_isOlympiadUse = val;
+	}
+	
+	public boolean isOlympiadUse()
+	{
+		return _isOlympiadUse;
+	}
+	
+	/**
 	 * @param val if true the quest script will be set as custom quest.
 	 */
 	public void setIsCustom(boolean val)
@@ -1999,11 +2030,37 @@ public class Quest extends ManagedScript
 		_isCustom = val;
 	}
 	
-	/**
-	 * @return true if the quest script is a custom quest.
-	 */
-	public boolean isCustomQuest()
+	public final void notifyOlympiadWin(L2PcInstance winner, CompetitionType type)
 	{
-		return _isCustom;
+		try
+		{
+			onOlympiadWin(winner, type);
+		}
+		catch (Exception e)
+		{
+			showError(winner, e);
+		}
+	}
+	
+	public final void notifyOlympiadLoose(L2PcInstance looser, CompetitionType type)
+	{
+		try
+		{
+			onOlympiadLoose(looser, type);
+		}
+		catch (Exception e)
+		{
+			showError(looser, e);
+		}
+	}
+	
+	public void onOlympiadWin(L2PcInstance winner, CompetitionType type)
+	{
+		
+	}
+	
+	public void onOlympiadLoose(L2PcInstance winner, CompetitionType type)
+	{
+		
 	}
 }

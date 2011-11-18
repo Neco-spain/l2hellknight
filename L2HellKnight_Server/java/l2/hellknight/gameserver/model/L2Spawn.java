@@ -98,20 +98,14 @@ public class L2Spawn
 	
 	private L2Npc _lastSpawn;
 	private static List<SpawnListener> _spawnListeners = new FastList<SpawnListener>();
-	
-	/* Champion/GrandChampion */
-	int condForChamp = 0;
-	
+		
 	/** The task launching the function doSpawn() */
 	class SpawnTask implements Runnable
 	{
-		//L2NpcInstance _instance;
-		//int _objId;
-		private L2Npc _oldNpc;
+		private final L2Npc _oldNpc;
 		
-		public SpawnTask(/*int objid*/L2Npc pOldNpc)
+		public SpawnTask(L2Npc pOldNpc)
 		{
-			//_objId= objid;
 			_oldNpc = pOldNpc;
 		}
 		
@@ -183,6 +177,11 @@ public class L2Spawn
 	public int getLocation()
 	{
 		return _location;
+	}
+	
+	public Location getSpawnLocation()
+	{
+		return new Location(getLocx(), getLocy(), getLocz(), getHeading());
 	}
 	
 	/**
@@ -257,7 +256,7 @@ public class L2Spawn
 	}
 	
 	/**
-	 * Set the Identifier of the location area where L2NpcInstance can be spwaned.<BR><BR>
+	 * Set the Identifier of the location area where L2NpcInstance can be spawned.<BR><BR>
 	 * @param location 
 	 */
 	public void setLocation(int location)
@@ -281,7 +280,7 @@ public class L2Spawn
 		_respawnMaxDelay = date;
 	}
 	/**
-	 * Set the X position of the spwan point.<BR><BR>
+	 * Set the X position of the spawn point.<BR><BR>
 	 * @param locx 
 	 */
 	public void setLocx(int locx)
@@ -290,7 +289,7 @@ public class L2Spawn
 	}
 	
 	/**
-	 * Set the Y position of the spwan point.<BR><BR>
+	 * Set the Y position of the spawn point.<BR><BR>
 	 * @param locy 
 	 */
 	public void setLocy(int locy)
@@ -299,12 +298,24 @@ public class L2Spawn
 	}
 	
 	/**
-	 * Set the Z position of the spwan point.<BR><BR>
+	 * Set the Z position of the spawn point.<BR><BR>
 	 * @param locz 
 	 */
 	public void setLocz(int locz)
 	{
 		_locZ = locz;
+	}
+	
+	/**
+	 * Set the XYZ position of the spawn point.<BR><BR>
+	 * @param loc 
+	 */
+	public void setLocation(Location loc)
+	{
+		_locX = loc.getX();
+		_locY = loc.getY();
+		_locZ = loc.getZ();
+		_heading = loc.getHeading();
 	}
 	
 	/**
@@ -345,7 +356,7 @@ public class L2Spawn
 	 * <FONT COLOR=#FF0000><B> <U>Caution</U> : A respawn is possible ONLY if _doRespawn=True and _scheduledCount + _currentCount < _maximumCount</B></FONT><BR><BR>
 	 * @param oldNpc 
 	 */
-	public void decreaseCount(/*int npcId*/L2Npc oldNpc)
+	public void decreaseCount(L2Npc oldNpc)
 	{
 		// sanity check
 		if (_currentCount <= 0)
@@ -542,19 +553,20 @@ public class L2Spawn
 					&& !getTemplate().isQuestMonster()
 					&& !mob.isRaid()
 					&& !((L2MonsterInstance)mob).isRaidMinion()
+					&& !((L2MonsterInstance)mob).isGrandChampion()
 					&& Config.L2JMOD_CHAMPION_FREQUENCY > 0
 					&& mob.getLevel()>=Config.L2JMOD_CHAMP_MIN_LVL
 					&& mob.getLevel()<=Config.L2JMOD_CHAMP_MAX_LVL
-					&& (Config.L2JMOD_CHAMPION_ENABLE_IN_INSTANCES || getInstanceId() == 0)//same
+					&& (Config.L2JMOD_CHAMPION_ENABLE_IN_INSTANCES || getInstanceId() == 0)
 			)
 			{
 				int random = Rnd.get(100);
 				
 				if (random < Config.L2JMOD_CHAMPION_FREQUENCY)
-                     condForChamp = 1;
+                    ((L2Attackable) mob).setChampion(true);
 			}
 		}
-		if (Config.L2JMOD_GRANDCHAMPION_ENABLE && Config.L2JMOD_CHAMPION_ENABLE)		
+		if (Config.L2JMOD_GRANDCHAMPION_ENABLE)		
 		{    
 				if
 				(
@@ -562,6 +574,7 @@ public class L2Spawn
 					&& !getTemplate().isQuestMonster()
 					&& !mob.isRaid()
 					&& !((L2MonsterInstance)mob).isRaidMinion()
+					&& !((L2MonsterInstance)mob).isChampion()					
 					&& Config.L2JMOD_GRANDCHAMPION_FREQUENCY > 0
 					&& mob.getLevel()>=Config.L2JMOD_GRANDCHAMP_MIN_LVL
 					&& mob.getLevel()<=Config.L2JMOD_GRANDCHAMP_MAX_LVL
@@ -570,18 +583,10 @@ public class L2Spawn
 				{
 					int random = Rnd.get(100);
 				
-					if (random < Config.L2JMOD_CHAMPION_FREQUENCY && (condForChamp == 1))
-						condForChamp = 2;
+					if (random < Config.L2JMOD_CHAMPION_FREQUENCY)
+						((L2Attackable) mob).setGrandChampion(true);
 				}
 		}		
-        switch (condForChamp)
-        {
-           case 1:
-             ((L2Attackable) mob).setChampion(true);
-            break;
-           case 2:
-             ((L2Attackable) mob).setGrandChampion(true);
-        }
 	
 		// Link the L2NpcInstance to this L2Spawn
 		mob.setSpawn(this);
@@ -656,7 +661,7 @@ public class L2Spawn
 		if (_doRespawn)
 		{
 			oldNpc.refreshID();
-			/*L2NpcInstance instance = */initializeNpcInstance(oldNpc);
+			initializeNpcInstance(oldNpc);
 		}
 	}
 	
@@ -675,9 +680,6 @@ public class L2Spawn
 		_instanceId = instanceId;
 	}
 	
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
 	@Override
 	public String toString()
 	{

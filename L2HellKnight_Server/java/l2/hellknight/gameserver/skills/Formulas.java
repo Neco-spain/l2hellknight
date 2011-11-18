@@ -1104,7 +1104,10 @@ public final class Formulas
 		
 		if (Config.L2JMOD_CHAMPION_ENABLE && cha.isChampion())
 			hpRegenMultiplier *= Config.L2JMOD_CHAMPION_HP_REGEN;
-		
+			
+		if (Config.L2JMOD_GRANDCHAMPION_ENABLE && cha.isGrandChampion())
+			hpRegenMultiplier *= Config.L2JMOD_GRANDCHAMPION_HP_REGEN;
+			
 		if (cha instanceof L2PcInstance)
 		{
 			L2PcInstance player = (L2PcInstance) cha;

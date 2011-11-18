@@ -1,15 +1,15 @@
 @echo off
 cls
-title L2HellKnight - SQL Account Manager
+title L2 HellKnight - SQL Account Manager
 color 0b
-java -Djava.util.logging.config.file=console.cfg -cp ./../libs/*;hellknight_login.jar l2.hellknight.tools.accountmanager.SQLAccountManager 2> NUL
+java -Djava.util.logging.config.file=console.cfg -cp ./../libs/*;l2hellknight_login.jar l2.hellknight.tools.accountmanager.SQLAccountManager 2> NUL
 if %errorlevel% == 0 (
 echo.
 echo Execution succesful
 echo.
 ) else (
 echo.
-echo An error has ocurred while running the L2HellKnight Account Manager!
+echo An error has ocurred while running the L2 HellKnight Account Manager!
 echo.
 echo Possible reasons for this to happen:
 echo.

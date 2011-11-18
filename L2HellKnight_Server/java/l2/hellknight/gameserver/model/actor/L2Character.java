@@ -89,6 +89,7 @@ import l2.hellknight.gameserver.network.serverpackets.MoveToLocation;
 import l2.hellknight.gameserver.network.serverpackets.Revive;
 import l2.hellknight.gameserver.network.serverpackets.ServerObjectInfo;
 import l2.hellknight.gameserver.network.serverpackets.SetupGauge;
+import l2.hellknight.gameserver.network.serverpackets.SocialAction;
 import l2.hellknight.gameserver.network.serverpackets.StatusUpdate;
 import l2.hellknight.gameserver.network.serverpackets.StopMove;
 import l2.hellknight.gameserver.network.serverpackets.SystemMessage;
@@ -98,6 +99,7 @@ import l2.hellknight.gameserver.pathfinding.PathFinding;
 import l2.hellknight.gameserver.skills.AbnormalEffect;
 import l2.hellknight.gameserver.skills.Calculator;
 import l2.hellknight.gameserver.skills.Formulas;
+import l2.hellknight.gameserver.skills.SkillHolder;
 import l2.hellknight.gameserver.skills.Stats;
 import l2.hellknight.gameserver.skills.funcs.Func;
 import l2.hellknight.gameserver.skills.l2skills.L2SkillAgathion;
@@ -786,44 +788,51 @@ public abstract class L2Character extends L2Object
 			}
 		}
 		
+		
+		// Check if attacker's weapon can attack
+		if (getActiveWeaponItem() != null)
+		{
+			L2Weapon wpn = getActiveWeaponItem();
+			if (!wpn.isAttackWeapon() && !isGM())
+			{
+				if (wpn.getItemType() == L2WeaponType.FISHINGROD)
+					sendPacket(SystemMessageId.CANNOT_ATTACK_WITH_FISHING_POLE);
+				else
+					sendPacket(SystemMessageId.THAT_WEAPON_CANT_ATTACK);
+				sendPacket(ActionFailed.STATIC_PACKET);
+				return;
+			}
+		}
+		
 		if (isAttackingDisabled())
 			return;
 		
-		if (this instanceof L2PcInstance)
+		if (getActingPlayer() != null)
 		{
-			if (((L2PcInstance) this).inObserverMode())
+			if (getActingPlayer().inObserverMode())
 			{
-				sendPacket(SystemMessage.getSystemMessage(SystemMessageId.OBSERVERS_CANNOT_PARTICIPATE));
+				sendPacket(SystemMessageId.OBSERVERS_CANNOT_PARTICIPATE);
 				sendPacket(ActionFailed.STATIC_PACKET);
 				return;
 			}
 			
-			if (target.getActingPlayer() != null && ((L2PcInstance) this).getSiegeState() > 0 && this.isInsideZone(L2Character.ZONE_SIEGE) && target.getActingPlayer().getSiegeState() == ((L2PcInstance) this).getSiegeState() && target.getActingPlayer() != this && target.getActingPlayer().getSiegeSide() == ((L2PcInstance) this).getSiegeSide())
+			else if (target.getActingPlayer() != null && getActingPlayer().getSiegeState() > 0 && isInsideZone(L2Character.ZONE_SIEGE) && target.getActingPlayer().getSiegeState() == getActingPlayer().getSiegeState() && target.getActingPlayer() != this && target.getActingPlayer().getSiegeSide() == getActingPlayer().getSiegeSide())
 			{
-				//
 				if (TerritoryWarManager.getInstance().isTWInProgress())
-					sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_ATTACK_A_MEMBER_OF_THE_SAME_TERRITORY));
+					sendPacket(SystemMessageId.YOU_CANNOT_ATTACK_A_MEMBER_OF_THE_SAME_TERRITORY);
 				else
-					sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FORCED_ATTACK_IS_IMPOSSIBLE_AGAINST_SIEGE_SIDE_TEMPORARY_ALLIED_MEMBERS));
+					sendPacket(SystemMessageId.FORCED_ATTACK_IS_IMPOSSIBLE_AGAINST_SIEGE_SIDE_TEMPORARY_ALLIED_MEMBERS);
 				sendPacket(ActionFailed.STATIC_PACKET);
 				return;
 			}
 			
 			// Checking if target has moved to peace zone
-			if (target.isInsidePeaceZone((L2PcInstance) this))
+			else if (target.isInsidePeaceZone(getActingPlayer()))
 			{
 				getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
 				sendPacket(ActionFailed.STATIC_PACKET);
 				return;
 			}
-			// TODO: unhardcode this to support boolean if with that weapon u can attack or not (for ex transform weapons)
-			if (((L2PcInstance) this).getActiveWeaponItem() != null && ((L2PcInstance) this).getActiveWeaponItem().getItemId() == 9819)
-			{
-				sendPacket(SystemMessage.getSystemMessage(SystemMessageId.THAT_WEAPON_CANT_ATTACK));
-				sendPacket(ActionFailed.STATIC_PACKET);
-				return;
-			}
-			
 		}
 		else if (isInsidePeaceZone(this, target))
 		{
@@ -840,20 +849,10 @@ public abstract class L2Character extends L2Object
 		// Get the active weapon item corresponding to the active weapon instance (always equiped in the right hand)
 		L2Weapon weaponItem = getActiveWeaponItem();
 		
-		if (weaponItem != null && weaponItem.getItemType() == L2WeaponType.FISHINGROD)
-		{
-			//	You can't make an attack with a fishing pole.
-			sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANNOT_ATTACK_WITH_FISHING_POLE));
-			getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-			
-			sendPacket(ActionFailed.STATIC_PACKET);
-			return;
-		}
-		
 		// GeoData Los Check here (or dz > 1000)
 		if (!GeoData.getInstance().canSeeTarget(this, target))
 		{
-			sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANT_SEE_TARGET));
+			sendPacket(SystemMessageId.CANT_SEE_TARGET);
 			getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
 			sendPacket(ActionFailed.STATIC_PACKET);
 			return;
@@ -2085,6 +2084,30 @@ public abstract class L2Character extends L2Object
 			return false;
 		}
 		
+		// Check if the caster's weapon is limited to use only its own skills
+		if (getActiveWeaponItem() != null)
+		{
+			L2Weapon wep = getActiveWeaponItem();
+			if (wep.useWeaponSkillsOnly() && !isGM())
+			{
+				boolean found = false;
+				for (SkillHolder sh : wep.getSkills())
+				{
+					if (sh.getSkillId() == skill.getId())
+					{
+						found = true;
+					}
+				}
+				
+				if (!found)
+				{
+					if (getActingPlayer() != null)
+						sendPacket(SystemMessageId.WEAPON_CAN_USE_ONLY_WEAPON_SKILL);
+					return false;
+				}
+			}
+		}
+		
 		if (!skill.isPotion() || !skill.ignoreSkillMute()) // Skill mute checks.
 		{
 			// Check if the skill is a magic spell and if the L2Character is not muted
@@ -3113,6 +3136,12 @@ public abstract class L2Character extends L2Object
 		updateAbnormalEffect();
 	}
 	
+	public final void startSpecialEffect(AbnormalEffect mask)
+	{
+		_SpecialEffects |= mask.getMask();
+		updateAbnormalEffect();
+	}
+	
 	public final void startAbnormalEffect(int mask)
 	{
 		_AbnormalEffects |= mask;
@@ -3253,6 +3282,12 @@ public abstract class L2Character extends L2Object
 		{
 			_SpecialEffects &= ~special.getMask();
 		}
+		updateAbnormalEffect();
+	}
+	
+	public final void stopSpecialEffect(AbnormalEffect mask)
+	{
+		_SpecialEffects &= ~mask.getMask();
 		updateAbnormalEffect();
 	}
 	
@@ -4200,6 +4235,11 @@ public abstract class L2Character extends L2Object
 	public final void setHeading(int heading)
 	{
 		_heading = heading;
+	}
+	
+	public Location getLocation()
+	{
+		return new Location(getX(), getY(), getZ(), getHeading(), getInstanceId());
 	}
 	
 	public final int getXdestination()
@@ -5157,6 +5197,11 @@ public abstract class L2Character extends L2Object
 	public final boolean isInsideRadius(int x, int y, int radius, boolean strictCheck)
 	{
 		return isInsideRadius(x, y, 0, radius, false, strictCheck);
+	}
+	
+	public final boolean isInsideRadius(Location loc, int radius, boolean checkZ, boolean strictCheck)
+	{
+		return isInsideRadius(loc.getX(), loc.getY(), loc.getZ(), radius, checkZ, strictCheck);
 	}
 	
 	/**
@@ -7528,5 +7573,10 @@ public abstract class L2Character extends L2Object
     public int getPremiumService()
     {
     	return _PremiumService;
+    }
+	
+    public void broadcastSocialAction(int id)
+    {
+    	broadcastPacket(new SocialAction(getObjectId(), id));
     }
 }

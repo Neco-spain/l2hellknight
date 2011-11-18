@@ -349,6 +349,8 @@ public class CharStat
 		float bonusAtk = 1;
 		if (Config.L2JMOD_CHAMPION_ENABLE && _activeChar.isChampion())
 			bonusAtk = Config.L2JMOD_CHAMPION_ATK;
+		if (Config.L2JMOD_GRANDCHAMPION_ENABLE && _activeChar.isGrandChampion())
+			bonusAtk = Config.L2JMOD_GRANDCHAMPION_ATK;			
 		if (_activeChar.isRaid())
 			bonusAtk *= Config.RAID_MATTACK_MULTIPLIER;
 		double attack = _activeChar.getTemplate().getBaseMAtk() * bonusAtk;
@@ -405,6 +407,8 @@ public class CharStat
 		float bonusSpdAtk = 1;
 		if  (Config.L2JMOD_CHAMPION_ENABLE && _activeChar.isChampion())
 			bonusSpdAtk = Config.L2JMOD_CHAMPION_SPD_ATK;
+		if  (Config.L2JMOD_GRANDCHAMPION_ENABLE && _activeChar.isGrandChampion())
+			bonusSpdAtk = Config.L2JMOD_GRANDCHAMPION_SPD_ATK;			
 		double val = calcStat(Stats.MAGIC_ATTACK_SPEED, _activeChar.getTemplate().getBaseMAtkSpd() * bonusSpdAtk, null, null);
 		if (val > Config.MAX_MATK_SPEED && !_activeChar.isGM())
 			val = Config.MAX_MATK_SPEED;
@@ -522,6 +526,8 @@ public class CharStat
 		float bonusAtk = 1;
 		if  (Config.L2JMOD_CHAMPION_ENABLE && _activeChar.isChampion())
 			bonusAtk = Config.L2JMOD_CHAMPION_ATK;
+		if  (Config.L2JMOD_GRANDCHAMPION_ENABLE && _activeChar.isGrandChampion())
+			bonusAtk = Config.L2JMOD_GRANDCHAMPION_ATK;			
 		if (_activeChar.isRaid())
 			bonusAtk *= Config.RAID_PATTACK_MULTIPLIER;
 		return (int) calcStat(Stats.POWER_ATTACK, _activeChar.getTemplate().getBasePAtk() * bonusAtk, target, null);
@@ -599,6 +605,8 @@ public class CharStat
 		float bonusAtk = 1;
 		if  (Config.L2JMOD_CHAMPION_ENABLE && _activeChar.isChampion())
 			bonusAtk = Config.L2JMOD_CHAMPION_SPD_ATK;
+		if  (Config.L2JMOD_GRANDCHAMPION_ENABLE && _activeChar.isGrandChampion())
+			bonusAtk = Config.L2JMOD_GRANDCHAMPION_SPD_ATK;			
 		int val = (int) Math.round(calcStat(Stats.POWER_ATTACK_SPEED, _activeChar.getTemplate().getBasePAtkSpd() * bonusAtk, null, null));
 		return val;
 	}

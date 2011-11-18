@@ -24,6 +24,7 @@ import l2.hellknight.gameserver.datatables.HeroSkillTable;
 import l2.hellknight.gameserver.instancemanager.AntiFeedManager;
 import l2.hellknight.gameserver.instancemanager.CastleManager;
 import l2.hellknight.gameserver.instancemanager.FortManager;
+import l2.hellknight.gameserver.instancemanager.QuestManager;
 import l2.hellknight.gameserver.model.L2ItemInstance;
 import l2.hellknight.gameserver.model.L2Party;
 import l2.hellknight.gameserver.model.L2Party.messageType;
@@ -35,6 +36,7 @@ import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
 import l2.hellknight.gameserver.model.actor.instance.L2PetInstance;
 import l2.hellknight.gameserver.model.entity.TvTEvent;
 import l2.hellknight.gameserver.model.entity.TvTRoundEvent;
+import l2.hellknight.gameserver.model.quest.Quest;
 import l2.hellknight.gameserver.model.zone.type.L2OlympiadStadiumZone;
 import l2.hellknight.gameserver.network.SystemMessageId;
 import l2.hellknight.gameserver.network.serverpackets.ExOlympiadMode;
@@ -95,6 +97,12 @@ public abstract class AbstractOlympiadGame
 		sm.addString(par.name);
 		sm.addNumber(points);
 		broadcastPacket(sm);
+		
+		for (Quest quest : QuestManager.getInstance().getAllManagedScripts())
+		{
+			if (quest != null && quest.isOlympiadUse())
+				quest.notifyOlympiadWin(par.player, getType());
+		}
 	}
 
 	protected final void removePointsFromParticipant(Participant par, int points)
@@ -104,6 +112,12 @@ public abstract class AbstractOlympiadGame
 		sm.addString(par.name);
 		sm.addNumber(points);
 		broadcastPacket(sm);
+		
+		for (Quest quest : QuestManager.getInstance().getAllManagedScripts())
+		{
+			if (quest != null && quest.isOlympiadUse())
+				quest.notifyOlympiadLoose(par.player, getType());
+		}
 	}
 
 	/**

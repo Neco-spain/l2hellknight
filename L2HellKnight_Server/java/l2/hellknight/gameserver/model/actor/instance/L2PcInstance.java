@@ -75,6 +75,7 @@ import l2.hellknight.gameserver.datatables.ItemTable;
 import l2.hellknight.gameserver.datatables.NobleSkillTable;
 import l2.hellknight.gameserver.datatables.NpcTable;
 import l2.hellknight.gameserver.datatables.PetDataTable;
+import l2.hellknight.gameserver.datatables.LovecTable;
 import l2.hellknight.gameserver.datatables.SkillTable;
 import l2.hellknight.gameserver.datatables.SkillTreesData;
 import l2.hellknight.gameserver.handler.IItemHandler;
@@ -101,6 +102,7 @@ import l2.hellknight.gameserver.instancemanager.leaderboards.TvTLeaderboard;
 import l2.hellknight.gameserver.model.BlockList;
 import l2.hellknight.gameserver.model.CharEffectList;
 import l2.hellknight.gameserver.model.FishData;
+import l2.hellknight.gameserver.model.ItemHolder;
 import l2.hellknight.gameserver.model.L2AccessLevel;
 import l2.hellknight.gameserver.model.L2Clan;
 import l2.hellknight.gameserver.model.L2ClanMember;
@@ -201,6 +203,9 @@ import l2.hellknight.gameserver.network.serverpackets.ExFishingEnd;
 import l2.hellknight.gameserver.network.serverpackets.ExFishingStart;
 import l2.hellknight.gameserver.network.serverpackets.ExGetBookMarkInfoPacket;
 import l2.hellknight.gameserver.network.serverpackets.ExGetOnAirShip;
+import l2.hellknight.gameserver.network.serverpackets.ExLoveckyMgnEffect;
+import l2.hellknight.gameserver.network.serverpackets.ExLoveckyMgnPointInfo;
+import l2.hellknight.gameserver.network.serverpackets.ExLoveckyMgnTimeChange;
 import l2.hellknight.gameserver.network.serverpackets.ExOlympiadMode;
 import l2.hellknight.gameserver.network.serverpackets.ExPrivateStoreSetWholeMsg;
 import l2.hellknight.gameserver.network.serverpackets.ExSetCompassZoneCode;
@@ -614,8 +619,10 @@ public final class L2PcInstance extends L2Playable
 	/** The list containing all shortCuts of this L2PcInstance */
 	private final ShortCuts _shortCuts = new ShortCuts(this);
 	
-	/** The list containing all macroses of this L2PcInstance */
-	private final MacroList _macroses = new MacroList(this);
+	/**
+	* The list containing all macros of this L2PcInstance.
+	*/
+	private final MacroList _macros = new MacroList(this);
 	
 	private final List<L2PcInstance> _snoopListener = new FastList<L2PcInstance>();
 	private final List<L2PcInstance> _snoopedPlayer = new FastList<L2PcInstance>();
@@ -1916,29 +1923,27 @@ public final class L2PcInstance extends L2Playable
 	}
 	
 	/**
-	 * Add a L2Macro to the L2PcInstance _macroses<BR><BR>
-	 * @param macro 
+	 * @param macro the macro to add to this L2PcInstance.
 	 */
 	public void registerMacro(L2Macro macro)
 	{
-		_macroses.registerMacro(macro);
+		_macros.registerMacro(macro);
 	}
 	
 	/**
-	 * Delete the L2Macro corresponding to the Identifier from the L2PcInstance _macroses.<BR><BR>
-	 * @param id 
+	 * @param id the macro Id to delete.
 	 */
 	public void deleteMacro(int id)
 	{
-		_macroses.deleteMacro(id);
+		_macros.deleteMacro(id);
 	}
 	
 	/**
 	 * @return all L2Macro of the L2PcInstance.
 	 */
-	public MacroList getMacroses()
+	public MacroList getMacros()
 	{
-		return _macroses;
+		return _macros;
 	}
 	
 	/**
@@ -6143,32 +6148,6 @@ public final class L2PcInstance extends L2Playable
 	}
 	
 	/**
-	 * Stop the HP/MP/CP Regeneration task.<BR><BR>
-	 *
-	 * <B><U> Actions</U> :</B><BR><BR>
-	 * <li>Set the RegenActive flag to False </li>
-	 * <li>Stop the HP/MP/CP Regeneration task </li><BR><BR>
-	 */
-	public void stopAllTimers()
-	{
-		stopHpMpRegeneration();
-		stopWarnUserTakeBreak();
-		stopWaterTask();
-		stopFeed();
-		clearPetData();
-		storePetFood(_mountNpcId);
-		stopRentPet();
-		stopPvpRegTask();
-		stopPunishTask(true);
-		stopSoulTask();
-		stopChargeTask();
-		stopFameTask();
-		stopVitalityTask();
-		stopRecoBonusTask();
-		stopRecoGiveTask();
-	}
-	
-	/**
 	 * Return the L2Summon of the L2PcInstance or null.<BR><BR>
 	 */
 	@Override
@@ -6658,14 +6637,24 @@ public final class L2PcInstance extends L2Playable
 	public boolean disarmWeapons()
 	{
 		// Don't allow disarming a cursed weapon
-		if (isCursedWeaponEquipped()) return false;
+		if (isCursedWeaponEquipped()) 
+			return false;
 		
 		// Don't allow disarming a Combat Flag or Territory Ward
-		if (isCombatFlagEquipped()) return false;
+		else if (isCombatFlagEquipped()) 
+			return false;
 		
 		// Unequip the weapon
 		L2ItemInstance wpn = getInventory().getPaperdollItem(Inventory.PAPERDOLL_RHAND);
-		if (wpn != null)
+		if (wpn == null)
+		{
+			return false;
+		}
+		else if (wpn.getWeaponItem().isForceEquip())
+		{
+			return false;
+		}
+		else
 		{
 			L2ItemInstance[] unequiped = getInventory().unEquipItemInBodySlotAndRecord(wpn.getItem().getBodyPart());
 			InventoryUpdate iu = new InventoryUpdate();
@@ -7389,7 +7378,10 @@ public final class L2PcInstance extends L2Playable
 					player.setClassId(player.getBaseClass());
 					_log.warning("Player "+player.getName()+" reverted to base class. Possibly has tried a relogin exploit while subclassing.");
 				}
-				else player._activeClass = activeClassId;
+					else
+					{
+						player._activeClass = activeClassId;
+					}
 				
 				player.setApprentice(rset.getInt("apprentice"));
 				player.setSponsor(rset.getInt("sponsor"));
@@ -7410,9 +7402,6 @@ public final class L2PcInstance extends L2Playable
 				player.setVitalityPoints(rset.getInt("vitality_points"), true);
 				
 				player.setPcBangPoints(rset.getInt("pccafe_points"));
-				
-				// Add the L2PcInstance object in _allObjects
-				//L2World.getInstance().storeObject(player);
 				
 				// Set the x,y,z position of the L2PcInstance and make it invisible
 				player.setXYZInvisible(rset.getInt("x"), rset.getInt("y"), rset.getInt("z"));
@@ -7448,19 +7437,22 @@ public final class L2PcInstance extends L2Playable
 			statement.close();
 			
 			// Set Hero status if it applies
-			if (Hero.getInstance().getHeroes() != null && Hero.getInstance().getHeroes().containsKey(objectId))
+			if (Hero.getInstance().isHero(objectId))
+				{
 				player.setHero(true);
+				}
 			
-			// Retrieve from the database all skills of this L2PcInstance and add them to _skills
 			// Retrieve from the database all items of this L2PcInstance and add them to _inventory
 			player.getInventory().restore();
 			player.getFreight().restore(); 
 			if (!Config.WAREHOUSE_CACHE)
+			{
 				player.getWarehouse();
+			}
 			
 			// Retrieve from the database all secondary data of this L2PcInstance
-			// and reward expertise/lucky skills if necessary.
 			// Note that Clan, Noblesse and Hero skills are given separately and not here.
+			// Retrieve from the database all skills of this L2PcInstance and add them to _skills
 			player.restoreCharData();
 			
 			// buff and status icons
@@ -7474,7 +7466,8 @@ public final class L2PcInstance extends L2Playable
 			player.setCurrentHp(currentHp);
 			player.setCurrentMp(currentMp);
 			
-			if (currentHp < 0.5) {
+			if (currentHp < 0.5)
+			{
 				player.setIsDead(true);
 				player.stopHpMpRegeneration();
 			}
@@ -7608,15 +7601,26 @@ public final class L2PcInstance extends L2Playable
 	}
 	
 	/**
-	 * Restores secondary data for the L2PcInstance, based on the current class index.
+	 * Restores:
+	 * <ul>
+	 * 	<li>Skills</li>
+	 * 	<li>Macros</li>
+	 * 	<li>Short-cuts</li>
+	 * 	<li>Henna</li>
+	 * 	<li>Teleport Bookmark</li>
+	 * 	<li>Recipe Book</li>
+	 * 	<li>Recipe Shop List (If configuration enabled)</li>
+	 * 	<li>Premium Item List</li>
+	 * 	<li>Pet Inventory Items</li>
+	 * </ul>
 	 */
 	private void restoreCharData()
 	{
 		// Retrieve from the database all skills of this L2PcInstance and add them to _skills.
 		restoreSkills();
 		
-		// Retrieve from the database all macroses of this L2PcInstance and add them to _macroses.
-		_macroses.restore();
+		// Retrieve from the database all macroses of this L2PcInstance and add them to _macros.
+		_macros.restore();
 		
 		// Retrieve from the database all shortCuts of this L2PcInstance and add them to _shortCuts.
 		_shortCuts.restore();
@@ -7630,15 +7634,15 @@ public final class L2PcInstance extends L2Playable
 		// Retrieve from the database the recipe book of this L2PcInstance.
 		restoreRecipeBook(true);
 		
-		// Restore Recipe Shop list
+		// Restore Recipe Shop list.
 		if(Config.STORE_RECIPE_SHOPLIST)
 			restoreRecipeShopList();
 		
-		// Load Premium Item List
+		// Load Premium Item List.
 		loadPremiumItemList();
 		
-		// Check for items in pet inventory
-		checkPetInvItems();
+		// Restore items in pet inventory.
+		restorePetInventoryItems();
 	}
 	
 	/**
@@ -11002,7 +11006,7 @@ public final class L2PcInstance extends L2Playable
 			_shortCuts.restore();
 			sendPacket(new ShortCutInit(this));
 			
-			broadcastPacket(new SocialAction(this, SocialAction.LEVEL_UP));
+			broadcastPacket(new SocialAction(getObjectId(), SocialAction.LEVEL_UP));
 			sendPacket(new SkillCoolTime(this));
 			sendPacket(new ExStorageMaxCount(this));
 			
@@ -13012,12 +13016,6 @@ public final class L2PcInstance extends L2Playable
 	public int getCursedWeaponEquippedId()
 	{
 		return _cursedWeaponEquippedId;
-	}
-	
-	@Override
-	public boolean isAttackingDisabled()
-	{
-		return (super.isAttackingDisabled() || _combatFlagEquippedId);
 	}
 	
 	public boolean isCombatFlagEquipped()
@@ -15171,7 +15169,10 @@ public final class L2PcInstance extends L2Playable
 		_petItems = haveit;
 	}
 	
-	private void checkPetInvItems()
+	/**
+	* Restore Pet's inventory items from database.
+	 */
+	private void restorePetInventoryItems()
 	{
 		Connection con = null;
 		
@@ -15488,8 +15489,8 @@ public final class L2PcInstance extends L2Playable
 		
 		return bonus;
 	}
-	  public void restoreBBSBuf(int forPet)
-	  {
+	public void restoreBBSBuf(int forPet)
+	{
 	    Connection con = null;
 	    try
 	    {
@@ -15520,10 +15521,10 @@ public final class L2PcInstance extends L2Playable
 	    {
 	      L2DatabaseFactory.close(con);
 	    }
-	  }	
+	}	
 	
 	public void storeBBSBuff(int forPet)
-	  {
+	{
 	    Map<Integer, Integer> ceffects = new FastMap<Integer, Integer>();
 	    if (forPet == 0)
 	      ceffects.putAll(this._bbsBuff);
@@ -15560,12 +15561,12 @@ public final class L2PcInstance extends L2Playable
 	    {
 	      L2DatabaseFactory.close(con);
 	    }
-	  }	
+	}	
 	/**
 	 * @param forPet 
 	 */
 	public void updateBBSBuff(int forPet)
-	  {
+	{
 	    Map<Integer, Integer> ceffects = new FastMap<Integer, Integer>();
 	    L2Character character;
 	    if (forPet == 0)
@@ -15614,9 +15615,9 @@ public final class L2PcInstance extends L2Playable
 	    }
 
 	    storeBBSBuff(forPet);
-	  }
+	}
 	public void cactBBSBuff(int forPet)
-	  {
+	{
 	    Map<Integer, Integer> ceffects = new FastMap<Integer, Integer>();
 	    L2Character character;
 	    if (forPet == 0)
@@ -15639,10 +15640,10 @@ public final class L2PcInstance extends L2Playable
 	        continue;
 	      skill.getEffects(character, character);
 	    }
-	  }
+	}
 
 	public int calcBBSBuff(int forPet)
-	  {
+	{
 	    Map<Integer, Integer> ceffects = new FastMap<Integer, Integer>();
 	    L2Character character;
 	    if (forPet == 0)
@@ -15673,7 +15674,7 @@ public final class L2PcInstance extends L2Playable
 	      result += priceGroup;
 	    }
 	    return result;
-	  }	
+	}	
 	
 	
 	public boolean isInSameTwTerritory(L2PcInstance target)
@@ -15743,7 +15744,163 @@ public final class L2PcInstance extends L2Playable
 		return false;
 	}
 	
-	//premium
+	/**
+	 * Stop the HP/MP/CP Regeneration task.<BR><BR>
+	 *
+	 * <B><U> Actions</U> :</B><BR><BR>
+	 * <li>Set the RegenActive flag to False </li>
+	 * <li>Stop the HP/MP/CP Regeneration task </li><BR><BR>
+	 */
+	public void stopAllTimers()
+	{
+		stopHpMpRegeneration();
+		stopWarnUserTakeBreak();
+		stopWaterTask();
+		stopFeed();
+		clearPetData();
+		storePetFood(_mountNpcId);
+		stopRentPet();
+		stopPvpRegTask();
+		stopPunishTask(true);
+		stopSoulTask();
+		stopChargeTask();
+		stopFameTask();
+		stopVitalityTask();
+		stopRecoBonusTask();
+		stopRecoGiveTask();
+		stopAdventBlessingTask();
+		stopAdventBonusTask();
+	}
+	
+	/** Advent 4h task **/
+	private ScheduledFuture<?> _adventBonusTask;
+	/** Advent Blessing task **/
+	private ScheduledFuture<?> _adventBlessingTask;
+	
+	public void stopAdventBlessingTask()
+	{
+		if (_adventBlessingTask != null)
+		{
+			_adventBlessingTask.cancel(false);
+			_adventBlessingTask = null;
+		}
+	}
+	
+	public void stopAdventBonusTask()
+	{
+		if (_adventBonusTask != null)
+		{
+			_adventBonusTask.cancel(false);
+			_adventBonusTask = null;
+		}
+	}
+	
+	private class AdventPoints implements Runnable
+	{
+		@Override
+		public void run()
+		{	
+			L2PcInstance.this.incAdventPoints(Config.BODY_ZA_MINUTU, true);
+		}
+	}
+	
+	public void startAdventTask()
+	{
+		if (_adventBonusTask == null)
+		{
+			int advent_time = LovecTable.getInstance().getAdventTime(getObjectId());
+			if (advent_time < 14400)
+			{
+				_adventBonusTask = ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new AdventPoints(), 60000, 60000);
+				sendPacket(new ExLoveckyMgnTimeChange(getAdventTime(), true));
+			}
+		}
+	}
+	
+	private class AdventBlessingEnd implements Runnable
+	{
+		@Override
+		public void run()
+		{
+			L2PcInstance.this.stopSpecialEffect(AbnormalEffect.AVE_ADVENT_BLESSING);
+			L2PcInstance.this.sendPacket(new ExLoveckyMgnEffect(0));
+			L2PcInstance.this.sendPacket(new ExLoveckyMgnPointInfo(L2PcInstance.this));
+			L2PcInstance.this.sendPacket(SystemMessageId.NEVITS_ADVENT_BLESSING_HAS_ENDED);
+			
+			_adventBlessingTask = null;
+		}
+	}
+	
+	public boolean isAdventBlessingActive()
+	{
+		return (_adventBlessingTask != null && _adventBlessingTask.getDelay(TimeUnit.MILLISECONDS) > 0);
+	}
+	
+	public int getAdventTime()
+	{
+		return LovecTable.getInstance().getAdventTime(getObjectId());
+	}
+	
+	public void incAdventPoints(int value, boolean decreasetime)
+	{
+		int adventPoints = LovecTable.getInstance().getAdventPoints(getObjectId());
+		int adventTime = LovecTable.getInstance().getAdventTime(getObjectId());
+		
+		if (decreasetime)
+		{
+			adventTime = adventTime + 60;
+			if (adventTime >= 14400)
+			{
+				// To have 'Quit' on wings
+				adventTime = 15000;
+				// All 4h time used, stop task
+				stopAdventBonusTask();
+				// To be sure
+				_adventBonusTask = null;
+			}
+			// Store new time
+			LovecTable.getInstance().setAdventTime(getObjectId(), adventTime, true);
+		}
+		if (_adventBonusTask != null)
+		{
+			if ((adventPoints + value) >= 7200)
+			{
+				adventPoints = 0;
+	
+				if (!isAdventBlessingActive())
+				{
+					// Abnormal
+					startSpecialEffect(AbnormalEffect.AVE_ADVENT_BLESSING);
+					// Start 3 min Advent Blessing				
+					_adventBlessingTask = ThreadPoolManager.getInstance().scheduleGeneral(new AdventBlessingEnd(), 180000);
+					// Display Sysmsg
+					sendPacket(SystemMessageId.THE_ANGEL_NEVIT_HAS_BLESSED_YOU_FROM_ABOVE);
+					// Show counter for player
+					L2PcInstance.this.sendPacket(new ExLoveckyMgnEffect(180));
+				}
+			}
+			else
+				adventPoints = adventPoints + value;
+		}
+		// Store
+		LovecTable.getInstance().setAdventPoints(getObjectId(), adventPoints, true);
+		// Show Points
+		sendPacket(new ExLoveckyMgnPointInfo(this));
+		// Show state
+		sendPacket(new ExLoveckyMgnTimeChange(getAdventTime(), _adventBonusTask != null));
+	}
+	
+	public void sendAdventPointMsg()
+	{
+		int adventPoints = LovecTable.getInstance().getAdventPoints(getObjectId());
+		if (adventPoints >= 5760)
+			sendPacket(SystemMessageId.NEVITS_ADVENT_BLESSING_SHINES_STRONGLY_FROM_ABOVE);
+		else if (adventPoints >= 3600)
+			sendPacket(SystemMessageId.YOU_ARE_FURTHER_INFUSED_WITH_THE_BLESSINGS_OF_NEVIT);
+		else if (adventPoints >= 1440)
+			sendPacket(SystemMessageId.YOU_ARE_STARTING_TO_FEEL_THE_EFFECTS_OF_NEVITS_ADVENT_BLESSING);
+	}
+	
     private void createPSdb()
     {
 	   Connection con = null;
@@ -15887,5 +16044,16 @@ public final class L2PcInstance extends L2Playable
     public void setGainXp(boolean b)
     {
     	_addXpSp = b;
+    }
+
+    
+    public void playerRewardByLevel()
+    {
+            if (Config.ALLOW_REWARD_BY_LEVEL && Config.REWARD_ITEMS.containsKey(getLevel()))
+            {
+                    ItemHolder holder = Config.REWARD_ITEMS.get(getLevel());
+                    addItem("Reward", holder.getId(), holder.getCount(), null, true);
+                    sendMessage("You won " + holder.getCount() + " of " + ItemTable.getInstance().getTemplate(holder.getId()).getName() + " by getting level " + getLevel() + ".");
+            }
     }
 }

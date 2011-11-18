@@ -83,7 +83,7 @@ public enum AbnormalEffect
 	E_VESPER_1("vesper1", 0x000020),
 	E_VESPER_2("vesper2", 0x000040),
 	E_VESPER_3("vesper3", 0x000080),
-	HUNTING_BONUS("hunting_bonus", 0x80000);
+	AVE_ADVENT_BLESSING("ave_advent_blessing", 0x080000);
 	
 	private final int _mask;
 	private final String _name;

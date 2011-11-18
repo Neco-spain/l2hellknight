@@ -67,8 +67,9 @@ import l2.hellknight.gameserver.network.serverpackets.Die;
 import l2.hellknight.gameserver.network.serverpackets.EtcStatusUpdate;
 import l2.hellknight.gameserver.network.serverpackets.ExBasicActionList;
 import l2.hellknight.gameserver.network.serverpackets.ExGetBookMarkInfoPacket;
-import l2.hellknight.gameserver.network.serverpackets.ExNevitAdventPointInfoPacket;
-import l2.hellknight.gameserver.network.serverpackets.ExNevitAdventTimeChange;
+import l2.hellknight.gameserver.network.serverpackets.ExLoveckyMgnEffect;
+import l2.hellknight.gameserver.network.serverpackets.ExLoveckyMgnPointInfo;
+import l2.hellknight.gameserver.network.serverpackets.ExLoveckyMgnTimeChange;
 import l2.hellknight.gameserver.network.serverpackets.ExNoticePostArrived;
 import l2.hellknight.gameserver.network.serverpackets.ExNotifyPremiumItem;
 import l2.hellknight.gameserver.network.serverpackets.ExPCCafePointInfo;
@@ -312,7 +313,7 @@ public class EnterWorld extends L2GameClientPacket
 		activeChar.broadcastUserInfo();
 		
 		// Send Macro List
-		activeChar.getMacroses().sendUpdate();
+		activeChar.getMacros().sendUpdate();
 		
 		// Send Item List
 		sendPacket(new ItemList(activeChar, false));
@@ -384,10 +385,10 @@ public class EnterWorld extends L2GameClientPacket
 		
 		sendPacket(new FriendList(activeChar));
 		
-		activeChar.sendMessage("Server use L2HellKnigh files " +
-		"and developed by the L2HellKnigh Team, " +
-		"you can find our info about project on www.l2hellknight.com");
-		activeChar.sendMessage("L2HellKnigh Team: Alban");
+		activeChar.sendMessage("Server use L2HellKnight files " +
+		"and developed by the L2HellKnight Team, " +
+		"you can find our info about project on www.L2HellKnight.com");
+		activeChar.sendMessage("L2HellKnight Team: ***Alban***, Jokkerino, Jazz");
 		
 		SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.FRIEND_S1_HAS_LOGGED_IN);
 		sm.addString(activeChar.getName());
@@ -431,8 +432,10 @@ public class EnterWorld extends L2GameClientPacket
 		
 		sendPacket(new SkillCoolTime(activeChar));
 		sendPacket(new ExVoteSystemInfo(activeChar));
-		sendPacket(new ExNevitAdventPointInfoPacket(0));
-		sendPacket(new ExNevitAdventTimeChange(-1)); // only set pause state...
+		sendPacket(new ExLoveckyMgnEffect(0));
+		sendPacket(new ExLoveckyMgnPointInfo(activeChar));
+		sendPacket(new ExLoveckyMgnTimeChange(activeChar.getAdventTime(), false));
+		
 		sendPacket(new ExShowContactList(activeChar));
 		
 		for (L2ItemInstance i : activeChar.getInventory().getItems())

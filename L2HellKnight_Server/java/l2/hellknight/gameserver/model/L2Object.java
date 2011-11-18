@@ -321,6 +321,7 @@ public abstract class L2Object
 		assert getPosition().getWorldRegion() != null || _isVisible;
 		return getPosition().getX();
 	}
+	
 	/**
 	 * @return The id of the instance zone the object is in - id 0 is global
 	 * since everything like dropped items, mobs, players can be in a instanciated area, it must be in l2object
@@ -569,7 +570,6 @@ public abstract class L2Object
 	 */
 	public final boolean isVisible()
 	{
-		//return getPosition().getWorldRegion() != null && _IsVisible;
 		return getPosition().getWorldRegion() != null;
 	}
 	public final void setIsVisible(boolean value)
@@ -603,6 +603,7 @@ public abstract class L2Object
 	{
 		return _name;
 	}
+	
 	public void setName(String value)
 	{
 		_name = value;
@@ -615,7 +616,8 @@ public abstract class L2Object
 	
 	public final ObjectPoly getPoly()
 	{
-		if (_poly == null) _poly = new ObjectPoly(this);
+		if (_poly == null)
+			_poly = new ObjectPoly(this);
 		return _poly;
 	}
 	
@@ -690,7 +692,14 @@ public abstract class L2Object
 	{
 		// default implementation
 	}
-	
+
+	/**
+	 * Not Implemented.<BR><BR>
+	 *
+	 * <B><U> Overridden in </U> :</B><BR><BR>
+	 * <li> L2PcInstance</li><BR><BR>
+	 * @param id 
+	 */
 	public void sendPacket(SystemMessageId id)
 	{
 		// default implementation

@@ -46,6 +46,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 
+import l2.hellknight.gameserver.model.ItemHolder;
 import l2.hellknight.gameserver.model.itemcontainer.PcInventory;
 import l2.hellknight.gameserver.util.FloodProtectorConfig;
 import l2.hellknight.util.L2Properties;
@@ -136,6 +137,7 @@ public final class Config
 	//Top pvp/pk
 	public static boolean TOPDEBUG;
 	public static int TOPID;
+	public static int BODY_ZA_MINUTU;
 	
 	//Pailaka
 	public static boolean LIMIT_SUMMONS_PAILAKA;
@@ -932,6 +934,8 @@ public final class Config
 	public static int L2JMOD_DUALBOX_CHECK_MAX_L2EVENT_PARTICIPANTS_PER_IP;
 	public static TIntIntHashMap L2JMOD_DUALBOX_CHECK_WHITELIST;
 	public static boolean L2JMOD_ALLOW_CHANGE_PASSWORD;
+	public static boolean ALLOW_REWARD_BY_LEVEL;
+	public static TIntObjectHashMap<ItemHolder> REWARD_ITEMS;
 	
 	//--------------------------------------------------
 	// NPC Settings
@@ -2541,6 +2545,8 @@ public final class Config
 					SHOW_ONLINE_PLAYERS = Boolean.parseBoolean(extraconfig.getProperty("ShowOnlinePlayers","False"));
 					ENABLE_LV_UP_MSG = Boolean.parseBoolean(extraconfig.getProperty("EnableLvUpMsg", "False"));
 					
+					BODY_ZA_MINUTU = Integer.parseInt(extraconfig.getProperty("BodyZaMinutu", "20"));
+					
 					TOPDEBUG = Boolean.valueOf(extraconfig.getProperty("TopNpcDebug", "false"));
 					TOPID = Integer.parseInt(extraconfig.getProperty("TopNpcID", "1"));
 					LIMIT_SUMMONS_PAILAKA = Boolean.parseBoolean(extraconfig.getProperty("LimitSummonsPailaka", "False"));
@@ -2632,6 +2638,29 @@ public final class Config
 						}
 					}
 					L2JMOD_ALLOW_CHANGE_PASSWORD = Boolean.parseBoolean(extraconfig.getProperty("AllowChangePassword", "False"));
+					ALLOW_REWARD_BY_LEVEL = Boolean.parseBoolean(extraconfig.getProperty("AllowRewardByLevel", "False"));
+					String[] rewardItems = extraconfig.getProperty("RewardItems", "").split(";");
+					REWARD_ITEMS = new TIntObjectHashMap<ItemHolder>(rewardItems.length);
+					if (!rewardItems[0].isEmpty())
+					{
+					        for (String item : rewardItems)
+					        {
+					                String[] itemSplit = item.split(",");
+					                if (itemSplit.length != 3)
+					                        _log.warning(StringUtil.concat("Config.load(): invalid config property -> RewardItems \"", item, "\""));
+					                else
+					                {
+					                        try
+					                        {
+					                                REWARD_ITEMS.put(Integer.parseInt(itemSplit[0]), new ItemHolder(Integer.parseInt(itemSplit[1]), Long.parseLong(itemSplit[2])));
+					                        }
+					                        catch (NumberFormatException nfe)
+					                        {
+					                                _log.warning(StringUtil.concat("Config.load(): invalid config property -> RewardItems \"", item, "\""));
+					                        }
+					                }
+					        }
+					}
 				}
 				catch (Exception e)
 				{

@@ -2,7 +2,7 @@
 title Login Server Console
 color 0b
 :start
-echo Starting L2HellKnight Login Server.
+echo Starting L2 HellKnight Login Server.
 echo.
 java -Xms128m -Xmx128m  -cp ./../libs/*;l2hellknight_login.jar l2.hellknight.loginserver.L2LoginServer
 if ERRORLEVEL 2 goto restart

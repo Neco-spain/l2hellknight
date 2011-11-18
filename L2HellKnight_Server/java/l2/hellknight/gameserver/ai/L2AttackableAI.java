@@ -290,6 +290,8 @@ public class L2AttackableAI extends L2CharacterAI implements Runnable
 			
 			if (me.isChampion() && Config.L2JMOD_CHAMPION_PASSIVE)
 				return false;
+			if (me.isGrandChampion() && Config.L2JMOD_GRANDCHAMPION_PASSIVE)
+				return false;				
 			
 			// Check if the actor is Aggressive
 			return (me.isAggressive() && GeoData.getInstance().canSeeTarget(me, target));

@@ -1,13 +1,13 @@
 $OutputEncoding = New-Object -typename System.Text.UTF8Encoding
 $a = (Get-Host).UI.RawUI
-$a.WindowTitle = "L2HellKnight - Game Server Console"
+$a.WindowTitle = "L2 HellKnight - Game Server Console"
 
 do
 {
     switch ($LASTEXITCODE)
     {
-        -1 { cls; "Starting L2HellKnight Game Server."; break; }
-        2 { cls; "Restarting L2HellKnight Game Server."; break; }
+        -1 { cls; "Starting L2 HellKnight Game Server."; break; }
+        2 { cls; "Restarting L2 HellKnight Game Server."; break; }
     }
     ""
     # -------------------------------------

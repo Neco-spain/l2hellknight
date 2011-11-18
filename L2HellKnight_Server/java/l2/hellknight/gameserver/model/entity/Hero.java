@@ -527,7 +527,7 @@ public class Hero
 			List<StatsSet> _mainlist = _herodiary.get(charid);
 			NpcHtmlMessage DiaryReply = new NpcHtmlMessage(5);
 			final String htmContent = HtmCache.getInstance().getHtm(activeChar.getHtmlPrefix(),"data/html/olympiad/herodiary.htm");
-			if (htmContent != null)
+			if (htmContent != null && _heroMessage.containsKey(charid))
 			{
 				DiaryReply.setHtml(htmContent);
 				DiaryReply.replace("%heroname%", CharNameTable.getInstance().getNameById(charid));
@@ -1112,6 +1112,14 @@ public class Hero
 		}
 	}
 	
+	/**
+	 * @param objectId the player's object Id to verify.
+	 * @return {@code true} if there are heros and the player is in the list, {@code false} otherwise.
+	 */
+	public boolean isHero(int objectId)
+	{
+		return _heroes == null ? false : _heroes.containsKey(objectId);
+	}
 	
 	@SuppressWarnings("synthetic-access")
 	private static class SingletonHolder

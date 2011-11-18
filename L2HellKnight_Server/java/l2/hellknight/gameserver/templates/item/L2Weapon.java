@@ -66,6 +66,10 @@ public final class L2Weapon extends L2Item
 	
 	private final int _reuseDelay;
 	
+	private final boolean _isForceEquip;
+	private final boolean _isAttackWeapon;
+	private final boolean _useWeaponSkillsOnly;
+	
 	/**
 	 * Constructor for Weapon.<BR><BR>
 	 * <U><I>Variables filled :</I></U><BR>
@@ -204,6 +208,10 @@ public final class L2Weapon extends L2Item
 		}
 		
 		_changeWeaponId = set.getInteger("change_weaponId", 0);
+		
+		_isForceEquip = set.getBool("isForceEquip", false);
+		_isAttackWeapon = set.getBool("isAttackWeapon", true);
+		_useWeaponSkillsOnly = set.getBool("useWeaponSkillsOnly", false);
 	}
 	
 	/**
@@ -299,6 +307,21 @@ public final class L2Weapon extends L2Item
 	public int getChangeWeaponId()
 	{
 		return _changeWeaponId;
+	}
+	
+	public boolean isForceEquip()
+	{
+		return _isForceEquip;
+	}
+	
+	public boolean isAttackWeapon()
+	{
+		return _isAttackWeapon;
+	}
+	
+	public boolean useWeaponSkillsOnly()
+	{
+		return _useWeaponSkillsOnly;
 	}
 	
 	/**

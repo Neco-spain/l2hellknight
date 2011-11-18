@@ -17,11 +17,15 @@ package l2.hellknight.gameserver.network.clientpackets;
 import java.util.logging.Logger;
 
 import l2.hellknight.Config;
+import l2.hellknight.gameserver.ai.CtrlIntention;
 import l2.hellknight.gameserver.datatables.SkillTable;
+import l2.hellknight.gameserver.model.L2CharPosition;
 import l2.hellknight.gameserver.model.L2Skill;
 import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.actor.position.PcPosition;
 import l2.hellknight.gameserver.network.serverpackets.ActionFailed;
 import l2.hellknight.gameserver.templates.skills.L2SkillType;
+import l2.hellknight.gameserver.templates.skills.L2TargetType;
 
 /**
  * This class ...
@@ -89,8 +93,16 @@ public final class RequestMagicSkillUse extends L2GameClientPacket
 			// players mounted on pets cannot use any toggle skills
 			if (skill.isToggle() && activeChar.isMounted())
 				return;
-			// activeChar.stopMove();
+			
 			activeChar.useMagic(skill, _ctrlPressed, _shiftPressed);
+			
+			// Stop if use self-buff.
+			if(skill.getSkillType() == L2SkillType.BUFF && skill.getTargetType() == L2TargetType.TARGET_SELF)
+			{
+				final PcPosition charPos = activeChar.getPosition();
+				final L2CharPosition stopPos = new L2CharPosition(charPos.getX(), charPos.getY(), charPos.getZ(), charPos.getHeading());
+				activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, stopPos);
+			}
 		}
 		else
 		{

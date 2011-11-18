@@ -460,7 +460,7 @@ public class L2Npc extends L2Character
 		if (now - _lastSocialBroadcast > _minimalSocialInterval)
 		{
 			_lastSocialBroadcast = now;
-			broadcastPacket(new SocialAction(this, animationId));
+			broadcastPacket(new SocialAction(getObjectId(), animationId));
 		}
 	}
 	

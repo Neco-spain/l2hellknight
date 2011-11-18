@@ -2507,8 +2507,9 @@ public class L2Attackable extends L2Npc
 	{
 		if (isChampion() && !Config.L2JMOD_CHAMPION_ENABLE_VITALITY)
 			return false;
-		
-		return (!isGrandChampion() || Config.L2JMOD_GRANDCHAMPION_ENABLE_VITALITY);
+		if (isGrandChampion() && !Config.L2JMOD_GRANDCHAMPION_ENABLE_VITALITY)	
+			return false;	
+		return true;
 	}
 	
 	/** Return True if the L2Character is RaidBoss or his minion. */

@@ -108,6 +108,46 @@ public class PcStat extends PlayableStat
 	public boolean addExpAndSp(long addToExp, int addToSp, boolean useBonuses)
 	{
 		L2PcInstance activeChar = getActiveChar();
+		double basePercent = addToExp;
+		if (useBonuses)
+		{
+			if (Config.ENABLE_VITALITY)
+			{
+				if (activeChar.isAdventBlessingActive())
+				{
+					addToExp *= Config.RATE_VITALITY_LEVEL_4;
+					addToSp *= Config.RATE_VITALITY_LEVEL_4;					
+				}
+				else
+				{
+					switch (_vitalityLevel)
+					{
+						case 1:
+							addToExp *= Config.RATE_VITALITY_LEVEL_1;
+							addToSp *= Config.RATE_VITALITY_LEVEL_1;
+							break;
+						case 2:
+							addToExp *= Config.RATE_VITALITY_LEVEL_2;
+							addToSp *= Config.RATE_VITALITY_LEVEL_2;
+							break;
+						case 3:
+							addToExp *= Config.RATE_VITALITY_LEVEL_3;
+							addToSp *= Config.RATE_VITALITY_LEVEL_3;
+							break;
+						case 4:
+							addToExp *= Config.RATE_VITALITY_LEVEL_4;
+							addToSp *= Config.RATE_VITALITY_LEVEL_4;
+							break;
+					}
+				}
+			}
+			// Calculate reco exp/sp bonus
+			if (addToExp > 0 && !activeChar.isInsideZone(L2Character.ZONE_PEACE))
+			{
+				activeChar.startAdventTask();
+			}
+		}
+		basePercent = basePercent / addToExp;
 		
 		// Allowed to gain exp/sp?
 		if (!activeChar.getAccessLevel().canGainExp())
@@ -226,8 +266,9 @@ public class PcStat extends PlayableStat
 			}
 			
 			getActiveChar().setCurrentCp(getMaxCp());
-			getActiveChar().broadcastPacket(new SocialAction(getActiveChar(), SocialAction.LEVEL_UP));
+			getActiveChar().broadcastPacket(new SocialAction(getActiveChar().getObjectId(), SocialAction.LEVEL_UP));
 			getActiveChar().sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_INCREASED_YOUR_LEVEL));
+			getActiveChar().playerRewardByLevel();
 			
 			L2ClassMasterInstance.showQuestionMark(getActiveChar());
 		}
@@ -261,7 +302,7 @@ public class PcStat extends PlayableStat
 		getActiveChar().sendPacket(new UserInfo(getActiveChar()));
 		getActiveChar().sendPacket(new ExBrExtraUserInfo(getActiveChar()));
 		getActiveChar().sendPacket(new ExVoteSystemInfo(getActiveChar()));
-		
+		getActiveChar().incAdventPoints(2000, false);
 		return levelIncreased;
 	}
 	
@@ -550,7 +591,8 @@ public class PcStat extends PlayableStat
 			if (points < 0) // vitality consumed
 			{
 				int stat = (int) calcStat(Stats.VITALITY_CONSUME_RATE, 1, getActiveChar(), null);
-				
+				if (getActiveChar().isAdventBlessingActive())
+					stat -= 10;
 				if (stat == 0) // is vitality consumption stopped ?
 					return;
 				if (stat < 0) // is vitality gained ?

@@ -30,6 +30,7 @@ import l2.hellknight.gameserver.communitybbs.Manager.TopicBBSManager;
 import l2.hellknight.gameserver.datatables.MultiSell;
 import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
 import l2.hellknight.gameserver.model.entity.TvTEvent;
+import l2.hellknight.gameserver.model.entity.TvTRoundEvent;
 import l2.hellknight.gameserver.network.L2GameClient;
 import l2.hellknight.gameserver.network.SystemMessageId;
 import l2.hellknight.gameserver.network.serverpackets.ShowBoard;
@@ -45,6 +46,96 @@ public class CommunityBoard
 	{
 		return SingletonHolder._instance;
 	}
+
+	public boolean checkPlayerConditions(L2PcInstance player)
+   	{
+		if (player.isInOlympiadMode())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited at the Olympiad");
+		return false;
+		}
+		if (player.isFlyingMounted())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited at Fly mode!");
+		return false;
+		}
+		if (player.inObserverMode())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited in ObserveMode!");
+		return false;
+		}
+		if (player.isAlikeDead() || player.isDead())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited While Dead");
+		return false;
+		}
+		if (player.getKarma() > 0)
+		{
+		player.sendMessage("CommunityBoard useing is prohibited with negative Karma!");
+		return false;
+		}
+		if (player.isInSiege())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited at the Siege!");
+		return false;
+		}
+		if (player.isInCombat())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited in Combat!");
+		return false;
+		}
+		if (player.isCastingNow())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited while Casting!");
+		return false;
+		}	
+		if (player.isAttackingNow())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited while Attacking!");
+		return false;
+		}		
+		if (player.isTransformed())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited while Transformed!");
+		return false;
+		}			
+		if (player.isInDuel())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited while Playing Duel!");
+		return false;
+		}			
+		if (player.isFishing())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited while Fishing!");
+		return false;
+		}
+		if (player.isInWater())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited In Water!");
+		return false;
+		}			
+		if (player.isInVehicle())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited In VehicleMode!");
+		return false;
+		}		
+		if (player.isInStoreMode())
+		{
+		player.sendMessage("CommunityBoard useing is prohibited In StoreMode!");
+		return false;
+		}
+		if (TvTEvent.isPlayerParticipant(player.getObjectId()))
+		{
+		player.sendMessage("CommunityBoard useing is prohibited While TvTEvent Is Started!");
+		return false;
+		}
+		if (TvTRoundEvent.isPlayerParticipant(player.getObjectId()))
+		{
+		player.sendMessage("CommunityBoard useing is prohibited While TvTRoundEvent Is Started!");
+		return false;
+		}
+      return true;		
+    }	
 	
 	public void handleCommands(L2GameClient client, String command)
 	{
@@ -52,89 +143,11 @@ public class CommunityBoard
 		if (activeChar == null)
 				return;
 	
-     if(Config.RESTRICT_ZONE)	
-	{
-		if (activeChar.isInOlympiadMode())
+		if(Config.RESTRICT_ZONE)	
 		{
-		activeChar.sendMessage("Can not be used at the Olympiad");
-		return;
+			if(!checkPlayerConditions(activeChar))
+			return;
 		}
-		if (activeChar.isFlyingMounted())
-		{
-		activeChar.sendMessage("Can not be used at Fly mode!");
-		return;
-		}
-		if (activeChar.inObserverMode())
-		{
-		activeChar.sendMessage("Can not be used in ObserveMode!");
-		return;
-		}
-		if (activeChar.isAlikeDead() || activeChar.isDead())
-		{
-		activeChar.sendMessage("Can not be used While Dead");
-		return;
-		}
-		if (activeChar.getKarma() > 0)
-		{
-		activeChar.sendMessage("Can not be used with negative Karma!");
-		return;
-		}
-		if (activeChar.isInSiege())
-		{
-		activeChar.sendMessage("Can not be used at the Siege!");
-		return;
-		}
-		if (activeChar.isInCombat())
-		{
-		activeChar.sendMessage("Can not be used in Combat!");
-		return;
-		}
-		if (activeChar.isCastingNow())
-		{
-		activeChar.sendMessage("Can not be used while Casting!");
-		return;
-		}	
-		if (activeChar.isAttackingNow())
-		{
-		activeChar.sendMessage("Can not be used while Attacking!");
-		return;
-		}		
-		if (activeChar.isTransformed())
-		{
-		activeChar.sendMessage("Can not be used while Transformed!");
-		return;
-		}			
-		if (activeChar.isInDuel())
-		{
-		activeChar.sendMessage("Can not be used while Playing Duel!");
-		return;
-		}			
-		if (activeChar.isFishing())
-		{
-		activeChar.sendMessage("Can not be used while Fishing!");
-		return;
-		}
-		if (activeChar.isInWater())
-		{
-		activeChar.sendMessage("Can not be used In Water!");
-		return;
-		}			
-		if (activeChar.isInVehicle())
-		{
-		activeChar.sendMessage("Can not be used In VehicleMode!");
-		return;
-		}		
-		if (activeChar.isInStoreMode())
-		{
-		activeChar.sendMessage("Can not be used In StoreMode!");
-		return;
-		}
-		if (TvTEvent.isParticipating())
-		{
-		activeChar.sendMessage("Can not be used While TvT Is Started!");
-		return;
-		}	
-	}
 		
 		switch (Config.COMMUNITY_TYPE)
 		{

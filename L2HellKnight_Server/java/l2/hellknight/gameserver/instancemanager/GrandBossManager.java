@@ -31,6 +31,7 @@ import javolution.util.FastMap;
 import l2.hellknight.L2DatabaseFactory;
 import l2.hellknight.gameserver.datatables.NpcTable;
 import l2.hellknight.gameserver.model.L2Object;
+import l2.hellknight.gameserver.model.Location;
 import l2.hellknight.gameserver.model.actor.L2Character;
 import l2.hellknight.gameserver.model.actor.instance.L2GrandBossInstance;
 import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
@@ -247,6 +248,11 @@ public class GrandBossManager
 			}
 		}
 		return null;
+	}
+	
+	public final L2BossZone getZone(Location loc)
+	{
+		return getZone(loc.getX(), loc.getY(), loc.getZ());
 	}
 	
 	public final L2BossZone getZone(int x, int y, int z)
