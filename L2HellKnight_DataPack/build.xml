@@ -41,7 +41,7 @@
 		<copy todir="${build.dist.login}/data">
 			<fileset dir="misc" />
 		</copy>
-		<zip destfile="${build}/L2_Brick_DataPack.zip" basedir="${build.dist}" />
+		<zip destfile="${build}/L2_HellKnight_DataPack.zip" basedir="${build.dist}" />
 	</target>
 
 	<target name="clean" description="Deletes the datapack distribution ZIP file only, preserving synchronized build files.">
