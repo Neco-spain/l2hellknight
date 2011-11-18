@@ -12,14 +12,14 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package l2.hellknight;
+package L2j.HellKnight;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import l2.hellknight.gameserver.ThreadPoolManager;
+import L2j.HellKnight.gameserver.ThreadPoolManager;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class L2DatabaseFactory

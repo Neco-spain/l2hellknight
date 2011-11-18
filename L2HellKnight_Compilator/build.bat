@@ -5,9 +5,9 @@ TITLE L2HellKnight Compiler
 
 
 :: CORE & DATAPACK folders:
-SET CORE_DIR=..\L2HellKnight_Server
-SET DP_DIR=..\L2HellKnight_DataPack
-SET CP_DIR=..\L2HellKnight_Community
+SET CORE_DIR=..\L2_HellKnight_Server
+SET DP_DIR=..\L2_HellKnight_DataPack
+SET CP_DIR=..\L2_HellKnight_Community
 SET FILE_NAME=L2HellKnight.zip
 :: EXAMPLE PATH
 :: SET JAVA_PATH="C:\Program Files\Java\jdk1.7.0"
@@ -47,7 +47,7 @@ IF NOT EXIST lib\c3p0\c3p0_LICENSE.txt GOTO antchecker
 IF NOT EXIST lib\c3p0\c3p0-0.9.1.2.jar GOTO antchecker
 IF NOT EXIST lib\c3p0\build.xml GOTO antchecker
 
-COPY /Y lib\c3p0\L2DatabaseFactory.java %CORE_DIR%\java\l2\brick\L2DatabaseFactory.java
+COPY /Y lib\c3p0\L2DatabaseFactory.java %CORE_DIR%\java\l2\hellknight\L2DatabaseFactory.java
 COPY /Y lib\c3p0\build.xml %CORE%
 COPY /Y lib\c3p0\c3p0_LICENSE.txt %CORE_DIR%\lib\c3p0_LICENSE.txt
 COPY /Y lib\c3p0\c3p0-0.9.1.2.jar %CORE_DIR%\lib\c3p0-0.9.1.2.jar
@@ -86,7 +86,7 @@ GOTO core_build
 
 :core_build
 ECHO             ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=
-ECHO             ^= l2HELLKNIGHT COMPILATION ^=
+ECHO             ^= CORE COMPILATION ^=
 ECHO             ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=
 ECHO.
 IF %DEBUG% == 1 PAUSE>NUL&GOTO community_build
@@ -160,15 +160,15 @@ GOTO full_pack
 
 :full_pack
 IF %DEBUG% == 1 GOTO fp1
-IF EXIST %L2HellKnight_ZIP_NAME% DEL %L2HellKnight_ZIP_NAME%
+IF EXIST %L2J_HellKnight_ZIP_NAME% DEL %L2J_HellKnight_ZIP_NAME%
 
 IF NOT EXIST 7za.exe GOTO c1
-7za.exe a %L2HellKnight_ZIP_NAME% ..\builds\core\Core.zip ..\builds\community\L2HellKnight-community.zip ..\builds\datapack\DataPack.zip>NUL
+7za.exe a %L2J_HellKnight_ZIP_NAME% ..\builds\core\Core.zip ..\builds\community\L2HellKnight-community.zip ..\builds\datapack\DataPack.zip>NUL
 GOTO fp1
 
 :c1
 IF NOT EXIST bin\7za.exe GOTO end
-bin\7za.exe a %L2HellKnight_ZIP_NAME% ..\builds\core\Core.zip ..\builds\community\L2HellKnight-community.zip ..\builds\datapack\DataPack.zip>NUL
+bin\7za.exe a %L2J_HellKnight_ZIP_NAME% ..\builds\core\Core.zip ..\builds\community\L2HellKnight-community.zip ..\builds\datapack\DataPack.zip>NUL
 GOTO fp1
 
 
@@ -177,7 +177,7 @@ GOTO fp1
 ECHO.
 ECHO     ^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=^=
 ECHO     CREATED ZIP FILE: 
-ECHO        [^>^>   %L2J_BRICK_ZIP_NAME%   ^<^<] 
+ECHO        [^>^>   %L2J_HellKnight_ZIP_NAME%   ^<^<] 
 ECHO     IN: 
 ECHO        [ %CD% ]
 GOTO end
