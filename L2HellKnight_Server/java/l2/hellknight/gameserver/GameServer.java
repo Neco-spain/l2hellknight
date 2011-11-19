@@ -135,7 +135,7 @@ import l2.hellknight.gameserver.scripting.L2ScriptEngineManager;
 import l2.hellknight.gameserver.taskmanager.AutoAnnounceTaskManager;
 import l2.hellknight.gameserver.taskmanager.KnownListUpdateTaskManager;
 import l2.hellknight.gameserver.taskmanager.TaskManager;
-import l2.hellknight.gameserver.util.L2Brick;
+import l2.hellknight.gameserver.util.L2HellKnight;
 import l2.hellknight.status.Status;
 import l2.hellknight.util.DeadLockDetector;
 import l2.hellknight.util.IPv4Filter;
@@ -184,7 +184,7 @@ public class GameServer
 		
 		gameServer = this;
 		
-		L2Brick.info();
+		L2HellKnight.info();
 		
 		_log.finest("used mem:" + getUsedMemoryMB() + "MB");
 		
