@@ -932,7 +932,7 @@ echo under certain conditions; See the file gpl.txt for further
 echo details.
 echo.
 echo Thanks for using our software.
-echo visit http://www.l2hellknight.com for more info about
+echo visit http://www.l2hellknightcom for more info about
 echo the L2HellKnight DataPack Project.
 echo.
 pause
