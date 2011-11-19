@@ -1,8 +1,8 @@
 package transformations;
 
-import l2.brick.gameserver.datatables.SkillTable;
-import l2.brick.gameserver.instancemanager.TransformationManager;
-import l2.brick.gameserver.model.L2Transformation;
+import l2.hellknight.gameserver.datatables.SkillTable;
+import l2.hellknight.gameserver.instancemanager.TransformationManager;
+import l2.hellknight.gameserver.model.L2Transformation;
 
 /*
  * TODO: Skill levels. How do they work? Transformation is given at level 83, there are 6 levels of the skill. How are they assigned? Based on player level somehow? Based on servitor?

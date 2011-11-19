@@ -16,8 +16,8 @@ package vehicles.KeucereusNorthController;
 
 import vehicles.AirShipController;
 
-import l2.brick.gameserver.model.Location;
-import l2.brick.gameserver.model.VehiclePathPoint;
+import l2.hellknight.gameserver.model.Location;
+import l2.hellknight.gameserver.model.VehiclePathPoint;
 
 public class KeucereusNorthController extends AirShipController
 {
@@ -41,17 +41,17 @@ public class KeucereusNorthController extends AirShipController
 	{
 		{
 			new VehiclePathPoint(-183218, 239494, 1700, 280, 2000),
-			new VehiclePathPoint(-181974, 235358, 1700, 280, 2000),
+			new VehiclePathPoint(-181974, 235358, 1700, 280, 2000), 
 			new VehiclePathPoint(-186373, 234000, 2500, 0, 0)
 		},
 		{
-			new VehiclePathPoint(-183218, 239494, 1700, 280, 2000),
-			new VehiclePathPoint(-181974, 235358, 1700, 280, 2000),
+			new VehiclePathPoint(-183218, 239494, 1700, 280, 2000), 
+			new VehiclePathPoint(-181974, 235358, 1700, 280, 2000), 
 			new VehiclePathPoint(-206692, 220997, 3000, 0, 0)
 		},
 		{
 			new VehiclePathPoint(-183218, 239494, 1700, 280, 2000),
-			new VehiclePathPoint(-181974, 235358, 1700, 280, 2000),
+			new VehiclePathPoint(-181974, 235358, 1700, 280, 2000), 
 			new VehiclePathPoint(-235693, 248843, 5100, 0, 0)
 		}
 	};

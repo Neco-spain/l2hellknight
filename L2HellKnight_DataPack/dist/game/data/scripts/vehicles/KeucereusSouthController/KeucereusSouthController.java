@@ -16,8 +16,8 @@ package vehicles.KeucereusSouthController;
 
 import vehicles.AirShipController;
 
-import l2.brick.gameserver.model.Location;
-import l2.brick.gameserver.model.VehiclePathPoint;
+import l2.hellknight.gameserver.model.Location;
+import l2.hellknight.gameserver.model.VehiclePathPoint;
 
 public class KeucereusSouthController extends AirShipController
 {

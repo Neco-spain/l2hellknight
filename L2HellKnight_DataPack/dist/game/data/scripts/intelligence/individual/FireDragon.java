@@ -1309,7 +1309,7 @@ public class FireDragon extends L2AttackableAIScript
 					if (Util.checkIfInRange(10000, npc, obj, true))
 					{
 						((L2Character) obj).sendPacket(new PlaySound(1, "B03_A", 1, npc.getObjectId(), 212852, -114842, -1632));
-						((L2Character) obj).sendPacket(new SocialAction(npc, 3));
+						((L2Character) obj).sendPacket(new SocialAction(npc.getObjectId(), 3));
 					}
 				}
 			}

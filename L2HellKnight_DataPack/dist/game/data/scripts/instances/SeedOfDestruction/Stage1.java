@@ -891,7 +891,7 @@ public class Stage1 extends Quest
 			}
 			else if (event.equalsIgnoreCase("Part3"))
 			{
-				broadcastPacket((new SocialAction(world._priest,1)),world);
+				broadcastPacket((new SocialAction(world._priest.getObjectId(),1)),world);
 				broadcastPacket((new SpecialCamera(world._priest.getObjectId(),200,90,10,0,5000,0,0,1,0)),world);
 				startQuestTimer("Part4",100, npc, null);
 			}
@@ -909,7 +909,7 @@ public class Stage1 extends Quest
 			{
 				broadcastPacket((new SpecialCamera(world._MovePeltast.getObjectId(),150,15,10,3000,5000,0,0,1,0)),world);
 				MoveTo(world._priest,-250402,206519,-11905);
-				broadcastPacket((new SocialAction(world._MovePeltast,1)),world);
+				broadcastPacket((new SocialAction(world._MovePeltast.getObjectId(),1)),world);
 				startQuestTimer("Part7",100, world._MovePeltast, null);
 			}
 			else if (event.equalsIgnoreCase("Part7"))
@@ -963,7 +963,7 @@ public class Stage1 extends Quest
 			}
 			else if (event.equalsIgnoreCase("Part12"))
 			{
-				broadcastPacket((new SocialAction(world._tiada,1)),world);
+				broadcastPacket((new SocialAction(world._tiada.getObjectId(),1)),world);
 
 				Delete(world._priest);
 				Delete(world._ChangePortal);

@@ -1,7 +1,7 @@
 package transformations;
 
-import l2.brick.gameserver.instancemanager.TransformationManager;
-import l2.brick.gameserver.model.L2Transformation;
+import l2.hellknight.gameserver.instancemanager.TransformationManager;
+import l2.hellknight.gameserver.model.L2Transformation;
 
 public class Zariche extends L2Transformation
 {
