@@ -18,25 +18,25 @@ import java.util.concurrent.Future;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import l2.brick.gameserver.ThreadPoolManager;
-import l2.brick.gameserver.instancemanager.AirShipManager;
-import l2.brick.gameserver.instancemanager.ZoneManager;
-import l2.brick.gameserver.model.L2Clan;
-import l2.brick.gameserver.model.Location;
-import l2.brick.gameserver.model.VehiclePathPoint;
-import l2.brick.gameserver.model.actor.L2Character;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2AirShipInstance;
-import l2.brick.gameserver.model.actor.instance.L2ControllableAirShipInstance;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.zone.L2ZoneType;
-import l2.brick.gameserver.model.zone.type.L2ScriptZone;
-import l2.brick.gameserver.network.NpcStringId;
-import l2.brick.gameserver.network.SystemMessageId;
-import l2.brick.gameserver.network.clientpackets.Say2;
-import l2.brick.gameserver.network.serverpackets.NpcSay;
-import l2.brick.gameserver.network.serverpackets.SystemMessage;
+import l2.hellknight.gameserver.ThreadPoolManager;
+import l2.hellknight.gameserver.instancemanager.AirShipManager;
+import l2.hellknight.gameserver.instancemanager.ZoneManager;
+import l2.hellknight.gameserver.model.L2Clan;
+import l2.hellknight.gameserver.model.Location;
+import l2.hellknight.gameserver.model.VehiclePathPoint;
+import l2.hellknight.gameserver.model.actor.L2Character;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2AirShipInstance;
+import l2.hellknight.gameserver.model.actor.instance.L2ControllableAirShipInstance;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.zone.L2ZoneType;
+import l2.hellknight.gameserver.model.zone.type.L2ScriptZone;
+import l2.hellknight.gameserver.network.NpcStringId;
+import l2.hellknight.gameserver.network.SystemMessageId;
+import l2.hellknight.gameserver.network.clientpackets.Say2;
+import l2.hellknight.gameserver.network.serverpackets.NpcSay;
+import l2.hellknight.gameserver.network.serverpackets.SystemMessage;
 
 public abstract class AirShipController extends Quest
 {
@@ -402,4 +402,7 @@ public abstract class AirShipController extends Quest
 	{
 		super(questId, name, descr);
 	}
+	
+	public static void main(String[] args)
+	{}		
 }

@@ -297,10 +297,20 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6749" levels="1" name="Death Strike">
-		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Skill for DV/LoA -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="16000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="6000" />
+		<set name="hitTime" val="1500" />
+		<set name="coolTime" val="500" />
+		<set name="skillType" val="PDAM" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="400" />
+		<set name="mpConsume" val="77" />
 	</skill>
 	<skill id="6750" levels="1" name="Power Strike">
 		<!-- none -->
@@ -316,15 +326,32 @@
 	</skill>
 	<skill id="6752" levels="1" name="Revival">
 		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="mpConsume" val="158"/>
+		<set name="reuseDelay" val="900000" />
+		<set name="hitTime" val="2000" />
+		<set name="power" val="100" />
+		<cond addName="1" msgId="113">
+			<player hp="10" />
+		</cond>
 	</skill>
 	<skill id="6753" levels="1" name="Death Blow">
-		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Skill for DV/LoA -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="16000" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="6000" />
+		<set name="hitTime" val="1500" />
+		<set name="coolTime" val="500" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="400" />
+		<set name="mpConsume" val="77" />
 	</skill>
 	<skill id="6754" levels="1" name="Bleed">
 		<!-- Inflicted with bleed and 200 HP decreases every second. -->
@@ -333,16 +360,35 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6755" levels="1" name="Death Strike">
-		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Skill for DV/LoA -->
+		<set name="magicLvl" val="83" />
+		<set name="power" val="180" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="8000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="MDAM" />
+		<set name="is_magic" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="mpConsume" val="78" />
 	</skill>
 	<skill id="6756" levels="1" name="Death Talon">
-		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Skill for DV/LoA -->
+		<set name="magicLvl" val="83" />
+		<set name="power" val="200" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="8000" />
+		<set name="hitTime" val="3000" />
+		<set name="skillType" val="MDAM" />
+		<set name="is_magic" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="mpConsume" val="155" />
 	</skill>
 	<skill id="6757" levels="1" name="Slow">
 		<!-- Decreases an enemy's Speed by 30% for 15 seconds. -->

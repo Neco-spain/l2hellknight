@@ -1,12 +1,12 @@
 package quests.Q10287_StoryOfThoseLeft;
 
-import l2.brick.gameserver.instancemanager.InstanceManager;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.entity.Instance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
+import l2.hellknight.gameserver.instancemanager.InstanceManager;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.entity.Instance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
 
 public class Q10287_StoryOfThoseLeft extends Quest
 {

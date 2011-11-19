@@ -14,13 +14,13 @@
  */
 package quests.Q636_TruthBeyond;
 
-import l2.brick.gameserver.model.actor.L2Character;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.model.zone.L2ZoneType;
+import l2.hellknight.gameserver.model.actor.L2Character;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.model.zone.L2ZoneType;
 
 /**
  * 

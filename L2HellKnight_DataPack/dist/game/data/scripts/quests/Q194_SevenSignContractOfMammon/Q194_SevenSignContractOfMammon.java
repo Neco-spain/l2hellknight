@@ -1,11 +1,11 @@
 package quests.Q194_SevenSignContractOfMammon;
 
-import l2.brick.gameserver.datatables.SkillTable;
-import l2.brick.gameserver.model.L2Effect;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.datatables.SkillTable;
+import l2.hellknight.gameserver.model.L2Effect;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
 
 public class Q194_SevenSignContractOfMammon extends Quest
 {

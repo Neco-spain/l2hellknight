@@ -14,16 +14,16 @@
  */
 package quests.Q423_TakeYourBestShot;
 
-import l2.brick.gameserver.ai.CtrlIntention;
-import l2.brick.gameserver.instancemanager.QuestManager;
-import l2.brick.gameserver.model.actor.L2Attackable;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.util.Util;
-import l2.brick.util.Rnd;
+import l2.hellknight.gameserver.ai.CtrlIntention;
+import l2.hellknight.gameserver.instancemanager.QuestManager;
+import l2.hellknight.gameserver.model.actor.L2Attackable;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.util.Util;
+import l2.hellknight.util.Rnd;
 
 /**
  ** @author Gnacik

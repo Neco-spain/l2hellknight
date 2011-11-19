@@ -1,14 +1,14 @@
 package quests.Q197_SevenSignTheSacredBookOfSeal;
 
-import l2.brick.gameserver.ai.CtrlIntention;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2MonsterInstance;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.network.NpcStringId;
-import l2.brick.gameserver.network.serverpackets.NpcSay;
+import l2.hellknight.gameserver.ai.CtrlIntention;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2MonsterInstance;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.network.NpcStringId;
+import l2.hellknight.gameserver.network.serverpackets.NpcSay;
 
 public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 {

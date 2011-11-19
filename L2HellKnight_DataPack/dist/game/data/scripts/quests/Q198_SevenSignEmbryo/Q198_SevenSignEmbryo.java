@@ -1,22 +1,22 @@
 package quests.Q198_SevenSignEmbryo;
 
-import l2.brick.gameserver.ai.CtrlIntention;
-import l2.brick.gameserver.datatables.SkillTable;
-import l2.brick.gameserver.instancemanager.InstanceManager;
-import l2.brick.gameserver.instancemanager.InstanceManager.InstanceWorld;
-import l2.brick.gameserver.model.L2Effect;
-import l2.brick.gameserver.model.actor.L2Character;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2MonsterInstance;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.L2Skill;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.network.serverpackets.NpcSay;
-import l2.brick.gameserver.network.NpcStringId;
-import l2.brick.gameserver.network.SystemMessageId;
-import l2.brick.gameserver.network.serverpackets.SystemMessage;
+import l2.hellknight.gameserver.ai.CtrlIntention;
+import l2.hellknight.gameserver.datatables.SkillTable;
+import l2.hellknight.gameserver.instancemanager.InstanceManager;
+import l2.hellknight.gameserver.instancemanager.InstanceManager.InstanceWorld;
+import l2.hellknight.gameserver.model.L2Effect;
+import l2.hellknight.gameserver.model.actor.L2Character;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2MonsterInstance;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.L2Skill;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.network.serverpackets.NpcSay;
+import l2.hellknight.gameserver.network.NpcStringId;
+import l2.hellknight.gameserver.network.SystemMessageId;
+import l2.hellknight.gameserver.network.serverpackets.SystemMessage;
 
 public class Q198_SevenSignEmbryo extends Quest
 {

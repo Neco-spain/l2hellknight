@@ -1,16 +1,16 @@
 package quests.Q504_CompetitionfortheBanditStronghold;
 
-import l2.brick.gameserver.cache.HtmCache;
-import l2.brick.gameserver.instancemanager.CHSiegeManager;
-import l2.brick.gameserver.model.L2Clan;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.entity.clanhall.SiegableHall;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.network.serverpackets.NpcHtmlMessage;
-import l2.brick.gameserver.util.Util;
+import l2.hellknight.gameserver.cache.HtmCache;
+import l2.hellknight.gameserver.instancemanager.CHSiegeManager;
+import l2.hellknight.gameserver.model.L2Clan;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.entity.clanhall.SiegableHall;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.network.serverpackets.NpcHtmlMessage;
+import l2.hellknight.gameserver.util.Util;
 
 /**
  * @author BiggBoss

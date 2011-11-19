@@ -27,21 +27,21 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 
-import l2.brick.Config;
-import l2.brick.gameserver.model.L2ItemInstance;
-import l2.brick.gameserver.model.L2Object;
-import l2.brick.gameserver.model.L2Skill;
-import l2.brick.gameserver.model.actor.L2Attackable;
-import l2.brick.gameserver.model.actor.L2Attackable.AbsorberInfo;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.network.SystemMessageId;
-import l2.brick.gameserver.network.serverpackets.InventoryUpdate;
-import l2.brick.gameserver.network.serverpackets.SystemMessage;
-import l2.brick.util.Rnd;
+import l2.hellknight.Config;
+import l2.hellknight.gameserver.model.L2ItemInstance;
+import l2.hellknight.gameserver.model.L2Object;
+import l2.hellknight.gameserver.model.L2Skill;
+import l2.hellknight.gameserver.model.actor.L2Attackable;
+import l2.hellknight.gameserver.model.actor.L2Attackable.AbsorberInfo;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.network.SystemMessageId;
+import l2.hellknight.gameserver.network.serverpackets.InventoryUpdate;
+import l2.hellknight.gameserver.network.serverpackets.SystemMessage;
+import l2.hellknight.util.Rnd;
 
 public class Q350_EnhanceYourWeapon extends Quest
 {

@@ -14,7 +14,7 @@
  */
 package quests.TerritoryWarScripts;
 
-import l2.brick.gameserver.network.NpcStringId;
+import l2.hellknight.gameserver.network.NpcStringId;
 
 
 /**

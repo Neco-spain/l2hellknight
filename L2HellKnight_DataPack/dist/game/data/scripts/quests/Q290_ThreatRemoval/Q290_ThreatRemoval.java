@@ -1,13 +1,13 @@
 package quests.Q290_ThreatRemoval;
 
-import l2.brick.Config;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.util.Util;
-import l2.brick.util.Rnd;
+import l2.hellknight.Config;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.util.Util;
+import l2.hellknight.util.Rnd;
 
 public class Q290_ThreatRemoval extends Quest
 {

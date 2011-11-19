@@ -17,24 +17,24 @@ package quests.TerritoryWarScripts;
 import java.util.Calendar;
 import java.util.StringTokenizer;
 
-import l2.brick.gameserver.SevenSigns;
-import l2.brick.gameserver.instancemanager.TerritoryWarManager;
-import l2.brick.gameserver.instancemanager.TerritoryWarManager.TerritoryNPCSpawn;
-import l2.brick.gameserver.model.L2Object;
-import l2.brick.gameserver.model.L2Skill;
-import l2.brick.gameserver.model.L2World;
-import l2.brick.gameserver.model.TerritoryWard;
-import l2.brick.gameserver.model.actor.L2Character;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.network.NpcStringId;
-import l2.brick.gameserver.network.serverpackets.ExShowScreenMessage;
-import l2.brick.gameserver.util.Util;
-import l2.brick.util.L2FastMap;
-import l2.brick.util.Rnd;
+import l2.hellknight.gameserver.SevenSigns;
+import l2.hellknight.gameserver.instancemanager.TerritoryWarManager;
+import l2.hellknight.gameserver.instancemanager.TerritoryWarManager.TerritoryNPCSpawn;
+import l2.hellknight.gameserver.model.L2Object;
+import l2.hellknight.gameserver.model.L2Skill;
+import l2.hellknight.gameserver.model.L2World;
+import l2.hellknight.gameserver.model.TerritoryWard;
+import l2.hellknight.gameserver.model.actor.L2Character;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.network.NpcStringId;
+import l2.hellknight.gameserver.network.serverpackets.ExShowScreenMessage;
+import l2.hellknight.gameserver.util.Util;
+import l2.hellknight.util.L2FastMap;
+import l2.hellknight.util.Rnd;
 
 public class TerritoryWarSuperClass extends Quest
 {

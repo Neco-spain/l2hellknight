@@ -16,16 +16,16 @@ package conquerablehalls.FortressOfResistance;
 
 import gnu.trove.map.hash.TIntLongHashMap;
 
-import l2.hellknight.gameserver.cache.HtmCache;
-import l2.hellknight.gameserver.datatables.ClanTable;
-import l2.hellknight.gameserver.datatables.NpcTable;
-import l2.hellknight.gameserver.model.L2Clan;
-import l2.hellknight.gameserver.model.L2Spawn;
-import l2.hellknight.gameserver.model.actor.L2Npc;
-import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
-import l2.hellknight.gameserver.model.entity.clanhall.ClanHallSiegeEngine;
-import l2.hellknight.gameserver.network.serverpackets.NpcHtmlMessage;
-import l2.hellknight.gameserver.util.Util;
+import l2.brick.gameserver.cache.HtmCache;
+import l2.brick.gameserver.datatables.ClanTable;
+import l2.brick.gameserver.datatables.NpcTable;
+import l2.brick.gameserver.model.L2Clan;
+import l2.brick.gameserver.model.L2Spawn;
+import l2.brick.gameserver.model.actor.L2Npc;
+import l2.brick.gameserver.model.actor.instance.L2PcInstance;
+import l2.brick.gameserver.model.entity.clanhall.ClanHallSiegeEngine;
+import l2.brick.gameserver.network.serverpackets.NpcHtmlMessage;
+import l2.brick.gameserver.util.Util;
 
 /**
  * @author BiggBoss

@@ -14,26 +14,26 @@
  */
 package quests.SagasScripts;
 
-import l2.brick.Config;
-import l2.brick.gameserver.ai.CtrlIntention;
-import l2.brick.gameserver.instancemanager.QuestManager;
-import l2.brick.gameserver.model.L2Object;
-import l2.brick.gameserver.model.L2Party;
-import l2.brick.gameserver.model.L2Skill;
-import l2.brick.gameserver.model.L2World;
-import l2.brick.gameserver.model.actor.L2Attackable;
-import l2.brick.gameserver.model.actor.L2Character;
-import l2.brick.gameserver.model.actor.L2Npc;
-import l2.brick.gameserver.model.actor.instance.L2PcInstance;
-import l2.brick.gameserver.model.quest.Quest;
-import l2.brick.gameserver.model.quest.QuestState;
-import l2.brick.gameserver.model.quest.State;
-import l2.brick.gameserver.model.quest.jython.QuestJython;
-import l2.brick.gameserver.network.serverpackets.MagicSkillUse;
-import l2.brick.gameserver.network.serverpackets.NpcSay;
-import l2.brick.util.L2FastList;
-import l2.brick.util.L2FastMap;
-import l2.brick.util.Rnd;
+import l2.hellknight.Config;
+import l2.hellknight.gameserver.ai.CtrlIntention;
+import l2.hellknight.gameserver.instancemanager.QuestManager;
+import l2.hellknight.gameserver.model.L2Object;
+import l2.hellknight.gameserver.model.L2Party;
+import l2.hellknight.gameserver.model.L2Skill;
+import l2.hellknight.gameserver.model.L2World;
+import l2.hellknight.gameserver.model.actor.L2Attackable;
+import l2.hellknight.gameserver.model.actor.L2Character;
+import l2.hellknight.gameserver.model.actor.L2Npc;
+import l2.hellknight.gameserver.model.actor.instance.L2PcInstance;
+import l2.hellknight.gameserver.model.quest.Quest;
+import l2.hellknight.gameserver.model.quest.QuestState;
+import l2.hellknight.gameserver.model.quest.State;
+import l2.hellknight.gameserver.model.quest.jython.QuestJython;
+import l2.hellknight.gameserver.network.serverpackets.MagicSkillUse;
+import l2.hellknight.gameserver.network.serverpackets.NpcSay;
+import l2.hellknight.util.L2FastList;
+import l2.hellknight.util.L2FastMap;
+import l2.hellknight.util.Rnd;
 
 public class SagasSuperClass extends QuestJython
 {

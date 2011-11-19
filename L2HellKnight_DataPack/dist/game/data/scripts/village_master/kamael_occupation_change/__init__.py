@@ -4,9 +4,9 @@
 # Let us know if you did not receive a copy of such files.
 import sys
 
-from l2.brick.gameserver.model.quest        import State
-from l2.brick.gameserver.model.quest        import QuestState
-from l2.brick.gameserver.model.quest.jython import QuestJython as JQuest
+from l2.hellknight.gameserver.model.quest        import State
+from l2.hellknight.gameserver.model.quest        import QuestState
+from l2.hellknight.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "kamael_occupation_change"
 

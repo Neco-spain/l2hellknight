@@ -17,19 +17,17 @@ package vehicles;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import l2.brick.gameserver.ThreadPoolManager;
-import l2.brick.gameserver.instancemanager.BoatManager;
-import l2.brick.gameserver.model.VehiclePathPoint;
-import l2.brick.gameserver.model.actor.instance.L2BoatInstance;
-import l2.brick.gameserver.network.SystemMessageId;
-import l2.brick.gameserver.network.clientpackets.Say2;
-import l2.brick.gameserver.network.serverpackets.CreatureSay;
-import l2.brick.gameserver.network.serverpackets.PlaySound;
+import l2.hellknight.gameserver.ThreadPoolManager;
+import l2.hellknight.gameserver.instancemanager.BoatManager;
+import l2.hellknight.gameserver.model.VehiclePathPoint;
+import l2.hellknight.gameserver.model.actor.instance.L2BoatInstance;
+import l2.hellknight.gameserver.network.SystemMessageId;
+import l2.hellknight.gameserver.network.clientpackets.Say2;
+import l2.hellknight.gameserver.network.serverpackets.CreatureSay;
+import l2.hellknight.gameserver.network.serverpackets.PlaySound;
 
 /**
- * 
  * @author DS
- *
  */
 public class BoatRunePrimeval implements Runnable
 {
@@ -103,6 +101,7 @@ public class BoatRunePrimeval implements Runnable
 		PRIMEVAL_SOUND = new PlaySound(0, "itemsound.ship_arrival_departure", 1, _boat.getObjectId(), PRIMEVAL_DOCK.x, PRIMEVAL_DOCK.y, PRIMEVAL_DOCK.z);
 	}
 	
+	@Override
 	public void run()
 	{
 		try
@@ -112,7 +111,7 @@ public class BoatRunePrimeval implements Runnable
 				case 0:
 					BoatManager.getInstance().dockShip(BoatManager.RUNE_HARBOR, false);
 					BoatManager.getInstance().broadcastPackets(RUNE_DOCK[0], PRIMEVAL_DOCK, LEAVING_RUNE, RUNE_SOUND);
-					_boat.payForRide(8925, 1,  34513, -38009, -3640);
+					_boat.payForRide(8925, 1, 34513, -38009, -3640);
 					_boat.executePath(RUNE_TO_PRIMEVAL);
 					break;
 				case 1:

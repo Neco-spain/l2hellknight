@@ -25,7 +25,6 @@ import l2.hellknight.gameserver.model.actor.instance.L2DoorInstance;
 import l2.hellknight.gameserver.model.entity.Instance;
 import l2.hellknight.gameserver.network.SystemMessageId;
 import l2.hellknight.gameserver.network.serverpackets.ActionFailed;
-import l2.hellknight.gameserver.network.serverpackets.SocialAction;
 import l2.hellknight.gameserver.network.serverpackets.SystemMessage;
 import l2.hellknight.gameserver.templates.skills.L2SkillType;
 import l2.hellknight.util.Rnd;
@@ -42,6 +41,7 @@ public class Unlock implements ISkillHandler
 	 * 
 	 * @see l2.hellknight.gameserver.handler.ISkillHandler#useSkill(l2.hellknight.gameserver.model.actor.L2Character, l2.hellknight.gameserver.model.L2Skill, l2.hellknight.gameserver.model.L2Object[])
 	 */
+	@Override
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
 		L2Object[] targetList = skill.getTargetList(activeChar);
@@ -114,14 +114,14 @@ public class Unlock implements ISkillHandler
 					chest.setInteracted();
 					if (chestUnlock(skill, chest))
 					{
-						activeChar.broadcastPacket(new SocialAction(activeChar, 3));
+						activeChar.broadcastSocialAction(3);
 						chest.setSpecialDrop();
 						chest.setMustRewardExpSp(false);
 						chest.reduceCurrentHp(99999999, activeChar, skill);
 					}
 					else
 					{
-						activeChar.broadcastPacket(new SocialAction(activeChar, 13));
+						activeChar.broadcastSocialAction(13);
 						chest.addDamageHate(activeChar, 0, 1);
 						chest.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, activeChar);
 						if (chestTrap(chest))
@@ -205,6 +205,7 @@ public class Unlock implements ISkillHandler
 	 * 
 	 * @see l2.hellknight.gameserver.handler.ISkillHandler#getSkillIds()
 	 */
+	@Override
 	public L2SkillType[] getSkillIds()
 	{
 		return SKILL_IDS;

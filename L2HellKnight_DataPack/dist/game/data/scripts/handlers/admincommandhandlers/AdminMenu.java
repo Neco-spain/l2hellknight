@@ -242,6 +242,8 @@ public class AdminMenu implements IAdminCommandHandler
 			}
 			else if (Config.L2JMOD_CHAMPION_ENABLE && target.isChampion())
 				target.reduceCurrentHp(target.getMaxHp() * Config.L2JMOD_CHAMPION_HP + 1, activeChar, null);
+			else if (Config.L2JMOD_GRANDCHAMPION_ENABLE && target.isGrandChampion())
+				target.reduceCurrentHp(target.getMaxHp() * Config.L2JMOD_GRANDCHAMPION_HP + 1, activeChar, null);				
 			else
 				target.reduceCurrentHp(target.getMaxHp() + 1, activeChar, null);
 		}
