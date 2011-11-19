@@ -209,10 +209,13 @@
 	</skillTree>
 	<!-- Bounty Hunter -->
 	<skillTree type="classSkillTree" classId="55">
+		<skill skillName="Blazing Boost" skillIdLvl="998,1" getLevel="40" levelUpSp="23000" learnedByNpc="true" />
+		<skill skillName="Potential Ability" skillIdLvl="1559,2" getLevel="40" levelUpSp="23000" learnedByNpc="true" />		
 		<skill skillName="Crushing Strike" skillIdLvl="997,1" getLevel="40" levelUpSp="23000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,2" getLevel="43" levelUpSp="30000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,3" getLevel="46" levelUpSp="43000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,4" getLevel="49" levelUpSp="65000" learnedByNpc="true" />
+		<skill skillName="Potential Ability" skillIdLvl="1559,3" getLevel="49" levelUpSp="65000" learnedByNpc="true" />			
 		<skill skillName="Crushing Strike" skillIdLvl="997,5" getLevel="52" levelUpSp="110000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,6" getLevel="55" levelUpSp="160000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,7" getLevel="58" levelUpSp="150000" learnedByNpc="true" />
@@ -224,8 +227,6 @@
 		<skill skillName="Crushing Strike" skillIdLvl="997,13" getLevel="70" levelUpSp="580000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,14" getLevel="72" levelUpSp="860000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,15" getLevel="74" levelUpSp="1400000" learnedByNpc="true" />
-		<skill skillName="Blazing Boost" skillIdLvl="998,1" getLevel="40" levelUpSp="23000" learnedByNpc="true" />
-		<skill skillName="Potential Ability" skillIdLvl="1559,2" getLevel="40" levelUpSp="23000" learnedByNpc="true" />
 	</skillTree>
 	<!-- Warsmith -->
 	<skillTree type="classSkillTree" classId="57">
@@ -450,7 +451,7 @@
 	</skillTree>
 	<!-- Fortune Seeker -->
 	<skillTree type="classSkillTree" classId="117">
-		<skill skillName="Crushing Strike" skillIdLvl="997,16" getLevel="76" levelUpSp="62500000" learnedByNpc="true" />
+		<skill skillName="Crushing Strike" skillIdLvl="997,16" getLevel="76" levelUpSp="6250000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,17" getLevel="77" levelUpSp="11000000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,18" getLevel="78" levelUpSp="12800000" learnedByNpc="true" />
 		<skill skillName="Crushing Strike" skillIdLvl="997,19" getLevel="79" levelUpSp="13800000" learnedByNpc="true" />

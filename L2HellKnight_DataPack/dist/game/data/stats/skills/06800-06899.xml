@@ -517,16 +517,35 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6866" levels="1" name="Vampiric Claw">
-		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Skill for DV/LoA -->
+		<set name="magicLvl" val="84" />
+		<set name="power" val="160" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="3000" />
+		<set name="skillType" val="DRAIN" />
+		<set name="is_magic" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="1300" />
+		<set name="absorbPart" val="0.2" /><!-- absorbs 20% of damage -->
 	</skill>
 	<skill id="6867" levels="1" name="Magic Strike">
-		<!-- none -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Skill for DV/LoA -->
+		<set name="magicLvl" val="83" />
+		<set name="power" val="170" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="3000" />
+		<set name="skillType" val="MDAM" />
+		<set name="is_magic" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
 	</skill>
 	<skill id="6868" levels="1" name="Summon">
 		<!-- none -->
