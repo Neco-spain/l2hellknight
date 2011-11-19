@@ -879,7 +879,7 @@ echo This wasn't a clean run, but don't worry.
 echo You can get help and support:
 echo.
 echo Search for a similar problem in our forums
-echo       (http://L2HellKnight.funsite.cz/)
+echo       (http://www.l2hellknight.com)
 echo.
 echo You can ask for support in our forums or irc channel:
 echo irc://irc.freenode.net channel: #L2HellKnight
@@ -932,7 +932,7 @@ echo under certain conditions; See the file gpl.txt for further
 echo details.
 echo.
 echo Thanks for using our software.
-echo visit http://www.l2hellknightcom for more info about
+echo visit http://www.l2hellknight.com for more info about
 echo the L2HellKnight DataPack Project.
 echo.
 pause
