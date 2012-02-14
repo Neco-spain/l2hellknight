@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="17800" name="Женский Парик Орка - B" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17801" name="Женский Парик Орка - C" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17802" name="Женский Парик Орка - D" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17803" name="Мужской Парик Орка-Шамана - A" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17804" name="Мужской Парик Орка-Шамана - B" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17805" name="Мужской Парик Орка-Шамана - C" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17806" name="Мужской Парик Орка-Шамана - D" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17807" name="Женский Парик Орка-Шамана - A" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17808" name="Женский Парик Орка-Шамана - B" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17809" name="Женский Парик Орка-Шамана - C" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17810" name="Женский Парик Орка-Шамана - D" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17811" name="Мужской Парик Камаэля - A" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17812" name="Мужской Парик Камаэля - B" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17813" name="Мужской Парик Камаэля - C" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17814" name="Мужской Парик Камаэля - D" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17815" name="Женский Парик Камаэля - A" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17816" name="Женский Парик Камаэля - B" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17817" name="Женский Парик Камаэля - C" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17818" name="Женский Парик Камаэля - D" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+	<armor id="17845" name="Скованный Шлем Бессмертия" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="608"/>
+		<set name="p_def" val="114"/>
+	</armor>
+	<armor id="17846" name="Скованная Кираса Бессмертия" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t501_u_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3242"/>
+		<set name="p_def" val="304"/>
+	</armor>
+	<armor id="17847" name="Скованные Набедренники Бессмертия" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t501_l_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3040"/>
+		<set name="p_def" val="190"/>
+	</armor>
+	<armor id="17848" name="Скованные Рукавицы Бессмертия" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t501_g_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="405"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="17849" name="Скованные Сапоги Бессмертия" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t501_b_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1621"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="17851" name="Скованный Кожаный Шлем Бессмертия" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="608"/>
+		<set name="p_def" val="114"/>
+	</armor>
+	<armor id="17852" name="Скованная Кожаная Кираса Бессмертия" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2432"/>
+		<set name="p_def" val="228"/>
+	</armor>
+	<armor id="17853" name="Скованные Кожаные Брюки Бессмертия" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2288"/>
+		<set name="p_def" val="143"/>
+	</armor>
+	<armor id="17854" name="Скованные Кожаные Перчатки Бессмертия" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t502_g_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="405"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="17855" name="Скованные Кожаные Сапоги Бессмертия" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t502_b_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1621"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="17856" name="Скованная Диадема Бессмертия" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="608"/>
+		<set name="p_def" val="114"/>
+	</armor>
+	<armor id="17857" name="Скованная Туника Бессмертия" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t503_u_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1621"/>
+		<set name="p_def" val="152"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="17858" name="Скованные Штаны Бессмертия" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t503_l_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1520"/>
+		<set name="p_def" val="95"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="17859" name="Скованные Перчатки Бессмертия" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t503_g_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="405"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="17860" name="Скованные Ботинки Бессмертия" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t503_b_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1621"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="17861" name="Скованный Символ Бессмертия" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LHAND"/>
+		<set name="icon" val="icon.weapon_karyen_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="920"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="912"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="17862" name="Скованное Ожерелье Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.r1_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="656"/>
+		<set name="m_def" val="123"/>
+		<set name="mp_bonus" val="53"/>
+	</armor>
+	<armor id="17863" name="Скованная Серьга Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.r1_earring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="490"/>
+		<set name="m_def" val="92"/>
+		<set name="mp_bonus" val="40"/>
+	</armor>
+	<armor id="17864" name="Скованное Кольцо Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.r1_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="330"/>
+		<set name="m_def" val="62"/>
+		<set name="mp_bonus" val="26"/>
+	</armor>
+	<armor id="17879" name="Скованный Шлем Ада" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="17880" name="Скованная Кираса Ада" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3573"/>
+		<set name="p_def" val="335"/>
+	</armor>
+	<armor id="17881" name="Скованные Набедренники Ада" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t601_l_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3344"/>
+		<set name="p_def" val="209"/>
+	</armor>
+	<armor id="17882" name="Скованные Рукавицы Ада" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t601_g_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="17883" name="Скованные Сапоги Ада" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t601_b_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="17885" name="Скованный Кожаный Шлем Ада" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="17886" name="Скованная Кожаная Кираса Ада" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2677"/>
+		<set name="p_def" val="251"/>
+	</armor>
+	<armor id="17887" name="Скованные Кожаные Брюки Ада" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2512"/>
+		<set name="p_def" val="157"/>
+	</armor>
+	<armor id="17888" name="Скованные Кожаные Перчатки Ада" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="17889" name="Скованные Кожаные Сапоги Ада" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="17890" name="Скованная Диадема Ада" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="17891" name="Скованная Туника Ада" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="168"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="17892" name="Скованные Штаны Ада" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1680"/>
+		<set name="p_def" val="105"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="17893" name="Скованные Перчатки Ада" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="17894" name="Скованные Ботинки Ада" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="17895" name="Скованный Символ Ада" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LHAND"/>
+		<set name="icon" val="icon.weapon_dynaksus_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="920"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1008"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="17896" name="Скованное Ожерелье Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.r2_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="741"/>
+		<set name="m_def" val="139"/>
+		<set name="mp_bonus" val="58"/>
+	</armor>
+	<armor id="17897" name="Скованная Серьга Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.r2_earring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="560"/>
+		<set name="m_def" val="105"/>
+		<set name="mp_bonus" val="43"/>
+	</armor>
+	<armor id="17898" name="Скованное Кольцо Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.r2_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="373"/>
+		<set name="m_def" val="70"/>
+		<set name="mp_bonus" val="29"/>
+	</armor>
+</list>

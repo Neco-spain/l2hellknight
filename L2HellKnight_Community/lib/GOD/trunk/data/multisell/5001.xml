@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- 5001_armor Luxery Shop -->
+
+<list>
+  <!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+  <!-- ignoreprice не работает с keepencahnted -->
+  <config showall="true" notax="true" keepenchanted="false" />
+  <!-- Ранг Б -->
+  <!-- Avadon Breastplate -->
+  <item>
+    <ingredient id="57" count="1596000"/>
+    <production id="2376" count="1"/>
+  </item>
+
+  <!-- Avadon Gaiters -->
+  <item>
+    <ingredient id="57" count="997700"/>
+    <production id="2379" count="1"/>
+  </item>
+
+  <!-- Avadon Shield -->
+  <item>
+    <ingredient id="57" count="419000"/>
+    <production id="673" count="1"/>
+  </item>
+
+  <!-- Avadon Leather Armor -->
+  <item>
+    <ingredient id="57" count="1946000"/>
+    <production id="2390" count="1"/>
+  </item>
+
+  <!-- Avadon Robe -->
+  <item>
+    <ingredient id="57" count="1946000"/>
+    <production id="2406" count="1"/>
+  </item>
+
+  <!-- Avadon Boots -->
+  <item>
+    <ingredient id="57" count="399100"/>
+    <production id="600" count="1"/>
+  </item>
+
+  <!-- Avadon Gloves -->
+  <item>
+    <ingredient id="57" count="399100"/>
+    <production id="2464" count="1"/>
+  </item>
+
+  <!-- Avadon Circlet -->
+  <item>
+    <ingredient id="57" count="598600"/>
+    <production id="2415" count="1"/>
+  </item>
+
+  <!-- Zubei Breastplate -->
+  <item>
+    <ingredient id="57" count="1596000"/>
+    <production id="357" count="1"/>
+  </item>
+
+  <!-- Zubei Gaiters -->
+  <item>
+    <ingredient id="57" count="997700"/>
+    <production id="383" count="1"/>
+  </item>
+
+  <!-- Zubei Shield -->
+  <item>
+    <ingredient id="57" count="419000"/>
+    <production id="633" count="1"/>
+  </item>
+
+  <!-- Zubei's Leather Shirt -->
+  <item>
+    <ingredient id="57" count="1197000"/>
+    <production id="2384" count="1"/>
+  </item>
+
+  <!-- Zubei's Leather Gaiters -->
+  <item>
+    <ingredient id="57" count="748300"/>
+    <production id="2388" count="1"/>
+  </item>
+
+  <!-- Tunic of Zubei -->
+  <item>
+    <ingredient id="57" count="1197000"/>
+    <production id="2397" count="1"/>
+  </item>
+
+  <!-- Stockings of Zubei -->
+  <item>
+    <ingredient id="57" count="748300"/>
+    <production id="2402" count="1"/>
+  </item>
+
+  <!-- Zubei Boots -->
+  <item>
+    <ingredient id="57" count="399100"/>
+    <production id="554" count="1"/>
+  </item>
+
+  <!-- Zubei Gloves -->
+  <item>
+    <ingredient id="57" count="399100"/>
+    <production id="612" count="1"/>
+  </item>
+
+  <!-- Zubei Helmet -->
+  <item>
+    <ingredient id="57" count="598600"/>
+    <production id="503" count="1"/>
+  </item>
+  <!-- Ранг А -->
+  <!-- Dark Crystal Breastplate -->
+  <item>
+    <ingredient id="57" count="3562000"/>
+    <production id="11418" count="1"/>
+  </item>
+    <!-- Dark Crystal Gaiters -->
+    <item>
+    <ingredient id="57" count="2226000"/>
+    <production id="11407" count="1"/>
+  </item>
+      <!-- Dark Crystal Leather Armor -->
+    <item>
+    <ingredient id="57" count="2671000"/>
+    <production id="11411" count="1"/>
+  </item>
+      <!-- Dark Crystal Leggings -->
+    <item>
+    <ingredient id="57" count="1670000"/>
+    <production id="11419" count="1"/>
+  </item>
+      <!-- Dark Crystal Robe -->
+    <item>
+    <ingredient id="57" count="4341000"/>
+    <production id="11412" count="1"/>
+  </item>
+      <!-- Dark Crystal Helmet -->
+    <item>
+    <ingredient id="57" count="1336000"/>
+    <production id="11417" count="1"/>
+  </item>
+      <!-- Sealed Dark Crystal Gloves -->
+    <item>
+    <ingredient id="57" count="890000"/>
+    <production id="5290" count="1"/>
+  </item>
+      <!-- Sealed Dark Crystal Boots -->
+    <item>
+    <ingredient id="57" count="890000"/>
+    <production id="5291" count="1"/>
+  </item>
+      <!-- Dark Crystal Shield -->
+    <item>
+    <ingredient id="57" count="935000"/>
+    <production id="11416" count="1"/>
+  </item>
+      <!-- Tallum Plate Armor -->
+    <item>
+    <ingredient id="57" count="5788000"/>
+    <production id="11445" count="1"/>
+  </item>
+      <!-- Tallum Leather Armor -->
+    <item>
+    <ingredient id="57" count="4341000"/>
+    <production id="11440" count="1"/>
+  </item>
+      <!-- Tallum Tunic -->
+    <item>
+    <ingredient id="57" count="2671000"/>
+    <production id="11444" count="1"/>
+  </item>
+      <!-- Tallum Stockings -->
+    <item>
+    <ingredient id="57" count="1670000"/>
+    <production id="11447" count="1"/>
+  </item>
+      <!-- Tallum Helmet -->
+    <item>
+    <ingredient id="57" count="1336000"/>
+    <production id="11446" count="1"/>
+  </item>
+      <!-- Sealed Tallum Gloves -->
+    <item>
+    <ingredient id="57" count="890000"/>
+    <production id="5295" count="1"/>
+  </item>
+      <!-- Sealed Tallum Boots -->
+    <item>
+    <ingredient id="57" count="890000"/>
+    <production id="5296" count="1"/>
+  </item>
+  <!-- Ранг А - Неопознанный Предмет -->
+       <!-- Неопознанный Шлем Кошмаров -->
+    <item>
+    <ingredient id="57" count="294640"/>
+    <production id="31834" count="1"/>
+  </item>
+      <!-- Неопознанный Щит Кошмаров -->
+    <item>
+    <ingredient id="57" count="206190"/>
+    <production id="31835" count="1"/>
+  </item>
+      <!-- Неопознанные Сапоги Кошмаров -->
+    <item>
+    <ingredient id="57" count="196475"/>
+    <production id="31836" count="1"/>
+  </item>
+      <!-- Неопознанная Мантия Кошмаров -->
+    <item>
+    <ingredient id="57" count="957435"/>
+    <production id="31837" count="1"/>
+  </item>
+      <!-- Неопознанный Кожаный Доспех Кошмаров -->
+    <item>
+    <ingredient id="57" count="957435"/>
+    <production id="31838" count="1"/>
+  </item>
+      <!-- Неопознанный Доспех Кошмаров -->
+    <item>
+    <ingredient id="57" count="1276580"/>
+    <production id="31841" count="1"/>
+  </item>
+      <!-- Неопознанные Рукавицы Кошмаров -->
+    <item>
+    <ingredient id="57" count="196475"/>
+    <production id="31840" count="1"/>
+  </item>
+      <!-- Неопознанный Латный Доспех Величия -->
+    <item>
+    <ingredient id="57" count="1276580"/>
+    <production id="32063" count="1"/>
+  </item>
+      <!-- Неопознанная Диадема Величия -->
+    <item>
+    <ingredient id="57" count="294640"/>
+    <production id="32065" count="1"/>
+  </item>
+      <!-- Неопознанные Сапоги Величия -->
+    <item>
+    <ingredient id="57" count="196475"/>
+    <production id="32066" count="1"/>
+  </item>
+      <!-- Неопознанная Мантия Величия -->
+    <item>
+    <ingredient id="57" count="957435"/>
+    <production id="32068" count="1"/>
+  </item>
+      <!-- Неопознанный Кожаный Доспех Величия -->
+    <item>
+    <ingredient id="57" count="957435"/>
+    <production id="32069" count="1"/>
+  </item>
+      <!-- Неопознанные Рукавицы Величия -->
+    <item>
+    <ingredient id="57" count="196475"/>
+    <production id="32071" count="1"/>
+  </item> 
+  <!-- Ранг S - Неопознанный Предмет -->
+       <!-- Неопознанная Кираса ИК -->
+    <item>
+    <ingredient id="57" count="1853245"/>
+    <production id="31766" count="1"/>
+  </item>
+      <!-- Неопознанный Шлем ИК -->
+    <item>
+    <ingredient id="57" count="694985"/>
+    <production id="31767" count="1"/>
+  </item>
+      <!-- Неопознанный Щит ИК -->
+    <item>
+    <ingredient id="57" count="486475"/>
+    <production id="31768" count="1"/>
+  </item>
+      <!-- Неопознанные Сапоги ИК -->
+    <item>
+    <ingredient id="57" count="463275"/>
+    <production id="31769" count="1"/>
+  </item>
+      <!-- Неопознанные Рукавицы ИК -->
+    <item>
+    <ingredient id="57" count="463275"/>
+    <production id="31770" count="1"/>
+  </item>
+      <!-- Неопознанные Набедренники ИК -->
+    <item>
+    <ingredient id="57" count="1158260"/>
+    <production id="31771" count="1"/>
+  </item>
+      <!-- Неопознанный Символ Тайн - ненашол id -->
+ <!-- <item>
+    <ingredient id="57" count="486475"/>
+    <production id="0" count="1"/>
+  </item> 
+  -->
+      <!-- Неопознанная Диадема Тайн -->
+    <item>
+    <ingredient id="57" count="694985"/>
+    <production id="32053" count="1"/>
+  </item>
+      <!-- Неопознанные Сапоги Тайн -->
+    <item>
+    <ingredient id="57" count="463275"/>
+    <production id="32054" count="1"/>
+  </item>
+      <!-- Неопознанная Мантия Тайн -->
+    <item>
+    <ingredient id="57" count="2258665"/>
+    <production id="32055" count="1"/>
+  </item>
+      <!-- Неопознанные Перчатки Тайн -->
+    <item>
+    <ingredient id="57" count="463275"/>
+    <production id="32056" count="1"/>
+  </item>
+      <!-- Неопознанный Шлем из Драконьей Кожи -->
+    <item>
+    <ingredient id="57" count="694985"/>
+    <production id="32116" count="1"/>
+  </item>
+      <!-- Неопознанный Доспех из Драконьей Кожи -->
+    <item>
+    <ingredient id="57" count="2258665"/>
+    <production id="32117" count="1"/>
+  </item>    
+      <!-- Неопознанные Сапоги из Драконьей Кожи -->
+    <item>
+    <ingredient id="57" count="463275"/>
+    <production id="32118" count="1"/>
+  </item>    
+      <!-- Неопознанные Перчатки из Драконьей Кожи -->
+    <item>
+    <ingredient id="57" count="463275"/>
+    <production id="32119" count="1"/>
+  </item>    
+  <!-- Бижутерия -->
+  <!-- Ранг B Обычный Предмет -->
+    <!-- Адамантитовое Кольцо -->
+    <item>
+    <ingredient id="57" count="310600"/>
+    <production id="887" count="1"/>
+  </item>  
+    <!-- Адамантитовая Серьга -->
+    <item>
+    <ingredient id="57" count="465900"/>
+    <production id="856" count="1"/>
+  </item>  
+    <!-- Адамантитовое Ожерелье -->
+    <item>
+    <ingredient id="57" count="621200"/>
+    <production id="918" count="1"/>
+  </item>  
+    <!-- Черное Кольцо -->
+    <item>
+    <ingredient id="57" count="474000"/>
+    <production id="14346" count="1"/>
+  </item>  
+    <!-- Черная Серьга -->
+    <item>
+    <ingredient id="57" count="711000"/>
+    <production id="14345" count="1"/>
+  </item>  
+    <!-- Черное Ожерелье -->
+    <item>
+    <ingredient id="57" count="948000"/>
+    <production id="14347" count="1"/>
+  </item>
+  <!-- Ранг А Обычный Предмет --> 
+    <!-- Запечатанное Ожерелье Феникса -->
+    <item>
+    <ingredient id="57" count="1340000"/>
+    <production id="6323" count="1"/>
+  </item>  
+    <!-- Запечатанная Серьга Феникса -->
+    <item>
+    <ingredient id="57" count="1005000"/>
+    <production id="6324" count="1"/>
+  </item>  
+    <!-- Запечатанное Кольцо Феникса -->
+    <item>
+    <ingredient id="57" count="670000"/>
+    <production id="6325" count="1"/>
+  </item>  
+    <!-- Запечатанное Ожерелье Величия -->
+    <item>
+    <ingredient id="57" count="1998000"/>
+    <production id="6326" count="1"/>
+  </item>  
+    <!-- Запечатанная Серьга Величия -->
+    <item>
+    <ingredient id="57" count="1498000"/>
+    <production id="6327" count="1"/>
+  </item>  
+    <!-- Запечатанное Кольцо Величия -->
+    <item>
+    <ingredient id="57" count="999000"/>
+    <production id="6328" count="1"/>
+  </item>  
+  	<!-- Ранг А Неопознанный Предмет -->
+	<!-- Неопознанное Кольцо Величия -->
+    <item>
+    <ingredient id="57" count="144855"/>
+    <production id="32067" count="1"/>
+  </item>  
+    <!-- Неопознанная Серьга Величия -->
+    <item>
+    <ingredient id="57" count="217210"/>
+    <production id="32064" count="1"/>
+  </item>  
+    <!-- Неопознанное Ожерелье Величия -->
+    <item>
+    <ingredient id="57" count="289710"/>
+    <production id="32070" count="1"/>
+  </item>  
+    	<!-- Ранг S Неопознанный Предмет -->
+	<!-- Неопознанное Кольцо Татеосса -->
+    <item>
+    <ingredient id="57" count="316100"/>
+    <production id="31691" count="1"/>
+  </item>  
+    <!-- Неопознанная Серьга Татеосса -->
+    <item>
+    <ingredient id="57" count="474150"/>
+    <production id="31690" count="1"/>
+  </item>  
+    <!-- Неопознанное Ожерелье Татеосса -->
+    <item>
+    <ingredient id="57" count="632345"/>
+    <production id="31692" count="1"/>
+  </item>  
+</list>

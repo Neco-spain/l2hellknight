@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Rabbits To Riches -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false"/>
+
+	<!-- [Transform scroll] -->
+	<item>
+		<ingredient id="10272" count="10"/>
+		<production id="10274" count="1"/>
+	</item>
+
+</list>

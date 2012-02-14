@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="30297" name="Кодекс Перерождения" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="10"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="30298" name="Кодекс Перерождения - Мастерство" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="30299" name="Кодекс Перерождения - Дисциплина" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="30300" name="Кодекс Перерождения - Забвение" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	
+</list>

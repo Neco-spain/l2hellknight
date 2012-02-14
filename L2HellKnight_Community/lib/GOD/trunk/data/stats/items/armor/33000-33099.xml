@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="33073" name="Полный Латный Шлем - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="60"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="77"/>
+		<set name="p_def" val="58"/>
+	</armor>
+	<armor id="33074" name="Полный Латный Доспех - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t62_ul_i00"/>
+		<set name="weight" val="1048"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="318"/>
+		<set name="p_def" val="239"/>
+	</armor>
+	<armor id="33076" name="Полные Латные Сапоги - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t62_b_i00"/>
+		<set name="weight" val="120"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="208"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33077" name="Полные Латные Рукавицы - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t62_g_i00"/>
+		<set name="weight" val="60"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="52"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33078" name="Кожаный Доспех Дрейка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t21_ul_i00"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="238"/>
+		<set name="p_def" val="179"/>
+	</armor>
+	<armor id="33079" name="Кожаные Сапоги Дрейка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t21_b_i00"/>
+		<set name="weight" val="121"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="208"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33080" name="Кожаные Перчатки Дрейка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t21_g_i00"/>
+		<set name="weight" val="60"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="52"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33081" name="Туника Святости - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t57_u_i00"/>
+		<set name="weight" val="198"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="197"/>
+		<set name="p_def" val="74"/>
+		<set name="mp_bonus" val="314"/>
+	</armor>
+	<armor id="33082" name="Штаны Святости - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t57_l_i00"/>
+		<set name="weight" val="96"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="184"/>
+		<set name="p_def" val="46"/>
+		<set name="mp_bonus" val="196"/>
+	</armor>
+	<armor id="33083" name="Перчатки Святости - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t57_g_i00"/>
+		<set name="weight" val="61"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="52"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33084" name="Полный Латный Шлем - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="60"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="77"/>
+		<set name="p_def" val="58"/>
+	</armor>
+	<armor id="33085" name="Полный Латный Доспех - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t62_ul_i00"/>
+		<set name="weight" val="1048"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="318"/>
+		<set name="p_def" val="239"/>
+	</armor>
+	<armor id="33087" name="Полные Латные Сапоги - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t62_b_i00"/>
+		<set name="weight" val="120"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="208"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33088" name="Полные Латные Рукавицы - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t62_g_i00"/>
+		<set name="weight" val="60"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="52"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33089" name="Кожаный Доспех Дрейка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t21_ul_i00"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="238"/>
+		<set name="p_def" val="179"/>
+	</armor>
+	<armor id="33090" name="Кожаные Сапоги Дрейка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t21_b_i00"/>
+		<set name="weight" val="121"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="208"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33091" name="Кожаные Перчатки Дрейка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t21_g_i00"/>
+		<set name="weight" val="60"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="52"/>
+		<set name="p_def" val="39"/>
+	</armor>
+	<armor id="33092" name="Туника Святости - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t57_u_i00"/>
+		<set name="weight" val="198"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="197"/>
+		<set name="p_def" val="74"/>
+		<set name="mp_bonus" val="314"/>
+	</armor>
+	<armor id="33093" name="Штаны Святости - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t57_l_i00"/>
+		<set name="weight" val="96"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="184"/>
+		<set name="p_def" val="46"/>
+		<set name="mp_bonus" val="196"/>
+	</armor>
+	<armor id="33094" name="Перчатки Святости - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t57_g_i00"/>
+		<set name="weight" val="61"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="52"/>
+		<set name="p_def" val="39"/>
+	</armor>
+</list>

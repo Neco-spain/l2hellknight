@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="33509" name="Футболка Судьбы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.shirt_of_destination_event"/>
+		<set name="weight" val="130"/>
+	</armor>
+	<armor id="33510" name="Пояс Судьбы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.belt_of_destination_event"/>
+		<set name="weight" val="440"/>
+	</armor>
+	<armor id="33523" name="Талисман - Маг. Крит. Атака {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_mc_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33524" name="Талисман - Физ. Точность {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_ph_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33525" name="Талисман - Маг. Точность {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_mh_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33526" name="Талисман - Уклонение {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_pm_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33527" name="Талисман - Уклонение от Магии {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_mm_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33528" name="Талисман - Шанс Крит. Атаки {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_cr_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33529" name="Талисман - Крит. Уклонение {Пасивный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_cm_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33530" name="Талисман - Маг. Крит. Атака {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_mc_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33531" name="Талисман - Физ. Точность {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_ph_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33532" name="Талисман - Маг. Точность {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_mh_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33533" name="Талисман - Уклонение {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_pm_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33534" name="Талисман - Уклонение от Магии {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_mm_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33535" name="Талисман - Шанс Крит. Атаки {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_cr_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33536" name="Талисман - Крит. Уклонение {Активный}  " type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r_talisman_cm_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33537" name="Обычный Талисман - Скор. Физ. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33538" name="Обычный Талисман - Физ. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33539" name="Обычный Талисман - Физ. Защ." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33540" name="Обычный Талисман - Скор. Маг." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_active"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33541" name="Обычный Талисман - Маг. Защ." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33542" name="Обычный Талисман - Маг. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="additional_name" val="Кампания"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="33591" name="Скованная Кираса Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t91_u_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="1506"/>
+		<set name="p_def" val="226"/>
+	</armor>
+	<armor id="33592" name="Скованные Набедренники Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t91_l_i00"/>
+		<set name="weight" val="3210"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="1410"/>
+		<set name="p_def" val="141"/>
+	</armor>
+	<armor id="33593" name="Скованный Шлем Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="306"/>
+		<set name="p_def" val="92"/>
+	</armor>
+	<armor id="33594" name="Скованные Рукавицы Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t91_g_i00"/>
+		<set name="weight" val="520"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="203"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="33595" name="Скованные Сапоги Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t91_b_i00"/>
+		<set name="weight" val="1090"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="813"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="33597" name="Скованный Кожаный Доспех Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="1133"/>
+		<set name="p_def" val="170"/>
+	</armor>
+	<armor id="33598" name="Скованные Кожаные Поножи Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t92_l_i00"/>
+		<set name="weight" val="1370"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="1060"/>
+		<set name="p_def" val="106"/>
+	</armor>
+	<armor id="33599" name="Скованный Кожаный Шлем Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="306"/>
+		<set name="p_def" val="92"/>
+	</armor>
+</list>

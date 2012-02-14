@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<etcitem id="17100" name="Nevit's Hourglass - 1 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="20~39"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9120" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17101" name="Nevit's Hourglass - 1.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="20~39"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9121" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17102" name="Nevit's Hourglass - 2 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="20~39"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9122" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17103" name="Nevit's Hourglass - 2.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="20~39"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9123" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17104" name="Nevit's Hourglass - 3 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="20~39"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9124" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17105" name="Nevit's Hourglass - 1 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="40~51"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9125" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17106" name="Nevit's Hourglass - 1.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="40~51"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9126" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17107" name="Nevit's Hourglass - 2 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="40~51"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9127" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17108" name="Nevit's Hourglass - 2.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="40~51"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9128" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17109" name="Nevit's Hourglass - 3 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="40~51"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9129" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17110" name="Nevit's Hourglass - 1 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="52~60"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9130" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17111" name="Nevit's Hourglass - 1.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="52~60"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9131" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17112" name="Nevit's Hourglass - 2 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="52~60"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9132" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17113" name="Nevit's Hourglass - 2.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="52~60"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9133" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17114" name="Nevit's Hourglass - 3 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="52~60"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9134" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17115" name="Nevit's Hourglass - 1 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="61~75"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9135" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17116" name="Nevit's Hourglass - 1.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="61~75"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9136" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17117" name="Nevit's Hourglass - 2 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="61~75"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9137" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17118" name="Nevit's Hourglass - 2.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="61~75"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9138" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17119" name="Nevit's Hourglass - 3 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="61~75"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9139" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17120" name="Nevit's Hourglass - 1 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="76~79"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9140" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17121" name="Nevit's Hourglass - 1.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="76~79"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9141" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17122" name="Nevit's Hourglass - 2 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="76~79"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9142" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17123" name="Nevit's Hourglass - 2.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="76~79"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9143" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17124" name="Nevit's Hourglass - 3 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="76~79"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9144" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17125" name="Nevit's Hourglass - 1 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="80~85"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9145" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17126" name="Nevit's Hourglass - 1.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="80~85"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9146" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17127" name="Nevit's Hourglass - 2 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="80~85"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9147" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17128" name="Nevit's Hourglass - 2.5 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="80~85"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9148" lvl="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17129" name="Nevit's Hourglass - 3 hour" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="additional_name" val="80~85"/>
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<skills>
+			<skill id="9149" lvl="1"/>
+		</skills>
+	</etcitem>
+</list>

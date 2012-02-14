@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='4812' name="Crystallized Ice Bow - Quick Recovery">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='4815' name="Elemental Bow">
+		<mul val='0.80' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='4829' name="Bow of Peril">
+		<mul val='0.87' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='4833' name="Carnage Bow">
+		<mul val='0.90' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='5612' name="Soul Bow">
+		<mul val='0.85' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='8808' name="Shyeed's Bow">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='9239' name="Arbalest">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='9259' name="Ballista">
+		<mul val='0.80' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='9326' name="Hell Hound">
+		<mul val='0.87' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='9350' name="Reaper">
+		<mul val='0.85' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='9363' name="Screaming Vengeance">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='10687' name="Shyeed's Bow PvP">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='10708' name="Screaming Vengeance PvP">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='11011' name="Bow of Peril - Earth">
+		<mul val='0.87' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='11015' name="Hell Hound - Earth">
+		<mul val='0.87' order='0x50' stat='atkReuse' />
+	</item>
+	<item id='11114' name="Reaper - Clairvoyance">
+		<mul val='0.85' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='11126' name="Soul Bow - Clairvoyance">
+		<mul val='0.85' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='11148' name="Screaming Vengeance - Concentration">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='11160' name="Shyeed's Bow - Concentration">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='12863' name="Screaming Vengeance - Concentration PvP">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+	<item id='12872' name="Shyeed's Bow - Concentration PvP">
+		<mul val='0.83' order='0x50' stat='atkReuse' />
+		<mul order="0x30" stat="pAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+		<mul order="0x30" stat="mAtk" val="1.05">
+			<target pvp="true" />
+		</mul>
+	</item>
+</list>

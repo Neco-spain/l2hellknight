@@ -1,0 +1,23 @@
+@echo off
+echo Upgrading L2RT game server data base.
+echo.
+
+@echo off
+
+if exist mysql_settings.bat goto settings
+
+echo Can't find mysql_settings.bat file!
+goto end
+
+:settings
+
+call mysql_settings.bat
+if errorlevel 1 goto end
+
+for /r upgrade %%f in (*.sql) do ( 
+                echo Loading %%~nf ...
+		mysql -h %DBHOST% -u %USER% --password=%PASS% -D %DBNAME% < %%f
+	)
+:end
+
+pause

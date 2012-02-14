@@ -1,0 +1,272 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Сделано Shaigy -->
+<!-- Бижутерия D-S-grade -->
+
+<list>
+
+    <!-- Tateossian Necklace -->
+  <item id="1">
+    <ingredient id="21007" count="10"/>
+    <production id="920" count="1"/>
+  </item>
+  
+  <!-- Tateossian Earring -->
+  <item id="2">
+    <ingredient id="21007" count="3"/>
+    <production id="858" count="1"/>
+  </item>
+  
+  <!-- Tateossian Ring -->
+  <item id="3">
+    <ingredient id="21007" count="2"/>
+    <production id="889" count="1"/>
+  </item>
+  
+  
+  
+  <!--dynasty -->
+  <item id="1">
+    <ingredient id="21007" count="14"/>
+
+
+
+
+
+    <production id="9455" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="15"/>
+
+
+
+
+
+    <production id="9456" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="13"/>
+
+
+
+
+
+    <production id="9457" count="1"/>
+  </item>
+  
+  
+  
+  
+      <item id="1">
+    <ingredient id="21007" count="45"/>
+
+
+
+
+
+    <production id="14163" count="1"/>
+  </item>
+  
+      <item id="1">
+    <ingredient id="21007" count="50"/>
+
+
+
+
+
+    <production id="14164" count="1"/>
+  </item>
+  
+      <item id="1">
+    <ingredient id="21007" count="40"/>
+
+
+
+
+
+    <production id="14165" count="1"/>
+  </item>
+
+
+  
+      <item id="1">
+    <ingredient id="21007" count="170"/>
+
+
+
+
+
+    <production id="17321" count="1"/>
+  </item>
+  
+    <item id="1">
+    <ingredient id="21007" count="155"/>
+
+
+
+
+
+    <production id="17322" count="1"/>
+  </item>
+  
+    <item id="1">
+    <ingredient id="21007" count="140"/>
+
+
+
+
+
+    <production id="17323" count="1"/>
+  </item>
+  
+  
+        <item id="1">
+    <ingredient id="21007" count="595"/>
+
+
+
+
+
+    <production id="17355" count="1"/>
+  </item>
+  
+        <item id="1">
+    <ingredient id="21007" count="540"/>
+
+
+
+
+
+    <production id="17356" count="1"/>
+  </item>
+  
+        <item id="1">
+    <ingredient id="21007" count="490"/>
+
+
+
+
+
+    <production id="17357" count="1"/>
+  </item>
+
+  
+ 
+
+  
+    <item id="1">
+    <ingredient id="21007" count="2000"/>
+
+
+
+
+
+    <production id="17413" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="1800"/>
+
+
+
+
+
+    <production id="17414" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="1700"/>
+
+
+
+
+
+    <production id="17415" count="1"/>
+  </item>
+  
+    <item id="1">
+    <ingredient id="21007" count="7000"/>
+
+
+
+
+
+    <production id="17447" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="6300"/>
+
+
+
+
+
+    <production id="17448" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="5900"/>
+
+
+
+
+
+    <production id="17449" count="1"/>
+  </item>
+  
+  
+  
+      <item id="1">
+    <ingredient id="21007" count="20000"/>
+
+
+
+
+
+    <production id="19457" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="22000"/>
+
+
+
+
+
+    <production id="19458" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="25000"/>
+
+
+
+
+
+    <production id="19459" count="1"/>
+  </item>
+  
+  
+        <item id="1">
+    <ingredient id="21007" count="70000"/>
+
+
+
+
+
+    <production id="19451" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="77000"/>
+
+
+
+
+
+    <production id="19452" count="1"/>
+  </item>
+    <item id="1">
+    <ingredient id="21007" count="87500"/>
+
+
+
+
+
+    <production id="19453" count="1"/>
+  </item>
+  
+</list>

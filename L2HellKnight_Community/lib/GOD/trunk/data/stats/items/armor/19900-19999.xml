@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="19900" name="Благословенные Кожаные Сапоги Кадейры" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t402_b_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="2232"/>
+		<set name="p_def" val="93"/>
+	</armor>
+	<armor id="19901" name="Благословенная Диадема Кадейры" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="834"/>
+		<set name="p_def" val="139"/>
+	</armor>
+	<armor id="19902" name="Благословенная Туника Кадейры" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t403_u_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="2220"/>
+		<set name="p_def" val="185"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="19903" name="Благословенные Штаны Кадейры" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t403_l_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="2088"/>
+		<set name="p_def" val="116"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="19904" name="Благословенные Перчатки Кадейры" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t403_g_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="558"/>
+		<set name="p_def" val="93"/>
+	</armor>
+	<armor id="19905" name="Благословенные Ботинки Кадейры" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t403_b_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="2232"/>
+		<set name="p_def" val="93"/>
+	</armor>
+	<armor id="19906" name="Благословенный Шлем Айдиоса" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="960"/>
+		<set name="p_def" val="144"/>
+	</armor>
+	<armor id="19907" name="Благословенная Кираса Айдиоса" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t701_u_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="5133"/>
+		<set name="p_def" val="385"/>
+	</armor>
+	<armor id="19908" name="Благословенные Набедренники Айдиоса" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t701_l_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="4820"/>
+		<set name="p_def" val="241"/>
+	</armor>
+	<armor id="19909" name="Благословенные Рукавицы Айдиоса" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t701_g_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="640"/>
+		<set name="p_def" val="96"/>
+	</armor>
+	<armor id="19910" name="Благословенные Сапоги Айдиоса" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t701_b_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2560"/>
+		<set name="p_def" val="96"/>
+	</armor>
+	<armor id="19912" name="Благословенный Кожаный Шлем Айдиоса" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="960"/>
+		<set name="p_def" val="144"/>
+	</armor>
+	<armor id="19913" name="Благословенный Кожаный Доспех Айдиоса" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t702_u_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3853"/>
+		<set name="p_def" val="289"/>
+	</armor>
+	<armor id="19914" name="Благословенные Кожаные Брюки Айдиоса" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t702_l_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3620"/>
+		<set name="p_def" val="181"/>
+	</armor>
+	<armor id="19915" name="Благословенные Кожаные Перчатки Айдиоса" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t702_g_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="640"/>
+		<set name="p_def" val="96"/>
+	</armor>
+	<armor id="19916" name="Благословенные Кожаные Сапоги Айдиоса" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t702_b_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2560"/>
+		<set name="p_def" val="96"/>
+	</armor>
+	<armor id="19917" name="Благословенная Диадема Айдиоса" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="960"/>
+		<set name="p_def" val="144"/>
+	</armor>
+	<armor id="19918" name="Благословенная Туника Айдиоса" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t703_u_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2573"/>
+		<set name="p_def" val="193"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="19919" name="Благословенные Штаны Айдиоса" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t703_l_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2420"/>
+		<set name="p_def" val="121"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="19920" name="Благословенные Перчатки Айдиоса" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t703_g_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="640"/>
+		<set name="p_def" val="96"/>
+	</armor>
+	<armor id="19921" name="Благословенные Ботинки Айдиоса" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t703_b_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2560"/>
+		<set name="p_def" val="96"/>
+	</armor>
+	<armor id="19922" name="Благословенный Шлем Богов" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1000"/>
+		<set name="p_def" val="150"/>
+	</armor>
+	<armor id="19923" name="Благословенная Кираса Богов" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t97_u_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="5346"/>
+		<set name="p_def" val="401"/>
+	</armor>
+	<armor id="19924" name="Благословенные Набедренники Богов" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t97_l_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="5000"/>
+		<set name="p_def" val="250"/>
+	</armor>
+	<armor id="19925" name="Благословенные Рукавицы Богов" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t97_g_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="666"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="100"/>
+	</armor>
+	<armor id="19926" name="Благословенные Сапоги Богов" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t97_b_i00"/>
+		<set name="additional_name" val="Защит./Тяжелый"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2666"/>
+		<set name="p_def" val="100"/>
+	</armor>
+	<armor id="19928" name="Благословенный Кожаный Шлем Богов" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1000"/>
+		<set name="p_def" val="150"/>
+	</armor>
+	<armor id="19929" name="Благословенная Кожаная Кираса Богов" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t98_u_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="4013"/>
+		<set name="p_def" val="301"/>
+	</armor>
+	<armor id="19930" name="Благословенные Кожаные Брюки Богов" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t98_l_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3760"/>
+		<set name="p_def" val="188"/>
+	</armor>
+	<armor id="19931" name="Благословенные Кожаные Перчатки Богов" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t98_g_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="666"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="100"/>
+	</armor>
+	<armor id="19932" name="Благословенные Кожаные Сапоги Богов" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t98_b_i00"/>
+		<set name="additional_name" val="Усил./Легкий"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2666"/>
+		<set name="p_def" val="100"/>
+	</armor>
+	<armor id="19933" name="Благословенная Диадема Богов" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1000"/>
+		<set name="p_def" val="150"/>
+	</armor>
+	<armor id="19934" name="Благословенная Туника Богов" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t99_u_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2680"/>
+		<set name="p_def" val="201"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="19935" name="Благословенные Штаны Богов" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t99_l_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2500"/>
+		<set name="p_def" val="125"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="19936" name="Благословенные Перчатки Богов" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t99_g_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="666"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="100"/>
+	</armor>
+	<armor id="19937" name="Благословенные Ботинки Богов" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t99_b_i00"/>
+		<set name="additional_name" val="Восст./Магический"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="2666"/>
+		<set name="p_def" val="100"/>
+	</armor>
+</list>

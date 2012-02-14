@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="31142" name="Скованная Сверкающая Диадема" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="weight" val="600"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="72"/>
+		<set name="p_def" val="54"/>
+	</armor>
+	<armor id="31145" name="Скованные Сапоги из Кожи Саламандры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t45_b_i00"/>
+		<set name="weight" val="1230"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="77"/>
+		<set name="p_def" val="29"/>
+	</armor>
+	<armor id="31146" name="Скованные Сапоги из Кожи Саламандры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t45_b_i00"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="77"/>
+		<set name="p_def" val="29"/>
+	</armor>
+	<armor id="31147" name="Скованная Рубаха из Кожи Саламандры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t45_ul_i00"/>
+		<set name="weight" val="6100"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="90"/>
+		<set name="p_def" val="136"/>
+	</armor>
+	<armor id="31148" name="Скованная Рубаха из Кожи Саламандры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t45_ul_i00"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="90"/>
+		<set name="p_def" val="136"/>
+	</armor>
+	<armor id="31156" name="Скованная Рубаха из Шкуры Льва" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t18_u_i00"/>
+		<set name="weight" val="4580"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="86"/>
+		<set name="p_def" val="65"/>
+	</armor>
+	<armor id="31157" name="Скованные Набедренники из Шкуры Льва" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t18_l_i00"/>
+		<set name="weight" val="1570"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="82"/>
+		<set name="p_def" val="41"/>
+	</armor>
+	<armor id="31173" name="Скованный Костяной Шлем" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="19"/>
+		<set name="p_def" val="29"/>
+	</armor>
+	<armor id="31176" name="Скованная Шелковая Рубаха" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.etc_shirts_c_i02"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="22"/>
+		<set name="p_def" val="17"/>
+	</armor>
+	<armor id="31197" name="Скованный Закаленный Доспех" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t40_u_i00"/>
+		<set name="weight" val="8420"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="129"/>
+		<set name="p_def" val="97"/>
+	</armor>
+</list>

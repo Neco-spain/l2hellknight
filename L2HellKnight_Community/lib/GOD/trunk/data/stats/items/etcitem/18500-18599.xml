@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="18550" name="Медная Стрела" type="ARROW">
+		<set name="icon" val=""/>	
+		<set name="crystal_type" val="R"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="class" val="EQUIPMENT"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="0"/>
+		<set name="price" val="3"/>		
+	</etcitem>
+	
+	<etcitem id="18551" name="Красный Кристалл Души - Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+	
+	<etcitem id="18552" name="Зеленый Кристалл Души - Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18553" name="Синий Кристалл Души - Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18554" name="Красный Кристалл Души - Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+	
+	<etcitem id="18555" name="Зеленый Кристалл Души - Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18556" name="Синий Кристалл Души - Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+	
+	<etcitem id="18557" name="Красный Кристалл Души - Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+	
+	<etcitem id="18558" name="Зеленый Кристалл Души - Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18559" name="Синий Кристалл Души - Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18560" name="Желтый Кристалл Души - Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18561" name="Аквамариновый Кристалл Души - Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+
+	<etcitem id="18562" name="Фиолетовый Кристалл Души - Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	
+	<etcitem id="18563" name="Камень Жизни-Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18564" name="Камень Жизни Среднего Качества-Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18565" name="Камень Жизни Высокого Качества-Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18566" name="Камень Жизни Высшего Качества-Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18567" name="Камень Жизни Высшего Качества-Ранг R" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+	<etcitem id="18568" name="Камень Жизни-Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18569" name="Камень Жизни Среднего Качества-Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18570" name="Камень Жизни Высокого Качества-Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18571" name="Камень Жизни Высшего Качества-Ранг R95" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18573" name="Камень Жизни-Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18574" name="Камень Жизни Среднего Качества-Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18575" name="Камень Жизни Высокого Качества-Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18576" name="Камень Жизни Высшего Качества-Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="18577" name="Забытый Камень Жизни-Ранг R99" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+</list>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="19607" name="Скованный Щит Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак./Тяжелый"/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="458"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19623" name="Скованный Щит Кадейры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак./Тяжелый"/>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="505"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19639" name="Скованный Щит Айдиоса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак./Тяжелый"/>
+		<set name="icon" val="icon.weapon_akra_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="526"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19655" name="Благословенный Щит Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак./Тяжелый"/>
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="415"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19671" name="Благословенный Щит Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак./Тяжелый"/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="458"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19687" name="Благословенный Щит Кадейры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак./Тяжелый"/>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="505"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+</list>

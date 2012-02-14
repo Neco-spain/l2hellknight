@@ -1,0 +1,207 @@
+<list>
+	<zone id="500024" name="[giran_harbor_no_trade]" type="dummy" >
+		<set name="enabled" val="false" />
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="48148 186514" />
+			<coords loc="48304 186816" />
+			<coords loc="47681 187144" />
+			<coords loc="47506 186839" />
+		</shape>
+	</zone>
+	<zone id="500033" name="[parnassus_no_trade]" type="dummy" >
+		<set name="enabled" val="false" />
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="149192 173160 -944 -844" />
+			<coords loc="149192 172408 -960 -860" />
+			<coords loc="149544 172424 -960 -860" />
+			<coords loc="149560 173160 -944 -844" />
+		</shape>
+	</zone>
+	<zone id="700001" name="[giran_non_trade]" type="dummy" >
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="85792 147072" />
+			<coords loc="83605 147080" />
+			<coords loc="83560 147537" />
+			<coords loc="83440 147472" />
+			<coords loc="80780 147474" />
+			<coords loc="80692 147543" />
+			<coords loc="80691 149704" />
+			<coords loc="80786 149774" />
+			<coords loc="86445 149877" />
+		</shape>
+	</zone>
+	<zone id="700003" name="[dion_non_trade]" type="dummy" >
+		<set name="blocked_actions" val="private store;private workshop;" />
+		<shape>
+			<coords loc="17454 141289" />
+			<coords loc="14212 141173" />
+			<coords loc="13653 141785" />
+			<coords loc="13683 143126" />
+			<coords loc="14384 144206" />
+			<coords loc="15657 144696" />
+			<coords loc="16331 144682" />
+			<coords loc="17050 144403" />
+			<coords loc="17036 144066" />
+			<coords loc="17456 143264" />
+			<coords loc="18320 142733" />
+		</shape>
+	</zone>
+	<zone id="704004" name="[Hellbound_terrytory]" type="dummy" >
+		<set name="leaving_message_no" val="2206" />
+		<shape>
+			<coords loc="-32768 262144" />
+			<coords loc="-32768 229376" />
+			<coords loc="32768 229376" />
+			<coords loc="32768 262144" />
+		</shape>
+	</zone>
+	<zone id="704009" name="[tully1]" type="dummy" >
+		<set name="event" val="script;Util;CheckPlayerInTully1Zone" />
+		<shape>
+			<coords loc="-13224 274472 -15350 -15250" />
+			<coords loc="-13240 273400 -15350 -15250" />
+			<coords loc="-14040 273384 -15350 -15250" />
+			<coords loc="-14040 274504 -15350 -15250" />
+		</shape>
+	</zone>
+	<zone id="704010" name="[tully2]" type="dummy" >
+		<set name="event" val="script;Util;CheckPlayerInTully2Zone" />
+		<shape>
+			<coords loc="-12200 273928 -11624 -11524" />
+			<coords loc="-12504 274264 -11624 -11524" />
+			<coords loc="-12840 273944 -11624 -11524" />
+			<coords loc="-12504 273592 -11624 -11524" />
+		</shape>
+	</zone>
+	<zone id="705001" name="[Infinitum_1]" type="dummy" >
+		<shape>
+			<coords loc="-23192 280280 -15140 -14940" />
+			<coords loc="-21224 280280 -15140 -14940" />
+			<coords loc="-21224 276904 -15140 -14940" />
+			<coords loc="-23192 276904 -15140 -14940" />
+		</shape>
+		<restart_point>
+			<coords loc="-22204 277056 -15045 0" />
+		</restart_point>
+	</zone>
+	<zone id="705002" name="[Infinitum_2]" type="dummy" >
+		<shape>
+			<coords loc="-23192 280280 -13481 -13281" />
+			<coords loc="-21224 280280 -13481 -13281" />
+			<coords loc="-21224 276904 -13481 -13281" />
+			<coords loc="-23192 276904 -13481 -13281" />
+		</shape>
+		<restart_point>
+			<coords loc="-22204 277056 -13381 0" />
+		</restart_point>
+	</zone>
+	<zone id="705003" name="[Infinitum_3]" type="dummy" >
+		<shape>
+			<coords loc="-23192 280280 -11666 -11466" />
+			<coords loc="-21224 280280 -11666 -11466" />
+			<coords loc="-21224 276904 -11666 -11466" />
+			<coords loc="-23192 276904 -11666 -11466" />
+		</shape>
+		<restart_point>
+			<coords loc="-22204 277056 -11566 0" />
+		</restart_point>
+	</zone>
+	<zone id="705004" name="[Infinitum_4]" type="dummy" >
+		<shape>
+			<coords loc="-23192 280280 -10020 -9820" />
+			<coords loc="-21224 280280 -10020 -9820" />
+			<coords loc="-21224 276904 -10020 -9820" />
+			<coords loc="-23192 276904 -10020 -9820" />
+		</shape>
+		<restart_point>
+			<coords loc="-22204 277056 -9925 0" />
+		</restart_point>
+	</zone>
+	<zone id="705005" name="[Infinitum_5]" type="dummy" >
+		<shape>
+			<coords loc="-23192 280280 -8315 -8115" />
+			<coords loc="-21224 280280 -8315 -8115" />
+			<coords loc="-21224 276904 -8315 -8115" />
+			<coords loc="-23192 276904 -8315 -8115" />
+		</shape>
+		<restart_point>
+			<coords loc="-22204 277056 -8215 0" />
+		</restart_point>
+	</zone>
+	<zone id="705006" name="[Infinitum_6]" type="dummy" >
+		<shape>
+			<coords loc="-20008 280280 -8356 -8156" />
+			<coords loc="-18040 280280 -8356 -8156" />
+			<coords loc="-18040 276904 -8356 -8156" />
+			<coords loc="-20008 276904 -8356 -8156" />
+		</shape>
+		<restart_point>
+			<coords loc="-19017 277056 -8256 0" />
+		</restart_point>
+	</zone>
+	<zone id="705007" name="[Infinitum_7]" type="dummy" >
+		<shape>
+			<coords loc="-20008 280280 -10020 -9820" />
+			<coords loc="-18040 280280 -10020 -9820" />
+			<coords loc="-18040 276904 -10020 -9820" />
+			<coords loc="-20008 276904 -10020 -9820" />
+		</shape>
+		<restart_point>
+			<coords loc="-19017 277056 -9924 0" />
+		</restart_point>
+	</zone>
+	<zone id="705008" name="[Infinitum_8]" type="dummy" >
+		<shape>
+			<coords loc="-20008 280280 -11748 -11548" />
+			<coords loc="-18040 280280 -11748 -11548" />
+			<coords loc="-18040 276904 -11748 -11548" />
+			<coords loc="-20008 276904 -11748 -11548" />
+		</shape>
+		<restart_point>
+			<coords loc="-19017 277056 -11648 0" />
+		</restart_point>
+	</zone>
+	<zone id="705009" name="[Infinitum_9]" type="dummy" >
+		<shape>
+			<coords loc="-20008 280280 -13476 -13276" />
+			<coords loc="-18040 280280 -13476 -13276" />
+			<coords loc="-18040 276904 -13476 -13276" />
+			<coords loc="-20008 276904 -13476 -13276" />
+		</shape>
+		<restart_point>
+			<coords loc="-19017 277056 -13376 0" />
+		</restart_point>
+	</zone>
+	<zone id="705010" name="[Infinitum_10]" type="dummy" >
+		<shape>
+			<coords loc="-20008 280280 -15140 -14940" />
+			<coords loc="-18040 280280 -15140 -14940" />
+			<coords loc="-18040 276904 -15140 -14940" />
+			<coords loc="-20008 276904 -15140 -14940" />
+		</shape>
+		<restart_point>
+			<coords loc="-19017 277056 -15040 0" />
+		</restart_point>
+	</zone>
+	<zone id="705011" name="[Epic_Quest_IdentZone]" type="dummy" >
+		<set name="reflectionId" val="111" />
+		<shape>
+			<coords loc="-75624 213720 -7120 -7020" />
+			<coords loc="-75624 213112 -7120 -7020" />
+			<coords loc="-76360 213112 -7120 -7020" />
+			<coords loc="-76360 213720 -7120 -7020" />
+		</shape>
+	</zone>
+		<zone id="705012" name="[Freya_Quest]" type="dummy" >
+		<set name="reflectionId" val="138" />
+		<shape>
+			<coords loc="186040 -185176 -3338 -3238" />
+			<coords loc="185240 -185208 -3336 -3236" />
+			<coords loc="184744 -184184 -3338 -3238" />
+			<coords loc="186120 -184168 -3338 -3238" />
+		</shape>
+	</zone>
+</list>

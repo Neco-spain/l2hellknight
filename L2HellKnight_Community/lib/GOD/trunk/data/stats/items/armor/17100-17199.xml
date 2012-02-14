@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="17146" name="Refined Angel Ring" type="NONE">
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="accessory_angel_ring_i00"/>
+		<set name="weight" val="10"/>
+		<set name="price" val="2000000"/>
+	</armor>
+</list>
