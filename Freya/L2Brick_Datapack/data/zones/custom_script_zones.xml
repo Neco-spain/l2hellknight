@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<!-- Custom Script Zones -->
+	<zone name="Emerald Square 1st Secret Room" id="20105" type="ScriptZone" shape="Cuboid" minZ="-11900" maxZ="-11800">
+		<node X="144175" Y="142396" />
+		<node X="144251" Y="142588" />
+	</zone>
+	<zone name="Emerald Square 2nd Secret Room" id="20106" type="ScriptZone" shape="Cuboid" minZ="-12250" maxZ="-12150">
+		<node X="147400" Y="143631" />
+		<node X="147484" Y="143828" />
+	</zone>
+	<zone name="Emerald Square 3rd Secret Room" id="20107" type="ScriptZone" shape="Cuboid" minZ="-12150" maxZ="-12000">
+		<node X="149396" Y="143473" />
+		<node X="149559" Y="143584" />
+	</zone>
+	<zone name="Pailaka (Forgotten Temple)" id="20108" type="ScriptZone" shape="NPoly" minZ="-5050" maxZ="-3900">
+		<node X="-62840" Y="178808" />
+		<node X="-62840" Y="184568" />
+		<node X="-60792" Y="184568" />
+		<node X="-60792" Y="188792" />
+		<node X="-57976" Y="191224" />
+		<node X="-53000" Y="190840" />
+		<node X="-52360" Y="190200" />
+		<node X="-52360" Y="178808" />
+	</zone>
+	<zone name="Pailaka (Devil's Isle)" id="20109" type="ScriptZone" shape="NPoly" minZ="-3770" maxZ="-3700">
+		<node X="76650" Y="-221310" />
+		<node X="76630" Y="-221880" />
+		<node X="75490" Y="-221480" />
+		<node X="75630" Y="-221140" />
+	</zone>
+	<!-- Custom Ice Queen Castle zone to trigger the show -->
+	<zone name="Custom Ice Queen Trigger Zone" id="200010" type="ScriptZone" shape="Cuboid" minZ="-11200" maxZ="-11190">
+		<node X="114590" Y="-113311" />
+		<node X="114865" Y="-113526" />
+	</zone>
+	<zone name="Nornil's Garden Warrior's Gate" id="20110" type="ScriptZone" shape="Cuboid" minZ="-12650" maxZ="-12600">
+		<node X="-109864" Y="76184" />
+		<node X="-109544" Y="76392" />
+	</zone>
+	<zone name="Nornil's Garden Midway Gate" id="20111" type="ScriptZone" shape="Cuboid" minZ="-12930" maxZ="-12900">
+		<node X="-107560" Y="80488" />
+		<node X="-107240" Y="80808" />
+	</zone>
+	<zone name="Nornil's Garden Gate" id="20112" type="ScriptZone" shape="Cuboid" minZ="-12990" maxZ="-12960">
+		<node X="-111016" Y="83944" />
+		<node X="-110696" Y="84264" />
+	</zone>
+	<zone name="Pagans mark" id="30100" type="ScriptZone" shape="NPoly" minZ="-10735" maxZ="-10720">
+		<node X="-16100" Y="-36620" />
+		<node X="-16600" Y="-36620" />
+		<node X="-16600" Y="-36925" />
+		<node X="-16100" Y="-36925" />
+	</zone>
+	<zone name="Hellbound" id="40101" type="ScriptZone" shape="NPoly" minZ="-30000" maxZ="30000">
+		<node X="-32768" Y="229376" />
+		<node X="32768" Y="229376" />
+		<node X="32768" Y="262143" />
+		<node X="-32768" Y="262143" />
+	</zone>
+	<zone name="Seed of Infinity AirShips dock" id="50600" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="2900">
+		<node X="-212855" Y="209819" />
+	</zone>
+	<zone name="Hellbound Dolmen" id="40107" type="ScriptZone" shape="Cuboid" minZ="-3200" maxZ="-3000">
+		<node X="-6230" Y="249000" />
+		<node X="-5230" Y="249880" />
+	</zone>
+	<zone name="Seed of Destruction AirShips dock" id="50601" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="4300">
+		<node X="-249460" Y="249282" />
+	</zone>
+	<zone name="Keucereus Base North" id="50602" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200">
+		<node X="-193315" Y="240184" />
+		<node X="-188053" Y="235278" />
+		<node X="-179811" Y="238353" />
+		<node X="-178407" Y="242454" />
+		<node X="-178685" Y="244665" />
+	</zone>
+	<zone name="Keucereus Base South" id="50603" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200">
+		<node X="-178685" Y="244664" />
+		<node X="-180120" Y="246779" />
+		<node X="-185598" Y="249572" />
+		<node X="-193009" Y="245647" />
+		<node X="-193315" Y="240185" />
+	</zone>
+	<zone name="Seed of Annihilation 1" id="60002" type="ScriptZone" shape="Cylinder" minZ="-10600" maxZ="-10500" rad="260">
+		<node X="-182488" Y="186655" />
+	</zone>
+	<zone name="Seed of Annihilation 2" id="60003" type="ScriptZone" shape="Cylinder" minZ="-11050" maxZ="-10950" rad="260">
+		<node X="-212755" Y="184380" />
+	</zone>
+	<zone name="Seed of Annihilation 3" id="60004" type="ScriptZone" shape="Cylinder" minZ="-10800" maxZ="-10700" rad="360">
+		<node X="-178458" Y="188167" />
+	</zone>
+	<zone name="Seed of Annihilation 4" id="60005" type="ScriptZone" shape="Cylinder" minZ="-15250" maxZ="-15100" rad="360">
+		<node X="-179430" Y="183844" />
+	</zone>
+	<zone name="Seed of Destruction" id="60009" type="ScriptZone" shape="Cuboid" minZ="-14065" maxZ="-6500">
+		<node X="-237600" Y="221168" />
+		<node X="-253900" Y="204849" />
+	</zone>
+
+	<zone name="Tiat video" id="25253" type="ScriptZone" shape="NPoly" minZ="-12000" maxZ="-11000">
+		<node X="-251280" Y="211765" />
+		<node X="-250599" Y="211765" />
+		<node X="-250599" Y="211571" />
+		<node X="-251280" Y="211571" />
+	</zone>
+	<zone name="Custom Ice Queen Trigger Zone" id="211010" type="ScriptZone" shape="Cuboid" minZ="-11200" maxZ="-11190">
+		<node X="114590" Y="-113311" />
+		<node X="114865" Y="-113526" />
+	</zone>
+
+	<!-- Custom zones for Tully Workshop 6th and 8th floors spawn control -->
+	<!-- Tully Workshop 6th floor room 1 -->
+	<zone name="tully_workshop_floor_6th_room_1" id="200012" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-13143" Y="278159" />
+		<node X="-11984" Y="278155" />
+		<node X="-12247" Y="278817" />
+		<node X="-12877" Y="278817" />
+		<node X="-13301" Y="279233" />
+		<node X="-13948" Y="278959" />
+	</zone>
+	<!-- Tully Workshop 6th floor room 2 -->
+	<zone name="tully_workshop_floor_6th_room_2" id="200013" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-12135" Y="280544" />
+		<node X="-11708" Y="280111" />
+		<node X="-11029" Y="280377" />
+		<node X="-11881" Y="281242" />
+		<node X="-13044" Y="281234" />
+		<node X="-12767" Y="280546" />
+	</zone>
+	<!-- Tully Workshop 6th floor room 3 -->
+	<zone name="tully_workshop_floor_6th_room_3" id="200014" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-13376" Y="279405" />
+		<node X="-13380" Y="280048" />
+		<node X="-12930" Y="280494" />
+		<node X="-13219" Y="281137" />
+		<node X="-14027" Y="280321" />
+		<node X="-14034" Y="279128" />
+	</zone>
+	<!-- Tully Workshop 6th floor room 4 -->
+	<zone name="tully_workshop_floor_6th_room_4" id="200015" type="ScriptZone" shape="NPoly" minZ="-13640" maxZ="-13440">
+		<node X="-10980" Y="279062" />
+		<node X="-10975" Y="280217" />
+		<node X="-11688" Y="279905" />
+		<node X="-11642" Y="279320" />
+		<node X="-12056" Y="278883" />
+		<node X="-11808" Y="278212" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 1 -->
+	<zone name="tully_workshop_floor_8th_room_1" id="200016" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-13143" Y="278159" />
+		<node X="-11984" Y="278155" />
+		<node X="-12247" Y="278817" />
+		<node X="-12877" Y="278817" />
+		<node X="-13301" Y="279233" />
+		<node X="-13948" Y="278959" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 2 -->
+	<zone name="tully_workshop_floor_8th_room_2" id="200017" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-12135" Y="280544" />
+		<node X="-11708" Y="280111" />
+		<node X="-11029" Y="280377" />
+		<node X="-11881" Y="281242" />
+		<node X="-13044" Y="281234" />
+		<node X="-12767" Y="280546" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 3 -->
+	<zone name="tully_workshop_floor_8th_room_3" id="200018" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-13376" Y="279405" />
+		<node X="-13380" Y="280048" />
+		<node X="-12930" Y="280494" />
+		<node X="-13219" Y="281137" />
+		<node X="-14027" Y="280321" />
+		<node X="-14034" Y="279128" />
+	</zone>
+	<!-- Tully Workshop 8th floor room 4 -->
+	<zone name="tully_workshop_floor_8th_room_4" id="200019" type="ScriptZone" shape="NPoly" minZ="-10530" maxZ="-10330">
+		<node X="-10980" Y="279062" />
+		<node X="-10975" Y="280217" />
+		<node X="-11688" Y="279905" />
+		<node X="-11642" Y="279320" />
+		<node X="-12056" Y="278883" />
+		<node X="-11808" Y="278212" />
+	</zone>
+	<!-- Custom zones for Tower of Naia rooms for characters control -->
+	<!-- Tower of Naia room 1 -->
+	<zone name="tower_of_naia_room_1" id="200020" type="ScriptZone" shape="Cuboid" minZ="-9156" maxZ="-9056">
+		<node X="-46940" Y="246865" />
+		<node X="-45466" Y="245370" />
+	</zone>
+	<!-- Tower of Naia room 2 -->
+	<zone name="tower_of_naia_room_2" id="200021" type="ScriptZone" shape="Cuboid" minZ="-9168" maxZ="-8818">
+		<node X="-49908" Y="248440" />
+		<node X="-47912" Y="249896" />
+	</zone>
+	<!-- Tower of room 3 -->
+	<zone name="tower_of_naia_room_3" id="200022" type="ScriptZone" shape="Cuboid" minZ="-10032" maxZ="-9682">
+		<node X="-52362" Y="245375" />
+		<node X="-50880" Y="246866" />
+	</zone>
+	<!-- Tower of Naia room 4 -->
+	<zone name="tower_of_naia_room_4" id="200023" type="ScriptZone" shape="Cuboid" minZ="-10032" maxZ="-9682">
+		<node X="-49954" Y="242680" />
+		<node X="-47958" Y="244136" />
+	</zone>
+	<!-- Tower of Naia room 5 -->
+	<zone name="tower_of_naia_room_5" id="200024" type="ScriptZone" shape="Cuboid" minZ="-10044" maxZ="-9694">
+		<node X="-46953" Y="245376" />
+		<node X="-45479" Y="246871" />
+	</zone>
+	<!-- Tower of Naia room 6 -->
+	<zone name="tower_of_naia_room_6" id="200025" type="ScriptZone" shape="Cuboid" minZ="-10036" maxZ="-9686">
+		<node X="-49444" Y="247736" />
+		<node X="-48412" Y="248708" />
+	</zone>
+	<!-- Tower of Naia room 7 -->
+	<zone name="tower_of_naia_room_7" id="200026" type="ScriptZone" shape="Cuboid" minZ="-10880" maxZ="-10530">
+		<node X="-52371" Y="245374" />
+		<node X="-50889" Y="246865" />
+	</zone>
+	<!-- Tower of Naia room 8 -->
+	<zone name="tower_of_naia_room_8" id="200027" type="ScriptZone" shape="Cuboid" minZ="-10876" maxZ="-10526">
+		<node X="-49447" Y="243547" />
+		<node X="-48415" Y="244519" />
+	</zone>
+	<!-- Tower of Naia room 9 -->
+	<zone name="tower_of_naia_room_9" id="200028" type="ScriptZone" shape="Cuboid" minZ="-11748" maxZ="-11398">
+		<node X="-46970" Y="245369" />
+		<node X="-45496" Y="246864" />
+	</zone>
+	<!-- Tower of Naia room 10 -->
+	<zone name="tower_of_naia_room_10" id="200029" type="ScriptZone" shape="Cuboid" minZ="-11760" maxZ="-11410">
+		<node X="-49440" Y="247736" />
+		<node X="-48412" Y="248708" />
+	</zone>
+	<!-- Tower of Naia room 11 -->
+	<zone name="tower_of_naia_room_11" id="200030" type="ScriptZone" shape="Cuboid" minZ="-12650" maxZ="-12300">
+		<node X="-52347" Y="245404" />
+		<node X="-50865" Y="246895" />
+	</zone>
+	<!-- Tower of Naia room 12 -->
+	<zone name="tower_of_naia_room_12" id="200031" type="ScriptZone" shape="Cuboid" minZ="-13444" maxZ="-13094">
+		<node X="-49004" Y="242907" />
+		<node X="-47530" Y="244402" />
+	</zone>	
+	<!-- Sel Mahum Training Grounds Zones -->
+	<!-- oren22_2219_a01 -->
+	<zone name="sel_mahum_training_grounds_01" type="ScriptZone" shape="Cuboid" minZ="-3586" maxZ="-3086">
+		<node X="88022" Y="55406" />
+		<node X="88651" Y="56613" />
+	</zone>
+	<!-- oren22_2219_a02 -->
+	<zone name="sel_mahum_training_grounds_02" type="ScriptZone" shape="Cuboid" minZ="-3614" maxZ="-3114">
+		<node X="89120" Y="55411" />
+		<node X="89739" Y="56646" />
+	</zone>
+	<!-- oren22_2219_a03 -->
+	<zone name="sel_mahum_training_grounds_03" type="ScriptZone" shape="Cuboid" minZ="-3586" maxZ="-3086">
+		<node X="90113" Y="55733" />
+		<node X="90761" Y="56632" />
+	</zone>
+	<!-- oren22_2219_a04 -->
+	<zone name="sel_mahum_training_grounds_04" type="ScriptZone" shape="NPoly" minZ="-3734" maxZ="-3434">
+		<node X="86976" Y="56865" />
+		<node X="87583" Y="56846" />
+		<node X="87611" Y="58057" />
+		<node X="86979" Y="58066" />
+	</zone>
+	<!-- oren22_2219_a05 -->
+	<zone name="sel_mahum_training_grounds_05" type="ScriptZone" shape="NPoly" minZ="-3724" maxZ="-3424">
+		<node X="88008" Y="56919" />
+		<node X="88700" Y="56914" />
+		<node X="88729" Y="58043" />
+		<node X="88012" Y="58054" />
+	</zone>
+	<!-- oren22_2219_a06 -->
+	<zone name="sel_mahum_training_grounds_06" type="ScriptZone" shape="NPoly" minZ="-3686" maxZ="-3386">
+		<node X="89073" Y="57000" />
+		<node X="89744" Y="56992" />
+		<node X="89740" Y="58051" />
+		<node X="89059" Y="58048" />
+	</zone>
+	<!-- oren22_2219_b01 -->
+	<zone name="sel_mahum_training_grounds_07" type="ScriptZone" shape="NPoly" minZ="-3487" maxZ="-3187">
+		<node X="84520" Y="58310" />
+		<node X="85619" Y="58279" />
+		<node X="85652" Y="59012" />
+		<node X="84481" Y="59021" />
+	</zone>
+	<!-- oren22_2219_b02 -->
+	<zone name="sel_mahum_training_grounds_08" type="ScriptZone" shape="NPoly" minZ="-3475" maxZ="-3175">
+		<node X="84670" Y="59354" />
+		<node X="85670" Y="59385" />
+		<node X="85662" Y="60057" />
+		<node X="84657" Y="60081" />
+	</zone>
+	<!-- oren22_2219_b03 -->
+	<zone name="sel_mahum_training_grounds_09" type="ScriptZone" shape="NPoly" minZ="-3490" maxZ="-3190">
+		<node X="84630" Y="60435" />
+		<node X="85693" Y="60429" />
+		<node X="85707" Y="61084" />
+		<node X="84630" Y="61118" />
+	</zone>
+	<!-- oren22_2219_b04 -->
+	<zone name="sel_mahum_training_grounds_10" type="ScriptZone" shape="NPoly" minZ="-3537" maxZ="-3237">
+		<node X="83247" Y="58911" />
+		<node X="84251" Y="58916" />
+		<node X="84255" Y="59570" />
+		<node X="83243" Y="59574" />
+	</zone>
+	<!-- oren22_2219_b05 -->
+	<zone name="sel_mahum_training_grounds_11" type="ScriptZone" shape="NPoly" minZ="-3552" maxZ="-3252">
+		<node X="83127" Y="59888" />
+		<node X="84258" Y="59879" />
+		<node X="84277" Y="60579" />
+		<node X="83529" Y="60573" />
+		<node X="83355" Y="60323" />
+		<node X="83140" Y="60315" />
+	</zone>
+	<!-- oren22_2219_c01 -->
+	<zone name="sel_mahum_training_grounds_12" type="ScriptZone" shape="NPoly" minZ="-3731" maxZ="-3431">
+		<node X="79316" Y="62263" />
+		<node X="79989" Y="62251" />
+		<node X="79999" Y="63295" />
+		<node X="79324" Y="63302" />
+	</zone>
+	<!-- oren22_2219_c02 -->
+	<zone name="sel_mahum_training_grounds_13" type="ScriptZone" shape="NPoly" minZ="-3740" maxZ="-3440">
+		<node X="80403" Y="62290" />
+		<node X="81009" Y="62287" />
+		<node X="81046" Y="63307" />
+		<node X="80415" Y="63311" />
+	</zone>
+	<!-- oren22_2219_c03 -->
+	<zone name="sel_mahum_training_grounds_14" type="ScriptZone" shape="NPoly" minZ="-3647" maxZ="-3347">
+		<node X="81479" Y="62292" />
+		<node X="82108" Y="62288" />
+		<node X="82126" Y="63435" />
+		<node X="81476" Y="63440" />
+	</zone>
+	<!-- oren22_2219_c04 -->
+	<zone name="sel_mahum_training_grounds_15" type="ScriptZone" shape="NPoly" minZ="-3591" maxZ="-3291">
+		<node X="82518" Y="62280" />
+		<node X="83143" Y="62262" />
+		<node X="83123" Y="63345" />
+		<node X="82537" Y="63352" />
+	</zone>
+	<!-- oren22_2219_d01 -->
+	<zone name="sel_mahum_training_grounds_16" type="ScriptZone" shape="NPoly" minZ="-3380" maxZ="-3080">
+		<node X="91519" Y="61149" />
+		<node X="92680" Y="61123" />
+		<node X="92688" Y="61906" />
+		<node X="91513" Y="61926" />
+	</zone>
+	<!-- oren22_2219_d02 -->
+	<zone name="sel_mahum_training_grounds_17" type="ScriptZone" shape="NPoly" minZ="-3340" maxZ="-3040">
+		<node X="91519" Y="62271" />
+		<node X="92564" Y="62260" />
+		<node X="92575" Y="62935" />
+		<node X="91512" Y="62922" />
+	</zone>
+	<!-- oren22_2219_d03 -->
+	<zone name="sel_mahum_training_grounds_18" type="ScriptZone" shape="NPoly" minZ="-3395" maxZ="-3095">
+		<node X="91521" Y="63323" />
+		<node X="92531" Y="63318" />
+		<node X="92535" Y="63924" />
+		<node X="91522" Y="63917" />
+	</zone>
+	<!-- oren22_2219_d04 -->
+	<zone name="sel_mahum_training_grounds_19" type="ScriptZone" shape="NPoly" minZ="-3473" maxZ="-3173">
+		<node X="90004" Y="61655" />
+		<node X="91003" Y="61657" />
+		<node X="91010" Y="62342" />
+		<node X="90009" Y="62354" />
+	</zone>
+	<!-- oren22_2219_d05 -->
+	<zone name="sel_mahum_training_grounds_20" type="ScriptZone" shape="NPoly" minZ="-3416" maxZ="-3116">
+		<node X="90075" Y="62718" />
+		<node X="91039" Y="62801" />
+		<node X="91057" Y="63433" />
+		<node X="90073" Y="63385" />
+	</zone>
+	<!-- oren22_2219_d06 -->
+	<zone name="sel_mahum_training_grounds_21" type="ScriptZone" shape="NPoly" minZ="-3577" maxZ="-3277">
+		<node X="90099" Y="63741" />
+		<node X="91206" Y="63790" />
+		<node X="91691" Y="64442" />
+		<node X="90100" Y="64455" />
+	</zone>
+	<!-- oren22_2220_e01 -->
+	<zone name="sel_mahum_training_grounds_22" type="ScriptZone" shape="NPoly" minZ="-3247" maxZ="-3047">
+		<node X="77262" Y="65822" />
+		<node X="77904" Y="65820" />
+		<node X="77908" Y="66849" />
+		<node X="77265" Y="66858" />
+	</zone>
+	<!-- oren22_2220_e02 -->
+	<zone name="sel_mahum_training_grounds_23" type="ScriptZone" shape="NPoly" minZ="-3256" maxZ="-3056">
+		<node X="78308" Y="65814" />
+		<node X="78917" Y="65808" />
+		<node X="78930" Y="66837" />
+		<node X="78305" Y="66842" />
+	</zone>
+	<!-- oren22_2220_e03 -->
+	<zone name="sel_mahum_training_grounds_24" type="ScriptZone" shape="NPoly" minZ="-3291" maxZ="-3091">
+		<node X="79333" Y="65807" />
+		<node X="80008" Y="65790" />
+		<node X="80042" Y="66836" />
+		<node X="79338" Y="66853" />
+	</zone>
+	<!-- oren22_2220_e04 -->
+	<zone name="sel_mahum_training_grounds_25" type="ScriptZone" shape="NPoly" minZ="-3252" maxZ="-3052">
+		<node X="77707" Y="67120" />
+		<node X="78482" Y="67114" />
+		<node X="78494" Y="68117" />
+		<node X="77676" Y="68113" />
+	</zone>
+	<!-- oren22_2220_e05 -->
+	<zone name="sel_mahum_training_grounds_26" type="ScriptZone" shape="NPoly" minZ="-3262" maxZ="-3062">
+		<node X="78806" Y="67150" />
+		<node X="79410" Y="67139" />
+		<node X="79379" Y="67970" />
+		<node X="78833" Y="67972" />
+	</zone>
+	<!-- oren22_2220_f01 -->
+	<zone name="sel_mahum_training_grounds_27" type="ScriptZone" shape="NPoly" minZ="-3047" maxZ="-2847">
+		<node X="83367" Y="66627" />
+		<node X="84259" Y="66613" />
+		<node X="84259" Y="67298" />
+		<node X="83375" Y="67303" />
+	</zone>
+	<!-- oren22_2220_f02 -->
+	<zone name="sel_mahum_training_grounds_28" type="ScriptZone" shape="NPoly" minZ="-3048" maxZ="-2848">
+		<node X="83356" Y="67691" />
+		<node X="84188" Y="67691" />
+		<node X="84189" Y="68266" />
+		<node X="83347" Y="68276" />
+	</zone>
+	<!-- oren22_2220_f03 -->
+	<zone name="sel_mahum_training_grounds_29" type="ScriptZone" shape="NPoly" minZ="-3059" maxZ="-2859">
+		<node X="82019" Y="66128" />
+		<node X="82919" Y="66120" />
+		<node X="82937" Y="66726" />
+		<node X="82013" Y="66735" />
+	</zone>
+	<!-- oren22_2220_f04 -->
+	<zone name="sel_mahum_training_grounds_30" type="ScriptZone" shape="NPoly" minZ="-3070" maxZ="-2870">
+		<node X="82034" Y="67204" />
+		<node X="82957" Y="67191" />
+		<node X="82976" Y="67768" />
+		<node X="82025" Y="67786" />
+	</zone>
+	<!-- oren22_2220_f05 -->
+	<zone name="sel_mahum_training_grounds_31" type="ScriptZone" shape="NPoly" minZ="-3089" maxZ="-2789">
+		<node X="82020" Y="68243" />
+		<node X="83010" Y="68231" />
+		<node X="83023" Y="68791" />
+		<node X="82029" Y="68824" />
+	</zone>
+	<zone name="[LastImperialTomb]" id="12017"  type="BossZone" shape="NPoly" minZ="-9364" maxZ="-7664">
+		<node X="-89841" Y="-139386" />
+		<node X="-89841" Y="-155313" />
+		<node X="-86033" Y="-155313" />
+		<node X="-86033" Y="-139386" />
+	</zone>
+</list>
