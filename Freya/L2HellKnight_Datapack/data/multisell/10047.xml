@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- © 2010 by mathuza -->
+
+<list maintainEnchantment="true">
+
+  <!-- Elegia Necklace -->
+  <item id="1">
+      <ingredient id="5962" count="30"/>
+   <ingredient id="3470" count="1"/>
+    <production id="15719" count="1"/>
+  </item>
+
+  <!-- Elegia Earring -->
+  <item id="2">
+        <ingredient id="5962" count="30"/>
+   <ingredient id="3470" count="1"/>
+    <production id="15718" count="1"/>
+  </item>
+
+  <!-- Elegia Ring -->
+  <item id="3">
+        <ingredient id="5962" count="30"/>
+   <ingredient id="3470" count="1"/>
+    <production id="15717" count="1"/>
+  </item>
+
+
+</list>

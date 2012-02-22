@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="Bloodshedparty" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="instance.xsd">
+  <activityTime val="240" />
+  <emptyDestroyTime val="240" />
+  <timeDelay val="60" />
+  <allowSummon val="false" />
+  <spawnlist>
+    <spawn npcId="2010001" x="16590" y="209973" z="-9357" heading="0" respawn="0" />
+	<spawn npcId="2010001" x="16486" y="210007" z="-9357" heading="0" respawn="0" />
+	<spawn npcId="2010001" x="16372" y="210028" z="-9357" heading="0" respawn="0" />
+	<spawn npcId="2010001" x="16160" y="210057" z="-9357" heading="0" respawn="0" />
+	<spawn npcId="2010001" x="16207" y="210069" z="-9357" heading="0" respawn="0" />
+	<spawn npcId="2010001" x="16270" y="210076" z="-9357" heading="0" respawn="0" />
+	<spawn npcId="2010001" x="16026" y="211828" z="-9357" heading="0" respawn="0" />
+  </spawnlist>
+  <doorlist>
+	<door doorId="20240001" />
+  </doorlist>
+</instance>

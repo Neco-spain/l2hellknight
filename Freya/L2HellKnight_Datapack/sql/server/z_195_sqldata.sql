@@ -1,0 +1,2 @@
+UPDATE `npc` SET `aggro` = 300 WHERE `id` IN (27348, 27349, 27350); -- Male Guards Sanctum of the Lords of Dawn
+UPDATE `npc` SET `aggro` = 250 WHERE `id` = 27351; -- Female Guards Sanctum of the Lords of Dawn

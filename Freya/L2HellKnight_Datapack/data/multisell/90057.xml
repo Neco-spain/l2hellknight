@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Common jewel trader -->
+
+<list maintainEnchantment="true" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" ns0:noNamespaceSchemaLocation="multisell.xsd">
+  <item id="1">
+    <ingredient id="12352" count="10"/>
+    <production id="6327" count="1"/>
+  </item>
+ <item id="2">
+    <ingredient id="12351" count="10"/>
+    <production id="6328" count="1"/>
+  </item>
+  <item id="3">
+    <ingredient id="12350" count="10"/>
+    <production id="6326" count="1"/>
+  </item>
+  <item id="4">
+    <ingredient id="12345" count="10"/>
+    <production id="6324" count="1"/>
+  </item>
+  <item id="5">
+    <ingredient id="12346" count="10"/>
+    <production id="6325" count="1"/>
+  </item>
+  <item id="6">
+    <ingredient id="12344" count="10"/>
+    <production id="6323" count="1"/>
+  </item>
+</list>
