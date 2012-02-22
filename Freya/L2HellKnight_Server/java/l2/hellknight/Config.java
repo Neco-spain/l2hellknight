@@ -277,11 +277,6 @@ public final class Config
 	    // Flag Player Can't Use GK
 	    public static boolean 	ALT_GAME_FLAGED_PLAYER_CAN_USE_GK;
 	    public static boolean           ALT_OLY_SAME_IP;
-
-	    	public static boolean SPAWN_CHAR;
-	    	public static int SPAWN_X;
-	    	public static int SPAWN_Y;
-	    	public static int SPAWN_Z;
 			
 	//pets
 	public static boolean SUMMON_STORE_SKILL_COOLTIME;
@@ -1920,10 +1915,6 @@ public final class Config
 										ALT_GAME_FLAGED_PLAYER_CAN_USE_GK	= Boolean.parseBoolean(votereward.getProperty("AltFlagedPlayerCanUseGK", "false"));
 										ALT_OLY_SAME_IP                                     = Boolean.parseBoolean(votereward.getProperty("AltOlySameIp", "true"));
 										
-														SPAWN_CHAR = Boolean.parseBoolean(votereward.getProperty("CustomSpawn", "false"));
-														SPAWN_X = Integer.parseInt(votereward.getProperty("SpawnX", ""));
-														SPAWN_Y = Integer.parseInt(votereward.getProperty("SpawnY", ""));
-														SPAWN_Z = Integer.parseInt(votereward.getProperty("SpawnZ", ""));
 					L2JMOD_VOTE_ENGINE_ENABLE = Boolean.parseBoolean(votereward.getProperty("EnableAutoVoteEngine", "false"));
 					L2JMOD_VOTE_ENGINE_SAVE = Boolean.parseBoolean(votereward.getProperty("AutoVoteEngineSaveLoad", "false"));
 				}

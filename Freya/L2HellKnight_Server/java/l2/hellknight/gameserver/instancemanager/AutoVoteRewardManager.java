@@ -25,7 +25,7 @@ public class AutoVoteRewardManager
 {
    private static Logger _log = Logger.getLogger(AutoVoteRewardManager.class.getName());
        
-   private static final String http = "http://l2.hopzone.net/lineage2/details/92153/L2-NeXtGeN";
+   private static final String http = "http://l2.hopzone.net/lineage2/details/81244/L2-Hell-Knight";
    private static final int initialCheck  = 1 * 1000;
    private static final int delayForCheck = 180 * 1000;
    private static final int[] itemId    = { 33340, 33399 };
@@ -49,14 +49,14 @@ public class AutoVoteRewardManager
        {
            int votes = getVotes();
            _log.info("AutoVoteRewardManager: We now have " + votes + "/"+(getLastVoteCount()+votesRequiredForReward)+" vote(s). Next check in "+(delayForCheck/1000)+" sec.");
-           Announcements.getInstance().announceToAll("Visit www.l2nextgen.com and vote server on HopZone for Reward");
+           Announcements.getInstance().announceToAll("Visit www.l2hellknight.com and vote server on HopZone for Reward");
 
            if (votes >= getLastVoteCount() + votesRequiredForReward)
-			{
-				for (L2PcInstance player : L2World.getInstance().getAllPlayersArray())
-				{
-					for (L2PcInstance onlinePlayer : pls)
-					{
+           {
+               for (L2PcInstance onlinePlayer : L2World.getInstance().getAllPlayersArray())
+               {
+                   if (onlinePlayer != null)
+                   {
                        if (onlinePlayer.isOnline() && !onlinePlayer.getClient().isDetached() && !_ips.contains(onlinePlayer.getClient().getConnection().getInetAddress().getHostAddress()))
                        {
                            for (int i = 0; i < itemId.length; i++)
