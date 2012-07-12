@@ -59,7 +59,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${build.tstamp}" />
 				<attribute name="Implementation-Version" value="${l2hellknight.revision}" />
-				<attribute name="Implementation-URL" value="http://l2hellknight.funsite.cz/" />
+				<attribute name="Implementation-URL" value="http://www.l2hellknight.com/" />
 			</manifest>
 		</jar>
 		<jar destfile="${build}/l2hellknight_login.jar">
@@ -70,7 +70,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${build.tstamp}" />
 				<attribute name="Implementation-Version" value="${l2hellknight.revision}" />
-				<attribute name="Implementation-URL" value="http://l2hellknight.funsite.cz/" />
+				<attribute name="Implementation-URL" value="http://www.l2hellknight.com/" />
 			</manifest>
 		</jar>
 		<copy todir="${build.dist.login}">
@@ -234,7 +234,7 @@
 				<include name="*.pn" />
 			</fileset>
 		</copy>
-		<zip destfile="${build}/l2hellknight_Server.zip" basedir="${build.dist}" />
+		<zip destfile="${build}/L2HellKnight_Server.zip" basedir="${build.dist}" />
 	</target>
 
 	<target name="version" depends="init" description="Create l2hellknight-version.properties file">
