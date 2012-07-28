@@ -1,0 +1,19 @@
+
+clean:
+
+checkRequirements:
+
+getChangelogDateVersion:
+
+init:
+    [mkdir] Created dir: D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_DataPack\build
+
+dist:
+     [sync] Copying 20905 files to D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_DataPack\build\dist
+     [sync] Copied 801 empty directories to 7 empty directories under D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_DataPack\build\dist
+     [copy] Copying 2 files to D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_DataPack\build\dist\game\data
+     [copy] Copying 2 files to D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_DataPack\build\dist\login\data
+      [zip] Building zip: D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_DataPack\build\L2_Brick_DataPack.zip
+
+BUILD SUCCESSFUL
+Total time: 15 minutes 37 seconds

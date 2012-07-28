@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="Elcadia's Tent">
+	<activityTime val="30" />
+	<emptyDestroyTime val="1" />
+	<allowSummon val="false" />
+	<spawnPoint spawnX="43275" spawnY="-87928" spawnZ="-2835" />
+	<spawnlist>
+		<!-- Elcadia -->
+	    <spawn npcId="32784" x="89440" y="-238080" z="-9632" heading="0" respawn="0" />
+	</spawnlist>
+</instance>

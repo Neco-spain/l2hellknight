@@ -1,0 +1,24 @@
+
+clean:
+
+checkRequirements:
+
+getChangelogDateVersion:
+
+init:
+    [mkdir] Created dir: D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build
+    [mkdir] Created dir: D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build\classes
+
+compile:
+    [javac] Compiling 52 source files to D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build\classes
+
+jar:
+      [jar] Building jar: D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build\dist\community\l2brick_community.jar
+
+dist:
+     [copy] Copying 10 files to D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build\dist
+     [copy] Copying 5 files to D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build\dist\libs
+      [zip] Building zip: D:\ASSAMBLEAS\l2brick-project\trunk\L2_Brick_Community\build\L2_Brick_Community.zip
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
