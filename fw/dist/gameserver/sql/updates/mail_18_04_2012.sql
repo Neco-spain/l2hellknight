@@ -1,0 +1,1 @@
+ALTER TABLE `mail` ADD COLUMN  `type` tinyint(4) NOT NULL DEFAULT '0' AFTER `price`;

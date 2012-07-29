@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!--  не понятно тут с этими скилами -->
+	<skill id="13100" levels="4" name="R3 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13101" levels="4" name="R3 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13102" levels="4" name="R3 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13103" levels="4" name="R4 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13104" levels="4" name="R4 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13105" levels="4" name="R4 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13106" levels="4" name="R5 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13107" levels="4" name="R5 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13108" levels="4" name="R5 2 компл.">
+		<!--  Активное умение. -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+		<!--  не понятно тут с этими скилами какие чтот и как-->
+	<skill id="13109" levels="5" name="Особое Свойство: Увеличение Урона.">
+		<!--  Физ. Атк. Дает возможность атаковать несколько целей одновременно. Увеличивает наносимый урон в PvP.. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  все с потолка -->
+            <mul order="0x30" stat="pAtk" val="1.15"/>
+			<add order="0x40" stat="poleTargetCount" val="15"/>
+			<mul order="0x30" stat="pvpPhysDefenceBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDefenceBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpMagicSkillDefenceBonus" val="1.05"/>
+        </for>
+    </skill>
+	<skill id="13110" levels="5" name="Особое Свойство: Наведение.">
+		<!--  Увеличивает Точность. Дает возможность атаковать несколько целей одновременно. Увеличивает наносимый урон в PvP.. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  все с потолка -->
+            <add order="0x40" stat="accCombat" val="5"/>
+			<add order="0x40" stat="poleTargetCount" val="15"/>
+			<mul order="0x30" stat="pvpPhysDefenceBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDefenceBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpMagicSkillDefenceBonus" val="1.05"/>
+        </for>
+    </skill>
+	<skill id="13111" levels="5" name="Особое Свойство: Поглощение HP.">
+		<!--  Увеличивает С определенной вероятностью частично восстанавливает HP за счет урона,
+		нанесенного врагу. Дает возможность атаковать несколько целей одновременно. Увеличивает наносимый урон в PvP.. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  все с потолка -->
+            <add order="0x40" stat="absorbDam" val="4"/>
+			<add order="0x40" stat="poleTargetCount" val="15"/>
+			<mul order="0x30" stat="pvpPhysDefenceBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDefenceBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpMagicSkillDefenceBonus" val="1.05"/>
+        </for>
+    </skill>
+	<skill id="13112" levels="5" name="Особое Свойство: Крит. Оглушение.">
+		<!--  Шокирует и временно обездвиживает врага. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <triggers>
+            <trigger id="3571" level="1" type="CRIT" chance="100"/>
+        </triggers>
+	</skill>
+	<skill id="13113" levels="5" name="Особое Свойство: Крит. Замедление.">
+		<!--  Временно уменьшает Скорость цели. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <triggers>
+            <trigger id="3594" level="1" type="CRIT" chance="100"/>
+        </triggers>
+	</skill>
+	<skill id="13114" levels="5" name="Особое Свойство: Крит. Замедление.">
+		<!--  Временно уменьшает Скорость цели. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13115" levels="1" name="Алебарда Мультиатаки">
+		<!--  Дает возможность атаковать несколько целей одновременно.. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  все с потолка -->
+			<add order="0x40" stat="poleTargetCount" val="15"/>
+        </for>
+	</skill>
+	<skill id="13116" levels="1" name="Талисман R - Устойчивость к Отталкиванию">
+		<!--  Увеличивает сопротивление отталкиванию, когда экипирован Талисман
+			Отталкивание не реализованно в ядре И я так понимаю он пасивка-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13117" levels="1" name="Талисман R - Устойчивость к Нокдауну">
+		<!--  Увеличивает сопротивление Нокдауну, когда экипирован Талисман
+			Накдаун не реализованно в ядре И я так понимаю он пасивка-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13118" levels="1" name="Талисман R - Устойчивость к Оковам">
+		<!--  Увеличивает сопротивление Оковам, когда экипирован Талисман
+			Что за оквы я хз пусть пока будет root этоже корни-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  все с потолка -->
+            <add order="0x40" stat="rootResist" val="5"/>>
+        </for>		
+	</skill>
+	<skill id="13119" levels="1" name="Талисман R - Устойчивость к Притягиванию ">
+		<!--  Увеличивает сопротивление Притягиванию, когда экипирован Талисман
+			Притягивание не реализованно в ядре И я так понимаю он пасивка-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13120" levels="1" name="Талисман R - Устойчивость к Изгнанию ">
+		<!--  Увеличивает сопротивление Изгнанию, когда экипирован Талисман
+			Изгнанию это что такое я вае хз чтоли резист к тому что пета отзовут или хз напишите тут кто знает это пасив так думаю-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13121" levels="1" name="Талисман R - Устойчивость к Мутации">
+		<!--  Увеличивает сопротивление Мутации, когда экипирован Талисман
+			Мутации это что такое я ваще хз напишите тут кто знает это пасив так думаю-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13122" levels="1" name="Колчан Стрел с Дополнительным Зарядом">
+		<!--  Че за бред я добавля.???Во время боя возможно были нанесены повреждения.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13123" levels="1" name="Колчан Стрел с Усиленной Разрушительной Силой">
+		<!--  Че за бред я добавля.???Во время критической атаки были нанесены существенные повреждения.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13124" levels="1" name="Колчан Стрел с Увеличенной Вредоносностью">
+		<!--  Че за бред я добавля.???Во время критической атаки возможно открылось кровотечение.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="13125" levels="1" name="Специальный Талисман- Физическая Атака">
+		<!--  Че за бред я добавля.???Когда экипирован Талисман, физическая атака усиливается.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  с потолка -->
+			<mul order="0x30" stat="pAtk" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="13126" levels="1" name="Специальный Талисман- Магическая Сила">
+		<!--  Че за бред я добавля.???Когда экипирован Талисман, магическая сила увеличивается.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  с потолка -->
+			<mul order="0x30" stat="mAtk" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="13127" levels="1" name="Специальный Талисман-Неистовая Скорость">
+		<!--  Че за бред я добавля.???Когда экипирован Талисман,скорость атаки ап увеличивается.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  с потолка -->
+			<mul order="0x30" stat="pAtkSpd" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="13128" levels="1" name="Специальный Талисман-Магическая Скорость">
+		<!--  Че за бред я добавля.???Когда экипирован Талисман,скорость магии ап увеличивается.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<!--  с потолка -->
+			<mul order="0x30" stat="mAtkSpd" val="1.25"/>
+		</for>
+	</skill>
+	<!-- Вооо опять поехали одно и тоже -->
+    <skill id="13129" levels="4" name="Эффект Комплекта- Тяжелые Доспехи Ада 2 шт(защь)">
+        <!--  ВЫН +2, СИЛ -1, HP +487, MP +202, сопротивление оглушению +7,
+      Маг. Защ. +44, Физ. Защ. +7% и дополнительно +87, сопротивление 4 стихиям +10. -->
+		<table name="#CON">2 2 2 2</table>
+		<table name="#STR">1 1 1 1</table>
+		<table name="#maxHp">487 487 487 487</table>
+		<table name="#maxMp">0 202 202 202</table>
+		<table name="#res">0 7 7 7</table>
+		<table name="#mDef">0 0 44 44</table>
+		<table name="#pDef">1 1 1 1.07</table>
+		<table name="#pdf2">0 0 0 84</table>
+		<table name="#defenceFire">0 0 0 10</table>
+		<table name="#defenceWater">0 0 0 10</table>
+		<table name="#defenceWind">0 0 0 10</table>
+		<table name="#defenceEarth">0 0 0 10</table>
+		<table name="#magicLevel">85 85 85 85</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="CON" val="#CON"/>
+			<sub order="0x10" stat="STR" val="#STR"/>
+            <add order="0x40" stat="maxHp" val="#maxHp"/>
+			<add order="0x40" stat="maxMp" val="#maxMp"/>
+			<add order="0x40" stat="stunResist" val="#res"/>
+			<add order="0x40" stat="mDef" val="#mDef"/>
+			<mul order="0x30" stat="pDef" val="#pDef"/>
+			<add order="0x40" stat="pDef" val="#pdf2"/>
+            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+		</for>
+    </skill>
+    <skill id="13130" levels="4" name="Эффект Комплекта- Тяжелые Доспехи Ада 2 шт. (атак.)">
+        <!-- СИЛ +2, ВЫН -1, сила Крит. Атк. +242,
+      сопротивление удержанию +7, Физ. Атк. +180, Физ. Защ. +7%,
+      сопротивление 4 стихиям +10, расход MP для умений -4%. -->
+		<table name="#STR">2 2 2 2</table>
+		<table name="#CON">1 1 1 1</table>
+		<table name="#cAtkStatic">0 242 242 242</table>
+		<table name="#rootResist">0 7 7 7</table>
+		<table name="#mpConsum">1 1 0.93 0.93</table>
+		<table name="#pAtk">0 0 0 180</table>
+		<table name="#pDef">1 1 1 1.07</table>
+		<table name="#defenceFire">0 0 0 10</table>
+		<table name="#defenceWater">0 0 0 10</table>
+		<table name="#defenceWind">0 0 0 10</table>
+		<table name="#defenceEarth">0 0 0 10</table>
+		<table name="#magicLevel">85 85 85 85</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="STR" val="#STR"/>
+			<sub order="0x10" stat="CON" val="#CON"/>
+            <add order="0x40" stat="cAtkStatic" val="#cAtkStatic"/>
+            <add order="0x40" stat="rootResist" val="#rootResist"/>
+			<mul order="0x30" stat="mpConsum" val="#mpConsum"/>
+			<add order="0x40" stat="pAtk" val="#pAtk"/>
+			<mul order="0x30" stat="pDef" val="#pDef"/>>
+            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+        </for>
+    </skill>
+    <skill id="13131" levels="4" name="Эффект Комплекта- Легкие Доспехи Ада 2 шт. (смерт.)">
+        <!-- ЛВК +2, СИЛ -1, Скор. Атк. +3%, Физ. Атк. +7%, Уклонение +2.3,
+      сопротивление удержанию +7, Физ. Атк. +180, шанс Крит. Атк. +3.3%,
+      сопротивление 4 стихиям +10. -->
+		<table name="#DEX">2 2 2 2</table>
+		<table name="#STR">1 1 1 1</table>
+		<table name="#rEvas">0 2.3 2.3 2.3</table>
+		<table name="#rootResist">0 7 7 7</table>
+		<table name="#pAtkSpd">1 1 1 1.03</table>
+		<table name="#pAtk">1 1 1 1.07</table>
+		<table name="#pAtk2">0 0 180 180</table>
+		<table name="#rCrit">1 1 1 1.03</table>
+		<table name="#defenceFire">0 0 0 10</table>
+		<table name="#defenceWater">0 0 0 10</table>
+		<table name="#defenceWind">0 0 0 10</table>
+		<table name="#defenceEarth">0 0 0 10</table>
+		<table name="#magicLevel">85 85 85 85</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="DEX" val="#DEX"/>
+			<sub order="0x10" stat="STR" val="#STR"/>
+            <mul order="0x30" stat="rEvas" val="#rEvas"/>
+			<add order="0x40" stat="pAtk" val="#pAtk2"/>
+            <add order="0x40" stat="rootResist" val="#rootResist"/>
+			<mul order="0x30" stat="rCrit" val="#rCrit"/>
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd"/>
+			<mul order="0x30" stat="pAtk" val="#pAtk"/>
+            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+        </for>
+    </skill>
+    <skill id="13132" levels="4" name="Эффект Комплекта- Легкие Доспехи Ада 2 шт. (усил.)">
+        <!-- СИЛ +2, Скор. Атк. +3%, Физ. Атк. +7% и дополнительно +180,
+      сопротивление удержанию +7, HP +487, сила Крит. Атк. +242,
+      сопротивление 4 стихиям +10, расход MP для умений -4%. -->
+		<table name="#STR">2 2 2 2</table>
+		<table name="#CON">1 1 1 1</table>
+		<table name="#mpConsum">1 0.96 0.96 0.96</table>
+		<table name="#rootResist">0 7 7 7</table>
+		<table name="#maxHp">0 487 487 487</table>
+		<table name="#pAtkSpd">1 1 1 1.03</table>
+		<table name="#pAtk">1 1 1 1.07</table>
+		<table name="#pAtk2">180 180 180 180</table>
+		<table name="#cAtkStatic">242 242 242 242</table>
+		<table name="#defenceFire">0 0 0 10</table>
+		<table name="#defenceWater">0 0 0 10</table>
+		<table name="#defenceWind">0 0 0 10</table>
+		<table name="#defenceEarth">0 0 0 10</table>
+		<table name="#magicLevel">85 85 85 85</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="STR" val="#STR"/>
+			<sub order="0x10" stat="CON" val="#CON"/>
+            <mul order="0x30" stat="mpConsum" val="#mpConsum"/>
+			<add order="0x40" stat="pAtk" val="#pAtk2"/>
+            <add order="0x40" stat="maxHp" val="#maxHp"/>
+			<add order="0x40" stat="rootResist" val="#rootResist"/>
+			<add order="0x40" stat="cAtkStatic" val="#cAtkStatic"/>
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd"/>
+			<mul order="0x30" stat="pAtk" val="#pAtk"/>
+            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+        </for>
+    </skill>
+    <skill id="13133" levels="4" name="Эффект Комплекта- Магические Доспехи Ада 2 шт. (маг.)">
+        <!-- ИНТ +2, ДУХ -1, Скор. Маг. +15%, Маг.Атк. +15% и дополнительно +184,
+      MP +202, сопротивление удержанию +7, Маг. Атк. +184, шанс Маг. Крит. Атк. +40,
+      сопротивление стихиям +10. -->
+		<table name="#INT">2 2 2 2</table>
+		<table name="#MEN">1 1 1 1</table>
+		<table name="#maxMp">202 202 202 202</table>
+		<table name="#sleepResist">0 7 7 7</table>
+		<table name="#mAtk">0 0 184 184</table>
+		<table name="#mAtk2">1 1 1 1.15</table>
+		<table name="#mAtkSpd">1 1 1 1.15</table>
+		<table name="#mCritRate">0 0 0 40</table>
+		<table name="#defenceFire">0 0 0 10</table>
+		<table name="#defenceWater">0 0 0 10</table>
+		<table name="#defenceWind">0 0 0 10</table>
+		<table name="#defenceEarth">0 0 0 10</table>
+		<table name="#magicLevel">85 85 85 85</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="INT" val="#INT"/>
+            <sub order="0x10" stat="MEN" val="#MEN"/>
+			<add order="0x40" stat="maxMp" val="#maxMp"/>
+			<add order="0x40" stat="sleepResist" val="#sleepResist"/>
+			<add order="0x40" stat="mAtk" val="#mAtk"/>
+            <mul order="0x30" stat="mAtk" val="#mAtk2"/>
+            <mul order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
+			<add order="0x40" stat="mCritRate" val="#mCritRate"/>
+            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+        </for>
+    </skill>
+    <skill id="13134" levels="4" name="Эффект Комплекта- Магические Доспехи Ада 2 шт. (восст.)">
+        <!--  МДР +2, ДУХ -1, Скор. Маг. +15%, Маг. Атк. +15%, MP +202, сопротивление оглушению +7,
+      скорость восстановления MP +0.7, исцеление +85, сопротивление стихиям +10. -->
+		<table name="#WIT">2 2 2 2</table>
+		<table name="#MEN">1 1 1 1</table>
+		<table name="#mAtk">1 1 1 1.15</table>
+		<table name="#mAtkSpd">1 1 1 1.15</table>
+		<table name="#maxMp">0 202 202 202</table>
+		<table name="#stunResist">0 7 7 7</table>
+		<table name="#regMp">0 0 0.7 0.7</table>
+		<table name="#healPower">0 85 85 85</table>
+		<table name="#defenceFire">0 0 0 10</table>
+		<table name="#defenceWater">0 0 0 10</table>
+		<table name="#defenceWind">0 0 0 10</table>
+		<table name="#defenceEarth">0 0 0 10</table>
+		<table name="#magicLevel">85 85 85 85</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="WIT" val="#WIT"/>
+            <sub order="0x10" stat="MEN" val="#MEN"/>
+            <mul order="0x30" stat="mAtk" val="#mAtk"/>
+            <mul order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
+            <add order="0x40" stat="maxMp" val="#maxMp"/>
+			<add order="0x40" stat="stunResist" val="#stunResist"/>
+			<add order="0x40" stat="healPower" val="#healPower"/>
+			<add order="0x40" stat="regMp" val="#regMp"/>
+            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+        </for>
+    </skill>
+    <skill id="13135" levels="1" name="Навык совместного пользования">
+		<!--  бред пишу Сила передается от героя питомцу. Показатели рассчитываются из характеристик питомцев. 
+		Передается: 50% Физ. Атк./Физ. Защ., 25% магии, 10% Макс. HP/MP, 20% Шанса Крит. Удар., 10% скорости Крит. Атк., 3% Скор. Маг. -->
+        <table name="#magicLevel">85 86 87</table>
+        <table name="#mpConsume2">70</table>
+        <set name="reuseDelay" val="1"/>
+        <set name="hitTime" val="1"/>
+        <set name="mpConsume2" val="#mpConsume2"/>
+        <set name="magicLevel" val="#magicLevel"/>
+        <set name="aggroPoints" val="669"/>
+        <set name="effectRange" val="900"/>
+        <set name="magicType" val="MAGIC"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_PET"/>
+        <for>
+            <effect self="1" name="Debuff" abnormalTime="1200" val="0">
+                <mul order="0x30" stat="pAtk" val="0.5"/>
+                <mul order="0x30" stat="pDef" val="0.5"/>
+                <mul order="0x30" stat="mAtk" val="0.75"/>
+                <mul order="0x30" stat="mDef" val="0.75"/>
+                <mul order="0x30" stat="maxHp" val="0.9"/>
+                <mul order="0x30" stat="maxMp" val="0.9"/>
+                <basemul order="0x30" stat="rCrit" val="-0.2"/>
+                <mul order="0x30" stat="pAtkSpd" val="0.9"/>
+                <mul order="0x30" stat="mAtkSpd" val="0.97"/>
+            </effect>
+            <effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="multi_buff">
+                <mul order="0x30" stat="pAtk" val="1.5"/>
+                <mul order="0x30" stat="pDef" val="1.5"/>
+                <mul order="0x30" stat="mAtk" val="1.25"/>
+                <mul order="0x30" stat="mDef" val="1.25"/>
+                <mul order="0x30" stat="maxHp" val="1.1"/>
+                <mul order="0x30" stat="maxMp" val="1.1"/>
+                <basemul order="0x30" stat="rCrit" val="0.2"/>
+                <mul order="0x30" stat="pAtkSpd" val="1.1"/>
+                <mul order="0x30" stat="mAtkSpd" val="1.03"/>
+            </effect>
+        </for>
+    </skill>
+	<skill id="13136" levels="1" name="Плащ Героя">
+		<!--  Когда экипирован Плащ, увеличивается макс. HP на 10%, макс. CP на 15%..-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxHp" val="1.1"/>
+			<mul order="0x30" stat="maxCp" val="1.15"/>
+		</for>
+	</skill>
+	<skill id="13137" levels="1" name="Восхитительный Плащ">
+		<!--  Когда экипирован Плащ, увеличивается макс. HP на 10%, макс. CP на 15%..-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxHp" val="1.1"/>
+			<mul order="0x30" stat="maxCp" val="1.15"/>
+		</for>
+	</skill>
+	<skill id="13138" levels="1" name="Талисман Увеличения Неистовой Силы">
+		<!-- AnaisКогда экипирован Талисман, скорость Физ. Атак. увеличивается на 2%. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtkSpd" val="1.02"/>
+		</for>
+	</skill>
+	<skill id="13139" levels="1" name="Талисман Увеличения Атаки">
+		<!-- AnaisКогда экипирован Талисман,  Физ. Атак. увеличивается на 2%. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.02"/>
+		</for>
+	</skill>
+	<skill id="13140" levels="1" name="Талисман Увеличения Защиты">
+		<!-- AnaisКогда экипирован Талисман, Физ. защ. увеличивается на 3%. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pDef" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="13141" levels="1" name="Талисман Увеличения Скоростной Магии">
+		<!-- AnaisКогда экипирован Талисман, скорость маг. Атак. увеличивается на 2%. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtkSpd" val="1.02"/>
+		</for>
+	</skill>
+	<skill id="13142" levels="1" name="Талисман Увеличения Магической Защиты">
+		<!-- AnaisКогда экипирован Талисман, mag. защ. увеличивается на 3%. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mDef" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="13143" levels="1" name="Талисман Увеличения Магической Атаки">
+		<!-- AnaisКогда экипирован Талисман,  mag. Атак. увеличивается на 2%. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtk" val="1.02"/>
+		</for>
+	</skill>
+	<skill id="13144" levels="1" name="Элегантный Капюшон с Серебряным Рогом">
+		<!--  СИЛ +1, ИНТ +1. .-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x10" stat="STR" val="1"/>
+			<add order="0x10" stat="INT" val="1"/>
+		</for>
+	</skill>
+		<skill id="13145" levels="1" name="ЭДиадема Дьявола ">
+		<!--  ВЫН +1, ДУХ +1.-->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x10" stat="CON" val="1"/>
+			<add order="0x10" stat="MEN" val="1"/>
+		</for>
+	</skill>
+    <skill id="13146" levels="1" name="Special Ability: Infinity Shaper">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_dagger_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13147" levels="1" name="Special Ability: Infinity Cutter">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_sword_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13148" levels="1" name="Special Ability: Infinity Slasher">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13149" levels="1" name="Special Ability: Infinity Avenger">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_axe_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13150" levels="1" name="Special Ability: Infinity Fighter">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_fist_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13151" levels="1" name="Special Ability: Infinity Stormer">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_pole_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13152" levels="1" name="Special Ability: Infinity Thrower">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_the_bow_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13153" levels="1" name="Special Ability: Infinity Shooter">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_infinity_shooter_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13154" levels="1" name="Special Ability: Infinity Buster">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. и Скор. Маг. Добавляет эффект Проницательности.
+          -->
+        <set name="icon" val="icon.weapon_infinity_sword_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.15"/>
+        </for>
+    </skill>
+    <skill id="13155" levels="1" name="Special Ability: Infinity Caster">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. и Скор. Маг. Добавляет эффект Проницательности.
+          -->
+        <set name="icon" val="icon.weapon_the_mace_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.15"/>
+        </for>
+    </skill>
+    <skill id="13156" levels="1" name="Special Ability: Infinity Retributer">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. и Скор. Маг. Добавляет эффект Проницательности.
+          -->
+        <set name="icon" val="icon.weapon_the_staff_of_hero_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.15"/>
+        </for>
+    </skill>
+    <skill id="13157" levels="1" name="Special Ability: Infinity Dual Sword">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_r_dualsword_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13158" levels="1" name="Special Ability: Infinity Dual Dagger">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="13159" levels="1" name="Special Ability: Infinity Dual Blunt Weapon">
+        <!--
+              Макс. HP/ MP/ CP/ PVP наносит дополнительный урон, увеличивает Скор. Атк. И Скор. Маг. Увеличивает силу Крит. Атк.
+          -->
+        <set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" val="1.25"/>
+            <mul order="0x30" stat="maxMp" val="1.30"/>
+            <mul order="0x30" stat="maxCp" val="1.50"/>
+            <mul order="0x30" stat="pAtkSpd" val="1.07"/>
+            <mul order="0x30" stat="mAtkSpd" val="1.1"/>
+            <mul order="0x30" stat="cAtk" val="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" val="1.05"/>
+        </for>
+    </skill>
+	<skill id="13160" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - регенерация HP.">
+		 <!-- 10.02.2012 Статы воистину с небес -->
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="13161" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - регенерация HP">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="1"/>
+		</for>
+	</skill>	
+	<skill id="13162" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - регенерация HP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="1.4"/>
+		</for>
+	</skill>
+	<skill id="13163" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - регенерация HP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="2"/>
+		</for>
+	</skill>
+	<skill id="13164" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="0.35"/>
+		</for>
+	</skill>
+	<skill id="13165" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="0.49"/>
+		</for>
+	</skill>
+	<skill id="13166" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="0.7"/>
+		</for>
+	</skill>
+	<skill id="13167" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="1"/>
+		</for>
+	</skill>
+	<skill id="13168" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - урон во время PvP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.01"/>
+		</for>
+	</skill>
+	<skill id="13169" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - урон во время PvP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.015"/>
+		</for>
+	</skill>
+	<skill id="13170" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - урон во время PvP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.021"/>
+		</for>
+	</skill>
+	<skill id="13171" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - урон во время PvP.">
+		  <set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="13172" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+	    <table name="#pvpDam">1.01</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13173" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.015</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13174" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.021</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13175" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.03</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13176" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.01</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13177" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.025</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13178" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.035</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13179" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.05</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13180" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - регенерация HP.">
+	    <!-- 10.02.2012 Статы воистину с небес -->
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="13181" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - регенерация HP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="1"/>
+		</for>
+		</skill>
+	<skill id="13182" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - регенерация HP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="1.4"/>
+		</for>
+	</skill>
+	<skill id="13183" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - регенерация HP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regHp" val="2"/>
+		</for>
+	</skill>
+	<skill id="13184" levels="1" name="Магическая заколка, Пояс Бессмертия Низкого Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="0.35"/>
+		</for>
+	</skill>
+	<skill id="13185" levels="1" name="Магическая заколка, Пояс Бессмертия Стандартного Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="0.49"/>
+		</for>
+	</skill>
+	<skill id="13186" levels="1" name="Магическая заколка, Пояс Бессмертия Высокого Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="0.7"/>
+		</for>
+	</skill>
+	<skill id="13187" levels="1" name="Магическая заколка, Пояс Бессмертия Самого Высокого Качества - регенерация MP.">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="regMp" val="1"/>
+		</for>
+	</skill>
+	<skill id="13188" levels="1" name="Магическое Украшение, Пояс Бессмертия Низкого Качества - урон во время PvP">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.01"/>
+		</for>
+	</skill>
+	<skill id="13189" levels="1" name="Магическое Украшение, Пояс Бессмертия Стандартного Качества - урон во время PvP">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.015"/>
+		</for>
+	</skill>
+	<skill id="13190" levels="1" name="Магическое Украшение, Пояс Бессмертия Высокого Качества - урон во время PvP">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.021"/>
+		</for>
+	</skill>
+		
+	<skill id="13191" levels="1" name="Магическое Украшение, Пояс Бессмертия Самого Высокого Качества - урон во время PvP">
+		<set name="magicLevel" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="13192" levels="1" name="Магическое Украшение, Пояс Бессмертия Низкого Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.01</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13193" levels="1" name="Магическое Украшение, Пояс Бессмертия Стандартного Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.015</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13194" levels="1" name="Магическое Украшение, Пояс Бессмертия Высокого Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.021</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13195" levels="1" name="Магическое Украшение, Пояс Бессмертия Самого Высокого Качества - Увеличивает урон от Маг. Атк. и умений во время PvP">
+		<table name="#pvpDam">1.03</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDam"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13196" levels="1" name="Магическое Украшение, Пояс Бессмертия Низкого Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.01</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13197" levels="1" name="Магическое Украшение, Пояс Бессмертия Стандартного Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.025</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13198" levels="1" name="Магическое Украшение, Пояс Бессмертия Высокого Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpDam">1.035</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpDam"/>
+        </for>
+    </skill>
+	<skill id="13199" levels="1" name="Магическое Украшение, Пояс Бессмертия Самого Высокого Качества - Снижает получаемый во время PvP урон">
+		<table name="#pvpPhysDefenceBonus">1.05</table>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" val="#pvpPhysDefenceBonus"/>
+        </for>
+    </skill>
+</list>

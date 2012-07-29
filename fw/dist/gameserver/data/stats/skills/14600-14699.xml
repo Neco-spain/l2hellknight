@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <skill id="14600" levels="1" name="Chain Skills">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="PASSIVE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="14601" levels="1" name="Cry of Fate - Mark of Weakness">
+        <table name="#DOT">174</table>
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="1200"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume" val="1"/>
+        <set name="isMagic" val="true"/>
+        <set name="skillType" val="POISON"/>
+        <set name="power" val="70"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison1"
+                    abnormal="poison"/>
+        </for>
+    </skill>
+    <skill id="14602" levels="1" name="Cry of Fate - Mark of Plague">
+        <table name="#DOT">238</table>
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="1500"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume" val="1"/>
+        <set name="isMagic" val="true"/>
+        <set name="skillType" val="POISON"/>
+        <set name="power" val="70"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison2"
+                    abnormal="poison"/>
+        </for>
+    </skill>
+    <skill id="14603" levels="1" name="Cry of Fate - Exile">
+        <table name="#DOT">167</table>
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume" val="1"/>
+        <set name="isMagic" val="true"/>
+        <set name="skillType" val="POISON"/>
+        <set name="power" val="70"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison2"
+                    abnormal="poison"/>
+        </for>
+    </skill>
+    <skill id="14604" levels="1" name="Chain Skills">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="PASSIVE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="14605" levels="1" name="Cry of Fate - Assault Attack">
+        <set name="power" val="5175"/>
+        <set name="target" val="TARGET_ONE"/>
+        <set name="isDebuff" val="true"/>
+        <set name="nextAction" val="attack"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="overHit" val="true"/>
+        <set name="hitTime" val="910"/>
+        <set name="hitCancelTime" val="300"/>
+        <cond msg="Sword,Blunt,Dual Sword or Dual Blunt required.">
+            <using kind="Sword,Blunt,Dual Sword,Dual Blunt"/>
+        </cond>
+        <for>
+            <effect count="1" name="Buff" time="300">
+                <mul order="0x30" stat="pDef" val="0.7"/>
+                <mul order="0x30" stat="mDef" val="0.7"/>
+                <mul order="0x30" stat="rEvas" val="0.9"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14606" levels="1" name="Cry of Fate - Death Strike">
+        <set name="hitTime" val="1410"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="power" val="9444"/>
+        <set name="target" val="TARGET_ONE"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="nextAction" val="attack"/>
+        <set name="overHit" val="true"/>
+    </skill>
+    <skill id="14607" levels="1" name="Cry of Fate - Pipe Organ Melody">
+        <set name="hitTime" val="699"/>
+        <set name="hitCancelTime" val="300"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="isMagic" val="true"/>
+        <set name="power" val="1400"/>
+        <set name="mpConsume" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_SELF"/>
+        <for>
+            <effect name="Buff" count="1" time="10" val="0" stackOrder="1" stackType="buff">
+                <add order="0x40" stat="maxHp" val="2572"/>
+                <add order="0x40" stat="maxMp" val="953"/>
+                <mul order="0x30" stat="regHp" val="1.20"/>
+                <mul order="0x30" stat="regMp" val="1.20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14608" levels="1" name="Chain Skills">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="PASSIVE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="14609" levels="1" name="Cry of Fate - Dark Blast">
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="1500"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="skillType" val="MDAM"/>
+        <set name="isMagic" val="true"/>
+        <set name="power" val="124"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+    </skill>
+    <skill id="14610" levels="1" name="Cry of Fate - Light of Heal">
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="skillType" val="HEAL_WITH_CP"/>
+        <set name="isMagic" val="true"/>
+        <set name="power" val="1488"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_SELF"/>
+    </skill>
+    <skill id="14611" levels="1" name="Cry of Fate - Dark Force">
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="2000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="power" val="113"/>
+        <set name="target" val="TARGET_ONE"/>
+        <set name="skillType" val="MDAM"/>
+        <set name="effetRange" val="600"/>
+        <set name="isMagic" val="true"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="14612" levels="1" name="Press the icon to use the chain skill">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="EFFECT"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="reuseDelay" val="3000"/>
+        <for>
+            <effect count="1" name="Buff" time="4" alterData="457"/>
+        </for>
+    </skill>
+    <skill id="14613" levels="1" name="Press the icon to use the chain skill">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="EFFECT"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="reuseDelay" val="3000"/>
+        <for>
+            <effect count="1" name="Buff" time="4" alterData="458"/>
+        </for>
+    </skill>
+    <skill id="14614" levels="1" name="Press the icon to use the chain skill">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="EFFECT"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="reuseDelay" val="3000"/>
+        <for>
+            <effect count="1" name="Buff" time="4" alterData="459"/>
+        </for>
+    </skill>
+    <skill id="14625" levels="1" name="Release of Power">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="magicType" val="MAGIC"/>
+        <set name="skillType" val="HEAL"/>
+        <set name="power" val="1488"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="reuseDelay" val="30000"/>
+        <set name="hitTime" val="10000"/>
+        <set name="castRange" val="900"/>
+    </skill>
+    <skill id="14649" levels="1" name="Bounce">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="500"/>
+        <for/>
+    </skill>
+    <skill id="14673" levels="1" name="Cry of Fate - Shield Charge">
+        <set name="power" val="1500"/>
+        <set name="target" val="TARGET_ONE"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="800"/>
+        <set name="mpConsume" val="1"/>
+        <set name="castRange" val="40"/>
+        <for>
+            <effect name="Buff" time="9" val="0" abnormalLvl="1" abnormalType="critical_dmg_down" effectPower="80">
+                <basemul order="0x30" stat="critDamRcpt" val="1.1"/>
+                <!-- TODO: Это стоит уточнить и проверить -->
+                <mul order="0x30" stat="pDef" val="0.9"/>
+                <sub order="0x40" stat="rEvas" val="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14674" levels="1" name="Cry of Fate - Chain Strike">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="skillType" val="DEBUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="500"/>
+        <set name="mpConsume" val="1"/>
+        <set name="castRange" val="600"/>
+        <for>
+            <effect count="1" name="TargetToMe" time="1" val="0"/>
+        </for>
+    </skill>
+    <skill id="14676" levels="1" name="Cry of Fate - Armor Destruction">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="1090"/>
+        <set name="hitCancelTime" val="200"/>
+        <set name="mpConsume" val="1"/>
+        <set name="castRange" val="40"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="power" val="1300"/>
+        <for>
+            <effect count="1" name="Buff" stackOrder="3" stackType="pDefDown" time="20" val="0">
+                <mul order="0x30" stat="pDef" val="0.85"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14678" levels="1" name="Cry of Fate - Power Bomber">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="1490"/>
+        <set name="hitCancelTime" val="200"/>
+        <set name="mpConsume" val="1"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="power" val="2000"/>
+        <set name="castRange" val="40"/>
+        <for>
+            <effect name="Stun" time="2" val="0" effectPower="65" effectType="STUN" abnormalLvl="1"
+                    abnormalType="stun"/>
+        </for>
+    </skill>
+    <skill id="14679" levels="1" name="Cry of Fate - Heart Breaker">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="829"/>
+        <set name="hitCancelTime" val="699"/>
+        <set name="mpConsume" val="0"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="power" val="1700"/>
+        <set name="castRange" val="40"/>
+        <set name="overHit" val="true"/>
+        <set name="lethal1" val="10"/>
+        <!-- Half-Kill -->
+    </skill>
+    <skill id="14682" levels="1" name="Cry of Fate - Pinpoint Shot">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="2200"/>
+        <set name="hitCancelTime" val="850"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="power" val="2700"/>
+        <set name="castRange" val="700"/>
+        <set name="overHit" val="true"/>
+    </skill>
+    <skill id="14683" levels="1" name="Cry of Fate - Quick Fire">
+        <set name="target" val="TARGET_SELF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="800"/>
+        <set name="hitCancelTime" val="200"/>
+        <set name="mpConsume" val="1"/>
+        <set name="skillType" val="BUFF"/>
+        <for>
+            <effect name="Buff" time="20" val="0" stackOrder="1" stackType="buff">
+                <mul order="0x30" stat="pAtkSpd" val="1.5">
+                    <using kind="bow,crossbow"/>
+                </mul>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14685" levels="1" name="Cry of Fate - Elemental Spike">
+        <set name="target" val="TARGET_ONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="hitTime" val="2279"/>
+        <set name="hitCancelTime" val="300"/>
+        <set name="mpConsume" val="1"/>
+        <set name="skillType" val="MDAM"/>
+        <set name="power" val="30"/>
+        <set name="castRange" val="550"/>
+        <set name="isMagic" val="true"/>
+        <for>
+            <effect name="Debuff" time="3" val="0" stackOrder="1" stackType="speed_down">
+                <sub order="0x40" stat="defenceFire" val="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14686" levels="1" name="Cry of Fate - Elemental Crash">
+        <set name="castRange" val="600"/>
+        <set name="effectRange" val="600"/>
+        <set name="hitTime" val="2779"/>
+        <set name="hitCancelTime" val="300"/>
+        <set name="isMagic" val="true"/>
+        <set name="isDebuff" val="true"/>
+        <set name="skillType" val="MDAM"/>
+        <set name="power" val="35"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="3" val="0"/>
+        </for>
+    </skill>
+    <skill id="14688" levels="2" name="Cry of Fate - Mark of Weakness">
+        <table name="#DOT">40 5</table>
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="1200"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume" val="1"/>
+        <set name="isMagic" val="true"/>
+        <set name="skillType" val="POISON"/>
+        <set name="power" val="70"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison1"
+                    abnormal="poison"/>
+        </for>
+    </skill>
+    <skill id="14689" levels="2" name="Cry of Fate - Mark of Plague">
+        <table name="#DOT">70 8</table>
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="1500"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume" val="1"/>
+        <set name="isMagic" val="true"/>
+        <set name="skillType" val="POISON"/>
+        <set name="power" val="70"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison2"
+                    abnormal="poison"/>
+        </for>
+    </skill>
+    <skill id="14691" levels="1" name="Cry of Fate - Assault Attack">
+        <set name="castRange" val="40"/>
+        <set name="hitTime" val="910"/>
+        <set name="hitCancelTime" val="300"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="power" val="1300"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect name="Debuff" time="5" val="0">
+                <mul order="0x30" stat="pDef" val="0.70"/>
+                <mul order="0x30" stat="mDef" val="0.70"/>
+                <add order="0x40" stat="rEvas" val="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14692" levels="1" name="Cry of Fate - Death Strike">
+        <set name="castRange" val="40"/>
+        <set name="hitTime" val="1409"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="skillType" val="PDAM"/>
+        <set name="power" val="1400"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+    </skill>
+    <skill id="14693" levels="1" name="Cry of Fate - Pipe Organ Melody">
+        <set name="hitTime" val="699"/>
+        <set name="hitCancelTime" val="300"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="isMagic" val="true"/>
+        <set name="power" val="1400"/>
+        <set name="mpConsume" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_SELF"/>
+        <for>
+            <effect name="Buff" time="1800" val="0" stackOrder="1" stackType="buff">
+                <add order="0x40" stat="maxHp" val="2572"/>
+                <add order="0x40" stat="maxMp" val="953"/>
+                <mul order="0x30" stat="regHp" val="1.20"/>
+                <mul order="0x30" stat="regMp" val="1.20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="14694" levels="1" name="Cry of Fate - Dark Blast">
+        <set name="castRange" val="600"/>
+        <set name="hitTime" val="1500"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="skillType" val="MDAM"/>
+        <set name="isMagic" val="true"/>
+        <set name="power" val="31"/>
+        <set name="mpConsume" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="target" val="TARGET_ONE"/>
+    </skill>
+	<skill id="14698" levels="1" name="Current Shock">
+		<set name="hitTime" val="1000" />
+		<set name="skillRadius" val="600" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="true" />
+		<set name="lvlDepend" val="1" />
+		<set name="magicLvl" val="18" />
+		<set name="mpConsume" val="0" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="TARGET_AURA" />
+		<for>
+			<effect count="2" name="DamOverTime" time="2" val="67" />
+		</for>
+	</skill>
+
+</list>

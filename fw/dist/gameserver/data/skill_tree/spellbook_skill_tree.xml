@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!-- Created by Ragnarok -->
+<list>
+    <spellbook_skill_tree>
+        <class id="2">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="3">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="5">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="6">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="8">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="820" level="1" min_level="74" name="Evasion Haste">
+                <required_item id="12770"/>
+            </skill>
+        </class>
+        <class id="9">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="12">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="13">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="14">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="16">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="17">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="1501" level="1" min_level="70" name="Improved Condition">
+                <required_item id="10581"/>
+            </skill>
+            <skill id="1499" level="1" min_level="70" name="Improved Combat">
+                <required_item id="10579"/>
+            </skill>
+        </class>
+        <class id="20">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="21">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="23">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="819" level="1" min_level="74" name="Evasion Chance">
+                <required_item id="12769"/>
+            </skill>
+        </class>
+        <class id="24">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="27">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="28">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="30">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="1503" level="1" min_level="70" name="Improved Shield Defense">
+                <required_item id="10583"/>
+            </skill>
+            <skill id="1504" level="1" min_level="70" name="Improved Movement">
+                <required_item id="10584"/>
+            </skill>
+        </class>
+        <class id="33">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="34">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="36">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="818" level="1" min_level="74" name="Evasion Counter">
+                <required_item id="12768"/>
+            </skill>
+        </class>
+        <class id="37">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="40">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="41">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="43">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="1502" level="1" min_level="70" name="Improved Critical Attack">
+                <required_item id="10582"/>
+            </skill>
+            <skill id="1500" level="1" min_level="70" name="Improved Magic">
+                <required_item id="10580"/>
+            </skill>
+        </class>
+        <class id="46">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="48">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="51">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="1536" level="1" min_level="70" name="Combat of Pa'agrio">
+                <required_item id="14215"/>
+            </skill>
+            <skill id="1537" level="1" min_level="74" name="Critical of Pa'agrio">
+                <required_item id="14216"/>
+            </skill>
+        </class>
+        <class id="52">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+            <skill id="1517" level="1" min_level="70" name="Chant of Combat">
+                <required_item id="10608"/>
+            </skill>
+            <skill id="1535" level="1" min_level="72" name="Chant of Movement">
+                <required_item id="14214"/>
+            </skill>
+            <skill id="1518" level="1" min_level="72" name="Chant of Critical Attack">
+                <required_item id="10609"/>
+            </skill>
+            <skill id="1519" level="1" min_level="74" name="Chant of Blood Awakening">
+                <required_item id="10610"/>
+            </skill>
+        </class>
+        <class id="55">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="57">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="88">
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="919" level="1" min_level="83" name="Maximum Focus Sonic">
+                <required_item id="14202"/>
+            </skill>
+        </class>
+        <class id="89">
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="774" level="1" min_level="83" name="Dread Pool">
+                <required_item id="14181"/>
+            </skill>
+        </class>
+        <class id="90">
+            <skill id="760" level="1" min_level="81" name="Anti Magic Armor">
+                <required_item id="10554"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="913" level="1" min_level="81" name="Deflect Magic">
+                <required_item id="14207"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="784" level="1" min_level="83" name="Spirit of Phoenix">
+                <required_item id="14172"/>
+            </skill>
+            <skill id="785" level="1" min_level="83" name="Flame Icon">
+                <required_item id="14172"/>
+            </skill>
+            <skill id="912" level="1" min_level="83" name="Summon Imperial Phoenix">
+                <required_item id="14200"/>
+            </skill>
+        </class>
+        <class id="91">
+            <skill id="760" level="1" min_level="81" name="Anti Magic Armor">
+                <required_item id="10554"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="913" level="1" min_level="81" name="Deflect Magic">
+                <required_item id="14207"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="762" level="1" min_level="83" name="Insane Crusher">
+                <required_item id="14170"/>
+            </skill>
+            <skill id="763" level="1" min_level="83" name="Hell Scream">
+                <required_item id="14171"/>
+            </skill>
+            <skill id="761" level="1" min_level="83" name="Seed of Revenge">
+                <required_item id="14170"/>
+            </skill>
+        </class>
+        <class id="92">
+            <skill id="946" level="1" min_level="81" name="Silent Mind">
+                <required_item id="14220"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="924" level="1" min_level="81" name="Seven Arrow">
+                <required_item id="14211"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="771" level="1" min_level="83" name="Flame Hawk">
+                <required_item id="14178"/>
+            </skill>
+        </class>
+        <class id="93">
+            <skill id="923" level="1" min_level="81" name="Dual Dagger Mastery">
+                <required_item id="14210"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="922" level="1" min_level="81" name="Hide">
+                <required_item id="14209"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="768" level="1" min_level="83" name="Exciting Adventure">
+                <required_item id="14175"/>
+            </skill>
+        </class>
+        <class id="94">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1467" level="1" min_level="81" name="Meteor">
+                <required_item id="14191"/>
+            </skill>
+            <skill id="1532" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14212"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1492" level="1" min_level="83" name="Flame Armor">
+                <required_item id="14187"/>
+            </skill>
+        </class>
+        <class id="95">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1467" level="1" min_level="81" name="Meteor">
+                <required_item id="14191"/>
+            </skill>
+            <skill id="1532" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14212"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1495" level="1" min_level="83" name="Vampiric Mist">
+                <required_item id="14190"/>
+            </skill>
+        </class>
+        <class id="96">
+            <skill id="1496" level="1" min_level="81" name="Servitor Barrier">
+                <required_item id="10576"/>
+            </skill>
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1498" level="1" min_level="81" name="Mutual Response">
+                <required_item id="10578"/>
+            </skill>
+            <skill id="1497" level="1" min_level="81" name="Excessive Loyalty">
+                <required_item id="10577"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="929" level="1" min_level="83" name="Spirit of the Cat">
+                <required_item id="14204"/>
+            </skill>
+        </class>
+        <class id="97">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1540" level="1" min_level="81" name="Turn to Stone">
+                <required_item id="14221"/>
+            </skill>
+            <skill id="1533" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14213"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1505" level="1" min_level="83" name="Sublime Self-Sacrifice">
+                <required_item id="14193"/>
+            </skill>
+        </class>
+        <class id="98">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1540" level="1" min_level="81" name="Turn to Stone">
+                <required_item id="14221"/>
+            </skill>
+            <skill id="1533" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14213"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1542" level="1" min_level="83" name="Counter Critical">
+                <required_item id="14225"/>
+            </skill>
+        </class>
+        <class id="99">
+            <skill id="760" level="1" min_level="81" name="Anti Magic Armor">
+                <required_item id="10554"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="913" level="1" min_level="81" name="Deflect Magic">
+                <required_item id="14207"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="786" level="1" min_level="83" name="Eva's Will">
+                <required_item id="14173"/>
+            </skill>
+            <skill id="787" level="1" min_level="83" name="Touch of Eva">
+                <required_item id="14173"/>
+            </skill>
+        </class>
+        <class id="100">
+            <skill id="764" level="1" min_level="76" name="Song of Wind Storm">
+                <required_item id="10557"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="913" level="1" min_level="81" name="Deflect Magic">
+                <required_item id="14207"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="914" level="1" min_level="83" name="Song of Purification">
+                <required_item id="14198"/>
+            </skill>
+        </class>
+        <class id="101">
+            <skill id="923" level="1" min_level="81" name="Dual Dagger Mastery">
+                <required_item id="14210"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="922" level="1" min_level="81" name="Hide">
+                <required_item id="14209"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="769" level="1" min_level="83" name="Wind Riding">
+                <required_item id="14176"/>
+            </skill>
+        </class>
+        <class id="102">
+            <skill id="946" level="1" min_level="81" name="Silent Mind">
+                <required_item id="14220"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="924" level="1" min_level="81" name="Seven Arrow">
+                <required_item id="14211"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="772" level="1" min_level="83" name="Arrow Rain">
+                <required_item id="14179"/>
+            </skill>
+        </class>
+        <class id="103">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1468" level="1" min_level="81" name="Star Fall">
+                <required_item id="14192"/>
+            </skill>
+            <skill id="1532" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14212"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1493" level="1" min_level="83" name="Frost Armor">
+                <required_item id="14188"/>
+            </skill>
+        </class>
+        <class id="104">
+            <skill id="1496" level="1" min_level="81" name="Servitor Barrier">
+                <required_item id="10576"/>
+            </skill>
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1498" level="1" min_level="81" name="Mutual Response">
+                <required_item id="10578"/>
+            </skill>
+            <skill id="1497" level="1" min_level="81" name="Excessive Loyalty">
+                <required_item id="10577"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="931" level="1" min_level="83" name="Spirit of the Unicorn">
+                <required_item id="14205"/>
+            </skill>
+        </class>
+        <class id="105">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1540" level="1" min_level="81" name="Turn to Stone">
+                <required_item id="14221"/>
+            </skill>
+            <skill id="1533" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14213"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1506" level="1" min_level="83" name="Blessing of Eva">
+                <required_item id="14194"/>
+            </skill>
+        </class>
+        <class id="106">
+            <skill id="760" level="1" min_level="81" name="Anti Magic Armor">
+                <required_item id="10554"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="913" level="1" min_level="81" name="Deflect Magic">
+                <required_item id="14207"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="788" level="1" min_level="83" name="Pain of Shilen">
+                <required_item id="14174"/>
+            </skill>
+            <skill id="789" level="1" min_level="83" name="Spirit of Shilen">
+                <required_item id="14174"/>
+            </skill>
+        </class>
+        <class id="107">
+            <skill id="765" level="1" min_level="76" name="Dance of Blade Storm">
+                <required_item id="10558"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="913" level="1" min_level="81" name="Deflect Magic">
+                <required_item id="14207"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="915" level="1" min_level="83" name="Dance of Berserker">
+                <required_item id="14199"/>
+            </skill>
+        </class>
+        <class id="108">
+            <skill id="923" level="1" min_level="81" name="Dual Dagger Mastery">
+                <required_item id="14210"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="922" level="1" min_level="81" name="Hide">
+                <required_item id="14209"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="770" level="1" min_level="83" name="Ghost Walking">
+                <required_item id="14177"/>
+            </skill>
+        </class>
+        <class id="109">
+            <skill id="946" level="1" min_level="81" name="Silent Mind">
+                <required_item id="14220"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="924" level="1" min_level="81" name="Seven Arrow">
+                <required_item id="14211"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="773" level="1" min_level="83" name="Ghost Piercing">
+                <required_item id="14180"/>
+            </skill>
+        </class>
+        <class id="110">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1468" level="1" min_level="81" name="Star Fall">
+                <required_item id="14192"/>
+            </skill>
+            <skill id="1532" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14212"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1494" level="1" min_level="83" name="Hurricane Armor">
+                <required_item id="14189"/>
+            </skill>
+        </class>
+        <class id="111">
+            <skill id="1496" level="1" min_level="81" name="Servitor Barrier">
+                <required_item id="10576"/>
+            </skill>
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1498" level="1" min_level="81" name="Mutual Response">
+                <required_item id="10578"/>
+            </skill>
+            <skill id="1497" level="1" min_level="81" name="Excessive Loyalty">
+                <required_item id="10577"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="930" level="1" min_level="83" name="Spirit of the Demon">
+                <required_item id="14206"/>
+            </skill>
+        </class>
+        <class id="112">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1540" level="1" min_level="81" name="Turn to Stone">
+                <required_item id="14221"/>
+            </skill>
+            <skill id="1533" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14213"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1507" level="1" min_level="83" name="Lord of Vampire">
+                <required_item id="14195"/>
+            </skill>
+        </class>
+        <class id="113">
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="777" level="1" min_level="83" name="Demolition Impact">
+                <required_item id="14183"/>
+            </skill>
+        </class>
+        <class id="114">
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="918" level="1" min_level="83" name="Maximum Focus Force">
+                <required_item id="14201"/>
+            </skill>
+            <skill id="776" level="1" min_level="83" name="Force of Destruction">
+                <required_item id="14182"/>
+            </skill>
+        </class>
+        <class id="115">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1540" level="1" min_level="81" name="Turn to Stone">
+                <required_item id="14221"/>
+            </skill>
+            <skill id="1533" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14213"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="949" level="1" min_level="83" name="Onslaught of Pa'agrio">
+                <required_item id="14226"/>
+            </skill>
+            <skill id="1509" level="1" min_level="83" name="Seal of Limit">
+                <required_item id="14197"/>
+            </skill>
+        </class>
+        <class id="116">
+            <skill id="945" level="1" min_level="81" name="Magician's Will">
+                <required_item id="14219"/>
+            </skill>
+            <skill id="1540" level="1" min_level="81" name="Turn to Stone">
+                <required_item id="14221"/>
+            </skill>
+            <skill id="1533" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14213"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="1543" level="1" min_level="83" name="Great Fury">
+                <required_item id="14227"/>
+            </skill>
+        </class>
+        <class id="117">
+            <skill id="923" level="1" min_level="81" name="Dual Dagger Mastery">
+                <required_item id="14210"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="947" level="1" min_level="83" name="Lucky Strike">
+                <required_item id="14222"/>
+            </skill>
+        </class>
+        <class id="118">
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="172" level="10" min_level="82" name="Create Item">
+                <required_item id="17030"/>
+            </skill>
+            <skill id="778" level="1" min_level="83" name="Golem Armor">
+                <required_item id="14184"/>
+            </skill>
+        </class>
+        <class id="127">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="128">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="129">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="130">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="131">
+            <skill id="840" level="1" min_level="79" name="Final Flying Form">
+                <required_item id="13552"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="917" level="1" min_level="81" name="Champion's Favor">
+                <required_item id="14208"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="948" level="1" min_level="83" name="Eye for Eye">
+                <required_item id="14223"/>
+            </skill>
+        </class>
+        <class id="132">
+            <skill id="840" level="1" min_level="79" name="Final Flying Form">
+                <required_item id="13552"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="1532" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14212"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="791" level="1" min_level="83" name="Lightning Shock">
+                <required_item id="14186"/>
+            </skill>
+        </class>
+        <class id="133">
+            <skill id="840" level="1" min_level="79" name="Final Flying Form">
+                <required_item id="13552"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="767" level="1" min_level="81" name="Expose Weak Point">
+                <required_item id="10560"/>
+            </skill>
+            <skill id="1532" level="1" min_level="81" name="Enlightenment">
+                <required_item id="14212"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="791" level="1" min_level="83" name="Lightning Shock">
+                <required_item id="14186"/>
+            </skill>
+        </class>
+        <class id="134">
+            <skill id="840" level="1" min_level="79" name="Final Flying Form">
+                <required_item id="13552"/>
+            </skill>
+            <skill id="758" level="1" min_level="81" name="Fighter's Will">
+                <required_item id="10552"/>
+            </skill>
+            <skill id="759" level="1" min_level="81" name="Archer's Will">
+                <required_item id="10553"/>
+            </skill>
+            <skill id="766" level="1" min_level="81" name="Sixth Sense">
+                <required_item id="10559"/>
+            </skill>
+            <skill id="757" level="1" min_level="82" name="Protection of Alignment">
+                <required_item id="10551"/>
+            </skill>
+            <skill id="755" level="1" min_level="82" name="Protection of Rune">
+                <required_item id="10549"/>
+            </skill>
+            <skill id="756" level="1" min_level="82" name="Protection of Elemental">
+                <required_item id="10550"/>
+            </skill>
+            <skill id="790" level="1" min_level="83" name="Wild Shot">
+                <required_item id="14185"/>
+            </skill>
+        </class>
+        <class id="135">
+            <skill id="1405" level="1" min_level="52" name="Divine Inspiration">
+                <required_item id="8618"/>
+            </skill>
+            <skill id="1405" level="2" min_level="61" name="Divine Inspiration">
+                <required_item id="8619"/>
+            </skill>
+            <skill id="1405" level="3" min_level="76" name="Divine Inspiration">
+                <required_item id="8620"/>
+            </skill>
+            <skill id="1405" level="4" min_level="76" name="Divine Inspiration">
+                <required_item id="8621"/>
+            </skill>
+        </class>
+        <class id="136">
+            <skill id="840" level="1" min_level="79" name="Final Flying Form">
+                <required_item id="13552"/>
+            </skill>
+        </class>
+    </spellbook_skill_tree>
+</list>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="23184" level="1" name="Ball Trapping Gnocian Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23186" level="1" name="Ball Trapping Orodriel Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23188" level="1" name="Penalty Kick Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23190" level="1" name="Ball Trapping Gnocian Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23192" level="1" name="Ball Trapping Orodriel Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23194" level="1" name="Penalty Kick Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23196" level="1" name="Ball Trapping Gnocian Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+    <skill id="23198" level="1" name="Ball Trapping Orodriel Agathion Special Skill - Soccer Ball of Cheering">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="icon" val="icon.skill_agathion_special"/>
+        <set name="reuseDelay" val="10000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="20993:1"/>
+        </effect>
+    </skill>
+</list>

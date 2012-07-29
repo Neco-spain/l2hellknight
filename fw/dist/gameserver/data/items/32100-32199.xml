@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+  	<etcitem id="32100" name="Unidentified Dwarven Chain Mail Shirt">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+  	<etcitem id="32101" name="Unidentified Dwarven Chain Gaiters">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+  	<etcitem id="32102" name="Unidentified Dwarven Chain Shield">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32103" name="Unidentified Dwarven Chain Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32104" name="Unidentified Dwarven Chain Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32105" name="Unidentified Dwarven War Hammer">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32106" name="Unidentified Dwarven Scale Mail">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32107" name="Unidentified Dwarven Scale Gaiters">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32108" name="Unidentified Drake Leather Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32109" name="Unidentified Drake Leather Armor">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32110" name="Unidentified Drake Leather Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32111" name="Unidentified Dragon Hunter Axe">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32112" name="Unidentified Flaming Dragon Skull">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32113" name="Unidentified Dragon Slayer">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32114" name="Unidentified Dragon Grinder	">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32115" name="Unidentified Draconic Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32116" name="Unidentified Draconic Leather Helmet">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32117" name="Unidentified Draconic Leather Armor">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32118" name="Unidentified Draconic Leather Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32119" name="Unidentified Draconic Leather Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32120" name="Unidentified Doom Hammer">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32121" name="Unidentified Doom Helmet">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32122" name="Unidentified Doom Plate Armor">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32123" name="Unidentified Doom Crusher">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32124" name="Unidentified Doom Shield">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32125" name="Unidentified Doom Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32126" name="Unidentified Doom Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32127" name="Unidentified Dasparion's Staff">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32128" name="Unidentified Sword of Whispering Death">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32129" name="Unidentified Demon Splinter">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32130" name="Unidentified Club of Nature">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32131" name="Unidentified Dark Elven Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32132" name="Unidentified Dark Elven Long Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32133" name="Unidentified Dark Screamer">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32134" name="Unidentified Dark Crystal Breastplate">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32135" name="Unidentified Dark Crystal Helmet">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32136" name="Unidentified Dark Crystal Shield">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32137" name="Unidentified Dark Crystal Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32138" name="Unidentified Dark Crystal Robe">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32139" name="Unidentified Dark Crystal Leather Armor">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32140" name="Unidentified Dark Crystal Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32141" name="Unidentified Dark Crystal Gaiters">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32142" name="Unidentified Dark Elven Dagger">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32143" name="Unidentified Dark Legion's Edge">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32144" name="Unidentified Sword of Damascus">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32145" name="Unidentified Wolverine Needle">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32146" name="Unidentified Knuckle Duster">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32147" name="Unidentified Nirvana Axe">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32148" name="Unidentified Shilen Knife">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32149" name="Unidentified Knight's Sword*Sword of Revolution">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32150" name="Unidentified Knight's Sword*Crimson Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32151" name="Unidentified Knight's Sword*Elven Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32152" name="Unidentified Knight's Sword*Elven Sword	">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32153" name="Unidentified Knight's Sword*Elven Long Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32154" name="Unidentified Knight's Sword*Knight's Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32155" name="Unidentified Knight's Shield">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32156" name="Unidentified Knight's Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32157" name="Unidentified Nassen's Earring">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32158" name="Unidentified Mace of Prayer">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32159" name="Unidentified Glaive">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32160" name="Unidentified Sword of Limit">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32161" name="Unidentified Great Pata">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32162" name="Unidentified Great Helmet">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32163" name="Unidentified Great Axe">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32164" name="Unidentified Great Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32165" name="Unidentified Grace Dagger">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32166" name="Unidentified Grand Epee">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32167" name="Unidentified Stick of Eternity">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32168" name="Unidentified Ghoul's Staff">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32169" name="Unidentified Noble Elven Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32170" name="Unidentified Crafted Leather Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32171" name="Unidentified Dark Stockings">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32172" name="Unidentified Gauntlet">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32173" name="Unidentified Reinforced Long Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32174" name="Unidentified Reinforced Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32175" name="Unidentified Reinforced Mithril Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32176" name="Unidentified Reinforced Mithril Shirt">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32177" name="Unidentified Reinforced Mithril Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32178" name="Unidentified Reinforced Mithril Gaiters">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32179" name="Unidentified Reinforced Leather Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32180" name="Unidentified Reinforced Leather Shirt">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32181" name="Unidentified Reinforced Leather Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32182" name="Unidentified Reinforced Leather Gaiters">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32183" name="Unidentified Steel Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32184" name="Unidentified Iron Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32185" name="Unidentified Assault Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32186" name="Unidentified Leather Boots">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32187" name="Unidentified Leather Gauntlet">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32188" name="Unidentified Gastraphetes">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+	  	<etcitem id="32189" name="Unidentified Guardian Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+    <weapon id="32199" name="Blessed Twilight Shield" add_name="Attack Type">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="icon" value="icon.kratere_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1130"/>
+        <set name="crystal_type" value="R"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add stat="rEvas" order="0x10" value="-8"/>
+            <add stat="sDef" order="0x10" value="458"/>
+            <add stat="rShld" order="0x10" value="20"/>
+            <enchant stat="sDef" order="0x0C" value="0"/>
+            <enchant stat="maxHp" order="0x80" value="0"/>
+        </for>
+    </weapon>
+</list>

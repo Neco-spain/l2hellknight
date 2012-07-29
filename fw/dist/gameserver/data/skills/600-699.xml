@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+
+<list>
+    <skill id="620" level="1" name="Quiver of Bolts: B Grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="icon" val="icon.skill0620"/>
+        <set name="reuseDelay" val="600000"/>
+        <set name="magicLevel" val="52"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="366"/>
+        <set name="itemConsumeId" val="1460"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9635:700]30.0};{[9635:1400]50.0};{[9635:2800]20.0}"/>
+        </effect>
+    </skill>
+    <skill id="621" level="1" name="Create Special Bolt">
+        <set name="magicType" val="MAGIC"/>
+        <set name="icon" val="icon.skill0621"/>
+        <set name="reuseDelay" val="150000"/>
+        <set name="magicLevel" val="43"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="38"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="10113:1"/>
+        </effect>
+    </skill>
+</list>

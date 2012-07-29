@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+    <weapon id="31500" name="Bound Nirvana Axe" add_name="Magic Poison">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="icon" value="icon.weapon_nirvana_axe_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1150"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="111"/>
+            <add stat="mAtk" order="0x10" value="101"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31501" name="Bound Nirvana Axe" add_name="Magic Weakness">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_nirvana_axe_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1150"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="111"/>
+            <add stat="mAtk" order="0x10" value="101"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31502" name="Bound Shilen Knife">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="is_magic_weapon" value="true"/>
+        <set name="icon" value="icon.weapon_knife_o'_silenus_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="750"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="45"/>
+            <add stat="mAtk" order="0x10" value="52"/>
+            <add stat="atkBaseSpeed" order="0x08" value="433"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31503" name="Bound Knight's Sword*Sword of Revolution">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2430"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="124"/>
+            <add stat="mAtk" order="0x10" value="58"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31504" name="Bound Knight's Sword*Crimson Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2460"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="107"/>
+            <add stat="mAtk" order="0x10" value="51"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31505" name="Bound Knight's Sword*Elven Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2450"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="107"/>
+            <add stat="mAtk" order="0x10" value="51"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31506" name="Bound Knight's Sword*Elven Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUAL"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="107"/>
+            <add stat="mAtk" order="0x10" value="51"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31507" name="Bound Knight's Sword*Elven Long Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2370"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="136"/>
+            <add stat="mAtk" order="0x10" value="63"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31508" name="Bound Knight's Sword*Knight's Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2460"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="96"/>
+            <add stat="mAtk" order="0x10" value="47"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31509" name="Bound Knight's Shield">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.shield_knight_shield_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1260"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add stat="rEvas" order="0x10" value="-8"/>
+            <add stat="sDef" order="0x10" value="178"/>
+            <add stat="rShld" order="0x10" value="20"/>
+            <enchant stat="sDef" order="0x0C" value="0"/>
+            <enchant stat="maxHp" order="0x80" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31510" name="Bound Knight's Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_knights_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1500"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="51"/>
+            <add stat="mAtk" order="0x10" value="32"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31512" name="Bound Mace of Prayer">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="is_magic_weapon" value="true"/>
+        <set name="icon" value="icon.weapon_mace_of_prayer_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1300"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="41"/>
+            <add stat="mAtk" order="0x10" value="43"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31513" name="Bound Glaive">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_glaive_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="POLE"/>
+        <set name="weight" value="2050"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="92"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31514" name="Bound Sword of Limit">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_sword_of_limit_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1400"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="139"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31515" name="Bound Sword of Limit" add_name="Guidance">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_sword_of_limit_i01"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1400"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="139"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31516" name="Bound Sword of Limit" add_name="Critical Drain">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_sword_of_limit_i01"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1400"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="139"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31517" name="Bound Sword of Limit" add_name="Health">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_sword_of_limit_i01"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1400"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="139"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31518" name="Bound Lacerator">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_greed_stinger_i00"/>
+        <set name="rnd_dam" value="40"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="RAPIER"/>
+        <set name="weight" value="1320"/>
+        <set name="crystal_type" value="A"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="210"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <add stat="atkBaseSpeed" order="0x08" value="406"/>
+            <add stat="accCombat" order="0x10" value="-1.5"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31519" name="Bound Lacerator" add_name="Critical Damage">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_greed_stinger_i01"/>
+        <set name="rnd_dam" value="40"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="RAPIER"/>
+        <set name="weight" value="1320"/>
+        <set name="crystal_type" value="A"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="210"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <add stat="atkBaseSpeed" order="0x08" value="406"/>
+            <add stat="accCombat" order="0x10" value="-1.5"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31520" name="Bound Lacerator" add_name="Health">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_greed_stinger_i01"/>
+        <set name="rnd_dam" value="40"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="RAPIER"/>
+        <set name="weight" value="1320"/>
+        <set name="crystal_type" value="A"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="210"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <add stat="atkBaseSpeed" order="0x08" value="406"/>
+            <add stat="accCombat" order="0x10" value="-1.5"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31521" name="Bound Lacerator" add_name="Rsk. Focus">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_greed_stinger_i01"/>
+        <set name="rnd_dam" value="40"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="RAPIER"/>
+        <set name="weight" value="1320"/>
+        <set name="crystal_type" value="A"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="210"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <add stat="atkBaseSpeed" order="0x08" value="406"/>
+            <add stat="accCombat" order="0x10" value="-1.5"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31522" name="Bound Great Pata">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_pata_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1460"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="190"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31523" name="Bound Great Pata" add_name="Critical Drain">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_pata_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1460"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="190"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31524" name="Bound Great Pata" add_name="Critical Poison">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_pata_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1460"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="190"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31525" name="Bound Great Pata" add_name="Rsk. Haste">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_pata_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1460"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="190"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31527" name="Bound Great Axe">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_axe_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="POLE"/>
+        <set name="weight" value="1940"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="175"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31528" name="Bound Great Axe" add_name="Anger">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_axe_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="POLE"/>
+        <set name="weight" value="1940"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="175"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31529" name="Bound Great Axe" add_name="Critical Stun">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_axe_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="POLE"/>
+        <set name="weight" value="1940"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="175"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31530" name="Bound Great Axe" add_name="Light">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_axe_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="POLE"/>
+        <set name="weight" value="1940"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="175"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31531" name="Bound Great Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="213"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31532" name="Bound Great Sword" add_name="Health">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="213"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31533" name="Bound Great Sword" add_name="Critical Damage">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="213"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31534" name="Bound Great Sword" add_name="Focus">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_great_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="213"/>
+            <add stat="mAtk" order="0x10" value="91"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31535" name="Bound Grace Dagger">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_grace_dagger_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1020"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="122"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="433"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31536" name="Bound Grace Dagger" add_name="Evasion">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_grace_dagger_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1020"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="122"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="433"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31537" name="Bound Grace Dagger" add_name="Focus">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_grace_dagger_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1020"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="122"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="433"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31538" name="Bound Grace Dagger" add_name="Back Blow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_grace_dagger_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1020"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="122"/>
+            <add stat="mAtk" order="0x10" value="76"/>
+            <add stat="atkBaseSpeed" order="0x08" value="433"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31539" name="Bound Grand Epee">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_rapier_i00"/>
+        <set name="rnd_dam" value="40"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="RAPIER"/>
+        <set name="weight" value="1440"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="83"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <add stat="atkBaseSpeed" order="0x08" value="406"/>
+            <add stat="accCombat" order="0x10" value="-1.5"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31540" name="Bound Gram">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_gram_i00"/>
+        <set name="rnd_dam" value="15"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="ANCIENTSWORD"/>
+        <set name="weight" value="1800"/>
+        <set name="crystal_type" value="S"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="304"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <add stat="atkBaseSpeed" order="0x08" value="350"/>
+            <add stat="accCombat" order="0x10" value="2"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31541" name="Bound Gram" add_name="Haste">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_gram_i01"/>
+        <set name="rnd_dam" value="15"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="ANCIENTSWORD"/>
+        <set name="weight" value="1800"/>
+        <set name="crystal_type" value="S"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="304"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <add stat="atkBaseSpeed" order="0x08" value="350"/>
+            <add stat="accCombat" order="0x10" value="2"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31542" name="Bound Gram" add_name="Health">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_gram_i01"/>
+        <set name="rnd_dam" value="15"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="ANCIENTSWORD"/>
+        <set name="weight" value="1800"/>
+        <set name="crystal_type" value="S"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="304"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <add stat="atkBaseSpeed" order="0x08" value="350"/>
+            <add stat="accCombat" order="0x10" value="2"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31543" name="Bound Gram" add_name="Focus">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_gram_i01"/>
+        <set name="rnd_dam" value="15"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="ANCIENTSWORD"/>
+        <set name="weight" value="1800"/>
+        <set name="crystal_type" value="S"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="304"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <add stat="atkBaseSpeed" order="0x08" value="350"/>
+            <add stat="accCombat" order="0x10" value="2"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31544" name="Bound Stick of Eternity">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_stick_of_eternity_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1130"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="111"/>
+            <add stat="mAtk" order="0x10" value="101"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31545" name="Bound Stick of Eternity" add_name="Empower">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_stick_of_eternity_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1130"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="111"/>
+            <add stat="mAtk" order="0x10" value="101"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31546" name="Bound Stick of Eternity" add_name="Rsk. Evasion">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_stick_of_eternity_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1130"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="111"/>
+            <add stat="mAtk" order="0x10" value="101"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31547" name="Bound Stick of Eternity" add_name="Blessed Body">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_stick_of_eternity_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1130"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="111"/>
+            <add stat="mAtk" order="0x10" value="101"/>
+            <add stat="atkBaseSpeed" order="0x08" value="379"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31548" name="Bound Ghoul's Staff">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_ghouls_staff_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1000"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="152"/>
+            <add stat="mAtk" order="0x10" value="122"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31549" name="Bound Ghoul's Staff" add_name="Rsk. Evasion">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_ghouls_staff_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1000"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="152"/>
+            <add stat="mAtk" order="0x10" value="122"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31550" name="Bound Ghoul's Staff" add_name="Mana Up">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_ghouls_staff_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1000"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="152"/>
+            <add stat="mAtk" order="0x10" value="122"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31551" name="Bound Ghoul's Staff" add_name="Blessed Body">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_ghouls_staff_i01"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1000"/>
+        <set name="crystal_type" value="C"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="152"/>
+            <add stat="mAtk" order="0x10" value="122"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <add stat="accCombat" order="0x10" value="8"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31552" name="Bound Noble Elven Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_noble_elven_bow_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="8"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1760"/>
+        <set name="crystal_type" value="C"/>
+        <set name="mp_consume" value="3"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="252"/>
+            <add stat="mAtk" order="0x10" value="68"/>
+            <add stat="atkBaseSpeed" order="0x08" value="293"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31553" name="Bound Noble Elven Bow" add_name="Evasion">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_noble_elven_bow_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="8"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1760"/>
+        <set name="crystal_type" value="C"/>
+        <set name="mp_consume" value="3"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="252"/>
+            <add stat="mAtk" order="0x10" value="68"/>
+            <add stat="atkBaseSpeed" order="0x08" value="293"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31554" name="Bound Noble Elven Bow" add_name="Miser">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_noble_elven_bow_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="8"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1760"/>
+        <set name="crystal_type" value="C"/>
+        <set name="mp_consume" value="3"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="252"/>
+            <add stat="mAtk" order="0x10" value="68"/>
+            <add stat="atkBaseSpeed" order="0x08" value="293"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31555" name="Bound Noble Elven Bow" add_name="Cheap Shot">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_noble_elven_bow_i01"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="8"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1760"/>
+        <set name="crystal_type" value="C"/>
+        <set name="mp_consume" value="3"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="252"/>
+            <add stat="mAtk" order="0x10" value="68"/>
+            <add stat="atkBaseSpeed" order="0x08" value="293"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31559" name="Bound Reinforced Long Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_strengthening_long_bow_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="10"/>
+        <set name="spiritshots" value="3"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1820"/>
+        <set name="crystal_type" value="D"/>
+        <set name="mp_consume" value="2"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="179"/>
+            <add stat="mAtk" order="0x10" value="51"/>
+            <add stat="atkBaseSpeed" order="0x08" value="227"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31560" name="Bound Reinforced Bow">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_strengthening_bow_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="6"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1870"/>
+        <set name="crystal_type" value="D"/>
+        <set name="mp_consume" value="2"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="82"/>
+            <add stat="mAtk" order="0x10" value="26"/>
+            <add stat="atkBaseSpeed" order="0x08" value="293"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31569" name="Bound Steel Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_iron_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="2100"/>
+        <set name="crystal_type" value="D"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="49"/>
+            <add stat="mAtk" order="0x10" value="26"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31574" name="Bound Gastraphetes">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_gastraphetes_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="8"/>
+        <set name="spiritshots" value="2"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1840"/>
+        <set name="crystal_type" value="D"/>
+        <set name="mp_consume" value="2"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="132"/>
+            <add stat="mAtk" order="0x10" value="39"/>
+            <add stat="atkBaseSpeed" order="0x08" value="293"/>
+            <add stat="accCombat" order="0x10" value="-3.75"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31575" name="Bound Guardian Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_guardians_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="236"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31576" name="Bound Guardian Sword" add_name="Critical Drain">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_guardians_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="236"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31577" name="Bound Guardian Sword" add_name="Health">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_guardians_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="236"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+    <weapon id="31578" name="Bound Guardian Sword" add_name="Critical Bleed">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+
+        <set name="icon" value="icon.weapon_guardians_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1930"/>
+        <set name="crystal_type" value="B"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="236"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <add stat="atkBaseSpeed" order="0x08" value="325"/>
+            <enchant stat="pAtk" order="0x0C" value="0"/>
+            <enchant stat="mAtk" order="0x0C" value="0"/>
+        </for>
+    </weapon>
+	<etcitem id="31579" name="Unidentified Boots of Power">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31580" name="Unidentified Black Pearl Ring">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31581" name="Unidentified Black Pearl Ring">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31582" name="Unidentified Ring of Black Ore">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31583" name="Unidentified Necklace of Black Ore">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31584" name="Unidentified Earring of Black Ore">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31585" name="Unidentified Ghost Staff">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31586" name="Unidentified Ghost Staff">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31587" name="Unidentified Hoplon">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31588" name="Unidentified Stockings of Zubei">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31589" name="Unidentified Stockings of Doom">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31590" name="Unidentified Homunkulus's Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31591" name="Unidentified Blood of the Sage">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31592" name="Unidentified Sage's Staff">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31593" name="Unidentified Sage's Ring">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31594" name="Unidentified Sage's Necklace">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31595" name="Unidentified Sage's Rags">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31596" name="Unidentified Sage's Worn Gloves">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31597" name="Unidentified Sage's Earring">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31598" name="Unidentified Sword of Revolution*Sword of Revolution">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+		<etcitem id="31599" name="Unidentified Sword of Revolution*Elven Long Sword">
+        <set name="ex_type" value="OTHER_ITEMS"/>
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystallizable" value="false"/>
+        <set name="type" value="OTHER"/>
+        <set name="weight" value="0"/>
+    </etcitem>
+</list>

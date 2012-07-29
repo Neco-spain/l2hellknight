@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="13300" levels="3" name="Особое Свойство Одноручная Магическая Дубина">
+	<!--  Сила  Маг. Крит. Атк +381, Маг. Точность +2. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mCritRate" val="381"/>
+			<add order="0x40" stat="maccCombat" val="2"/>
+        </for>
+    </skill>
+	<skill id="13301" levels="3" name="Особое Свойство Двуручная Магическая Дубина">
+	<!--  Маг. Атк. +44, сила Маг. Крит. Атк. +381. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mCritRate" val="381"/>
+			<add order="0x40" stat="mAtk" val="44"/>
+        </for>
+    </skill>
+	<skill id="13302" levels="3" name="Особое Свойство Двуручная Магическая Дубина">
+	<!--  Маг. Атк. +44, сила Маг. Крит. Атк. +381. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mCritRate" val="381"/>
+			<add order="0x40" stat="mAtk" val="44"/>
+        </for>
+    </skill>
+	<skill id="13303" levels="3" name="Особое Свойство Двуручная Магическая Дубина">
+	<!--  Маг. Атк. +44, сила Маг. Крит. Атк. +381. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mCritRate" val="381"/>
+			<add order="0x40" stat="mAtk" val="44"/>
+        </for>
+    </skill>
+	<skill id="13304" levels="3" name="Особое Свойство Двуручная Магическая Дубина">
+	<!--  Маг. Атк. +44, сила Маг. Крит. Атк. +381. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mCritRate" val="381"/>
+			<add order="0x40" stat="mAtk" val="44"/>
+        </for>
+    </skill>
+	<skill id="13305" levels="3" name="Особое Свойство Двуручная Магическая Дубина">
+	<!--  Маг. Атк. +44, сила Маг. Крит. Атк. +381. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mCritRate" val="381"/>
+			<add order="0x40" stat="mAtk" val="44"/>
+        </for>
+    </skill>
+	<skill id="13306" levels="3" name="Особое Свойство Тяжелая Броня">
+	<!--  Маг. Физ. Защ. +34, урон от Крит. Атк. -4,3%. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pDef" val="34"/>
+			<mul order="0x30" stat="critDamRcpt" val="0.957"/>
+        </for>
+    </skill>
+	<skill id="13307" levels="3" name="Особое Свойство Тяжелая Броня">
+	<!--  Маг. Физ. Защ. +34, урон от Крит. Атк. -4,3%. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pDef" val="34"/>
+			<mul order="0x30" stat="critDamRcpt" val="0.957"/>
+        </for>
+    </skill>
+	<skill id="13308" levels="3" name="Особое Свойство Тяжелая Броня">
+	<!--  Маг. Физ. Защ. +34, урон от Крит. Атк. -4,3%. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pDef" val="34"/>
+			<mul order="0x30" stat="critDamRcpt" val="0.957"/>
+        </for>
+    </skill>
+	<skill id="13309" levels="3" name="Особое Свойство Тяжелая Броня">
+	<!--  Маг. Физ. Защ. +34, урон от Крит. Атк. -4,3%. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pDef" val="34"/>
+			<mul order="0x30" stat="critDamRcpt" val="0.957"/>
+        </for>
+    </skill>
+	<!-- Сцук я эта давно сделал но сонный был и не обратил внимание и потомы не нашел, пидарасы иннововские делают херня патчи. -->
+	<skill id="13310" levels="3" name="Особое Свойство Тяжелая Броня">
+	<!--  Маг. Физ. Защ. +34, урон от Крит. Атк. -4,3%. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pDef" val="34"/>
+			<mul order="0x30" stat="critDamRcpt" val="0.957"/>
+        </for>
+    </skill>
+	<skill id="13311" levels="3" name="Особое Свойство Легкая Броня">
+	<!--  из. Уклонение +3, физ. устойчивость. +5, шанс получения Крит. Атак. -3,4%. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="rEvas" val="3"/>
+			<mul order="0x30" stat="critDamRcpt" val="0.966"/>
+        </for>
+    </skill>
+	<skill id="13312" levels="3" name="Особое Свойство Магическая Броня">
+	<!--  Маг. Уклонение +3, псих. устойчивость +9. -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mrEvas" val="3"/>
+            <add order="0x40" stat="mentalResist" val="9"/>
+        </for>
+    </skill>
+    <skill id="13313" levels="1" name="Благословенная Серьга Антараса">
+	<!--  Благословенная Серьга Антараса	u,Увеличивает Защиту/Маг. Защиту; защиту от земли/света; 
+	сопротивление кровопусканию/шоковым/ментальным атакам; добавляет бонус кровопусканию/шоковым/ментальным атакам; 
+	усиливает эффективность магии, восстанавливающей HP; уменьшает расход MP на умения; с определенной вероятностью восстанавливает
+	HP за счет урона, нанесенного врагу. ВЫН +3, ДУХ +3. -->
+        <set name="icon" val="icon.accessory_earring_of_antaras_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+			<mul order="0x30" stat="mDef" val="1.05"/>
+			<mul order="0x30" stat="pDef" val="1.05"/>
+            <mul order="0x30" stat="bleedResist" val="1.50"/>
+            <mul order="0x30" stat="hpEff" val="1.10"/>
+            <add order="0x40" stat="absorbDam" val="4"/>
+            <mul order="0x30" stat="stunResist" val="1.30"/>
+            <mul order="0x30" stat="bleedPower" val="1.40"/>
+            <mul order="0x30" stat="stunPower" val="1.30"/>
+            <add order="0x40" stat="defenceEarth" val="15"/>
+			<add order="0x40" stat="defenceHoly" val="15"/>
+            <mul order="0x30" stat="mentalResist" val="1.30"/>
+            <mul order="0x30" stat="mentalPower" val="1.30"/>
+            <mul order="0x30" stat="mpConsum" val="0.95"/>
+			<add order="0x10" stat="CON" val="10"/>
+			<add order="0x10" stat="MEN" val="10"/>
+        </for>
+    </skill>
+	<skill id="13314" levels="1" name="Благословенная Серьга Антараса">
+		<!--  Отменяет эффект Оглушения, добавляет сопротивление шокирующей  атаке -->
+        <set name="reuseDelay" val="15000"/>
+        <set name="magicLevel" val="85"/>
+        <set name="hitTime" val="1000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume2" val="60"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="NEGATE_EFFECTS"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+		<!-- хз что тут писать -->
+        <set name="negateEffects" val="Root"/>
+        <set name="onlyPhysical" val="true"/>
+		<for>
+			<effect count="1" name="Buff" time="30" val="1">
+			<mul order="0x30" stat="stunResist" val="1.30"/>
+            </effect>
+		</for>
+    </skill>
+	<skill id="13315" levels="1" name="Благословенное Ожерелье Валакаса">
+			<!--  Увеличивает сопротивление атакам Огня/Тьмы, усыпляющим атакам; 
+			добавляет бонус усыпляющим атакам; увеличивает Макс. HP/Физ. Атк./Маг. Атк/ шанс Маг. Крит. Атк.; сокращает время перезарядки умения; 
+			отражает часть полученного урона обратно врагу. СИЛ+3, ИНТ +3 -->
+        <set name="icon" val="icon.accessory_necklace_of_valakas_i00"/>
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="maxHp" val="445"/>
+            <mul order="0x30" stat="pAtk" val="1.04"/>
+            <mul order="0x30" stat="mAtk" val="1.08"/>
+            <add order="0x40" stat="mCritRate" val="1"/>
+            <add order="0x40" stat="defenceFire" val="15"/>
+			<add order="0x40" stat="defenceUnholy" val="15"/>
+            <mul order="0x30" stat="sleepResist" val="1.40"/>
+            <mul order="0x30" stat="sleepPower" val="1.40"/>
+            <mul order="0x30" stat="mReuse" val="0.90"/>
+            <mul order="0x30" stat="pReuse" val="0.90"/>
+            <add order="0x40" stat="reflectDam" val="5"/>
+			<add order="0x10" stat="STR" val="10"/>
+			<add order="0x10" stat="INT" val="10"/>
+        </for>
+    </skill>
+    <skill id="13316" levels="1" name="Summon Soulshots">
+        <!-- TODO: С определенной вероятностью отбрасывает врага -->
+        <set name="magicType" val="MAGIC"/>
+        <set name="icon" val="icon.skill0323"/>
+        <set name="reuseDelay" val="60000"/>
+        <set name="magicLevel" val="85"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="398"/>
+        <set name="itemConsumeId" val="17371"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="SUMMON_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <!-- TODO: 80% шанс вызвать 1900 соулов и 20% шанс вызвать 380 спиритов -->
+        <set name="SummonItemId" val="6646"/>
+        <!-- <set name="SummonItemId" val="6647" /> -->
+        <set name="SummonMinCount" val="1900"/>
+        <set name="SummonMaxCount" val="1900"/>
+    </skill>
+	<skill id="13317" levels="1" name="Кольцо Земляного Червя">
+			<!--  УПовышает сопротивление атакам Ветра/Воды, устойчивость к физическим/ментальным/отравляющим атакам, 
+			устойчивость к отталкиванию/сбиванию с ног/притягиванию, бонус к отравляющим атакам, мощность Крит. Атк., Точность/Скор. Атк./Скор. Маг./
+			скорость восстановления MP.-->
+        <set name="magicLevel" val="85"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="defenceWater" val="15"/>
+			<add order="0x40" stat="defenceWind" val="15"/>
+			<mul order="0x30" stat="poisonResist" val="1.5"/>
+			<mul order="0x30" stat="mentalResist" val="1.5"/>
+			<!-- TODО а как резистк физике сбиванию отталкиванию и тд и тп все в будушем. -->
+			<mul order="0x30" stat="poisonPower" val="1.5"/>
+			<add order="0x40" stat="cAtkStatic" val="750"/>
+			<add order="0x40" stat="accCombat" val="4"/>
+			<mul order="0x30" stat="pAtkSpd" val="1.05"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.1"/>
+			<mul order="0x30" stat="regMp" val="1.05"/>
+        </for>
+	</skill>
+    <skill id="13318" levels="1" name="Кольцо Земляного Червя">
+		<!--  Скор. Атк. и Скор. Маг +5% для всей группы. С определенной вероятностью Гнев Вампира + 2% -->
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="1200000"/>
+        <set name="target" val="TARGET_PARTY"/>
+        <set name="skillRadius" val="1000"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+		<for>
+            <effect count="1" name="Buff" stackOrder="1" time="300" val="0">
+                <mul order="0x30" stat="pAtkSpd" val="1.05"/>
+				<mul order="0x30" stat="mAtkSpd" val="1.05"/>
+				<add order="0x40" stat="absorbDam" val="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13319" levels="1" name="Кольцо Земляного Червя">
+		<!--  Отменяется эффект Яда -->
+        <set name="magicType" val="SPECIAL"/>
+        <set name="magicLevel" val="1"/>
+        <set name="isHandler" val="true"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="NEGATE_EFFECTS"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="negateEffects" val="Poison:3"/>
+        <set name="altUse" val="true"/>
+    </skill>
+	<skill id="13320" levels="1" name="Кольцо Истхины">
+  <!-- Шанс крит атаки +54.4, точность +3, защата от воды +20 -->
+		<set name="icon" val="icon.istina_ring_i00"/>
+		<set name="magicLevel" val="85"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="rCrit" val="54.4"/>
+			<add order="0x40" stat="accCombat" val="3"/>
+			<add order="0x40" stat="defenceWater" val="20"/>
+		</for>
+	</skill>
+	<skill id="13321" levels="1" name="Серьга Истхины">
+	<!-- Защита от ветра +30, защита от шокирующих атак +30, гнев вампира =5% -->
+		<set name="icon" val="icon.istina_earring_i00"/>
+		<set name="magicLevel" val="85"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="defenceWind" val="30"/>
+			<add order="0x40" stat="stunResist" val="30"/>
+			<add order="0x40" stat="absorbDam" val="5"/>
+			<add order="0x40" stat="stunPower" val="30"/>
+		</for>
+	</skill>
+	<skill id="13322" levels="1" name="Ожерелье Истхины">
+  <!-- Увеличивает защиту от Света на 35, сокращает время перезагрузки умений. Кроме активации Гневом Вампира, я хз что за гнев вампира, отражает 3% урона.-->
+		<set name="icon" val="icon.istina_necklace_i00"/>
+		<set name="magicLevel" val="85"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="defenceUnholy" val="35"/>
+			<mul order="0x30" stat="mReuse" val="0.95"/>
+			<mul order="0x30" stat="pReuse" val="0.95"/>
+			<add order="0x40" stat="reflectDam" val="3"/>
+		</for>
+	</skill>
+	<skill id="13323" levels="1" name="Пояс Истхины">
+  <!-- Увеличивает скорость регенерации HP на 3.48, увеличивает предметы на 6-->
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="regHp" val="4"/>
+			<add order="0x40" stat="inventoryLimit" val="6"/>
+		</for>
+	</skill>
+	<skill id="13324" levels="1" name="Рубашка Истхины">
+  <!-- Увеличивает HP на 465-->
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="maxHp" val="465"/>
+		</for>
+	</skill>
+	<skill id="13325" levels="1" name="Кольцо Октависа">
+	<!-- Увеличивает защиту от Огня на 20, увеличивает урон от крит. атак на 15%.-->
+		<set name="icon" val="icon.octavis_ring_i00" />
+		<set name="magicLevel" val="85"/>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceFire" val="20" />
+			<mul order="0x30" stat="cAtk" val="1.15" />
+		</for>
+	</skill>
+	<skill id="13326" levels="1" name="Серьга Октависа">
+	<!-- Увеличивает защиту от Земли на 30, сопротивление удерживающим и усыпляющим атакам на 40.-->
+		<set name="icon" val="icon.octavis_earring_i00" />
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceEarth" val="30" />
+			<add order="0x40" stat="rootResist" val="40" />
+			<add order="0x40" stat="sleepResist" val="40" />
+		</for>
+	</skill>
+	<skill id="13327" levels="1" name="Ожерелье Октависа">
+	<!-- Увеличивает защиту от Тьмы на 35, атак. умения на 5% -->
+		<set name="icon" val="icon.octavis_necklace_i00" />
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceUnholy" val="35" />
+			<mul order="0x30" stat="skillPower" val="1.05" />
+		</for>
+	</skill>
+	<skill id="13328" levels="1" name="Пояс Октависа">
+	<!-- Скорость восстановления MP +2.3, увеличивает грузоподъемность на 13000 -->
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="regMp" val="3" />
+			<add order="0x40" stat="maxLoad" val="13000" />
+		</for>
+	</skill>
+	<skill id="13329" levels="1" name="Защита Оружия от Огня">
+	<!-- Придает 300 свойств Огня-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackFire" val="300"/>
+		</for>
+	</skill>
+	<skill id="13330" levels="1" name="Защита Оружия от Воды">
+	<!-- Придает 300 свойств выды -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackWater" val="300"/>
+		</for>
+	</skill>
+	<skill id="13331" levels="1" name="Защита Оружия от Ветра">
+	<!-- Придает 300 свойств Ветра -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackWind" val="300"/>
+		</for>
+	</skill>
+	<skill id="13332" levels="1" name="Защита Оружия от Земли">
+	<!-- Придает 300 свойств земли -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackEarth" val="300"/>
+		</for>
+	</skill>
+	<skill id="13333" levels="1" name="Защита Оружия от Света">
+	<!-- Придает 300 свойств света -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackHoly" val="300"/>
+		</for>
+	</skill>
+	<skill id="13334" levels="1" name="Защита Оружия от тьмы">
+	<!-- Придает 300 свойств тьмы -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackUnholy" val="300"/>
+		</for>
+	</skill>
+	<skill id="13335" levels="1" name="Защита Оружия от Огня, Ветра и Тьмы">
+	<!-- Придает 120 свойств Огня, Ветра и Тьмы -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackFire" val="120"/>
+			<add order="0x40" stat="attackWind" val="120"/>
+			<add order="0x40" stat="attackUnholy" val="120"/>
+		</for>
+	</skill>
+		<skill id="13336" levels="1" name="Защита Оружия от Воды, Земли и Света">
+	<!-- Придает 120 свойств  Воды, Земли и Света -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackWater" val="120"/>
+			<add order="0x40" stat="attackEarth" val="120"/>
+			<add order="0x40" stat="attackHoly" val="120"/>
+		</for>
+	</skill>
+	<skill id="13337" levels="1" name="Талисман R - Маг. Защ. (Активный)">
+		<!--  В течение 10 сек. увеличивает Маг. Защ. на 50% с помощью силы Талисмана -->
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="120000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+		<for>
+            <effect count="1" name="Buff" stackOrder="1" time="10" val="1">
+                <mul order="0x30" stat="mDef" val="1.5"/>
+            </effect>
+        </for>
+    </skill>
+	<skill id="13338" levels="1" name="Талисман R - Физ. Защ. (Активный)">
+		<!--  В течение 10 сек. увеличивает Физ Защ. на 50% с помощью силы Талисмана -->
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="120000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+		<for>
+            <effect count="1" name="Buff" stackOrder="1" time="10" val="1">
+                <mul order="0x30" stat="pDef" val="1.5"/>
+            </effect>
+        </for>
+    </skill>
+	<skill id="13339" levels="1" name="Модификация Тяжелой Брони (R)">
+		<!-- Усиливает предметы комплекта, увеличивая Физ. Защ. и Бонус Восстановления MP -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pDef" val="1.1"/>
+			<mul order="0x30" stat="regMp" val="1.1"/>
+		</for>
+	</skill>
+	<skill id="13340" levels="1" name="Модификация Легкой Брони (R)">
+		<!-- Усиливает предметы комплекта, увеличивая Сопротивление Магии и Уклонение -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mDef" val="1.15"/>
+			<add order="0x40" stat="rEvas" val="4"/>
+		</for>
+	</skill>
+	<skill id="13341" levels="1" name="Модификация Магической Брони (R)">
+		<!-- Усиливает предметы комплекта, увеличивая Физ. Защ. и Лимит Веса -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pDef" val="1.1"/>
+			<add order="0x40" stat="maxLoad" val="60000"/>
+		</for>
+	</skill>
+	<skill id="13342" levels="1" name="Футболка Судьбы">
+		<!-- СИЛ +1, ИНТ +1 -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x10" stat="STR" val="1"/>
+			<add order="0x10" stat="INT" val="1"/>
+		</for>
+	</skill>
+	<skill id="13343" levels="1" name="Пояс Судьбы">
+		<!-- Увеличивает грузоподъемность. Позволяет использовать 4 талисмана -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="maxLoad" val="60000"/>
+			<!-- Возможно будет крит с браслетом -->
+			<add order="0x10" stat="talismansLimit" val="4"/>
+		</for>
+	</skill>
+    <skill id="13344" levels="1" name="Браслет Дерзости">
+	<!-- Позволяет использовать 4 талисмана -->
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="talismansLimit" val="4"/>
+        </for>
+    </skill>
+	<!--  Пока так -->
+	<skill id="13345" levels="1" name="Призвать Агатиона - Луч Терсия">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<!--  Пока так -->
+	<skill id="13346" levels="1" name="Отпустить Агатиона - Луч Терсия">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13347" levels="1" name="Длань Терсия">
+		<!--  При помощи Длани Терсия отодвигает Осколки Света -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13348" levels="1" name="Длань">
+		<!--  none -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13349" levels="1" name="Талисман R - Сопротивление Отражению Урона (активный)">
+		<!--  Увеличивает Сопротивление Отражению Урона на 10, когда экипирован Талисман. Время действия: 30 сек -->
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="120000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+		<for>
+            <effect count="1" name="Buff" stackOrder="1" time="30" val="1">
+                <!--  не понятно что тут писать <add order="0x30" stat="" val="10"/> -->
+            </effect>
+        </for>
+    </skill>
+	<skill id="13350" levels="1" name="Талисман R - Сопротивление Смертельному Удару (активный)">
+		<!--  УУвеличивает Сопротивление Смертельному Удару на 10, когда экипирован Талисман. Время действия: 15 сек. -->
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="120000"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+		<for>
+            <effect count="1" name="Buff" stackOrder="1" time="15" val="1">
+                <!--  не понятно что тут писать <add order="0x30" stat="" val="10"/> -->
+            </effect>
+        </for>
+    </skill>
+	<skill id="13351" levels="1" name="Сообщение">
+		<!--  Хуйня какаято При использовании сообщает о количестве полученных подарков и подарков, которые осталось получить. Время выдачи подарков сбрасывается каждый день в 6:30 -->
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+	<skill id="13352" levels="1" name="Головной Убор Увеличения Лимита Веса">
+		<!-- Увеличивает грузоподъемность.-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="maxLoad" val="60000"/>
+		</for>
+	</skill>
+</list>

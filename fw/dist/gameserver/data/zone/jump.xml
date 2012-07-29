@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<list>
+    <zone name="[talking_island_jump_1]" type="jump"><!-- Говорящий остров -->
+        <circle loc="-112552 257058 64 -1600 -1400"/>
+    </zone>
+    <zone name="[cabase_jump]" type="jump">  
+        <circle loc="-186315 243738 50 2600 2700"/>
+    </zone>
+    <zone name="[jump_2]" type="jump"><!-- Кровавый туман --><!-- Кровавые топи -->
+        <circle loc="-15589 30655 50 -3700 -3600"/>
+    </zone>
+</list>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+
+<list>
+    <skill id="419" level="1" name="Summon Treasure Key">
+        <set name="magicType" val="MAGIC"/>
+        <set name="icon" val="icon.skill0419"/>
+        <set name="reuseDelay" val="600000"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="122"/>
+        <set name="itemConsumeId" val="1661"/>
+        <set name="itemConsumeCount" val="2"/>
+        <set name="magicLevel" val="46"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[6667:2]30.0};{[6668:3]50.0};{[6669:2]20.0}"/>
+        </effect>
+    </skill>
+    <skill id="419" level="2" name="Summon Treasure Key">
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="600000"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="159"/>
+        <set name="itemConsumeId" val="1661"/>
+        <set name="itemConsumeCount" val="3"/>
+        <set name="magicLevel" val="58"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[6668:2]30.0};{[6669:3]50.0};{[6670:2]20.0}"/>
+        </effect>
+    </skill>
+    <skill id="419" level="3" name="Summon Treasure Key">
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="600000"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="183"/>
+        <set name="itemConsumeId" val="1661"/>
+        <set name="itemConsumeCount" val="4"/>
+        <set name="magicLevel" val="66"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[6669:2]30.0};{[6670:3]50.0};{[6671:2]20.0}"/>
+        </effect>
+    </skill>
+    <skill id="419" level="4" name="Summon Treasure Key">
+        <set name="magicType" val="MAGIC"/>
+        <set name="reuseDelay" val="600000"/>
+        <set name="hitTime" val="3000"/>
+        <set name="hitCancelTime" val="500"/>
+        <set name="mpConsume1" val="204"/>
+        <set name="itemConsumeId" val="1661"/>
+        <set name="itemConsumeCount" val="6"/>
+        <set name="magicLevel" val="74"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[6670:2]30.0};{[6671:3]50.0};{[6672:2]20.0}"/>
+        </effect>
+    </skill>
+</list>

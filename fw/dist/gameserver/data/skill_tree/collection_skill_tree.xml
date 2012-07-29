@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Created by VISTALL-->
+<list>
+    <collection_skill_tree>
+        <skill id="932" level="1" cost="0" name="Star Stone" min_level="1">
+            <required_item id="13728"/>
+        </skill>
+        <skill id="932" level="2" cost="0" name="Star Stone" min_level="1">
+            <required_item id="57" count="400000"/>
+        </skill>
+        <skill id="932" level="3" cost="0" name="Star Stone" min_level="1">
+            <required_item id="57" count="1200000"/>
+        </skill>
+    </collection_skill_tree>
+</list>

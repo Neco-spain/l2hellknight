@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+
+<list>
+    <skill id="2308" level="1" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+		<set name="itemConsumeId" val="9104"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[8980:1;17:1000]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="2" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9105"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[8989:1;1341:1000]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="3" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9106"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[8997:1;1342:1000]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="4" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9107"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9008:1;1343:1000]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="5" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9108"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9016:1;1344:1000]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="6" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9109"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9027:1;1344:1000]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="7" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+		<set name="itemConsumeId" val="9110"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9030:1;9031:1;9038:1;9039:1;9037:1;9036:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="8" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+		<set name="itemConsumeId" val="9111"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9040:1;9041:1;9042:1;9043:1;9044:1;9053:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="9" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9112"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9054:1;9055:1;9056:1;9057:1;9128:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="10" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9113"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9067:1;9068:1;9069:1;9070:1;9071:1;9072:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="11" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9114"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9081:1;9082:1;9083:1;9084:1;9085:1;9086:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="12" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9115"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9094:1;9095:1;9096:1;9097:1;9129:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="13" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9116"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9032:1;9033:1;9037:1;9038:1;9039:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="14" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9117"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9045:1;9046:1;9047:1;9048:1;9053:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="15" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+		<set name="itemConsumeId" val="9118"/>
+        <set name="itemConsumeCount" val="1"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9058:1;9059:1;9060:1;9061:1;9066:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="16" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9119"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9073:1;9074:1;9075:1;9076:1;9069:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="17" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9120"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9087:1;9088:1;9089:1;9090:1;9083:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="18" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9121"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9098:1;9099:1;9100:1;9095:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="19" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9122"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9034:1;9035:1;9037:1;9038:1;9036:1;9039:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="20" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9123"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9049:1;9050:1;9051:1;9052:1;9053:1;9044:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="21" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9124"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9062:1;9063:1;9064:1;9065:1;9066:1;9056:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="22" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9125"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9077:1;9078:1;9079:1;9080:1;9069:1;9070:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="23" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9126"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9091:1;9092:1;9093:1;9084:1;9083:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="24" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9127"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9101:1;9102:1;9103:1;9095:1;9129:1]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="25" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="8966"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[1835:1000;8622:10]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="26" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="8967"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[1463:1000;8623:10]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="27" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="8968"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[1464:1000;8624:10]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="28" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="8969"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[1465:500;8625:7]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="29" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="8970"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[1466:300;8626:7]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="30" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="8971"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[1466:300;8627:5]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="31" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9130"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[2509:1000;8622:10]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="32" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9131"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[2510:1000;8623:10]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="33" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9132"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[2511:1000;8624:10]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="34" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9133"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[2512:500;8625:7]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="35" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9134"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[2513:300;8626:7]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2308" level="36" name="Event Item">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+		<set name="itemConsumeId" val="9135"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[2513:300;8627:5]100.0}"/>
+        </effect>
+    </skill>
+    <skill id="2309" level="1" name="Pig Chest">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9144"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items" val="{[9143:1]70.0}"/>
+        </effect>
+    </skill>
+    <skill id="2323" level="1" name="Red Sage's Stone">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9171"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items"
+                 val="{[9177:1]2.5};{[9184:1]2.5};{[9191:1]2.5};{[9198:1]2.5};{[9153:3]6.6};{[9146:3]6.6};{[9150:3]6.8};{[9156:1]7.0};{[9157:1]2.0};{[9206:10]45.997};{[9207:5]15.0};{[8678:1]0.0015};{[8682:1]0.0015}"/>
+        </effect>
+    </skill>
+    <skill id="2324" level="1" name="Blue Sage's Stone">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9172"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items"
+                 val="{[9178:1]2.5};{[9185:1]2.5};{[9192:1]2.5};{[9199:1]2.5};{[9147:3]6.6};{[9151:3]6.6};{[9149:3]6.8};{[9156:1]7.0};{[9157:1]2.0};{[9206:10]45.997};{[9207:5]15.0};{[8685:1]0.0015};{[8679:1]0.0015}"/>
+        </effect>
+    </skill>
+    <skill id="2325" level="1" name="Orange Sage's Stone">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9173"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items"
+                 val="{[9180:1]2.5};{[9187:1]2.5};{[9194:1]2.5};{[9201:1]2.5};{[9149:3]6.6};{[9155:3]6.6};{[9150:3]6.8};{[9156:1]7.0};{[9157:1]2.0};{[9206:10]45.997};{[9207:5]15.0};{[8688:1]0.0015};{[8680:1]0.0015}"/>
+        </effect>
+    </skill>
+    <skill id="2326" level="1" name="Black Sage's Stone">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+		<set name="itemConsumeId" val="9174"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items"
+                 val="{[9182:1]2.5};{[9189:1]2.5};{[9196:1]2.5};{[9203:1]2.5};{[9148:3]6.6};{[9146:3]6.6};{[9154:3]6.8};{[9156:1]7.0};{[9157:1]2.0};{[9206:10]45.997};{[9207:5]15.0};{[8681:1]0.0015};{[8687:1]0.0015}"/>
+        </effect>
+    </skill>
+    <skill id="2327" level="1" name="White Sage's Stone">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+		<set name="itemConsumeId" val="9175"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items"
+                 val="{[9183:1]2.5};{[9190:1]2.5};{[9197:1]2.5};{[9204:1]2.5};{[9152:3]6.6};{[9155:3]6.6};{[9147:3]6.8};{[9156:1]7.0};{[9157:1]2.0};{[9206:10]45.997};{[9207:5]15.0};{[8685:1]0.0015};{[8683:1]0.0015}"/>
+        </effect>
+    </skill>
+    <skill id="2328" level="1" name="Green Sage's Stone">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+		<set name="itemConsumeId" val="9176"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="RestorationRandom" time="0">
+            <def name="Items"
+                 val="{[9179:1]2.5};{[9186:1]2.5};{[9193:1]2.5};{[9200:1]2.5};{[9148:3]6.6};{[9152:3]6.6};{[9154:3]6.8};{[9156:1]7.0};{[9157:1]2.0};{[9206:10]45.997};{[9207:5]15.0};{[8686:1]0.0015};{[8684:1]0.0015}"/>
+        </effect>
+    </skill>
+</list>

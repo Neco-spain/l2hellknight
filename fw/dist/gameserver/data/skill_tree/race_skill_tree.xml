@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<list>
+	<transformation_skill_tree>
+	<!--Humans-->
+		<race id="0">
+			<skill id="1901" level="1" min_level="85" name="Ясная Цель"/>
+			<skill id="1902" level="1" min_level="85" name="Крепкая Психика"/>
+			<skill id="1903" level="1" min_level="85" name="Активность"/>
+			<skill id="1904" level="1" min_level="85" name="Упорство"/>
+		</race>
+		<!--Elfs-->
+	    <race id="1">
+			<skill id="1905" level="1" min_level="85" name="Стремительность"/>
+			<skill id="1906" level="1" min_level="85" name="Благословенная Вода"/>
+			<skill id="1907" level="1" min_level="85" name="Предвидение"/>
+			<skill id="1908" level="1" min_level="85" name="Чуткость"/>
+		</race>
+		<!--Dark Elfs-->
+		<race id="2">
+			<skill id="1909" level="1" min_level="85" name="Острота"/>
+			<skill id="1910" level="1" min_level="85" name="Темные Способности"/>
+			<skill id="1911" level="1" min_level="85" name="Благословенный Ветер"/>
+			<skill id="1912" level="1" min_level="85" name="Бешеное Ускорение"/>
+			<skill id="1913" level="1" min_level="85" name="Высасывание Жизни"/>
+		</race>
+		<!--Orcs -->
+		<race id="3">
+			<skill id="1914" level="1" min_level="85" name="Дикость"/>
+			<skill id="1915" level="1" min_level="85" name="Сила Огня"/>
+			<skill id="1916" level="1" min_level="85" name="Сильная Энергетика"/>
+			<skill id="1917" level="1" min_level="85" name="Стойкость Бессмертия"/>
+		</race>
+		<!--Dwarfs -->
+		<race id="4">
+			<skill id="1919" level="1" min_level="85" name="Ловкость"/>
+			<skill id="1920" level="1" min_level="85" name="Выносливость"/>
+			<skill id="1921" level="1" min_level="85" name="Благословенная Земля"/>
+			<skill id="1922" level="1" min_level="85" name="Дрожь под Ногами"/>
+		</race>
+		<!--Kamaels TODO  Укрепление Тела в Полете -->
+		<race id="5">
+			<skill id="1923" level="1" min_level="85" name="Боевой Инстинкт"/>
+			<skill id="1924" level="1" min_level="85" name="Темная Тишина"/>
+			<skill id="1925" level="1" min_level="85" name="Духовная Защита"/>
+			<skill id="1926" level="1" min_level="85" name="Укрепление Тела"/>
+			<skill id="1954" level="1" min_level="85" name="Укрепление Тела в Полете"/>
+		</race>
+	</transformation_skill_tree>
+</list>

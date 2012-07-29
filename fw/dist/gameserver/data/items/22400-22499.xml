@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<armor id="22400" name="Agathion Seal Bracelet - Valakas" add_name="Lv 7">
+		<!-- TODO: Price -->
+		<set name="icon" value="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="type" value="NONE" />
+		<set name="weight" value="150" />
+		<set name="crystal_type" value="NONE" />
+		<equip>
+			<slot id="RIGHT_BRACELET" />
+		</equip>
+		<for>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+	</armor>
+</list>

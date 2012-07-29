@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <skill id="19001" levels="1" name="Проверка - Кровопускание">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19002" levels="1" name="Якорь">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19003" levels="1" name="Resistance Clan"> <!-- Сопротивление Клана -->
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+    </skill>
+    <skill id="19004" levels="1" name="Защита от Эффектов Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+    </skill>
+    <skill id="19005" levels="1" name="Контроль Мышц Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+    </skill>
+    <skill id="19006" levels="1" name="Контроль Разума Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+    </skill>
+    <skill id="19007" levels="1" name="Призыв Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="minPledgeClass" val="8"/>
+        <!-- Виконт -->
+    </skill>
+    <skill id="19008" levels="1" name="Защитник Клана">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19009" levels="1" name="Clan Update"> <!-- Обновление Клана -->
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <!-- Пассив -->
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+    </skill>
+    <skill id="19010" levels="1" name="Копия Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="minPledgeClass" val="10"/>
+        <!-- Маркиз -->
+    </skill>
+    <skill id="19011" levels="1" name="Легенда Клана">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19012" levels="1" name="Скрыть Клан">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19013" levels="1" name="Purification of the Clan"> <!-- Очищение Клана -->
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="minPledgeClass" val="10"/>
+        <!-- Маркиз -->
+    </skill>
+    <skill id="19014" levels="1" name="Предельная Защита Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="minPledgeClass" val="5"/>
+        <!-- Король -->
+    </skill>
+    <skill id="19015" levels="1" name="Дружба Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="minPledgeClass" val="10"/>
+        <!-- Маркиз -->
+    </skill>
+    <skill id="19016" levels="1" name="Границы Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <!--<set name="minPledgeClass" val="" /> --> <!-- Граф -->
+    </skill>
+    <skill id="19017" levels="1" name="Узники Клана">
+        <set name="isClanSkill" val="true"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <!-- <set name="minPledgeClass" val="" /> --> <!-- Герцог -->
+    </skill>
+    <skill id="19018" levels="1" name="Иксион">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19074" levels="1" name="Защитник Клана">
+        <set name="isClanSkill" val="true"/>
+        <table name="#mpConsume2">100</table>
+        <set name="reuseDelay" val="43200000"/>
+        <set name="hitTime" val="4000"/>
+        <set name="mpConsume2" val="#mpConsume2"/>
+        <set name="castRange" val="400"/>
+        <set name="magicLvl" val="1"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="minPledgeClass" val="5"/>
+        <!-- Король -->
+    </skill>
+    <skill id="19075" levels="1" name="Отношения Клана">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19076" levels="1" name="Награда Академии Клана">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19080" levels="1" name="Сигель Иксион">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19081" levels="1" name="Иксион Тира">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19082" levels="1" name="Иксион Одала">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19083" levels="1" name="Иксион Эура">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19084" levels="1" name="Иксион Фео">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19085" levels="1" name="Иксион Иса">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19086" levels="1" name="Иксион Веньо">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19087" levels="1" name="Альгиз Иксион">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19088" levels="1" name="Призвать Осадного Голема">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19089" levels="1" name="Призвать Стального Вепря">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19090" levels="1" name="Призвать Штурмовое Орудие">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19092" levels="1" name="Массовое Возвращение">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19093" levels="1" name="Колчан Стрел с Дополнительным  Зарядом">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19094" levels="1" name="Колчан Стрел с Усиленной Разрушительной Силой">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19095" levels="1" name="Колчан Стрел с Увеличенной Вредоносностью">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19096" levels="1" name="Дополнительный Удар">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19097" levels="1" name="Высший Критический Удар">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+    <skill id="19098" levels="1" name="Пускание Крови">
+        <set name="target" val="TARGET_NONE"/>
+        <set name="skillType" val="NOTDONE"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+    </skill>
+</list>

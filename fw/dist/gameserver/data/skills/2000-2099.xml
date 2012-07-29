@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="2078" level="1" name="Compressed Package of Soulshots: No Grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5134"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="1835:300"/>
+        </effect>
+    </skill>
+    <skill id="2079" level="1" name="Compressed Package of Soulshots: D-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5135"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="1463:300"/>
+        </effect>
+    </skill>
+    <skill id="2080" level="1" name="Compressed Package of Soulshots: C-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5136"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="1464:300"/>
+        </effect>
+    </skill>
+    <skill id="2081" level="1" name="Compressed Package of Soulshots: B-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5137"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="1465:300"/>
+        </effect>
+    </skill>
+    <skill id="2082" level="1" name="Compressed Package of Soulshots: A-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5138"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="1466:300"/>
+        </effect>
+    </skill>
+    <skill id="2083" level="1" name="Compressed Package of Soulshots: S-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5139"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="1467:300"/>
+        </effect>
+    </skill>
+    <skill id="2084" level="1" name="Compressed Package of Spiritshots: No Grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5140"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="2509:300"/>
+        </effect>
+    </skill>
+    <skill id="2085" level="1" name="Compressed Package of Spiritshots: D-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5141"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="2510:300"/>
+        </effect>
+    </skill>
+    <skill id="2086" level="1" name="Compressed Package of Spiritshots: C-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5142"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="2511:300"/>
+        </effect>
+    </skill>
+    <skill id="2087" level="1" name="Compressed Package of Spiritshots: B-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5143"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="2512:300"/>
+        </effect>
+    </skill>
+    <skill id="2088" level="1" name="Compressed Package of Spiritshots: A-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5144"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="2513:300"/>
+        </effect>
+    </skill>
+    <skill id="2089" level="1" name="Compressed Package of Spiritshots: S-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5145"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="2514:300"/>
+        </effect>
+    </skill>
+    <skill id="2090" level="1" name="Compressed Package of Blessed Spiritshots: No Grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5146"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="3947:300"/>
+        </effect>
+    </skill>
+    <skill id="2091" level="1" name="Compressed Package of Blessed Spiritshots: D-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5147"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="3948:300"/>
+        </effect>
+    </skill>
+    <skill id="2092" level="1" name="Compressed Package of Blessed Spiritshots: C-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5148"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="3949:300"/>
+        </effect>
+    </skill>
+    <skill id="2093" level="1" name="Compressed Package of Blessed Spiritshots: B-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5149"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="3950:300"/>
+        </effect>
+    </skill>
+    <skill id="2094" level="1" name="Compressed Package of Blessed Spiritshots: A-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5150"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="3951:300"/>
+        </effect>
+    </skill>
+    <skill id="2095" level="1" name="Compressed Package of Blessed Spiritshots: S-grade">
+        <set name="magicType" val="MAGIC"/>
+        <set name="magicLevel" val="1"/>
+        <set name="itemConsumeId" val="5151"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="RESTORE_ITEM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <effect name="Restoration" time="0">
+            <def name="Item" val="3952:300"/>
+        </effect>
+    </skill>
+</list>
