@@ -1,1 +1,0 @@
-ALTER TABLE `characters` ADD `LastHWID` VARCHAR( 32 ) default '';
