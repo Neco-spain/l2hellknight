@@ -17,11 +17,11 @@ from l2.hellknight.gameserver.network.serverpackets import SetupGauge
 
 QUEST_ID = 555
 QUEST_NAME   = "NPCBuffer"
-QUEST_DESCRIPTION   = "custom"
+QUEST_DESCRIPTION   = "other"
 QUEST_LOADING_INFO = str(QUEST_ID)+"_"+QUEST_NAME
 NPC_ID = 555
 
-TITLE_NAME = "L2Brick Buffer"
+TITLE_NAME = "L2 Freya Ioa Buffer"
 SCRIPT_RELOAD = True 
 ENABLE_VIP_BUFFER = False
 VIP_ACCESS_LEVEL = 50                
@@ -35,13 +35,13 @@ ENABLE_DANCES = True
 ENABLE_CHANTS = True                 
 ENABLE_OTHERS = True                     
 ENABLE_SPECIAL = True                    
-ENABLE_CUBIC = True                    
+ENABLE_CUBIC = False                    
 ENABLE_BUFF_REMOVE = True                
 ENABLE_BUFF_SET = True
 BUFF_WITH_KARMA = False                  
 FREE_BUFFS = True                       
 TIME_OUT = True           
-TIME_OUT_TIME = 3                    
+TIME_OUT_TIME = 0                    
 MIN_LEVEL = 1                           
 BUFF_REMOVE_PRICE = 1000                 
 HEAL_PRICE = 1000                     
@@ -57,11 +57,11 @@ BUFF_SET_PRICE = 20000
 SCHEME_BUFF_PRICE = 32000              
 SCHEMES_PER_PLAYER = 4                   
 CONSUMABLE_ID = 57                       
-MAX_SCHEME_BUFFS = Config.BUFFS_MAX_AMOUNT
-MAX_SCHEME_DANCES = Config.DANCES_MAX_AMOUNT
+MAX_SCHEME_BUFFS = 26
+MAX_SCHEME_DANCES = 12
 
 def rebuildMainHtml(st) :
-	MAIN_HTML_MESSAGE = "<html><head><title>"+TITLE_NAME+"</title></head><body><center><img src=\"L2UI_CH3.herotower_deco\" width=256 height=32><br>"; MESSAGE = ""
+	MAIN_HTML_MESSAGE = "<html><head><title>"+TITLE_NAME+"</title></head><body><center><img src=\"L2Font-e.mini_logo-e\" width=250 height=85><br>"; MESSAGE = ""
 	bottonA="Auto Buff";bottonB="Heal Me";bottonC="Rem. Buffs";i=0;j=0;Temp="<tr><td> </td> <td> </td></tr>";TRS = Temp.split(" ")
 	if st.getInt("Pet-On-Off") == 1:
 		bottonA="Auto Buff Pet";bottonB="Heal My Pet";bottonC="Rem. Pet Buffs"
@@ -118,7 +118,7 @@ def rebuildMainHtml(st) :
 		MAIN_HTML_MESSAGE += generateScheme(st) 
 	if st.getPlayer().isGM() : 
 		MAIN_HTML_MESSAGE += "<br><button value=\"Manage Buffs\" action=\"bypass -h Quest " + QUEST_LOADING_INFO + " redirect manage_buffs 0 0\" width=130 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">"
-	MAIN_HTML_MESSAGE += "<br><font color=\"303030\">Edited by Z!T!oN</font>"
+	MAIN_HTML_MESSAGE += "<br><font color=\"303030\">Edited by ***Alban***</font>"
 	MAIN_HTML_MESSAGE += "</center></body></html>"
 	return MAIN_HTML_MESSAGE
 

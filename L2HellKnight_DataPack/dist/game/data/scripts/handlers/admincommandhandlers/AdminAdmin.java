@@ -28,6 +28,7 @@ import l2.hellknight.gameserver.datatables.DoorTable;
 import l2.hellknight.gameserver.datatables.ItemTable;
 import l2.hellknight.gameserver.datatables.MultiSell;
 import l2.hellknight.gameserver.datatables.NpcTable;
+import l2.hellknight.gameserver.datatables.FakePcsTable;
 import l2.hellknight.gameserver.datatables.NpcWalkerRoutesTable;
 import l2.hellknight.gameserver.datatables.SkillTable;
 import l2.hellknight.gameserver.datatables.SpawnTable;
@@ -303,14 +304,19 @@ public class AdminAdmin implements IAdminCommandHandler
 				{
 					QuestManager.getInstance().reloadAllQuests();
 					activeChar.sendMessage("All Quests have been reloaded");
-				}
+				}				
 				else if (type.startsWith("door"))
 				{
 					DoorTable.getInstance().reloadAll();
 					activeChar.sendMessage("All Doors have been reloaded");
 				}
-				activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments.");
-			}
+                else if (type.startsWith("fakenpc"))
+                {
+                        FakePcsTable.getInstance().reloadData();
+                        activeChar.sendMessage("All Fake NPCs have been reloaded");
+                }
+                    activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments.");
+            }			
 			catch (Exception e)
 			{
 				activeChar.sendMessage("An error occured while reloading " + type + " !");
