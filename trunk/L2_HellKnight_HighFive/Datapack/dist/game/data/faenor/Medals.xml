@@ -1,0 +1,14 @@
+<Event ID="Medals Event" Active="23 Jul 2011-26 Dec 2013"> 
+   <Droplist> 
+      <AllDrop Items="6392" Count="1,1" Chance="10%" />
+   </Droplist> 
+   <Droplist> 
+      <AllDrop Items="6393" Count="1,1" Chance="5%" />
+   </Droplist> 
+   <Message Type="OnJoin" Msg="You can collect medals from all mobs" /> 
+   <EventEnd> 
+      <Take From="AllPlayers"> 
+           <Item ItemID="6392-6393"></Item>
+        </Take> 
+     </EventEnd> 
+</Event>

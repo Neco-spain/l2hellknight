@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="Elcadia Tent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<activityTime val="60" />
+	<timeDelay val="4" />
+	<allowSummon val="false" />
+	<spawnPoint spawnX="89809" spawnY="-238066" spawnZ="-9632"/>
+	<emptyDestroyTime val="1" />
+	<spawnlist>
+		<spawn npcId="32784" x="89445" y="-238074" z="-9640" heading="0" respawn="0"/>
+	</spawnlist>
+</instance>

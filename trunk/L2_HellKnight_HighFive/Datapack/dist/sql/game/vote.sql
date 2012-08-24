@@ -1,0 +1,2 @@
+ALTER TABLE `characters` ADD `lastVoteHopzone` BIGINT UNSIGNED DEFAULT NULL;
+ALTER TABLE `characters` ADD `lastVoteTopzone` BIGINT UNSIGNED DEFAULT NULL;
