@@ -1,0 +1,1137 @@
+<?xml version='1.0' encoding='utf-8'?>
+	<list>
+       <!--
+       category = Best                 2
+       category = Event                1
+       category = Enchant              1
+       category = Supplies             2
+       category = Decorating   		   3
+       category = Package              4
+       category = Others               5
+       -->
+		<!-- best 2 -->
+		<!-- Event 1 -->
+		<!-- Supplies 2 -->
+		<!-- Decorating 3 -->
+		<!-- Package 4 -->
+
+		<!-- best - donate 2 -->
+ 		<!-- Dynasty Light set -->
+       <item brId="1010001" itemId="9425" name="Dynasty Leather Armor" category="2" />
+       <item brId="1010002" itemId="9428" name="Dynasty Leather Leggings" category="2" />
+       <item brId="1010003" itemId="9429" name="Dynasty Leather Helmet" category="2" />
+       <item brId="1010004" itemId="9430" name="Dynasty Leather Gloves - Light Armor" category="2" />
+       <item brId="1010005" itemId="9431" name="Dynasty Leather Boots - Light Armor" category="2" />
+ 		<!-- Dynasty heav set -->
+       <item brId="1010006" itemId="9416" name="Dynasty Breast Plate" category="2" />
+       <item brId="1010007" itemId="9421" name="Dynasty Gaiters" category="2" />
+       <item brId="1010008" itemId="9422" name="Dynasty Helmet" category="2" />
+       <item brId="1010009" itemId="9423" name="Dynasty Gauntlet - Heavy Armor" category="2" />
+       <item brId="1010010" itemId="9424" name="Dynasty Boots - Heavy Armor" category="2" />
+       <item brId="1010011" itemId="9441" name="Dynasty Shield" category="2" />
+ 		<!-- Dynasty robe set -->
+       <item brId="1010012" itemId="9432" name="Dynasty Tunic" category="2" />
+       <item brId="1010013" itemId="9437" name="Dynasty Stockings" category="2" />
+       <item brId="1010014" itemId="9438" name="Dynasty Circlet" category="2" />
+       <item brId="1010015" itemId="9439" name="Dynasty Gloves - Robe" category="2" />
+       <item brId="1010016" itemId="9440" name="Dynasty Shoes - Robe" category="2" />
+ 		<!-- Moirai Heavy set -->
+       <item brId="1010017" itemId="15609" name="Moirai Breastplate" category="2" />
+       <item brId="1010018" itemId="15612" name="Moirai Gaiter" category="2" />
+       <item brId="1010019" itemId="15606" name="Moirai Helmet" category="2" />
+       <item brId="1010020" itemId="15615" name="Moirai Gauntlet" category="2" />
+       <item brId="1010021" itemId="15618" name="Moirai Boots" category="2" />
+       <item brId="1010022" itemId="15621" name="Moirai Shield" category="2" />
+ 		<!-- Moirai Light set -->
+       <item brId="1010023" itemId="15610" name="Moirai Leather Breastplate" category="2" />
+       <item brId="1010024" itemId="15613" name="Moirai Leather Legging" category="2" />
+       <item brId="1010025" itemId="15607" name="Moirai Leather Helmet" category="2" />
+       <item brId="1010026" itemId="15616" name="Moirai Leather Gloves" category="2" />
+       <item brId="1010027" itemId="15619" name="Moirai Leather Boots" category="2" />
+ 		<!-- Moirai robe set -->
+       <item brId="1010028" itemId="15611" name="Moirai Tunic" category="2" />
+       <item brId="1010029" itemId="15614" name="Moirai Stockings" category="2" />
+       <item brId="1010030" itemId="15608" name="Moirai Circlet" category="2" />
+       <item brId="1010031" itemId="15617" name="Moirai Gloves - Robe" category="2" />
+       <item brId="1010032" itemId="15620" name="Moirai Shoes - Robe" category="2" />
+       
+		<!-- Enchant 1 -->
+       <item brId="1080036" itemId="22054" name="Rune of Experience Points" category="1" />
+       <item brId="1080037" itemId="22055" name="Rune of Experience Points" category="1" />
+       <item brId="1080038" itemId="22056" name="Rune of Experience Points" category="1" />
+       <item brId="1080039" itemId="22057" name="Rune of Experience Points" category="1" />
+       <item brId="1080040" itemId="22058" name="Rune of SP" category="1" />
+       <item brId="1080041" itemId="22059" name="Rune of SP" category="1" />
+       <item brId="1080042" itemId="22060" name="Rune of SP" category="1" />
+       <item brId="1080043" itemId="22061" name="Rune of SP" category="1" />
+       <item brId="1080044" itemId="22062" name="Crystal form Rune" category="1" />
+       <item brId="1080045" itemId="22063" name="Crystal form Rune" category="1" />
+       <item brId="1080046" itemId="22064" name="Crystal form Rune" category="1" />
+       <item brId="1080047" itemId="22065" name="Crystal form Rune" category="1" />
+       <item brId="1080048" itemId="22066" name="Rune of Feather" category="1" />
+       <item brId="1080112" itemId="20335" name="Rune of Exp. Points 30% - 5 hours" category="1" />
+       <item brId="1080113" itemId="20336" name="Rune of Exp. Points 50% - 5 hours" category="1" />
+       <item brId="1080114" itemId="20337" name="Rune of Exp. Points 30% - 10 hours" category="1" />
+       <item brId="1080115" itemId="20338" name="Rune of Exp. Points 50% - 10 hours" category="1" />
+       <item brId="1080116" itemId="20339" name="Rune of Exp. Points 30% - 7 days" category="1" />
+       <item brId="1080117" itemId="20340" name="Rune of Exp. Points 50% - 7 days" category="1" />
+       <item brId="1080118" itemId="20341" name="Rune of SP 30% - 5 hours" category="1" />
+       <item brId="1080119" itemId="20342" name="Rune of SP 50% - 5 hours" category="1" />
+       <item brId="1080120" itemId="20343" name="Rune of SP 30% - 10 hours" category="1" />
+       <item brId="1080121" itemId="20344" name="Rune of SP 50% - 10 hours" category="1" />
+       <item brId="1080122" itemId="20345" name="Rune of SP 30% - 7 days" category="1" />
+       <item brId="1080123" itemId="20346" name="Rune of SP 50% - 7 days" category="1" />
+       <item brId="1080124" itemId="20347" name="Rune of Crystal level 3 - 5 hours" category="1" />
+       <item brId="1080125" itemId="20348" name="Rune of Crystal level 5 - 5 hours" category="1" />
+       <item brId="1080126" itemId="20349" name="Rune of Crystal level 3 - 10 hours" category="1" />
+       <item brId="1080127" itemId="20350" name="Rune of Crystal level 5 - 10 hours" category="1" />
+       <item brId="1080128" itemId="20351" name="Rune of Crystal level 3 - 7 days" category="1" />
+       <item brId="1080129" itemId="20352" name="Rune of Crystal level 5 - 7 days" category="1" />
+
+		<!-- Others 5 -->
+       <item brId="1080001" itemId="22000" name="Small fortuna box" category="5" />
+       <item brId="1080002" itemId="22001" name="Middle fortuna box" category="5" />
+       <item brId="1080003" itemId="22002" name="Large fortuna box" category="5" />
+       <item brId="1080004" itemId="22003" name="Small fortuna cube" category="5" />
+       <item brId="1080005" itemId="22004" name="Middle fortuna cube" category="5" />
+       <item brId="1080006" itemId="22005" name="Large fortuna cube" category="5" />
+       <item brId="1080007" itemId="22025" name="Powerful Healing Potion" category="5" />
+       <item brId="1080008" itemId="22026" name="High-grade Healing Potion" category="5" />
+       <item brId="1080009" itemId="22027" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1080010" itemId="22028" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1080011" itemId="22029" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1080012" itemId="22030" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1080013" itemId="22031" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1080014" itemId="22032" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1080015" itemId="22033" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1080016" itemId="22034" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1080017" itemId="22035" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1080018" itemId="22036" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1080019" itemId="22037" name="Potion of Will" category="5" />
+       <item brId="1080020" itemId="22038" name="Healing medicine for Mana" category="5" />
+       <item brId="1080021" itemId="22039" name="Wind Walk Scroll" category="5" />
+       <item brId="1080022" itemId="22040" name="Haste Scroll" category="5" />
+       <item brId="1080023" itemId="22041" name="Might Scroll" category="5" />
+       <item brId="1080024" itemId="22042" name="Shield Scroll" category="5" />
+       <item brId="1080025" itemId="22043" name="Death Whisper Scroll" category="5" />
+       <item brId="1080026" itemId="22044" name="Guidance Scroll" category="5" />
+       <item brId="1080027" itemId="22045" name="Empower Scroll" category="5" />
+       <item brId="1080028" itemId="22046" name="Grater Acumen Scroll" category="5" />
+       <item brId="1080029" itemId="22047" name="Vampiric Rage Scroll" category="5" />
+       <item brId="1080030" itemId="22048" name="Bless the Body Scroll" category="5" />
+       <item brId="1080031" itemId="22049" name="Berserker Spirit Scroll" category="5" />
+       <item brId="1080032" itemId="22050" name="Magic Barrier Scroll" category="5" />
+       <item brId="1080033" itemId="22051" name="Bless the Soul Scroll" category="5" />
+       <item brId="1080034" itemId="22052" name="Clarity Scroll" category="5" />
+       <item brId="1080035" itemId="22053" name="Wild Magic Scroll" category="5" />
+       <item brId="1080049" itemId="22087" name="A Scroll Bundle of Fighter" category="5" />
+       <item brId="1080050" itemId="22088" name="A Scroll Bundle of Mage" category="5" />
+       <item brId="1080051" itemId="22089" name="Bone Quiver" category="5" />
+       <item brId="1080052" itemId="22090" name="Steel Quiver" category="5" />
+       <item brId="1080053" itemId="22091" name="Silver Quiver" category="5" />
+       <item brId="1080054" itemId="22092" name="Mithril Quiver" category="5" />
+       <item brId="1080055" itemId="22093" name="Quiver of Light" category="5" />
+       <item brId="1080056" itemId="22149" name="Bone Bolt Container" category="5" />
+       <item brId="1080057" itemId="22150" name="Steel Bolt Container" category="5" />
+       <item brId="1080058" itemId="22151" name="Silver Bolt Container" category="5" />
+       <item brId="1080059" itemId="22152" name="Mithril Bolt Container" category="5" />
+       <item brId="1080060" itemId="22153" name="Bolt Container of Light" category="5" />
+       <item brId="1080061" itemId="22094" name="Blessed Spiritshot Pack - D grade" category="5" />
+       <item brId="1080062" itemId="22095" name="Blessed Spiritshot Pack - C grade" category="5" />
+       <item brId="1080063" itemId="22096" name="Blessed Spiritshot Pack - B grade" category="5" />
+       <item brId="1080064" itemId="22097" name="Blessed Spiritshot Pack - A grade" category="5" />
+       <item brId="1080065" itemId="22098" name="Blessed Spiritshot Pack - S grade" category="5" />
+       <item brId="1080066" itemId="22099" name="Spiritshot Pack - D grade" category="5" />
+       <item brId="1080067" itemId="22100" name="Spiritshot Pack - C grade" category="5" />
+       <item brId="1080068" itemId="22101" name="Spiritshot Pack -  B grade" category="5" />
+       <item brId="1080069" itemId="22102" name="Spiritshot Pack - A grade" category="5" />
+       <item brId="1080070" itemId="22103" name="Spiritshot Pack - S grade" category="5" />
+       <item brId="1080071" itemId="22104" name="Soulshot Pack - D grade" category="5" />
+       <item brId="1080072" itemId="22105" name="Soulshot Pack - C grade" category="5" />
+       <item brId="1080073" itemId="22106" name="Soulshot Pack -  B grade" category="5" />
+       <item brId="1080074" itemId="22107" name="Soulshot Pack - A grade" category="5" />
+       <item brId="1080075" itemId="22108" name="Soulshot Pack - S grade" category="5" />
+       <item brId="1080076" itemId="22109" name="Blessed Spiritshot Large Pack - D grade" category="5" />
+       <item brId="1080077" itemId="22110" name="Blessed Spiritshot Large Pack - C grade" category="5" />
+       <item brId="1080078" itemId="22111" name="Blessed Spiritshot Large Pack - B grade" category="5" />
+       <item brId="1080079" itemId="22112" name="Blessed Spiritshot Large Pack - A grade" category="5" />
+       <item brId="1080080" itemId="22113" name="Blessed Spiritshot Large Pack - S grade" category="5" />
+       <item brId="1080081" itemId="22114" name="Spiritshot Large Pack - D grade" category="5" />
+       <item brId="1080082" itemId="22115" name="Spiritshot Large Pack - C grade" category="5" />
+       <item brId="1080083" itemId="22116" name="Spiritshot Large Pack -  B grade" category="5" />
+       <item brId="1080084" itemId="22117" name="Spiritshot Large Pack - A grade" category="5" />
+       <item brId="1080085" itemId="22118" name="Spiritshot Large Pack - S grade" category="5" />
+       <item brId="1080086" itemId="22119" name="Soulshot Large Pack - D grade" category="5" />
+       <item brId="1080087" itemId="22120" name="Soulshot Large Pack - C grade" category="5" />
+       <item brId="1080088" itemId="22121" name="Soulshot Large Pack -  B grade" category="5" />
+       <item brId="1080089" itemId="22122" name="Soulshot Large Pack - A grade" category="5" />
+       <item brId="1080090" itemId="22123" name="Soulshot Large Pack - S grade" category="5" />
+       <item brId="1080091" itemId="22124" name="Wrapped daisy hairpin" category="5" />
+       <item brId="1080092" itemId="22125" name="Wrapped forget-me-not hairpin" category="5" />
+       <item brId="1080093" itemId="22126" name="Wrapped outlaw's eyepatch" category="5" />
+       <item brId="1080094" itemId="22127" name="Wrapped pirate's eyepatch" category="5" />
+       <item brId="1080095" itemId="22128" name="Wrapped Monocle" category="5" />
+       <item brId="1080096" itemId="22129" name="Wrapped Red Mask of Victory" category="5" />
+       <item brId="1080097" itemId="22130" name="Wrapped Red Horn of Victory" category="5" />
+       <item brId="1080098" itemId="22131" name="Wrapped Party Mask" category="5" />
+       <item brId="1080099" itemId="22132" name="Wrapped Red Party Mask" category="5" />
+       <item brId="1080100" itemId="22133" name="Wrapped Cat Ear" category="5" />
+       <item brId="1080101" itemId="22134" name="Wrapped Noblewoman's Hairpin" category="5" />
+       <item brId="1080102" itemId="22135" name="Wrapped Raccoon Ear" category="5" />
+       <item brId="1080103" itemId="22136" name="Wrapped Rabbit Ear" category="5" />
+       <item brId="1080104" itemId="22137" name="Wrapped Little Angel's Wings" category="5" />
+       <item brId="1080105" itemId="22138" name="Wrapped Fairy's Tentacle" category="5" />
+       <item brId="1080106" itemId="22139" name="Wrapped Dandy's Chapeau" category="5" />
+       <item brId="1080107" itemId="22140" name="Wrapped Artisan's Goggles" category="5" />
+       <item brId="1080108" itemId="22141" name="Wrapped Pet Exchange Ticket - Buffalo" category="5" />
+       <item brId="1080109" itemId="22142" name="Wrapped Pet Exchange Ticket - Cougar" category="5" />
+       <item brId="1080110" itemId="22143" name="Wrapped Pet Exchange Ticket - kookaburra" category="5" />
+       <!--    <item brId="1080111" itemId="???" name="Blessed Wolf Hat Package" category="5" />       -->
+       <item brId="1080130" itemId="12362" name="Weapon-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1080131" itemId="12363" name="Weapon-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1080132" itemId="12364" name="Weapon-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1080133" itemId="12365" name="Weapon-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1080134" itemId="12366" name="Weapon-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1080135" itemId="12367" name="Armor-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1080136" itemId="12368" name="Armor-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1080137" itemId="12369" name="Armor-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1080138" itemId="12370" name="Armor-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1080139" itemId="12371" name="Armor-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1080140" itemId="20326" name="Beast Soulshot Pack" category="5" />
+       <item brId="1080141" itemId="20327" name="Beast Spiritshot Pack" category="5" />
+       <item brId="1080142" itemId="20328" name="Blessed Beast Spiritshot Pack" category="5" />
+       <item brId="1080143" itemId="20329" name="Beast Soulshot Large Pack" category="5" />
+       <item brId="1080144" itemId="20330" name="Beast Spiritshot Large Pack" category="5" />
+       <item brId="1080145" itemId="20331" name="Blessed Beast Spiritshot Large Pack" category="5" />
+       <item brId="1080146" itemId="20364" name="Omen Beast Transformation Scroll" category="5" />
+       <item brId="1080147" itemId="20365" name="Death Blader Transformation Scroll" category="5" />
+       <item brId="1080148" itemId="20366" name="Grail Apostle Transformation Scroll" category="5" />
+       <item brId="1080149" itemId="20367" name="Unicorn Transformation Scroll" category="5" />
+       <item brId="1080150" itemId="20368" name="Lilim Knight Transformation Scroll" category="5" />
+       <item brId="1080151" itemId="20369" name="Golem Guardian Transformation Scroll" category="5" />
+       <item brId="1080152" itemId="20370" name="Inferno Drake Transformation Scroll" category="5" />
+       <item brId="1080153" itemId="20371" name="Dragon Bomber Transformation Scroll" category="5" />
+       <item brId="1080154" itemId="20372" name="Escape - Talking Island Village" category="5" />
+       <item brId="1080155" itemId="20373" name="Escape - Elven Village" category="5" />
+       <item brId="1080156" itemId="20374" name="Escape - Dark Elven Village" category="5" />
+       <item brId="1080157" itemId="20375" name="Escape - Orc Village" category="5" />
+       <item brId="1080158" itemId="20376" name="Escape - Dwarven Village" category="5" />
+       <item brId="1080159" itemId="20377" name="Escape - Gludin Village" category="5" />
+       <item brId="1080160" itemId="20378" name="Escape - Town of Gludio" category="5" />
+       <item brId="1080161" itemId="20379" name="Escape - Town of Dion" category="5" />
+       <item brId="1080162" itemId="20380" name="Escape - Floran Village" category="5" />
+       <item brId="1080163" itemId="20381" name="Escape - Giran Castle Town" category="5" />
+       <item brId="1080164" itemId="20382" name="Escape - Hardin's Academy" category="5" />
+       <item brId="1080165" itemId="20383" name="Escape - Heine" category="5" />
+       <item brId="1080166" itemId="20384" name="Escape - Town of Oren" category="5" />
+       <item brId="1080167" itemId="20385" name="Escape - Ivory Tower" category="5" />
+       <item brId="1080168" itemId="20386" name="Escape - Hunters Village" category="5" />
+       <item brId="1080169" itemId="20387" name="Escape - Town of Aden" category="5" />
+       <item brId="1080170" itemId="20388" name="Escape - Town of Goddard" category="5" />
+       <item brId="1080171" itemId="20389" name="Escape - Rune Township" category="5" />
+       <item brId="1080172" itemId="20390" name="Escape - Town of Schuttgart" category="5" />
+       <item brId="1080173" itemId="13016" name="Free Teleport Scroll" category="5" />
+       <item brId="1080174" itemId="20181" name="Free Teleport Spellbook 5 Sheet Bundle" category="5" />
+       <item brId="1080175" itemId="20182" name="Free Teleport Spellbook 10 Sheet Bundle" category="5" />
+       <item brId="1080176" itemId="20183" name="Free Teleport Flag 5 Sheet Bundle" category="5" />
+       <item brId="1080177" itemId="20184" name="Free Teleport Flag 10 Sheet Bundle" category="5" />
+<!--   <item brId="1080178" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 5 Sheet Bundle" category="5" /> -->
+       <item brId="1080179" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 10 Sheet Bundle" category="5" />
+       <item brId="1080180" itemId="" name="Extra Entrance Pass - Near Kamaloka 5 Sheet Bundle" category="5" />
+       <item brId="1080181" itemId="" name="Extra Entrance Pass - Near Kamaloka 10 Sheet Bundle" category="5" />
+       <item brId="1080182" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 5 Sheet Bundle" category="5" />
+       <item brId="1080183" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 10 Sheet Bundle" category="5" />
+       <item brId="1080184" itemId="" name="Feather of Blessing" category="5" />
+       <item brId="1080185" itemId="" name="Color Name" category="5" />
+       <item brId="1080186" itemId="" name="High Grade Potion of Will" category="5" />
+       <item brId="1080187" itemId="" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1080188" itemId="" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1080189" itemId="" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1080190" itemId="" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1080191" itemId="" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1080192" itemId="" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1080193" itemId="" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1080194" itemId="" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1080195" itemId="" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1080196" itemId="" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1080197" itemId="" name="Potion of Energy Maintenance" category="5" />
+       <item brId="1080198" itemId="" name="Potion of Energy Replenishing" category="5" />
+       <item brId="1080199" itemId="" name="Sweet Fruit Cocktail" category="5" />
+       <item brId="1080200" itemId="" name="Fresh Fruit Cocktail" category="5" />
+       <item brId="1080201" itemId="" name="Sudden Agathion 7 Day Pack" category="5" />
+       <item brId="1080202" itemId="" name="Shiny Agathion 7 Day Pack" category="5" />
+       <item brId="1080203" itemId="" name="Sobbing Agathion 7 Day Pack" category="5" />
+       <item brId="1080204" itemId="" name="Agathion of Love 7 Day Pack" category="5" />
+       <item brId="1080205" itemId="" name="Pumpkin Transformation Stick 7 Day Pack" category="5" />
+       <item brId="1080206" itemId="" name="Kat the Cat Hat 7 Day Pack" category="5" />
+       <item brId="1080207" itemId="" name="Feline Queen Hat 7 Day Pack" category="5" />
+       <item brId="1080208" itemId="" name="Monster Eye Hat 7 Day Pack" category="5" />
+       <item brId="1080209" itemId="" name="Brown Bear Hat 7 Day Pack" category="5" />
+       <item brId="1080210" itemId="" name="Fungus Hat 7 Day Pack" category="5" />
+       <item brId="1080211" itemId="" name="Skull Hat 7 Day Pack" category="5" />
+       <item brId="1080212" itemId="" name="Ornithomimus Hat 7 Day Pack" category="5" />
+       <item brId="1080213" itemId="" name="Feline King Hat 7 Day Pack" category="5" />
+       <item brId="1080214" itemId="" name="Kai the Cat Hat 7 Day Pack" category="5" />
+       <item brId="1080215" itemId="" name="Goggle Pack" category="5" />
+       <item brId="1080216" itemId="" name="Napoleon Hat Pack" category="5" />
+       <item brId="1080217" itemId="" name="Black Gem Mask Pack" category="5" />
+       <item brId="1080218" itemId="" name="Afro Hair Pack - Gold" category="5" />
+       <item brId="1080219" itemId="" name="Afro Hair Pack - Pink" category="5" />
+       <item brId="1080220" itemId="" name="Horn Rimmed Glasses Pack" category="5" />
+       <item brId="1080221" itemId="" name="Afro Hair Pack " category="5" />
+       <item brId="1080222" itemId="" name="Afro Hair Pack - Big Head, Firework" category="5" />
+       <item brId="1080223" itemId="" name="Afro Hair Pack - Wind Walk" category="5" />
+       <item brId="1080224" itemId="" name="Uniform Hat Pack" category="5" />
+       <item brId="1080225" itemId="" name="Assassin's Bamboo Hat Pack" category="5" />
+       <item brId="1080226" itemId="" name="Ruthless Tribe Mask Pack" category="5" />
+       <item brId="1080227" itemId="" name="Ribbon Hairband Pack" category="5" />
+       <item brId="1080228" itemId="" name="Visor Pack" category="5" />
+       <item brId="1080229" itemId="" name="Hunting Helper Exchange Coupon - 1 sheet" category="5" />
+       <item brId="1080230" itemId="" name="Hunting Helper Exchange Coupon - 3 sheet" category="5" />
+       <item brId="1080231" itemId="" name="High Quality Hunting Helper Exchange Coupon - 1 sheet" category="5" />
+       <item brId="1080232" itemId="" name="High Quality Hunting Helper Exchange Coupon - 3 sheet" category="5" />
+       <item brId="1080233" itemId="" name="Steam Beatle Mounting Bracelet 7 Day Pack" category="5" />
+       <item brId="1080234" itemId="" name="Light Purple Maned Horse Bracelet 30 Day Pack" category="5" />
+       <item brId="1080235" itemId="" name="Golden Jack O'Lantern Mask 7 Day Pack" category="5" />
+       <item brId="1030001" itemId="" name="Free Teleport Scroll" category="5" />
+       <item brId="1030002" itemId="" name="Free Teleport Flag " category="5" />
+       <item brId="1030003" itemId="" name="Free Teleport Spellbook 10 Sheet" category="5" />
+       <item brId="1030004" itemId="" name="Hunting Helper Exchange Coupon" category="5" />
+       <item brId="1030005" itemId="" name="High Quality Hunting Helper Exchange Coupon" category="5" />
+       <item brId="1030006" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) " category="5" />
+       <item brId="1030007" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) " category="5" />
+       <item brId="1030008" itemId="" name="Potion of Energy Maintenance" category="5" />
+       <item brId="1030009" itemId="" name="Energy Replenishing Beverage" category="5" />
+       <item brId="1030010" itemId="" name="Rune of SP 30% 5 hour pack" category="5" />
+       <item brId="1030011" itemId="" name="Rune of Feathers 24 hour pack" category="5" />
+       <item brId="1030012" itemId="" name="Feather of Blessing" category="5" />
+       <item brId="1030013" itemId="" name="A Scroll Bundle of Fighter" category="5" />
+       <item brId="1030014" itemId="" name="A Scroll Bundle of Mage" category="5" />
+       <item brId="1030015" itemId="" name="Omen Beast Transformation Scroll" category="5" />
+       <item brId="1030016" itemId="" name="Death Blader Transformation Scroll" category="5" />
+       <item brId="1030017" itemId="" name="Grail Apostle Transformation Scroll" category="5" />
+       <item brId="1030018" itemId="" name="Unicorn Transformation Scroll" category="5" />
+       <item brId="1030019" itemId="" name="Lilim Knight Transformation Scroll" category="5" />
+       <item brId="1030020" itemId="" name="Golem Guardian Transformation Scroll" category="5" />
+       <item brId="1030021" itemId="" name="Inferno Drake Transformation Scroll" category="5" />
+       <item brId="1030022" itemId="" name="Dragon Bomber Transformation Scroll" category="5" />
+       <item brId="1030023" itemId="" name="Feline Queen Hat 30 Day Pack" category="5" />
+       <item brId="1030024" itemId="" name="Feline King Hat 30 Day Pack" category="5" />
+       <item brId="1030025" itemId="" name="Monster Eye Hat 30 Day Pack" category="5" />
+       <item brId="1030026" itemId="" name="Brown Bear Hat 30 Day Pack" category="5" />
+       <item brId="1030027" itemId="" name="Fungus Hat 30 Day Pack" category="5" />
+       <item brId="1030028" itemId="" name="Agathion of Love 30 Day Pack" category="5" />
+       <item brId="1030029" itemId="" name="Wonboso Agathion 7-Day Pack" category="5" />
+       <item brId="1030030" itemId="" name="Daewoonso Agathion 7-Day Pack" category="5" />
+       <item brId="1030031" itemId="" name="Gold Crown Majo Agathion 7 Day Pack" category="5" />
+       <item brId="1030032" itemId="" name="Color Name" category="5" />
+       <item brId="1030033" itemId="" name="Rune of Crystal level-3 10 hour pack" category="5" />
+       <item brId="1030034" itemId="" name="Rune of SP 50% 5 hour pack" category="5" />
+       <item brId="1030035" itemId="" name="Little Angel's Wings 7 Day Pack" category="5" />
+       <item brId="1030036" itemId="" name="Fairy's Tentacle 7 Day Pack" category="5" />
+       <item brId="1030037" itemId="" name="Visor 7 Day Pack" category="5" />
+       <item brId="1030038" itemId="" name="Afro Hair Pack - Gold" category="5" />
+       <item brId="1030039" itemId="" name="Afro Hair Pack - Pink" category="5" />
+       <item brId="1030040" itemId="" name="Afro Hair Pack" category="5" />
+       <item brId="1030041" itemId="" name="Snow Kung Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1030042" itemId="" name="Steam Beatle Mounting Bracelet Pack" category="5" />
+       <item brId="1030043" itemId="" name="Light Purple Maned Horse Bracelet Pack" category="5" />
+       <item brId="1030044" itemId="" name="Ribbon Hairband Pack" category="5" />
+       <item brId="1030045" itemId="" name="Horn Rimmed Glasses Pack" category="5" />
+       <item brId="1030046" itemId="" name="Skull Hat Pack" category="5" />
+       <item brId="1030047" itemId="" name="Kat the Cat Hat Pack" category="5" />
+       <item brId="1030048" itemId="" name="Haste Scroll" category="5" />
+       <item brId="1030049" itemId="" name="Empower Scroll" category="5" />
+       <item brId="1030050" itemId="" name="Grater Acumen Scroll" category="5" />
+       <item brId="1030051" itemId="" name="Vampiric Rage Scroll" category="5" />
+       <item brId="1030052" itemId="" name="Clarity Scroll" category="5" />
+       <item brId="1030053" itemId="" name="Free Teleport Flag 11 Sheet" category="5" />
+       <item brId="1030054" itemId="" name="Free Teleport Spellbook 110 Sheet" category="5" />
+       <item brId="1030055" itemId="" name="Hunting Helper Exchange Coupon - 5 hours 10 sheet" category="5" />
+       <item brId="1030056" itemId="" name="High-grade Hunting Helper Exchange Coupon - 5 hours 10 sheet" category="5" />
+       <item brId="1030057" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 50 Sheet" category="5" />
+       <item brId="1030058" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 50 Sheet" category="5" />
+       <item brId="1030059" itemId="" name="Potion of Energy Maintenance 10 Units" category="5" />
+       <item brId="1030060" itemId="" name="Energy Replenishing Beverage 20-Unit" category="5" />
+       <item brId="1030061" itemId="" name="Fighter's Scroll Bundle 30 Sheet" category="5" />
+       <item brId="1030062" itemId="" name="Mage's Scroll Bundle 30 Sheet" category="5" />
+       <item brId="1030063" itemId="" name="Feather of Blessing 20 Units" category="5" />
+       <item brId="1030064" itemId="" name="Twilight Staff 7 Day Pack" category="5" />
+       <item brId="1030065" itemId="" name="Anniversary Hat 7 Day Pack" category="5" />
+       <item brId="1030066" itemId="" name="Immortal Steam Beatle Mount Pack" category="5" />
+       <item brId="1030067" itemId="" name="Gloomy Skull Hat Pack" category="5" />
+       <item brId="1030068" itemId="" name="Uniform Hat" category="5" />
+       <item brId="1030069" itemId="" name="Napoleon Hat" category="5" />
+       <item brId="1030070" itemId="" name="Popped-Out Eye" category="5" />
+       <item brId="1030071" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1030072" itemId="" name="Black Maneki Neko Agathion 7 Day Pack" category="5" />
+       <item brId="1030073" itemId="" name="White Maneki Neko Agathion 7 Day Pack" category="5" />
+       <item brId="1030074" itemId="" name="Energy Maintenance Set" category="5" />
+       <item brId="1030075" itemId="" name="Energy Replenishing Set" category="5" />
+       <item brId="1030076" itemId="" name="Halloween Hat" category="5" />
+       <item brId="1030077" itemId="" name="Halloween Pumpkin Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1030078" itemId="" name="Halloween Scarecrow Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1030079" itemId="" name="Halloween Kai the Cat Hat 30 Day Pack" category="5" />
+       <item brId="1030080" itemId="" name="Kai the Cat Hat" category="5" />
+       <item brId="1030081" itemId="" name="Golden Jack O'Lantern Mask 7 Day Pack" category="5" />
+       <item brId="1030082" itemId="" name="Baekyi Hwamae Agathion" category="5" />
+       <item brId="1030083" itemId="" name="Kwanwoo Hwamae Agathion" category="5" />
+       <item brId="1030084" itemId="" name="Special July 7th Parcel" category="5" />
+       <item brId="1030085" itemId="" name="Monster Eye Hat 30 Day Pack" category="5" />
+       <item brId="1030086" itemId="" name="Fungus Hat 30 Day Pack" category="5" />
+       <item brId="1030087" itemId="" name="Agathion Cash Cow 7-Day Pack" category="5" />
+       <item brId="1030088" itemId="" name="Agathion Lucky Cow 7-Day Pack" category="5" />
+       <item brId="1030089" itemId="" name="Little Angel's Wings 7 Day Pack" category="5" />
+       <item brId="1030090" itemId="" name="Visor 7 Day Pack" category="5" />
+       <item brId="1030091" itemId="" name="Plastic Wig 7 day Pack" category="5" />
+       <item brId="1030092" itemId="" name="Plastic Wig" category="5" />
+       <item brId="1030093" itemId="" name="Christmas Part 2 Grade A Gift Pack" category="5" />
+       <item brId="1030094" itemId="" name="Christmas Part 2 Grade S Gift Pack" category="5" />
+       <item brId="1030095" itemId="" name="Rudolph's Gift" category="5" />
+
+       <item brId="1040001" itemId="" name="Small fortuna box" category="2" />
+       <item brId="1040002" itemId="" name="Middle fortuna box" category="2" />
+       <item brId="1040003" itemId="" name="Large fortuna box" category="2" />
+       <item brId="1040004" itemId="" name="Small fortuna cube" category="5" />
+       <item brId="1040005" itemId="" name="Middle fortuna cube" category="2" />
+       <item brId="1040006" itemId="" name="Large fortuna cube" category="2" />
+       <item brId="1040007" itemId="" name="Weapon-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1040008" itemId="" name="Weapon-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1040009" itemId="" name="Weapon-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1040010" itemId="" name="Weapon-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1040011" itemId="" name="Weapon-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1040012" itemId="" name="Armor-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1040013" itemId="" name="Armor-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1040014" itemId="" name="Armor-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1040015" itemId="" name="Armor-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1040016" itemId="" name="Armor-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1040017" itemId="" name="Rune of Exp. Points 50% 5 hours pack" category="5" />
+       <item brId="1040018" itemId="" name="Rune of Exp. Points 50% 10 hours pack" category="5" />
+       <item brId="1040019" itemId="" name="Rune of SP 50% 5 hour pack" category="5" />
+       <item brId="1040020" itemId="" name="Rune of SP 50% 10 hour pack" category="5" />
+       <item brId="1040021" itemId="" name="Rune of Feathers 24 hour pack" category="5" />
+       <item brId="1040022" itemId="" name="Blessed Spiritshot Large Pack - D grade" category="5" />
+       <item brId="1040023" itemId="" name="Blessed Spiritshot Large Pack - C grade" category="5" />
+       <item brId="1040024" itemId="" name="Blessed Spiritshot Large Pack - B grade" category="5" />
+       <item brId="1040025" itemId="" name="Blessed Spiritshot Large Pack - A grade" category="5" />
+       <item brId="1040026" itemId="" name="Blessed Spiritshot Large Pack - S grade" category="5" />
+       <item brId="1040027" itemId="" name="Soulshot Large Pack - D grade" category="5" />
+       <item brId="1040028" itemId="" name="Soulshot Large Pack - C grade" category="5" />
+       <item brId="1040029" itemId="" name="Soulshot Large Pack -  B grade" category="5" />
+       <item brId="1040030" itemId="" name="Soulshot Large Pack - A grade" category="5" />
+       <item brId="1040031" itemId="" name="Soulshot Large Pack - S grade" category="5" />
+       <item brId="1040032" itemId="" name="Bone Quiver" category="5" />
+       <item brId="1040033" itemId="" name="Steel Quiver" category="5" />
+       <item brId="1040034" itemId="" name="Silver Quiver" category="5" />
+       <item brId="1040035" itemId="" name="Mithril Quiver" category="5" />
+       <item brId="1040036" itemId="" name="Quiver of Light" category="5" />
+       <item brId="1040037" itemId="" name="Bone Bolt Container" category="5" />
+       <item brId="1040038" itemId="" name="Steel Bolt Container" category="5" />
+       <item brId="1040039" itemId="" name="Silver Bolt Container" category="5" />
+       <item brId="1040040" itemId="" name="Mithril Bolt Container" category="5" />
+       <item brId="1040041" itemId="" name="Bolt Container of Light" category="5" />
+       <item brId="1040042" itemId="" name="High-grade Healing Potion" category="5" />
+       <item brId="1040043" itemId="" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1040044" itemId="" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1040045" itemId="" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1040046" itemId="" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1040047" itemId="" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1040048" itemId="" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1040049" itemId="" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1040050" itemId="" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1040051" itemId="" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1040052" itemId="" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1040053" itemId="" name="High Grade Potion of Will" category="5" />
+       <item brId="1040054" itemId="" name="Potion of Energy Maintenance" category="5" />
+       <item brId="1040055" itemId="" name="Energy Replenishing Beverage" category="5" />
+       <item brId="1040056" itemId="" name="Energy Replenishing Beverage 3-Unit" category="5" />
+       <item brId="1040057" itemId="" name="Color Name" category="5" />
+       <item brId="1040058" itemId="" name="A Scroll Bundle of Fighter" category="5" />
+       <item brId="1040059" itemId="" name="A Scroll Bundle of Mage" category="5" />
+       <item brId="1040060" itemId="" name="Wind Walk Scroll" category="5" />
+       <item brId="1040061" itemId="" name="Haste Scroll" category="5" />
+       <item brId="1040062" itemId="" name="Might Scroll" category="5" />
+       <item brId="1040063" itemId="" name="Shield Scroll" category="5" />
+       <item brId="1040064" itemId="" name="Death Whisper Scroll" category="5" />
+       <item brId="1040065" itemId="" name="Guidance Scroll" category="5" />
+       <item brId="1040066" itemId="" name="Empower Scroll" category="5" />
+       <item brId="1040067" itemId="" name="Grater Acumen Scroll" category="5" />
+       <item brId="1040068" itemId="" name="Vampiric Rage Scroll" category="5" />
+       <item brId="1040069" itemId="" name="Bless the Body Scroll" category="5" />
+       <item brId="1040070" itemId="" name="Berserker Spirit Scroll" category="5" />
+       <item brId="1040071" itemId="" name="Magic Barrier Scroll" category="5" />
+       <item brId="1040072" itemId="" name="Bless the Soul Scroll" category="5" />
+       <item brId="1040073" itemId="" name="Clarity Scroll" category="5" />
+       <item brId="1040074" itemId="" name="Wild Magic Scroll" category="5" />
+       <item brId="1040075" itemId="" name="Escape - Elven Village" category="5" />
+       <item brId="1040076" itemId="" name="Escape - Dark Elven Village" category="5" />
+       <item brId="1040077" itemId="" name="Escape - Orc Village" category="5" />
+       <item brId="1040078" itemId="" name="Escape - Dwarven Village" category="5" />
+       <item brId="1040079" itemId="" name="Escape - Gludin Village" category="5" />
+       <item brId="1040080" itemId="" name="Escape - Town of Gludio" category="5" />
+       <item brId="1040081" itemId="" name="Escape - Town of Dion" category="5" />
+       <item brId="1040082" itemId="" name="Escape - Floran Village" category="5" />
+       <item brId="1040083" itemId="" name="Escape - Giran Castle Town" category="5" />
+       <item brId="1040084" itemId="" name="Escape - Hardin's Academy" category="5" />
+       <item brId="1040085" itemId="" name="Escape - Heine" category="5" />
+       <item brId="1040086" itemId="" name="Escape - Town of Oren" category="5" />
+       <item brId="1040087" itemId="" name="Escape - Ivory Tower" category="5" />
+       <item brId="1040088" itemId="" name="Escape - Hunters Village" category="5" />
+       <item brId="1040089" itemId="" name="Escape - Town of Aden" category="5" />
+       <item brId="1040090" itemId="" name="Escape - Town of Goddard" category="5" />
+       <item brId="1040091" itemId="" name="Escape - Rune Township" category="5" />
+       <item brId="1040092" itemId="" name="Escape - Town of Schuttgart" category="5" />
+       <item brId="1040093" itemId="" name="Omen Beast Transformation Scroll" category="5" />
+       <item brId="1040094" itemId="" name="Death Blader Transformation Scroll" category="5" />
+       <item brId="1040095" itemId="" name="Grail Apostle Transformation Scroll" category="5" />
+       <item brId="1040096" itemId="" name="Unicorn Transformation Scroll" category="5" />
+       <item brId="1040097" itemId="" name="Lilim Knight Transformation Scroll" category="5" />
+       <item brId="1040098" itemId="" name="Golem Guardian Transformation Scroll" category="5" />
+       <item brId="1040099" itemId="" name="Inferno Drake Transformation Scroll" category="5" />
+       <item brId="1040100" itemId="" name="Dragon Bomber Transformation Scroll" category="5" />
+       <item brId="1040101" itemId="" name="Feather of Blessing" category="5" />
+       <item brId="1040102" itemId="" name="Hunting Helper Exchange Coupon - 5 hours" category="5" />
+       <item brId="1040103" itemId="" name="Elite Hunting Helper Exchange Coupon - 5 hours" category="5" />
+       <item brId="1040104" itemId="" name="Sweet Fruit Cocktail" category="5" />
+       <item brId="1040105" itemId="" name="Fresh Fruit Cocktail" category="5" />
+       <item brId="1040106" itemId="" name="Afro Hair 7 day Pack" category="5" />
+       <item brId="1040107" itemId="" name="Horn Rimmed Glasses 7 day pack" category="5" />
+       <item brId="1040108" itemId="" name="Assassin's Bamboo Hat 7 day pack" category="5" />
+       <item brId="1040109" itemId="" name="Wrapped daisy hairpin" category="5" />
+       <item brId="1040110" itemId="" name="Wrapped forget-me-not hairpin" category="5" />
+       <item brId="1040111" itemId="" name="Wrapped Red Horn of Victory" category="5" />
+       <item brId="1040112" itemId="" name="Wrapped Cat Ear" category="5" />
+       <item brId="1040113" itemId="" name="Wrapped Artisan's Goggles" category="5" />
+       <item brId="1040114" itemId="" name="Wrapped Dandy's Chapeau" category="5" />
+       <item brId="1040115" itemId="" name="Uniform Hat Pack" category="5" />
+       <item brId="1040116" itemId="" name="Ribbon Hairband Pack" category="5" />
+       <item brId="1040117" itemId="" name="Ornithomimus Hat 30 Day Pack" category="5" />
+       <item brId="1040118" itemId="" name="Kat the Cat Hat 30 Day Pack" category="5" />
+       <item brId="1040119" itemId="" name="Feline Queen Hat 30 Day Pack" category="5" />
+       <item brId="1040120" itemId="" name="Feline King Hat 30 Day Pack" category="5" />
+       <item brId="1040121" itemId="" name="Kai the Cat Hat 30 Day Pack" category="5" />
+       <item brId="1040122" itemId="" name="Monster Eye Hat 30 Day Pack" category="5" />
+       <item brId="1040123" itemId="" name="Brown Bear Hat 30 Day Pack" category="5" />
+       <item brId="1040124" itemId="" name="Fungus Hat 30 Day Pack" category="5" />
+       <item brId="1040125" itemId="" name="Skull Hat 30 Day Pack" category="5" />
+       <item brId="1040126" itemId="" name="Agathion of Love 30 Day Pack" category="5" />
+       <item brId="1040127" itemId="" name="Sudden Agathion 30 Day Pack" category="5" />
+       <item brId="1040128" itemId="" name="Shiny Agathion 30 Day Pack" category="5" />
+       <item brId="1040129" itemId="" name="Sobbing Agathion 30 Day Pack" category="5" />
+       <item brId="1040130" itemId="" name="Pumpkin Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1040131" itemId="" name="Scarecrow Jack Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1040132" itemId="" name="Tin Golem Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1040133" itemId="" name="Gold Maned Lion Mounting Bracelet 30 Day Pack" category="5" />
+       <item brId="1040134" itemId="" name="Steam Beatle Mounting Bracelet 30 Day Pack" category="5" />
+       <item brId="1040135" itemId="" name="Light Purple Maned Horse Bracelet 30 Day Pack" category="5" />
+       <item brId="1040136" itemId="" name="Free Teleport Scroll" category="5" />
+       <item brId="1040137" itemId="" name="Free Teleport Spellbook " category="5" />
+       <item brId="1040138" itemId="" name="Free Teleport Flag " category="5" />
+       <item brId="1040139" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) " category="5" />
+       <item brId="1040140" itemId="" name="Extra Entrance Pass - Near Kamaloka " category="5" />
+       <item brId="1040141" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) " category="5" />
+       <item brId="1040142" itemId="" name="Small fortuna box" category="5" />
+       <item brId="1040143" itemId="" name="Middle fortuna box" category="5" />
+       <item brId="1040144" itemId="" name="Large fortuna box" category="5" />
+       <item brId="1040145" itemId="" name="Small fortuna cube" category="5" />
+       <item brId="1040146" itemId="" name="Middle fortuna cube" category="5" />
+       <item brId="1040147" itemId="" name="Large fortuna cube" category="5" />
+       <item brId="1040148" itemId="" name="Weapon-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1040149" itemId="" name="Weapon-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1040150" itemId="" name="Weapon-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1040151" itemId="" name="Weapon-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1040152" itemId="" name="Weapon-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1040153" itemId="" name="Armor-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1040154" itemId="" name="Armor-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1040155" itemId="" name="Armor-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1040156" itemId="" name="Armor-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1040157" itemId="" name="Armor-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1040158" itemId="" name="Rune of Exp. Points 50% 5 hours pack" category="5" />
+       <item brId="1040159" itemId="" name="Rune of Exp. Points 50% 10 hours pack" category="5" />
+       <item brId="1040160" itemId="" name="Rune of SP 50% 5 hour pack" category="5" />
+       <item brId="1040161" itemId="" name="Rune of SP 50% 10 hour pack" category="5" />
+       <item brId="1040162" itemId="" name="Rune of Feathers 24 hour pack" category="5" />
+       <item brId="1040163" itemId="" name="Bone Quiver" category="5" />
+       <item brId="1040164" itemId="" name="Steel Quiver" category="5" />
+       <item brId="1040165" itemId="" name="Silver Quiver" category="5" />
+       <item brId="1040166" itemId="" name="Mithril Quiver" category="5" />
+       <item brId="1040167" itemId="" name="Quiver of Light" category="5" />
+       <item brId="1040168" itemId="" name="Bone Bolt Container" category="5" />
+       <item brId="1040169" itemId="" name="Steel Bolt Container" category="5" />
+       <item brId="1040170" itemId="" name="Silver Bolt Container" category="5" />
+       <item brId="1040171" itemId="" name="Mithril Bolt Container" category="5" />
+       <item brId="1040172" itemId="" name="Bolt Container of Light" category="5" />
+       <item brId="1040173" itemId="" name="High-grade Healing Potion" category="5" />
+       <item brId="1040174" itemId="" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1040175" itemId="" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1040176" itemId="" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1040177" itemId="" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1040178" itemId="" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1040179" itemId="" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1040180" itemId="" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1040181" itemId="" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1040182" itemId="" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1040183" itemId="" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1040184" itemId="" name="High Grade Potion of Will" category="5" />
+       <item brId="1040185" itemId="" name="Potion of Energy Maintenance" category="5" />
+       <item brId="1040186" itemId="" name="Energy Replenishing Beverage" category="5" />
+       <item brId="1040187" itemId="" name="Energy Replenishing Beverage 3-Unit" category="5" />
+       <item brId="1040188" itemId="" name="Color Name" category="5" />
+       <item brId="1040189" itemId="" name="A Scroll Bundle of Fighter" category="5" />
+       <item brId="1040190" itemId="" name="A Scroll Bundle of Mage" category="5" />
+       <item brId="1040191" itemId="" name="Wind Walk Scroll" category="5" />
+       <item brId="1040192" itemId="" name="Haste Scroll" category="5" />
+       <item brId="1040193" itemId="" name="Might Scroll" category="5" />
+       <item brId="1040194" itemId="" name="Shield Scroll" category="5" />
+       <item brId="1040195" itemId="" name="Death Whisper Scroll" category="5" />
+       <item brId="1040196" itemId="" name="Guidance Scroll" category="5" />
+       <item brId="1040197" itemId="" name="Empower Scroll" category="5" />
+       <item brId="1040198" itemId="" name="Grater Acumen Scroll" category="5" />
+       <item brId="1040199" itemId="" name="Vampiric Rage Scroll" category="5" />
+       <item brId="1040200" itemId="" name="Bless the Body Scroll" category="5" />
+       <item brId="1040201" itemId="" name="Berserker Spirit Scroll" category="5" />
+       <item brId="1040202" itemId="" name="Magic Barrier Scroll" category="5" />
+       <item brId="1040203" itemId="" name="Bless the Soul Scroll" category="5" />
+       <item brId="1040204" itemId="" name="Clarity Scroll" category="5" />
+       <item brId="1040205" itemId="" name="Wild Magic Scroll" category="5" />
+       <item brId="1040206" itemId="" name="Escape - Elven Village" category="5" />
+       <item brId="1040207" itemId="" name="Escape - Dark Elven Village" category="5" />
+       <item brId="1040208" itemId="" name="Escape - Orc Village" category="5" />
+       <item brId="1040209" itemId="" name="Escape - Dwarven Village" category="5" />
+       <item brId="1040210" itemId="" name="Escape - Gludin Village" category="5" />
+       <item brId="1040211" itemId="" name="Escape - Town of Gludio" category="5" />
+       <item brId="1040212" itemId="" name="Escape - Town of Dion" category="5" />
+       <item brId="1040213" itemId="" name="Escape - Floran Village" category="5" />
+       <item brId="1040214" itemId="" name="Escape - Giran Castle Town" category="5" />
+       <item brId="1040215" itemId="" name="Escape - Hardin's Academy" category="5" />
+       <item brId="1040216" itemId="" name="Escape - Heine" category="5" />
+       <item brId="1040217" itemId="" name="Escape - Town of Oren" category="5" />
+       <item brId="1040218" itemId="" name="Escape - Ivory Tower" category="5" />
+       <item brId="1040219" itemId="" name="Escape - Hunters Village" category="5" />
+       <item brId="1040220" itemId="" name="Escape - Town of Aden" category="5" />
+       <item brId="1040221" itemId="" name="Escape - Town of Goddard" category="5" />
+       <item brId="1040222" itemId="" name="Escape - Rune Township" category="5" />
+       <item brId="1040223" itemId="" name="Escape - Town of Schuttgart" category="5" />
+       <item brId="1040224" itemId="" name="Omen Beast Transformation Scroll" category="5" />
+       <item brId="1040225" itemId="" name="Death Blader Transformation Scroll" category="5" />
+       <item brId="1040226" itemId="" name="Grail Apostle Transformation Scroll" category="5" />
+       <item brId="1040227" itemId="" name="Unicorn Transformation Scroll" category="5" />
+       <item brId="1040228" itemId="" name="Lilim Knight Transformation Scroll" category="5" />
+       <item brId="1040229" itemId="" name="Golem Guardian Transformation Scroll" category="5" />
+       <item brId="1040230" itemId="" name="Inferno Drake Transformation Scroll" category="5" />
+       <item brId="1040231" itemId="" name="Dragon Bomber Transformation Scroll" category="5" />
+       <item brId="1040232" itemId="" name="Feather of Blessing" category="5" />
+       <item brId="1040233" itemId="" name="Hunting Helper Exchange Coupon - 5 hours" category="5" />
+       <item brId="1040234" itemId="" name="Elite Hunting Helper Exchange Coupon - 5 hours" category="5" />
+       <item brId="1040235" itemId="" name="Sweet Fruit Cocktail" category="5" />
+       <item brId="1040236" itemId="" name="Fresh Fruit Cocktail" category="5" />
+       <item brId="1040237" itemId="" name="Afro Hair 7 day Pack" category="5" />
+       <item brId="1040238" itemId="" name="Horn Rimmed Glasses 7 day pack" category="5" />
+       <item brId="1040239" itemId="" name="Assassin's Bamboo Hat 7 day pack" category="5" />
+       <item brId="1040240" itemId="" name="Wrapped daisy hairpin" category="5" />
+       <item brId="1040241" itemId="" name="Wrapped forget-me-not hairpin" category="5" />
+       <item brId="1040242" itemId="" name="Wrapped Red Horn of Victory" category="5" />
+       <item brId="1040243" itemId="" name="Wrapped Cat Ear" category="5" />
+       <item brId="1040244" itemId="" name="Wrapped Artisan's Goggles" category="5" />
+       <item brId="1040245" itemId="" name="Wrapped Dandy's Chapeau" category="5" />
+       <item brId="1040246" itemId="" name="Uniform Hat Pack" category="5" />
+       <item brId="1040247" itemId="" name="Ribbon Hairband Pack" category="5" />
+       <item brId="1040248" itemId="" name="Ornithomimus Hat 30 Day Pack" category="5" />
+       <item brId="1040249" itemId="" name="Kat the Cat Hat 30 Day Pack" category="5" />
+       <item brId="1040250" itemId="" name="Feline Queen Hat 30 Day Pack" category="5" />
+       <item brId="1040251" itemId="" name="Feline King Hat 30 Day Pack" category="5" />
+       <item brId="1040252" itemId="" name="Kai the Cat Hat 30 Day Pack" category="5" />
+       <item brId="1040253" itemId="" name="Monster Eye Hat 30 Day Pack" category="5" />
+       <item brId="1040254" itemId="" name="Brown Bear Hat 30 Day Pack" category="5" />
+       <item brId="1040255" itemId="" name="Fungus Hat 30 Day Pack" category="5" />
+       <item brId="1040256" itemId="" name="Skull Hat 30 Day Pack" category="5" />
+       <item brId="1040257" itemId="" name="Agathion of Love 30 Day Pack" category="5" />
+       <item brId="1040258" itemId="" name="Sudden Agathion 30 Day Pack" category="5" />
+       <item brId="1040259" itemId="" name="Shiny Agathion 30 Day Pack" category="5" />
+       <item brId="1040260" itemId="" name="Sobbing Agathion 30 Day Pack" category="5" />
+       <item brId="1040261" itemId="" name="Pumpkin Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1040262" itemId="" name="Scarecrow Jack Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1040263" itemId="" name="Tin Golem Transformation Stick 30 Day Pack" category="5" />
+       <item brId="1040264" itemId="" name="Gold Maned Lion Mounting Bracelet 30 Day Pack" category="5" />
+       <item brId="1040265" itemId="" name="Steam Beatle Mounting Bracelet 30 Day Pack" category="5" />
+       <item brId="1040266" itemId="" name="Light Purple Maned Horse Bracelet 30 Day Pack" category="5" />
+       <item brId="1040267" itemId="" name="Free Teleport Scroll" category="5" />
+       <item brId="1040268" itemId="" name="Free Teleport Spellbook " category="5" />
+       <item brId="1040269" itemId="" name="Free Teleport Flag " category="5" />
+       <item brId="1040270" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) " category="5" />
+       <item brId="1040271" itemId="" name="Extra Entrance Pass - Near Kamaloka " category="5" />
+       <item brId="1040272" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) " category="5" />
+       <item brId="1040273" itemId="" name="Weight Decreasing Ring" category="5" />
+       <item brId="1040274" itemId="" name="Quiet Footsteps Ring" category="5" />
+       <item brId="1040275" itemId="" name="Red Soul Crystal - Stage 12" category="5" />
+       <item brId="1040276" itemId="" name="Green Soul Crystal - Stage 12" category="5" />
+       <item brId="1040277" itemId="" name="Blue Soul Crystal - Stage 12" category="5" />
+       <item brId="1040278" itemId="" name="Red Soul Crystal - Stage 13" category="5" />
+       <item brId="1040279" itemId="" name="Green Soul Crystal - Stage 13" category="5" />
+       <item brId="1040280" itemId="" name="Blue Soul Crystal - Stage 13" category="5" />
+       <item brId="1040281" itemId="" name="Red Soul Crystal - Stage 14" category="5" />
+       <item brId="1040282" itemId="" name="Blue Soul Crystal - Stage 14" category="5" />
+       <item brId="1040283" itemId="" name="Green Soul Crystal - Stage 14" category="5" />
+       <item brId="1040284" itemId="" name="Pig Stick Candy" category="5" />
+       <item brId="1040285" itemId="" name="Agathion of Baby Panda 15 Day Pack" category="5" />
+       <item brId="1040286" itemId="" name="Bamboo Panda Agathion 15 Day Pack" category="5" />
+       <item brId="1040287" itemId="" name="Agathion of Sexy Panda 15 Day Pack" category="5" />
+       <item brId="1040288" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1040289" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1040290" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1040291" itemId="" name="Bird's Nest" category="5" />
+       <item brId="1040292" itemId="" name="Purple Viking Circlet" category="5" />
+       <item brId="1040293" itemId="" name="Golden Viking Circlet" category="5" />
+       <item brId="1040294" itemId="" name="Panda Hat" category="5" />
+       <item brId="1040295" itemId="" name="White Wool Hat" category="5" />
+       <item brId="1040296" itemId="" name="Black Wool Hat" category="5" />
+       <item brId="1040297" itemId="" name="Frog Hat" category="5" />
+       <item brId="1040298" itemId="" name="Fish Hat" category="5" />
+       <item brId="1040299" itemId="" name="Straw Hat" category="5" />
+       <item brId="1040300" itemId="" name="Chicken Hat" category="5" />
+       <item brId="1040301" itemId="" name="Adventurer Hat" category="5" />
+       <item brId="1040302" itemId="" name="Medieval Style Party Mask" category="5" />
+       <item brId="1040303" itemId="" name="Blue Party Hat" category="5" />
+       <item brId="1040304" itemId="" name="Soaring Bird " category="5" />
+       <item brId="1040305" itemId="" name="Teddy Bear Hat" category="5" />
+       <item brId="1040306" itemId="" name="Piggy Hat" category="5" />
+       <item brId="1040307" itemId="" name="Jester Hat" category="5" />
+       <item brId="1040308" itemId="" name="Dapper Cap" category="5" />
+       <item brId="1040309" itemId="" name="Iron Circlet" category="5" />
+       <item brId="1040310" itemId="" name="Half Face" category="5" />
+       <item brId="1040311" itemId="" name="Suit" category="5" />
+       <item brId="1040312" itemId="" name="Horn Rimmed Glasses 7 day pack" category="5" />
+       <item brId="1040313" itemId="" name="Crystal of Fire" category="5" />
+       <item brId="1040314" itemId="" name="Crystal of Water" category="5" />
+       <item brId="1040315" itemId="" name="Crystal of Earth" category="5" />
+       <item brId="1040316" itemId="" name="Crystal of Wind" category="5" />
+       <item brId="1040317" itemId="" name="Crystal of Darkness" category="5" />
+       <item brId="1040318" itemId="" name="Crystal of Sacred" category="5" />
+       <item brId="1040319" itemId="" name="Weapon Enchant Scroll - D Grade" category="5" />
+       <item brId="1040320" itemId="" name="Armor Enchant Scroll - D Grade" category="5" />
+       <item brId="1040321" itemId="" name="Weapon Enchant Scroll - C Grade" category="5" />
+       <item brId="1040322" itemId="" name="Armor Enchant Scroll - C Grade" category="5" />
+       <item brId="1040323" itemId="" name="Weapon Enchant Scroll - B Grade" category="5" />
+       <item brId="1040324" itemId="" name="Armor Enchant Scroll - B Grade" category="5" />
+       <item brId="1040325" itemId="" name="Weapon Enchant Scroll - A Grade" category="5" />
+       <item brId="1040326" itemId="" name="Armor Enchant Scroll - A Grade" category="5" />
+       <item brId="1040327" itemId="" name="Weapon Enchant Scroll - S Grade" category="5" />
+       <item brId="1040328" itemId="" name="Armor Enchant Scroll - S Grade" category="5" />
+       <item brId="1040329" itemId="" name="Lucky Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040330" itemId="" name="Ambience Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040331" itemId="" name="Sway Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040332" itemId="" name="Comfort Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040333" itemId="" name="Golden Jack O'Lantern Mask 7 Day Pack" category="5" />
+       <item brId="1040334" itemId="" name="Zombie Agathion" category="5" />
+       <item brId="1040335" itemId="" name="Zombie Agathion 7 Day Pack" category="5" />
+       <item brId="1040336" itemId="" name="Baekyi Hwamae Agathion" category="5" />
+       <item brId="1040337" itemId="" name="Kwanwoo Hwamae Agathion" category="5" />
+       <item brId="1040338" itemId="" name="Weight Decreasing Ring" category="5" />
+       <item brId="1040339" itemId="" name="Quiet Footsteps Ring" category="5" />
+       <item brId="1040340" itemId="" name="Red Soul Crystal - Stage 12" category="5" />
+       <item brId="1040341" itemId="" name="Green Soul Crystal - Stage 12" category="5" />
+       <item brId="1040342" itemId="" name="Blue Soul Crystal - Stage 12" category="5" />
+       <item brId="1040343" itemId="" name="Red Soul Crystal - Stage 13" category="5" />
+       <item brId="1040344" itemId="" name="Green Soul Crystal - Stage 13" category="5" />
+       <item brId="1040345" itemId="" name="Blue Soul Crystal - Stage 13" category="5" />
+       <item brId="1040346" itemId="" name="Red Soul Crystal - Stage 14" category="5" />
+       <item brId="1040347" itemId="" name="Blue Soul Crystal - Stage 14" category="5" />
+       <item brId="1040348" itemId="" name="Green Soul Crystal - Stage 14" category="5" />
+       <item brId="1040349" itemId="" name="Pig Stick Candy" category="5" />
+       <item brId="1040350" itemId="" name="Agathion of Baby Panda 15 Day Pack" category="5" />
+       <item brId="1040351" itemId="" name="Bamboo Panda Agathion 15 Day Pack" category="5" />
+       <item brId="1040352" itemId="" name="Agathion of Sexy Panda 15 Day Pack" category="5" />
+       <item brId="1040353" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1040354" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1040355" itemId="" name="Button-Eyed Bear Doll Agathion 7-Day Pack" category="5" />
+       <item brId="1040356" itemId="" name="Bird's Nest" category="5" />
+       <item brId="1040357" itemId="" name="Purple Viking Circlet" category="5" />
+       <item brId="1040358" itemId="" name="Golden Viking Circlet" category="5" />
+       <item brId="1040359" itemId="" name="Panda Hat" category="5" />
+       <item brId="1040360" itemId="" name="White Wool Hat" category="5" />
+       <item brId="1040361" itemId="" name="Black Wool Hat" category="5" />
+       <item brId="1040362" itemId="" name="Frog Hat" category="5" />
+       <item brId="1040363" itemId="" name="Fish Hat" category="5" />
+       <item brId="1040364" itemId="" name="Straw Hat" category="5" />
+       <item brId="1040365" itemId="" name="Chicken Hat" category="5" />
+       <item brId="1040366" itemId="" name="Adventurer Hat" category="5" />
+       <item brId="1040367" itemId="" name="Medieval Style Party Mask" category="5" />
+       <item brId="1040368" itemId="" name="Blue Party Hat" category="5" />
+       <item brId="1040369" itemId="" name="Soaring Bird " category="5" />
+       <item brId="1040370" itemId="" name="Teddy Bear Hat" category="5" />
+       <item brId="1040371" itemId="" name="Piggy Hat" category="5" />
+       <item brId="1040372" itemId="" name="Jester Hat" category="5" />
+       <item brId="1040373" itemId="" name="Dapper Cap" category="5" />
+       <item brId="1040374" itemId="" name="Iron Circlet" category="5" />
+       <item brId="1040375" itemId="" name="Half Face" category="5" />
+       <item brId="1040376" itemId="" name="Suit" category="5" />
+       <item brId="1040377" itemId="" name="Horn Rimmed Glasses 7 day pack" category="5" />
+       <item brId="1040378" itemId="" name="Crystal of Fire" category="5" />
+       <item brId="1040379" itemId="" name="Crystal of Water" category="5" />
+       <item brId="1040380" itemId="" name="Crystal of Earth" category="5" />
+       <item brId="1040381" itemId="" name="Crystal of Wind" category="5" />
+       <item brId="1040382" itemId="" name="Crystal of Darkness" category="5" />
+       <item brId="1040383" itemId="" name="Crystal of Sacred" category="5" />
+       <item brId="1040384" itemId="" name="Weapon Enchant Scroll - D Grade" category="5" />
+       <item brId="1040385" itemId="" name="Armor Enchant Scroll - D Grade" category="5" />
+       <item brId="1040386" itemId="" name="Weapon Enchant Scroll - C Grade" category="5" />
+       <item brId="1040387" itemId="" name="Armor Enchant Scroll - C Grade" category="5" />
+       <item brId="1040388" itemId="" name="Weapon Enchant Scroll - B Grade" category="5" />
+       <item brId="1040389" itemId="" name="Armor Enchant Scroll - B Grade" category="5" />
+       <item brId="1040390" itemId="" name="Weapon Enchant Scroll - A Grade" category="5" />
+       <item brId="1040391" itemId="" name="Armor Enchant Scroll - A Grade" category="5" />
+       <item brId="1040392" itemId="" name="Weapon Enchant Scroll - S Grade" category="5" />
+       <item brId="1040393" itemId="" name="Armor Enchant Scroll - S Grade" category="5" />
+       <item brId="1040394" itemId="" name="Lucky Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040395" itemId="" name="Ambience Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040396" itemId="" name="Sway Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040397" itemId="" name="Comfort Sky Lantern Summon Scroll" category="5" />
+       <item brId="1040398" itemId="" name="Golden Jack O'Lantern Mask 7 Day Pack" category="5" />
+       <item brId="1040399" itemId="" name="Zombie Agathion" category="5" />
+       <item brId="1040400" itemId="" name="Zombie Agathion 7 Day Pack" category="5" />
+       <item brId="1040401" itemId="" name="Baekyi Hwamae Agathion" category="5" />
+       <item brId="1040402" itemId="" name="Kwanwoo Hwamae Agathion" category="5" />
+       <item brId="1050001" itemId="" name="Weapon-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1050002" itemId="" name="Weapon-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1050003" itemId="" name="Weapon-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1050004" itemId="" name="Weapon-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1050005" itemId="" name="Weapon-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1050006" itemId="" name="Armor-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1050007" itemId="" name="Armor-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1050008" itemId="" name="Armor-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1050009" itemId="" name="Armor-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1050010" itemId="" name="Armor-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1050011" itemId="" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1050012" itemId="" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1050013" itemId="" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1050014" itemId="" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1050015" itemId="" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1050016" itemId="" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1050017" itemId="" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1050018" itemId="" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1050019" itemId="" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1050020" itemId="" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1050021" itemId="" name="Powerful Healing Potion" category="5" />
+       <item brId="1050022" itemId="" name="High-grade Healing Potion" category="5" />
+       <item brId="1050023" itemId="" name="Potion of Will" category="5" />
+       <item brId="1050024" itemId="" name="Healing medicine for Mana" category="5" />
+       <item brId="1050025" itemId="" name="Potion of Energy Maintenance" category="5" />
+       <item brId="1050026" itemId="" name="Potion of Energy Replenishing" category="5" />
+       <item brId="1050027" itemId="" name="Energy Replenishing Beverage 1-Unit Bundle" category="5" />
+       <item brId="1050028" itemId="" name="Energy Replenishing Beverage 3-Unit Bundle" category="5" />
+       <item brId="1050029" itemId="" name="A Scroll Bundle of Fighter" category="5" />
+       <item brId="1050030" itemId="" name="A Scroll Bundle of Mage" category="5" />
+       <item brId="1050031" itemId="" name="Wind Walk Scroll" category="5" />
+       <item brId="1050032" itemId="" name="Haste Scroll" category="5" />
+       <item brId="1050033" itemId="" name="Might Scroll" category="5" />
+       <item brId="1050034" itemId="" name="Shield Scroll" category="5" />
+       <item brId="1050035" itemId="" name="Death Whisper Scroll" category="5" />
+       <item brId="1050036" itemId="" name="Guidance Scroll" category="5" />
+       <item brId="1050037" itemId="" name="Empower Scroll" category="5" />
+       <item brId="1050038" itemId="" name="Grater Acumen Scroll" category="5" />
+       <item brId="1050039" itemId="" name="Vampiric Rage Scroll" category="5" />
+       <item brId="1050040" itemId="" name="Bless the Body Scroll" category="5" />
+       <item brId="1050041" itemId="" name="Berserker Spirit Scroll" category="5" />
+       <item brId="1050042" itemId="" name="Magic Barrier Scroll" category="5" />
+       <item brId="1050043" itemId="" name="Bless the Soul Scroll" category="5" />
+       <item brId="1050044" itemId="" name="Clarity Scroll" category="5" />
+       <item brId="1050045" itemId="" name="Wild Magic Scroll" category="5" />
+       <item brId="1050046" itemId="" name="Omen Beast Transformation Scroll" category="5" />
+       <item brId="1050047" itemId="" name="Death Blader Transformation Scroll" category="5" />
+       <item brId="1050048" itemId="" name="Grail Apostle Transformation Scroll" category="5" />
+       <item brId="1050049" itemId="" name="Unicorn Transformation Scroll" category="5" />
+       <item brId="1050050" itemId="" name="Lilim Knight Transformation Scroll" category="5" />
+       <item brId="1050051" itemId="" name="Golem Guardian Transformation Scroll" category="5" />
+       <item brId="1050052" itemId="" name="Inferno Drake Transformation Scroll" category="5" />
+       <item brId="1050053" itemId="" name="Dragon Bomber Transformation Scroll" category="5" />
+       <item brId="1050054" itemId="" name="Escape - Talking Island Village" category="5" />
+       <item brId="1050055" itemId="" name="Escape - Elven Village" category="5" />
+       <item brId="1050056" itemId="" name="Escape - Dark Elven Village" category="5" />
+       <item brId="1050057" itemId="" name="Escape - Orc Village" category="5" />
+       <item brId="1050058" itemId="" name="Escape - Dwarven Village" category="5" />
+       <item brId="1050059" itemId="" name="Escape - Gludin Village" category="5" />
+       <item brId="1050060" itemId="" name="Escape - Town of Gludio" category="5" />
+       <item brId="1050061" itemId="" name="Escape - Town of Dion" category="5" />
+       <item brId="1050062" itemId="" name="Escape - Floran Village" category="5" />
+       <item brId="1050063" itemId="" name="Escape - Giran Castle Town" category="5" />
+       <item brId="1050064" itemId="" name="Escape - Hardin's Academy" category="5" />
+       <item brId="1050065" itemId="" name="Escape - Heine" category="5" />
+       <item brId="1050066" itemId="" name="Escape - Town of Oren" category="5" />
+       <item brId="1050067" itemId="" name="Escape - Ivory Tower" category="5" />
+       <item brId="1050068" itemId="" name="Escape - Hunters Village" category="5" />
+       <item brId="1050069" itemId="" name="Escape - Town of Aden" category="5" />
+       <item brId="1050070" itemId="" name="Escape - Town of Goddard" category="5" />
+       <item brId="1050071" itemId="" name="Escape - Rune Township" category="5" />
+       <item brId="1050072" itemId="" name="Escape - Town of Schuttgart" category="5" />
+       <item brId="1050073" itemId="" name="Free Teleport Scroll" category="5" />
+       <item brId="1050074" itemId="" name="Free Teleport Spellbook 5 Sheet Bundle" category="5" />
+       <item brId="1050075" itemId="" name="Free Teleport Spellbook 15 Sheet Bundle" category="5" />
+       <item brId="1050076" itemId="" name="Free Teleport Spellbook 40 Sheet Bundle" category="5" />
+       <item brId="1050077" itemId="" name="Free Teleport Flag" category="5" />
+       <item brId="1050078" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 3 Sheet Bundle" category="5" />
+       <item brId="1050079" itemId="" name="Extra Entrance Pass - Near Kamaloka 3 Sheet Bundle" category="5" />
+       <item brId="1050080" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 3 Sheet Bundle" category="5" />
+       <item brId="1050081" itemId="" name="Feather of Blessing 3 Sheet Bundle" category="5" />
+       <item brId="1050082" itemId="" name="Color Name" category="5" />
+       <item brId="1050083" itemId="" name="Kat the Cat Hat 30 Day Pack" category="5" />
+       <item brId="1050084" itemId="" name="Feline Queen Hat 30 Day Pack" category="5" />
+       <item brId="1050085" itemId="" name="Skull Hat 30 Day Pack" category="5" />
+       <item brId="1050086" itemId="" name="Assassin's Bamboo Hat Energy - 3 hours" category="5" />
+       <item brId="1050087" itemId="" name="Assassin's Bamboo Hat Energy - 3 days" category="5" />
+       <item brId="1050088" itemId="" name="Assassin's Bamboo Hat Energy - 30 days" category="5" />
+       <item brId="1050089" itemId="" name="Horn Rimmed Glasses Energy - 3 hours" category="5" />
+       <item brId="1050090" itemId="" name="Horn Rimmed Glasses Energy - 3 days" category="5" />
+       <item brId="1050091" itemId="" name="Horn Rimmed Glasses Energy - 30 days" category="5" />
+       <item brId="1050092" itemId="" name="Agathion of Love 30 Day Pack" category="5" />
+       <item brId="1050093" itemId="" name="Sudden Agathion 30 Day Pack" category="5" />
+       <item brId="1050094" itemId="" name="Shiny Agathion 30 Day Pack" category="5" />
+       <item brId="1050095" itemId="" name="Sobbing Agathion 30 Day Pack" category="5" />
+       <item brId="1050096" itemId="" name="Plaipitak Agathion 30 Day Pack - Big Head" category="5" />
+       <item brId="1050097" itemId="" name="Plaipitak Agathion 30 Day Pack - Blessed Resurrection" category="5" />
+       <item brId="1050098" itemId="" name="Plaipitak Agathion 30 Day Pack - Blessed Return" category="5" />
+       <item brId="1050099" itemId="" name="Baby Panda Agathion Pack" category="5" />
+       <item brId="1050100" itemId="" name="Bamboo Panda Agathion Pack" category="5" />
+       <item brId="1050101" itemId="" name="Sexy Panda Agathion Pack" category="5" />
+       <item brId="1050102" itemId="" name="Hunting Helper Exchange Coupon - 1 sheet" category="5" />
+       <item brId="1050103" itemId="" name="Hunting Helper Exchange Coupon - 5 sheet" category="5" />
+       <item brId="1050104" itemId="" name="High Quality Hunting Helper Exchange Coupon - 1 sheet" category="5" />
+       <item brId="1050105" itemId="" name="High Quality Hunting Helper Exchange Coupon - 5 sheet" category="5" />
+       <item brId="1050106" itemId="" name="Purple Maned Horse 7 Day Pack" category="5" />
+       <item brId="1050107" itemId="" name="Light Purple Maned Horse Bracelet 30 Day Pack" category="5" />
+       <item brId="1050108" itemId="" name="Light Purple Maned Horse Bracelet Pack" category="5" />
+       <item brId="1070001" itemId="" name="Small fortuna box" category="5" />
+       <item brId="1070002" itemId="" name="Middle fortuna box" category="5" />
+       <item brId="1070003" itemId="" name="Large fortuna box" category="5" />
+       <item brId="1070004" itemId="" name="Small fortuna cube" category="5" />
+       <item brId="1070005" itemId="" name="Middle fortuna cube" category="5" />
+       <item brId="1070006" itemId="" name="Large fortuna cube" category="5" />
+       <item brId="1070007" itemId="" name="Powerful Healing Potion" category="5" />
+       <item brId="1070008" itemId="" name="High-grade Healing Potion" category="5" />
+       <item brId="1070009" itemId="" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1070010" itemId="" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1070011" itemId="" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1070012" itemId="" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1070013" itemId="" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1070014" itemId="" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1070015" itemId="" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1070016" itemId="" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1070017" itemId="" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1070018" itemId="" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1070019" itemId="" name="Potion of Will" category="5" />
+       <item brId="1070020" itemId="" name="Healing medicine for Mana" category="5" />
+       <item brId="1070021" itemId="" name="Wind Walk Scroll" category="5" />
+       <item brId="1070022" itemId="" name="Haste Scroll" category="5" />
+       <item brId="1070023" itemId="" name="Might Scroll" category="5" />
+       <item brId="1070024" itemId="" name="Shield Scroll" category="5" />
+       <item brId="1070025" itemId="" name="Death Whisper Scroll" category="5" />
+       <item brId="1070026" itemId="" name="Guidance Scroll" category="5" />
+       <item brId="1070027" itemId="" name="Empower Scroll" category="5" />
+       <item brId="1070028" itemId="" name="Grater Acumen Scroll" category="5" />
+       <item brId="1070029" itemId="" name="Vampiric Rage Scroll" category="5" />
+       <item brId="1070030" itemId="" name="Bless the Body Scroll" category="5" />
+       <item brId="1070031" itemId="" name="Berserker Spirit Scroll" category="5" />
+       <item brId="1070032" itemId="" name="Magic Barrier Scroll" category="5" />
+       <item brId="1070033" itemId="" name="Bless the Soul Scroll" category="5" />
+       <item brId="1070034" itemId="" name="Clarity Scroll" category="5" />
+       <item brId="1070035" itemId="" name="Wild Magic Scroll" category="5" />
+       <item brId="1070036" itemId="" name="Rune of Experience Points" category="5" />
+       <item brId="1070037" itemId="" name="Rune of Experience Points" category="5" />
+       <item brId="1070038" itemId="" name="Rune of Experience Points" category="5" />
+       <item brId="1070039" itemId="" name="Rune of Experience Points" category="5" />
+       <item brId="1070040" itemId="" name="Rune of SP" category="5" />
+       <item brId="1070041" itemId="" name="Rune of SP" category="5" />
+       <item brId="1070042" itemId="" name="Rune of SP" category="5" />
+       <item brId="1070043" itemId="" name="Rune of SP" category="5" />
+       <item brId="1070044" itemId="" name="Crystal form Rune" category="5" />
+       <item brId="1070045" itemId="" name="Crystal form Rune" category="5" />
+       <item brId="1070046" itemId="" name="Crystal form Rune" category="5" />
+       <item brId="1070047" itemId="" name="Crystal form Rune" category="5" />
+       <item brId="1070048" itemId="" name="Rune of Feather" category="5" />
+       <item brId="1070049" itemId="" name="A Scroll Bundle of Fighter" category="5" />
+       <item brId="1070050" itemId="" name="A Scroll Bundle of Mage" category="5" />
+       <item brId="1070051" itemId="" name="Bone Quiver" category="5" />
+       <item brId="1070052" itemId="" name="Steel Quiver" category="5" />
+       <item brId="1070053" itemId="" name="Silver Quiver" category="5" />
+       <item brId="1070054" itemId="" name="Mithril Quiver" category="5" />
+       <item brId="1070055" itemId="" name="Quiver of Light" category="5" />
+       <item brId="1070056" itemId="" name="Bone Bolt Container" category="5" />
+       <item brId="1070057" itemId="" name="Steel Bolt Container" category="5" />
+       <item brId="1070058" itemId="" name="Silver Bolt Container" category="5" />
+       <item brId="1070059" itemId="" name="Mithril Bolt Container" category="5" />
+       <item brId="1070060" itemId="" name="Bolt Container of Light" category="5" />
+       <item brId="1070061" itemId="" name="Blessed Spiritshot Pack - D grade" category="5" />
+       <item brId="1070062" itemId="" name="Blessed Spiritshot Pack - C grade" category="5" />
+       <item brId="1070063" itemId="" name="Blessed Spiritshot Pack - B grade" category="5" />
+       <item brId="1070064" itemId="" name="Blessed Spiritshot Pack - A grade" category="5" />
+       <item brId="1070065" itemId="" name="Blessed Spiritshot Pack - S grade" category="5" />
+       <item brId="1070066" itemId="" name="Spiritshot Pack - D grade" category="5" />
+       <item brId="1070067" itemId="" name="Spiritshot Pack - C grade" category="5" />
+       <item brId="1070068" itemId="" name="Spiritshot Pack -  B grade" category="5" />
+       <item brId="1070069" itemId="" name="Spiritshot Pack - A grade" category="5" />
+       <item brId="1070070" itemId="" name="Spiritshot Pack - S grade" category="5" />
+       <item brId="1070071" itemId="" name="Soulshot Pack - D grade" category="5" />
+       <item brId="1070072" itemId="" name="Soulshot Pack - C grade" category="5" />
+       <item brId="1070073" itemId="" name="Soulshot Pack -  B grade" category="5" />
+       <item brId="1070074" itemId="" name="Soulshot Pack - A grade" category="5" />
+       <item brId="1070075" itemId="" name="Soulshot Pack - S grade" category="5" />
+       <item brId="1070076" itemId="" name="Blessed Spiritshot Large Pack - D grade" category="5" />
+       <item brId="1070077" itemId="" name="Blessed Spiritshot Large Pack - C grade" category="5" />
+       <item brId="1070078" itemId="" name="Blessed Spiritshot Large Pack - B grade" category="5" />
+       <item brId="1070079" itemId="" name="Blessed Spiritshot Large Pack - A grade" category="5" />
+       <item brId="1070080" itemId="" name="Blessed Spiritshot Large Pack - S grade" category="5" />
+       <item brId="1070081" itemId="" name="Spiritshot Large Pack - D grade" category="5" />
+       <item brId="1070082" itemId="" name="Spiritshot Large Pack - C grade" category="5" />
+       <item brId="1070083" itemId="" name="Spiritshot Large Pack -  B grade" category="5" />
+       <item brId="1070084" itemId="" name="Spiritshot Large Pack - A grade" category="5" />
+       <item brId="1070085" itemId="" name="Spiritshot Large Pack - S grade" category="5" />
+       <item brId="1070086" itemId="" name="Soulshot Large Pack - D grade" category="5" />
+       <item brId="1070087" itemId="" name="Soulshot Large Pack - C grade" category="5" />
+       <item brId="1070088" itemId="" name="Soulshot Large Pack -  B grade" category="5" />
+       <item brId="1070089" itemId="" name="Soulshot Large Pack - A grade" category="5" />
+       <item brId="1070090" itemId="" name="Soulshot Large Pack - S grade" category="5" />
+       <item brId="1070091" itemId="" name="Wrapped daisy hairpin" category="5" />
+       <item brId="1070092" itemId="" name="Wrapped forget-me-not hairpin" category="5" />
+       <item brId="1070093" itemId="" name="Wrapped outlaw's eyepatch" category="5" />
+       <item brId="1070094" itemId="" name="Wrapped pirate's eyepatch" category="5" />
+       <item brId="1070095" itemId="" name="Wrapped Monocle" category="5" />
+       <item brId="1070096" itemId="" name="Wrapped Red Mask of Victory" category="5" />
+       <item brId="1070097" itemId="" name="Wrapped Red Horn of Victory" category="5" />
+       <item brId="1070098" itemId="" name="Wrapped Party Mask" category="5" />
+       <item brId="1070099" itemId="" name="Wrapped Red Party Mask" category="5" />
+       <item brId="1070100" itemId="" name="Wrapped Cat Ear" category="5" />
+       <item brId="1070101" itemId="" name="Wrapped Noblewoman's Hairpin" category="5" />
+       <item brId="1070102" itemId="" name="Wrapped Raccoon Ear" category="5" />
+       <item brId="1070103" itemId="" name="Wrapped Rabbit Ear" category="5" />
+       <item brId="1070104" itemId="" name="Wrapped Little Angel's Wings" category="5" />
+       <item brId="1070105" itemId="" name="Wrapped Fairy's Tentacle" category="5" />
+       <item brId="1070106" itemId="" name="Wrapped Dandy's Chapeau" category="5" />
+       <item brId="1070107" itemId="" name="Wrapped Artisan's Goggles" category="5" />
+       <item brId="1070108" itemId="" name="Wrapped Pet Exchange Ticket - Buffalo" category="5" />
+       <item brId="1070109" itemId="" name="Wrapped Pet Exchange Ticket - Cougar" category="5" />
+       <item brId="1070110" itemId="" name="Wrapped Pet Exchange Ticket - kookaburra" category="5" />
+       <item brId="1070111" itemId="" name="Blessed Wolf Hat Package" category="5" />
+       <item brId="1070112" itemId="" name="Rune of Exp. Points 30% - 5 hours" category="5" />
+       <item brId="1070113" itemId="" name="Rune of Exp. Points 50% - 5 hours" category="5" />
+       <item brId="1070114" itemId="" name="Rune of Exp. Points 30% - 10 hours" category="5" />
+       <item brId="1070115" itemId="" name="Rune of Exp. Points 50% - 10 hours" category="5" />
+       <item brId="1070116" itemId="" name="Rune of Exp. Points 30% - 7 days" category="5" />
+       <item brId="1070117" itemId="" name="Rune of Exp. Points 50% - 7 days" category="5" />
+       <item brId="1070118" itemId="" name="Rune of SP 30% - 5 hours" category="5" />
+       <item brId="1070119" itemId="" name="Rune of SP 50% - 5 hours" category="5" />
+       <item brId="1070120" itemId="" name="Rune of SP 30% - 10 hours" category="5" />
+       <item brId="1070121" itemId="" name="Rune of SP 50% - 10 hours" category="5" />
+       <item brId="1070122" itemId="" name="Rune of SP 30% - 7 days" category="5" />
+       <item brId="1070123" itemId="" name="Rune of SP 50% - 7 days" category="5" />
+       <item brId="1070124" itemId="" name="Rune of Crystal level 3 - 5 hours" category="5" />
+       <item brId="1070125" itemId="" name="Rune of Crystal level 5 - 5 hours" category="5" />
+       <item brId="1070126" itemId="" name="Rune of Crystal level 3 - 10 hours" category="5" />
+       <item brId="1070127" itemId="" name="Rune of Crystal level 5 - 10 hours" category="5" />
+       <item brId="1070128" itemId="" name="Rune of Crystal level 3 - 7 days" category="5" />
+       <item brId="1070129" itemId="" name="Rune of Crystal level 5 - 7 days" category="5" />
+       <item brId="1070130" itemId="" name="Weapon-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1070131" itemId="" name="Weapon-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1070132" itemId="" name="Weapon-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1070133" itemId="" name="Weapon-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1070134" itemId="" name="Weapon-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1070135" itemId="" name="Armor-type Enhance Backup Stone (D-Grade) " category="5" />
+       <item brId="1070136" itemId="" name="Armor-type Enhance Backup Stone (C-Grade) " category="5" />
+       <item brId="1070137" itemId="" name="Armor-type Enhance Backup Stone (B-Grade) " category="5" />
+       <item brId="1070138" itemId="" name="Armor-type Enhance Backup Stone (A-Grade) " category="5" />
+       <item brId="1070139" itemId="" name="Armor-type Enhance Backup Stone (S-Grade) " category="5" />
+       <item brId="1070140" itemId="" name="Beast Soulshot Pack" category="5" />
+       <item brId="1070141" itemId="" name="Beast Spiritshot Pack" category="5" />
+       <item brId="1070142" itemId="" name="Blessed Beast Spiritshot Pack" category="5" />
+       <item brId="1070143" itemId="" name="Beast Soulshot Large Pack" category="5" />
+       <item brId="1070144" itemId="" name="Beast Spiritshot Large Pack" category="5" />
+       <item brId="1070145" itemId="" name="Blessed Beast Spiritshot Large Pack" category="5" />
+       <item brId="1070146" itemId="" name="Omen Beast Transformation Scroll" category="5" />
+       <item brId="1070147" itemId="" name="Death Blader Transformation Scroll" category="5" />
+       <item brId="1070148" itemId="" name="Grail Apostle Transformation Scroll" category="5" />
+       <item brId="1070149" itemId="" name="Unicorn Transformation Scroll" category="5" />
+       <item brId="1070150" itemId="" name="Lilim Knight Transformation Scroll" category="5" />
+       <item brId="1070151" itemId="" name="Golem Guardian Transformation Scroll" category="5" />
+       <item brId="1070152" itemId="" name="Inferno Drake Transformation Scroll" category="5" />
+       <item brId="1070153" itemId="" name="Dragon Bomber Transformation Scroll" category="5" />
+       <item brId="1070154" itemId="" name="Escape - Talking Island Village" category="5" />
+       <item brId="1070155" itemId="" name="Escape - Elven Village" category="5" />
+       <item brId="1070156" itemId="" name="Escape - Dark Elven Village" category="5" />
+       <item brId="1070157" itemId="" name="Escape - Orc Village" category="5" />
+       <item brId="1070158" itemId="" name="Escape - Dwarven Village" category="5" />
+       <item brId="1070159" itemId="" name="Escape - Gludin Village" category="5" />
+       <item brId="1070160" itemId="" name="Escape - Town of Gludio" category="5" />
+       <item brId="1070161" itemId="" name="Escape - Town of Dion" category="5" />
+       <item brId="1070162" itemId="" name="Escape - Floran Village" category="5" />
+       <item brId="1070163" itemId="" name="Escape - Giran Castle Town" category="5" />
+       <item brId="1070164" itemId="" name="Escape - Hardin's Academy" category="5" />
+       <item brId="1070165" itemId="" name="Escape - Heine" category="5" />
+       <item brId="1070166" itemId="" name="Escape - Town of Oren" category="5" />
+       <item brId="1070167" itemId="" name="Escape - Ivory Tower" category="5" />
+       <item brId="1070168" itemId="" name="Escape - Hunters Village" category="5" />
+       <item brId="1070169" itemId="" name="Escape - Town of Aden" category="5" />
+       <item brId="1070170" itemId="" name="Escape - Town of Goddard" category="5" />
+       <item brId="1070171" itemId="" name="Escape - Rune Township" category="5" />
+       <item brId="1070172" itemId="" name="Escape - Town of Schuttgart" category="5" />
+       <item brId="1070173" itemId="" name="Free Teleport Scroll" category="5" />
+       <item brId="1070174" itemId="" name="Free Teleport Spellbook 5 Sheet Bundle" category="5" />
+       <item brId="1070175" itemId="" name="Free Teleport Spellbook 10 Sheet Bundle" category="5" />
+       <item brId="1070176" itemId="" name="Free Teleport Flag 5 Sheet Bundle" category="5" />
+       <item brId="1070177" itemId="" name="Free Teleport Flag 10 Sheet Bundle" category="5" />
+       <item brId="1070178" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 5 Sheet Bundle" category="5" />
+       <item brId="1070179" itemId="" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 10 Sheet Bundle" category="5" />
+       <item brId="1070180" itemId="" name="Extra Entrance Pass - Near Kamaloka 5 Sheet Bundle" category="5" />
+       <item brId="1070181" itemId="" name="Extra Entrance Pass - Near Kamaloka 10 Sheet Bundle" category="5" />
+       <item brId="1070182" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 5 Sheet Bundle" category="5" />
+       <item brId="1070183" itemId="" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 10 Sheet Bundle" category="5" />
+       <item brId="1070184" itemId="" name="Feather of Blessing" category="5" />
+       <item brId="1070185" itemId="" name="Color Name" category="5" />
+       <item brId="1070186" itemId="" name="High Grade Potion of Will" category="5" />
+       <item brId="1070187" itemId="" name="Secret medicine of Will - D grade" category="5" />
+       <item brId="1070188" itemId="" name="Secret medicine of Will - C grade" category="5" />
+       <item brId="1070189" itemId="" name="Secret medicine of Will - B grade" category="5" />
+       <item brId="1070190" itemId="" name="Secret medicine of Will - A grade" category="5" />
+       <item brId="1070191" itemId="" name="Secret medicine of Will - S grade" category="5" />
+       <item brId="1070192" itemId="" name="Secret medicine of Life - D grade" category="5" />
+       <item brId="1070193" itemId="" name="Secret medicine of Life - C grade" category="5" />
+       <item brId="1070194" itemId="" name="Secret medicine of Life - B grade" category="5" />
+       <item brId="1070195" itemId="" name="Secret medicine of Life - A grade" category="5" />
+       <item brId="1070196" itemId="" name="Secret medicine of Life - S grade" category="5" />
+       <item brId="1070197" itemId="" name="Potion of Energy Maintenance" category="5" />
+       <item brId="1070198" itemId="" name="Potion of Energy Replenishing" category="5" />
+       <item brId="1070199" itemId="" name="Sweet Fruit Cocktail" category="5" />
+       <item brId="1070200" itemId="" name="Fresh Fruit Cocktail" category="5" />
+       <item brId="1070201" itemId="" name="Sudden Agathion 7 Day Pack" category="5" />
+       <item brId="1070202" itemId="" name="Shiny Agathion 7 Day Pack" category="5" />
+       <item brId="1070203" itemId="" name="Sobbing Agathion 7 Day Pack" category="5" />
+       <item brId="1070204" itemId="" name="Agathion of Love 7 Day Pack" category="5" />
+       <item brId="1070205" itemId="" name="Pumpkin Transformation Stick 7 Day Pack" category="5" />
+       <item brId="1070206" itemId="" name="Kat the Cat Hat 7 Day Pack" category="5" />
+       <item brId="1070207" itemId="" name="Feline Queen Hat 7 Day Pack" category="5" />
+       <item brId="1070208" itemId="" name="Monster Eye Hat 7 Day Pack" category="5" />
+       <item brId="1070209" itemId="" name="Brown Bear Hat 7 Day Pack" category="5" />
+       <item brId="1070210" itemId="" name="Fungus Hat 7 Day Pack" category="5" />
+       <item brId="1070211" itemId="" name="Skull Hat 7 Day Pack" category="5" />
+       <item brId="1070212" itemId="" name="Ornithomimus Hat 7 Day Pack" category="5" />
+       <item brId="1070213" itemId="" name="Feline King Hat 7 Day Pack" category="5" />
+       <item brId="1070214" itemId="" name="Kai the Cat Hat 7 Day Pack" category="5" />
+       <item brId="1070215" itemId="" name="Goggle Pack" category="5" />
+       <item brId="1070216" itemId="" name="Napoleon Hat Pack" category="5" />
+       <item brId="1070217" itemId="" name="Black Gem Mask Pack" category="5" />
+       <item brId="1070218" itemId="" name="Afro Hair Pack - Gold" category="5" />
+       <item brId="1070219" itemId="" name="Afro Hair Pack - Pink" category="5" />
+       <item brId="1070220" itemId="" name="Horn Rimmed Glasses Pack" category="5" />
+       <item brId="1070221" itemId="" name="Afro Hair Pack " category="5" />
+       <item brId="1070222" itemId="" name="Afro Hair Pack - Big Head, Firework" category="5" />
+       <item brId="1070223" itemId="" name="Afro Hair Pack - Wind Walk" category="5" />
+       <item brId="1070224" itemId="" name="Uniform Hat Pack" category="5" />
+       <item brId="1070225" itemId="" name="Assassin's Bamboo Hat Pack" category="5" />
+       <item brId="1070226" itemId="" name="Ruthless Tribe Mask Pack" category="5" />
+       <item brId="1070227" itemId="" name="Ribbon Hairband Pack" category="5" />
+       <item brId="1070228" itemId="" name="Visor Pack" category="5" />
+       <item brId="1070229" itemId="" name="Hunting Helper Exchange Coupon - 1 sheet" category="5" />
+       <item brId="1070230" itemId="" name="Hunting Helper Exchange Coupon - 3 sheet" category="5" />
+       <item brId="1070231" itemId="" name="High Quality Hunting Helper Exchange Coupon - 1 sheet" category="5" />
+       <item brId="1070232" itemId="" name="High Quality Hunting Helper Exchange Coupon - 3 sheet" category="5" />
+       <item brId="1070233" itemId="" name="Steam Beatle Mounting Bracelet 7 Day Pack" category="5" />
+       <item brId="1070234" itemId="" name="Light Purple Maned Horse Bracelet 30 Day Pack" category="5" /> -->
+	
+	</list>

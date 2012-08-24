@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+	<!-- Ferrum Armor Sets -->
+	<set id="206">
+		<chest id="43100" /> <!-- Ferrum Breastplate -->
+		<legs id="43101" /> <!-- Ferrum Gaiter -->
+		<head id="43104" /> <!-- Ferrum Helmet -->
+		<gloves id="43102" /> <!-- Ferrum Gauntlet -->
+		<feet id="43103" /> <!-- Ferrum Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60110" level="1" /> <!-- Ferrum Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="3" />
+		<con val="-2" />
+	</set>
+	<set id="207">
+		<chest id="43105" /> <!-- Ferrum Leather Breastplate -->
+		<legs id="43106" /> <!-- Ferrum Leather Legging -->
+		<head id="43109" /> <!-- Ferrum Leather Helmet -->
+		<gloves id="43107" /> <!-- Ferrum Leather Gloves -->
+		<feet id="43108" /> <!-- Ferrum Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60111" level="1" /> <!-- Ferrum Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="208">
+		<chest id="43110" /> <!-- Ferrum Tunic -->
+		<legs id="43111" /> <!-- Ferrum Stockings -->
+		<head id="43114" /> <!-- Ferrum Circlet -->
+		<gloves id="43112" /> <!-- Ferrum Gloves -->
+		<feet id="43113" /> <!-- Ferrum Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60112" level="1" /> <!-- Ferrum Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="1" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+	
+		<!-- Ferrum PVP Armor Sets -->
+	<set id="209">
+		<chest id="43115" /> <!-- Ferrum Breastplate {PvP} -->
+		<legs id="43101" /> <!-- Ferrum Gaiter -->
+		<head id="43104" /> <!-- Ferrum Helmet -->
+		<gloves id="43102" /> <!-- Ferrum Gauntlet -->
+		<feet id="43103" /> <!-- Ferrum Boots -->
+		<shield id="15587" /> <!-- Elegia Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60110" level="1" /> <!-- Ferrum Heavy Armor Set - PVP -->
+		<skill id="3659" level="1" /> <!-- Ferrum Heavy Armor Set - PVP -->
+		<skill id="3662" level="1" /> <!-- Ferrum Heavy Armor Set - PVP -->
+		<shield_skill id="8496" level="1" /> <!-- Elegia Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="3" />
+		<con val="-2" />
+	</set>
+	<set id="210">
+		<chest id="43116" /> <!-- Ferrum Leather Breastplate {PvP} -->
+		<legs id="43106" /> <!-- Ferrum Leather Legging -->
+		<head id="43109" /> <!-- Ferrum Leather Helmet -->
+		<gloves id="43107" /> <!-- Ferrum Leather Gloves -->
+		<feet id="43108" /> <!-- Ferrum Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60111" level="1" /> <!-- Ferrum Leather Armor Set - PVP -->
+		<skill id="3663" level="1" /> <!-- Ferrum Leather Armor Set - PVP -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="211">
+		<chest id="43117" /> <!-- Ferrum Tunic {PvP} -->
+		<legs id="43111" /> <!-- Ferrum Stockings -->
+		<head id="43114" /> <!-- Ferrum Circlet -->
+		<gloves id="43112" /> <!-- Ferrum Gloves -->
+		<feet id="43113" /> <!-- Ferrum Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60112" level="1" /> <!-- Ferrum Robe Set - PVP -->
+		<skill id="3660" level="1" /> <!-- Ferrum Robe Set - PVP -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="1" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+	
+
+
+</list>

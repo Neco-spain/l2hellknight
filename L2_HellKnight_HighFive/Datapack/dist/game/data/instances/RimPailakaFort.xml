@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="Rim Pailaka: Fortress Dungeon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<activityTime val="60" />
+	<timeDelay val="4" />
+	<allowSummon val="false" />
+	<emptyDestroyTime val="5" />
+	<spawnlist>
+		<spawn npcId="32496" x="11489" y="-49148" z="-3000" heading="0" respawn="0" />
+	</spawnlist>
+</instance>

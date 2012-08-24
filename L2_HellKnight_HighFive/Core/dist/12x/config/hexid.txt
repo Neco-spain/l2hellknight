@@ -1,0 +1,4 @@
+#the hexID to auth into login
+#Tue May 01 18:42:25 CEST 2012
+HexID=da54562b51376ae05925c0f9167852d
+ServerID=1

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="L2_HellKnight_DP" default="build" basedir=".">
+	<description>
+		This script will build the L2J DataPack.
+
+		This program is free software; you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation; either version 3, or (at your option)
+		any later version.
+
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with this program; if not, write to the Free Software
+		Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+		02111-1307, USA.
+
+		http://www.gnu.org/copyleft/gpl.html
+	</description>
+
+	<property name="build" location="../../build/Datapack" />
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.doc" location="${build.dist}/doc" />
+	<property name="build.dist.game" location="${build.dist}/game" />
+	<property name="build.dist.login" location="${build.dist}/login" />
+
+	<target name="init" depends="checkRequirements,getChangelogDateVersion" description="Create the output directories.">
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="dist" depends="init" description="Export the files to the output directory.">
+		<sync todir="${build.dist}" includeemptydirs="true">
+			<fileset dir="dist" />
+		</sync>
+		<concat destfile="${build.dist.doc}/L2HellKnight_DataPack_CHANGELOG.txt">${l2hellknight.changelog}</concat>
+		<concat destfile="${build.dist.game}/config/l2hellknightgs-version.properties">version=${l2hellknight.version}${line.separator}builddate=${build.tstamp}</concat>
+	</target>
+
+	<target name="build" depends="dist">
+		<zip destfile="${build}/L2_HellKnight_GS.zip" basedir="${build.dist}" level="9" />
+	</target>
+
+	<target name="checkRequirements" description="Check Requirements.">
+		<fail message="Ant 1.8.4 is required. But your version is ${ant.version} and if you are using Eclipse probably is outdated.">
+			<condition>
+				<not>
+					<antversion atleast="1.8.3" />
+				</not>
+			</condition>
+		</fail>
+	</target>
+
+	<target name="getChangelogDateVersion" description="Get Changelog, Date, Version.">
+		<exec dir="${basedir}" executable="svn" outputproperty="l2hellknight.changelog">
+			<arg value="log" />
+			<arg value="--stop-on-copy" />
+		</exec>
+		<tstamp>
+			<format property="build.tstamp" pattern="dd/MM/yyyy HH:mm" />
+		</tstamp>
+		<exec dir="${basedir}" executable="svnversion" outputproperty="l2hellknighTgs.version" />
+	</target>
+</project>

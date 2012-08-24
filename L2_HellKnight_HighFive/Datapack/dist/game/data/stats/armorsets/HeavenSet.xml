@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+	<!-- Heaven Set -->
+	<set id="500">
+		<chest id="48203" /> <!-- Armor of Nightmare {PvP} -->
+		<legs id="48206" /> <!-- Helm of Nightmare -->
+		<head id="48200" /> <!-- Gauntlets of Nightmare - Heavy -->
+		<gloves id="48209" /> <!-- Boots of Nightmare - Heavy -->
+		<feet id="48212" /> <!-- Moirai Gaiter -->
+		<shield id="48220" /> <!-- Shield of Nightmare -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="60100" level="1" /> <!-- Nightmare Heavy Armor Set - PVP -->
+		<skill id="8461" level="1" /> <!-- Nightmare Heavy Armor Set - PVP -->
+		<shield_skill id="60103" level="1" /> <!-- Equipped with Shield -->
+		<enchant6skill id="3620" level="1" /> <!-- Enchant Heavy Armor (A Grade) -->
+		<con val="-2" />
+		<str val="3" />
+	</set>
+	<set id="501">
+		<chest id="48204" /> <!-- Armor of Nightmare {PvP} -->
+		<legs id="48207" /> <!-- Helm of Nightmare -->
+		<head id="48201" /> <!-- Gauntlets of Nightmare - Heavy -->
+		<gloves id="48210" /> <!-- Boots of Nightmare - Heavy -->
+		<feet id="48213" /> <!-- Moirai Gaiter -->
+		<skill id="3007" level="1" /> <!-- Equip Set Items -->
+		<skill id="60101" level="1" /> <!-- Nightmare Heavy Armor Set - PVP -->
+		<skill id="8462" level="1" /> <!-- Nightmare Heavy Armor Set - PVP -->
+		<enchant6skill id="3620" level="1" /> <!-- Enchant Heavy Armor (A Grade) -->
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="502">
+		<chest id="48205" /> <!-- Armor of Nightmare {PvP} -->
+		<legs id="48208" /> <!-- Helm of Nightmare -->
+		<head id="48202" /> <!-- Gauntlets of Nightmare - Heavy -->
+		<gloves id="48211" /> <!-- Boots of Nightmare - Heavy -->
+		<feet id="48214" /> <!-- Moirai Gaiter -->
+		<skill id="3008" level="1" /> <!-- Equip Set Items -->
+		<skill id="60102" level="1" /> <!-- Nightmare Heavy Armor Set - PVP -->
+		<skill id="8463" level="1" /> <!-- Nightmare Heavy Armor Set - PVP -->
+		<enchant6skill id="3620" level="1" /> <!-- Enchant Heavy Armor (A Grade) -->
+		<wit val="2" />
+		<int val="1" />
+		<men val="-2" />
+	</set>
+</list>

@@ -1,0 +1,10 @@
+<Event ID="Master Of Enchanting" Active="06 Jun 2000-06 Jul 2013"> 
+	<Droplist>
+		<AllDrop Items="13540" Count="1,1" Chance="2%"/>
+	</Droplist>
+	<EventEnd>
+		<Take From="AllPlayers">
+			<Item ItemID="13540"/>
+		</Take>
+	</EventEnd>
+</Event>

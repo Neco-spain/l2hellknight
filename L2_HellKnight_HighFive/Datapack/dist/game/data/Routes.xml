@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Possible "repeatStyle" are: -->
+<!-- "back": NPC moves from first point to last point, then moves back through last point but one, and so on to the first point. -->
+<!-- "cycle": NPC moves from first point to last point, then moves directly to the first point. -->
+<!-- "conveyor": NPC moves from first point to last point, then teleports directly to the first point. -->
+<!-- "random": NPC randomly moves between points. -->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/Routes.xsd">
+	<!-- Just test route - Giran town square -->
+	<route id="1" repeat="true" repeatStyle="cycle">
+		<point string="" X="80863" Y="148339" Z="-3469" delay="0" run="true" />
+		<point string="" X="80904" Y="147653" Z="-3469" delay="0" run="true" />
+		<point string="" X="83205" Y="147646" Z="-3469" delay="0" run="true" />
+		<point string="" X="82189" Y="148347" Z="-3467" delay="0" run="true" />
+		<point string="" X="81862" Y="148266" Z="-3467" delay="0" run="true" />
+		<point string="" X="81918" Y="148352" Z="-3467" delay="0" run="true" />
+		<point string="" X="81937" Y="149173" Z="-3469" delay="0" run="true" />
+	</route>
+	<!-- Hellbound Town routes for Patrols -->
+	<!-- castletownguard01 -->
+	<route id="2" repeat="true" repeatStyle="random">
+		<point string="" X="14840" Y="251949" Z="-1992" delay="0" run="false" />
+		<point string="" X="14679" Y="253399" Z="-2016" delay="0" run="false" />
+	</route>
+	<!-- castletownguard02 -->
+	<route id="3" repeat="true" repeatStyle="random">
+		<point string="" X="16082" Y="251790" Z="-1992" delay="0" run="false" />
+		<point string="" X="16388" Y="252456" Z="-2000" delay="0" run="false" />
+		<point string="" X="16093" Y="254443" Z="-2064" delay="0" run="false" />
+	</route>
+	<!-- castletownguard03 -->
+	<route id="4" repeat="true" repeatStyle="random">
+		<point string="" X="16524" Y="255244" Z="-2072" delay="0" run="false" />
+		<point string="" X="17211" Y="256290" Z="-2064" delay="0" run="false" />
+		<point string="" X="18805" Y="256302" Z="-2088" delay="0" run="false" />
+	</route>
+	<!-- castletownguard04 -->
+	<route id="5" repeat="true" repeatStyle="random">
+		<point string="" X="17344" Y="251070" Z="-1952" delay="0" run="false" />
+		<point string="" X="18708" Y="250659" Z="-1992" delay="0" run="false" />
+		<point string="" X="19533" Y="250667" Z="-2016" delay="0" run="false" />
+	</route>
+	<!-- Anomic Foundry routes for Lesser and Greater Evil -->
+	<!-- malign_conveyor_1_1 -->
+	<route id="6" repeat="true" repeatStyle="conveyor">
+		<point string="" X="27886" Y="248609" Z="-3208" delay="0" run="true" />
+		<point string="" X="28150" Y="247726" Z="-3272" delay="0" run="true" />
+		<point string="" X="27340" Y="246649" Z="-3680" delay="0" run="true" />
+		<point string="" X="27646" Y="245922" Z="-3672" delay="0" run="true" />
+		<!-- <point string="" X="28247" Y="245907" Z="-2552" delay="0" run="true" /> --> <!-- retail -->
+		<point string="" X="28070" Y="245920" Z="-3698" delay="0" run="true" /> <!-- custom -->
+		<point string="" X="28491" Y="245926" Z="-3698" delay="0" run="true" /> <!-- custom -->
+		<point string="" X="29074" Y="245889" Z="-3672" delay="0" run="true" />
+		<point string="" X="29182" Y="244811" Z="-3688" delay="0" run="true" />
+		<point string="" X="28925" Y="244462" Z="-3698" delay="0" run="true" /> <!-- custom -->
+		<!-- <point string="" X="28770" Y="244248" Z="-2496" delay="0" run="true" /> --> <!-- retail -->
+	</route>
+	<!-- malign_conveyor_1_2 -->
+	<route id="7" repeat="true" repeatStyle="conveyor">
+		<point string="" X="26144" Y="246444" Z="-3208" delay="0" run="true" />
+		<point string="" X="28063" Y="247940" Z="-3248" delay="0" run="true" />
+		<point string="" X="28276" Y="247756" Z="-3272" delay="0" run="true" />
+		<point string="" X="27344" Y="246649" Z="-3680" delay="0" run="true" />
+		<point string="" X="27652" Y="245914" Z="-3688" delay="0" run="true" />
+		<!-- <point string="" X="28255" Y="245912" Z="-2552" delay="0" run="true" /> --> <!-- retail -->
+		<point string="" X="28058" Y="245915" Z="-3701" delay="0" run="true" /> <!-- custom -->
+	</route>
+	<!-- malign_conveyor_1_3 -->
+	<route id="8" repeat="true" repeatStyle="conveyor">
+		<point string="" X="27336" Y="246216" Z="-3656" delay="0" run="true" />
+		<point string="" X="27645" Y="245921" Z="-3672" delay="0" run="true" />
+		<!-- <point string="" X="28245" Y="245904" Z="-2552" delay="0" run="true" /> --> <!-- retail -->
+		<point string="" X="28058" Y="245915" Z="-3701" delay="0" run="true" /> <!-- custom -->
+	</route>
+	<!-- malign_conveyor_1_4 -->
+	<route id="9" repeat="true" repeatStyle="conveyor">
+		<point string="" X="28476" Y="245914" Z="-3696" delay="0" run="true" />
+		<point string="" X="29058" Y="245894" Z="-3672" delay="0" run="true" />
+		<point string="" X="29433" Y="245216" Z="-3688" delay="0" run="true" />
+		<point string="" X="28942" Y="244492" Z="-3696" delay="0" run="true" />
+	</route>
+	<!-- malign_conveyor_2_1 -->
+	<route id="10" repeat="true" repeatStyle="conveyor">
+		<point string="" X="28771" Y="244251" Z="-2496" delay="0" run="true" />
+		<point string="" X="28495" Y="243839" Z="-3696" delay="0" run="true" />
+		<point string="" X="28727" Y="242939" Z="-3592" delay="0" run="true" />
+		<point string="" X="28188" Y="242512" Z="-3464" delay="0" run="true" />
+		<point string="" X="27248" Y="242797" Z="-3168" delay="0" run="true" />
+		<point string="" X="26850" Y="243834" Z="-2896" delay="0" run="true" />
+		<point string="" X="24636" Y="246593" Z="-1968" delay="0" run="true" />
+		<point string="" X="24519" Y="248586" Z="-1936" delay="0" run="true" />
+		<point string="" X="23094" Y="250031" Z="-1976" delay="0" run="true" />
+		<point string="" X="22673" Y="251605" Z="-1992" delay="0" run="true" />
+		<point string="" X="24560" Y="254414" Z="-1984" delay="0" run="true" />
+		<point string="" X="25392" Y="255459" Z="-1992" delay="0" run="true" />
+	</route>
+		<!-- Routes for Sel Mahum Chef's -->
+	<!-- cooker_01 -->
+	<!-- cooker_09 --> 
+	<!-- Unconfirmed -->
+	<route id="11" repeat="true" repeatStyle="back">
+		<point string="" X="85764" Y="54368" Z="-3604" delay="0" run="false" /> 
+		<point string="" X="86760" Y="53968" Z="-3696" delay="0" run="false" /> 
+		<point string="" X="87310" Y="54592" Z="-3648" delay="0" run="false" />
+		<point string="" X="88272" Y="54171" Z="-3600" delay="0" run="false" /> 
+		<point string="" X="89017" Y="54030" Z="-3712" delay="0" run="false" /> 
+		<point string="" X="89936" Y="54224" Z="-3760" delay="0" run="false" /> 
+		<point string="" X="90647" Y="54350" Z="-3776" delay="0" run="false" />
+	</route>	
+	<!-- cooker_02 --> <!-- Unconfirmed -->
+	<route id="12" repeat="true" repeatStyle="back">
+		<point string="" X="91260" Y="55012" Z="-3760" delay="0" run="false" /> 
+		<point string="" X="94418" Y="54744" Z="-3576" delay="0" run="false" /> 
+		<point string="" X="93952" Y="54461" Z="-3632" delay="0" run="false" /> 
+		<point string="" X="92713" Y="54672" Z="-3680" delay="0" run="false" /> 
+		<point string="" X="91712" Y="55664" Z="-3648" delay="0" run="false" /> 
+		<point string="" X="91744" Y="56688" Z="-3568" delay="0" run="false" />	
+	</route>	
+	<!-- cooker_03 -->
+	<!-- cooker_05 -->
+	<!-- Unconfirmed -->
+	<route id="13" repeat="true" repeatStyle="back">
+		<point string="" X="88092" Y="60352" Z="-3584" delay="0" run="false" />
+		<point string="" X="89265" Y="60176" Z="-3648" delay="0" run="false" />
+		<point string="" X="90031" Y="60799" Z="-3664" delay="0" run="false" />
+		<point string="" X="88672" Y="59842" Z="-3568" delay="0" run="false" />
+		<point string="" X="90863" Y="59871" Z="-3664" delay="0" run="false" />
+	</route>	
+	<!-- cooker_04 --> <!-- Custom -->
+	<route id="14" repeat="true" repeatStyle="cycle">
+		<point string="" X="84435" Y="62668" Z="-3472" delay="0" run="false" />
+		<point string="" X="86646" Y="63097" Z="-3652" delay="0" run="false" />
+		<point string="" X="86408" Y="62564" Z="-3685" delay="0" run="false" />
+		<point string="" X="87024" Y="62568" Z="-3713" delay="0" run="false" />
+		<point string="" X="87282" Y="62160" Z="-3713" delay="0" run="false" />
+		<point string="" X="87932" Y="62542" Z="-3716" delay="0" run="false" />
+		<point string="" X="87524" Y="63014" Z="-3708" delay="0" run="false" />
+		<point string="" X="87515" Y="63883" Z="-3666" delay="0" run="false" />
+		<point string="" X="88302" Y="64225" Z="-3719" delay="0" run="false" />
+		<point string="" X="89745" Y="65152" Z="-3709" delay="0" run="false" />
+		<point string="" X="87371" Y="65343" Z="-3709" delay="0" run="false" />
+		<point string="" X="86563" Y="64914" Z="-3625" delay="0" run="false" />
+	</route>	
+	<!-- cooker_06 --> <!-- Custom -->
+	<route id="15" repeat="true" repeatStyle="cycle">
+		<point string="" X="93445" Y="60087" Z="-3282" delay="0" run="false" />
+		<point string="" X="92139" Y="60386" Z="-3432" delay="0" run="false" />
+		<point string="" X="93047" Y="61857" Z="-3263" delay="0" run="false" />
+		<point string="" X="93376" Y="63040" Z="-3325" delay="0" run="false" />
+	</route>	
+	<!-- cooker_07 --> <!-- Custom -->
+	<route id="16" repeat="true" repeatStyle="cycle">
+		<point string="" X="78999" Y="63663" Z="-3624" delay="0" run="false" />
+		<point string="" X="79097" Y="65036" Z="-3390" delay="0" run="false" />
+		<point string="" X="80332" Y="64954" Z="-3319" delay="0" run="false" />
+		<point string="" X="80939" Y="63739" Z="-3597" delay="0" run="false" />
+		<point string="" X="82628" Y="63701" Z="-3578" delay="0" run="false" />
+		<point string="" X="80378" Y="63344" Z="-3690" delay="0" run="false" />
+	</route>
+	<!-- cooker_08 --> <!-- Custom -->
+	<route id="17" repeat="true" repeatStyle="cycle">
+		<point string="" X="78040" Y="69515" Z="-3136" delay="0" run="false" />
+		<point string="" X="79025" Y="69859" Z="-3261" delay="0" run="false" />
+		<point string="" X="79168" Y="69256" Z="-3328" delay="0" run="false" />
+		<point string="" X="80775" Y="68705" Z="-3469" delay="0" run="false" />
+		<point string="" X="81426" Y="68725" Z="-3383" delay="0" run="false" />
+		<point string="" X="80135" Y="69229" Z="-3398" delay="0" run="false" />
+		<point string="" X="80691" Y="67780" Z="-3436" delay="0" run="false" />
+		<point string="" X="80168" Y="68275" Z="-3358" delay="0" run="false" />
+		<point string="" X="78713" Y="68742" Z="-3254" delay="0" run="false" />
+	</route>
+	<!-- cooker_10 --> <!-- Unconfirmed -->
+	<route id="18" repeat="true" repeatStyle="cycle">
+		<point string="" X="83631" Y="66179" Z="-3040" delay="0" run="false" />
+		<point string="" X="84128" Y="65740" Z="-3152" delay="0" run="false" />
+	</route>
+	<!-- cooker_11 --> <!-- Unconfirmed -->
+	<route id="19" repeat="true" repeatStyle="back">
+		<point string="" X="93792" Y="69440" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="95163" Y="70886" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="93795" Y="71347" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="92262" Y="70814" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="92501" Y="68335" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="93665" Y="66871" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="94653" Y="66934" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="97262" Y="69006" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="96506" Y="69958" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="94265" Y="68391" Z="-3851" delay="0" run="false" />
+	</route>	
+	<!-- cooker_12 --> <!-- Unconfirmed -->
+	<route id="20" repeat="true" repeatStyle="back">
+		<point string="" X="93792" Y="69440" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="95163" Y="70886" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="93795" Y="71347" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="92262" Y="70814" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="92501" Y="68335" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="93665" Y="66871" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="94653" Y="66934" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="97262" Y="69006" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="96506" Y="69958" Z="-3851" delay="0" run="false" /> 
+		<point string="" X="94265" Y="68391" Z="-3851" delay="0" run="false" />
+	</route>	
+</routes>

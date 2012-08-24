@@ -1,0 +1,13 @@
+<Event ID="Squash Event" Active="24 Dec 2009-26 Dec 2012"> 
+	<Droplist>
+		<AllDrop Items="6391" Count="1,4" Chance="20%" />	<!-- Nectar -->
+		<AllDrop Items="10640" Count="1,2" Chance="3%" />	<!-- Cloned Squash Seed -->
+		<AllDrop Items="10641" Count="1,1" Chance="1%" />	<!-- Cloned Large Squash Seed -->
+	</Droplist>
+	<Message Type="OnJoin" Msg="Squash Event started!" />
+	<EventEnd>
+		<Take From="AllPlayers">
+			<Item ItemID="6391,10640,10641"></Item>
+		</Take>
+	</EventEnd>
+</Event>

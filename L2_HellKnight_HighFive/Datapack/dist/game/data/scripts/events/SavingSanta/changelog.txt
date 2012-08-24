@@ -1,0 +1,10 @@
+theone (Jython version)
+janiii (Based on theone's work, first Java version)
+gigiikun (Added Saving Santa part, some issues fixed 2x)
+qwerty13 (Update to Epilogue) ?
+surskis (Update to Freya) ?
+a13xsus (Added Sled spawn and reward to rescuer)
+Zoey76 (Reworked, fixed issue with multiple tree's spawn, some other issues fixed, added most retail texts, added Sled Social Action)
+Zoey76 (Fixed Jackpot reward and reworked to use NpcStrings, added missing NpcStrings, replaced faenor with EventDroplist, cleanup, updated to High Five)
+Zoey76 (Fixed ticket check for normal weapons)
+Zoey76 (Fixed items not destroyed after buying)

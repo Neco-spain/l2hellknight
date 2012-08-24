@@ -1,0 +1,1 @@
+ALTER TABLE `characters` ADD `pccafe_points` int(6) DEFAULT NULL AFTER `createDate`;
