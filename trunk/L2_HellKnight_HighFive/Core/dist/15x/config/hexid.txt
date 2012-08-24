@@ -1,4 +1,0 @@
-#the hexID to auth into login
-#Mon Jun 18 10:18:56 EEST 2012
-HexID=-6e3c148331b78e44b8081ceeb3a34cb2
-ServerID=1
