@@ -14666,6 +14666,20 @@ public final class SystemMessageId
 	 * storage! Approach to the Code Input Device!
 	 */
 	public static final SystemMessageId DOOR_IS_ENTRANCE_APPROACH_DEVICE;
+
+	/**
+	 * ID: 3037<br>
+	 * Message: Male guards can detect the concealment but the female guards
+	 * cannot.
+	 */
+	public static final SystemMessageId MALE_GUARDS_CAN_DETECT_FEMALE_CANT;
+
+	/**
+	 * ID: 3038<br>
+	 * Message: Female guards notice the disguises from far away better than the
+	 * male guards do, so beware.
+	 */
+	public static final SystemMessageId FEMALE_GUARDS_NOTICE_FROM_FAR_AWAY_BEWARE;
 	
 	/**
 	 * ID: 3037<br>
@@ -14690,7 +14704,14 @@ public final class SystemMessageId
      * Message: _3040
      */
     public static final SystemMessageId _3040;
-	
+
+	/**
+	 * ID: 3033<br>
+	 * Message: By using the invisible skill, sneak into the Dawn's document
+	 * storage!
+	 */
+	public static final SystemMessageId USING_INVISIBLE_SKILL_SNEAK_IN;
+		
 	/**
 	 * ID: 3059<br>
 	 * Message: $s1 did not receive it during the waiting time, so it was returned automatically.
@@ -17588,6 +17609,9 @@ public final class SystemMessageId
 		FEMALE_GUARDS_NOTICE_BETTER_THANT_MALE = new SystemMessageId(3038);
         _3039 = new SystemMessageId(3039);
         _3040 = new SystemMessageId(3040);
+		USING_INVISIBLE_SKILL_SNEAK_IN = new SystemMessageId(3041);
+		MALE_GUARDS_CAN_DETECT_FEMALE_CANT = new SystemMessageId(3042);
+		FEMALE_GUARDS_NOTICE_FROM_FAR_AWAY_BEWARE = new SystemMessageId(3043);
 		S1_NOT_RECEIVE_DURING_WAITING_TIME_MAIL_RETURNED = new SystemMessageId(3059);
 		DO_YOU_WANT_TO_PAY_S1_ADENA = new SystemMessageId(3062);
 		DO_YOU_WANT_TO_FORWARD = new SystemMessageId(3063);
