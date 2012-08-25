@@ -1,0 +1,123 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Accessory -->
+<!-- © 2011 by 007Florin -->
+
+<list maintainEnchantment="true">
+
+  <!-- Vote reward -->
+  <!-- rand 1 -->
+  <item>
+    <ingredient id="4356" count="50"/>
+    <production id="7679" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="2"/>
+    <production id="6622" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="5"/>
+    <production id="9627" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="50"/>
+    <production id="17073" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="50"/>
+    <production id="17074" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="80"/>
+    <production id="17070" count="1"/>
+  </item>
+  <!-- rand 2 -->
+  <item>
+    <ingredient id="4356" count="20"/>
+    <production id="17075" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="50"/>
+    <production id="17076" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="120"/>
+    <production id="17077" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="240"/>
+    <production id="22206" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="320"/>
+    <production id="22207" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="3"/>
+    <production id="959" count="1"/>
+  </item>
+  <!-- rand 3 -->
+  <item>
+    <ingredient id="4356" count="1"/>
+    <production id="960" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="8"/>
+    <production id="14711" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="1"/>
+    <production id="2134" count="10"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="4"/>
+    <production id="5575" count="1000000"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20284" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20286" count="1"/>
+  </item>
+  <!-- rand 4 -->
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20292" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20293" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20505" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20587" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20680" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20682" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20684" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20686" count="1"/>
+  </item>
+  <item>
+    <ingredient id="4356" count="30"/>
+    <production id="20688" count="1"/>
+  </item>
+
+
+</list>

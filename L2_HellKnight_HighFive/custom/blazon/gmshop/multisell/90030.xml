@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list maintainEnchantment="true" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" ns0:noNamespaceSchemaLocation="multisell.xsd">
+
+  <!-- Blood Mark -->
+  <item id="1">
+    <ingredient id="5575" count="1000000"/>
+    <production id="1419" count="1"/>
+  </item>
+
+  <!-- Alliance Manifesto -->
+  <item id="2">
+    <ingredient id="5575" count="5000000"/>
+    <production id="3874" count="1"/>
+  </item>
+
+  <!-- Seal of Aspiration -->
+  <item id="3">
+    <ingredient id="5575" count="10000000"/>
+    <production id="3870" count="1"/>
+  </item>
+
+  <!-- Blood Oath -->
+  <item id="4">
+   <ingredient id="5575" count="2000000"/>
+    <production id="9910" count="1"/>
+  </item>
+ <!-- Blood Alliance -->
+  <item id="5">
+    <ingredient id="5575" count="50000000"/>
+    <production id="9911" count="1"/>
+  </item>
+</list>

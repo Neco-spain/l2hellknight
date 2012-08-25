@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Maestro -->
+
+<list>
+<!-- Archer's Will -->
+<item id="1">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10553" count="1" enchant="0"/>
+</item>
+<!-- Fighter's Will -->
+<item id="2">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10552" count="1" enchant="0"/>
+</item>
+<!-- Protection of Alignment -->
+<item id="3">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="4">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="5">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Expose Weak Point -->
+<item id="6">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10560" count="1" enchant="0"/>
+</item>
+<!-- Golem Armor 81 -->
+<item id="7">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10571" count="1" enchant="0"/>
+</item>
+<!-- Golem Armor 83 -->
+<item id="8">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="14184" count="1" enchant="0"/>
+</item>
+<!-- Final Secret -->
+<item id="9">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="14208" count="1" enchant="0"/>
+</item>
+</list> 

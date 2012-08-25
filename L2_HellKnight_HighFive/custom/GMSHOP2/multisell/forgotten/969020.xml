@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Ghost Hunter -->
+
+<list>
+<!-- Archer's Will -->
+<item id="1">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10553" count="1" enchant="0"/>
+</item>
+<!-- Fighter's Will -->
+<item id="2">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10552" count="1" enchant="0"/>
+</item>
+<!-- Protection of Alignment -->
+<item id="3">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="4">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="5">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Expose Weak Point -->
+<item id="6">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10560" count="1" enchant="0"/>
+</item>
+<!-- Ghost Walking 81-->
+<item id="7">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10563" count="1" enchant="0"/>
+</item>
+<!-- Ghost Walking 83 -->
+<item id="8">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14177" count="1" enchant="0"/>
+</item>
+<!-- Hide -->
+<item id="9">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14209" count="1" enchant="0"/>
+</item>
+<!-- Dual Dagger Mastery -->
+<item id="10">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14210" count="1" enchant="0"/>
+</item>
+<!-- Sixth Sense -->
+<item id="11">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10559" count="1" enchant="0"/>
+</item>
+<!-- Shadow Step -->
+<item id="11">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="12771" count="1" enchant="0"/>
+</item>
+<!-- Dual Blow -->
+<item id="12">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14218" count="1" enchant="0"/>
+</item>
+<!-- Evasion Counter -->
+<item id="13">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="12768" count="1" enchant="0"/>
+</item>
+</list> 

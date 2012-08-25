@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- S Weapon -->
+<!-- © 2010 by mathuza -->
+
+<list maintainEnchantment="true">
+	<!-- Ferrum Breastplate -->
+  <item>
+    <ingredient id="4356" count="1500"/>
+    <production id="43100" count="1"/>
+  </item>
+  <!-- Ferrum Gaiter -->
+  <item>
+    <ingredient id="4356" count="1500"/>
+    <production id="43101" count="1"/>
+  </item>
+  <!-- Ferrum Helmet -->
+  <item>
+    <ingredient id="4356" count="1500"/>
+    <production id="43104" count="1"/>
+  </item>
+  <!-- Ferrum Gauntlet -->
+  <item>
+    <ingredient id="4356" count="1500"/>
+    <production id="43102" count="1"/>
+  </item>
+  !-- Ferrum Boots -->
+  <item>
+    <ingredient id="4356" count="1500"/>
+    <production id="43103" count="1"/>
+  </item>
+</list>

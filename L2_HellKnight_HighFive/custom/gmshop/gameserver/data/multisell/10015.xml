@@ -1,0 +1,14 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Pets -->
+<!-- © 2010 by mathuza -->
+
+<list maintainEnchantment="true">
+
+  <!-- Wolf Collar -->
+  <item id="16">
+    <production id="2375" count="1"/>     
+	<ingredient id="57" count="200000000"/>
+  </item>
+
+</list>

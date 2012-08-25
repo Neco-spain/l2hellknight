@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shillien Templar -->
+
+<list>
+<!-- Archer's Will -->
+<item id="1">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10553" count="1" enchant="0"/>
+</item>
+<!-- Fighter's Will -->
+<item id="2">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10552" count="1" enchant="0"/>
+</item>
+<!-- Protection of Alignment -->
+<item id="3">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="4">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="5">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Anti- Magic Armor -->
+<item id="6">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10554" count="1" enchant="0"/>
+</item>
+<!-- Sixth Sense -->
+<item id="7">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10559" count="1" enchant="0"/>
+</item>
+<!-- Pain of Shilen / Spirit of Shilen 81 -->
+<item id="8">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10593" count="1" enchant="0"/>
+</item>
+<!-- Pain of Shilen 83 -->
+<item id="9">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="14174" count="1" enchant="0"/>
+</item>
+<!-- Deflect Magic -->
+<item id="10">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="14207" count="1" enchant="0"/>
+</item>
+</list> 

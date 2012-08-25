@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Exchange -->
+<!-- © 2010 by mathuza -->
+
+<list maintainEnchantment="true">
+
+  <!-- 1 -->
+  <item id="1">
+    <ingredient id="5963" count="500"/>
+    <ingredient id="5961" count="500"/>
+    <production id="5962" count="1"/>
+  </item>
+
+  <!-- 2-->
+  <item id="2">
+    <production id="5963" count="1"/>
+    <ingredient id="5961" count="1"/>
+  </item>
+
+
+  <!-- 3 -->
+  <item id="2">
+    <production id="5961" count="1"/>
+    <ingredient id="5963" count="1"/>
+  </item>
+  
+  <!-- GB -->
+  <item id="2">
+    <production id="3470" count="1"/>
+    <ingredient id="57" count="500000000"/>
+  </item>
+  
+   <!-- Adena -->
+  <item id="2">
+    <production id="57" count="500000000"/>
+    <ingredient id="3470" count="1"/>
+  </item>
+  
+  </list>

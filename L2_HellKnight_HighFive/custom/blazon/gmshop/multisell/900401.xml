@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Event ClanDominate(Honor) -->
+<list>
+  <item id="1">
+    <ingredient id="4674" count="1"/>
+    <production id="1540" count="2"/>
+  </item>
+  <item id="2">
+    <ingredient id="4674" count="1"/>
+    <production id="5592" count="5"/>
+  </item>
+  <item id="3">
+    <ingredient id="4674" count="5"/>
+    <production id="20391" count="1"/>
+  </item>
+  <item id="4">
+    <ingredient id="4674" count="5"/>
+    <production id="20392" count="1"/>
+  </item>
+  <item id="5">
+    <ingredient id="4674" count="10"/>
+    <production id="12362" count="1"/>
+  </item>
+  <item id="6">
+    <ingredient id="4674" count="20"/>
+    <production id="12363" count="1"/>
+  </item>
+  <item id="7">
+    <ingredient id="4674" count="30"/>
+    <production id="12364" count="1"/>
+  </item>
+  <item id="8">
+    <ingredient id="4674" count="50"/>
+    <production id="12365" count="1"/>
+  </item>
+  <item id="9">
+    <ingredient id="4674" count="80"/>
+    <production id="12366" count="1"/>
+  </item>
+  <item id="10">
+    <ingredient id="4674" count="5"/>
+    <production id="12367" count="1"/>
+  </item>
+  <item id="11">
+    <ingredient id="4674" count="15"/>
+    <production id="12368" count="1"/>
+  </item>
+  <item id="12">
+    <ingredient id="4674" count="25"/>
+    <production id="12369" count="1"/>
+  </item>
+  <item id="13">
+    <ingredient id="4674" count="40"/>
+    <production id="12370" count="1"/>
+  </item>
+  <item id="14">
+    <ingredient id="4674" count="60"/>
+    <production id="12371" count="1"/>
+  </item>
+  <item id="15">
+    <ingredient id="4674" count="10"/>
+    <production id="9898" count="1"/>
+  </item>
+  <item id="16">
+    <ingredient id="4674" count="1"/>
+    <production id="7906" count="1"/>
+  </item>
+  <item id="17">
+    <ingredient id="4674" count="1"/>
+    <production id="7907" count="1"/>
+  </item>
+  <item id="18">
+    <ingredient id="4674" count="1"/>
+    <production id="7908" count="1"/>
+  </item>
+  <item id="19">
+    <ingredient id="4674" count="1"/>
+    <production id="7909" count="1"/>
+  </item>
+  <item id="20">
+    <ingredient id="4674" count="1"/>
+    <production id="7910" count="1"/>
+  </item>
+  <item id="21">
+    <ingredient id="4674" count="1"/>
+    <production id="7911" count="1"/>
+  </item>
+  <item id="22">
+    <ingredient id="4674" count="120"/>
+    <production id="14603" count="1"/>
+  </item>
+  <item id="23">
+    <ingredient id="4676" count="1"/>
+    <production id="4674" count="2"/>
+  </item>
+</list>

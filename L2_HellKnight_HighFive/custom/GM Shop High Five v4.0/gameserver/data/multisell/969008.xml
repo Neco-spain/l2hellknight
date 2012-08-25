@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Arcana Lord -->
+
+<list>
+<!-- Protection of Alignment -->
+<item id="1">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="2">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="3">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Servitor Barrier -->
+<item id="4">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10576" count="1" enchant="0"/>
+</item>
+<!-- Excessive Loyalty -->
+<item id="5">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10577" count="1" enchant="0"/>
+</item>
+<!-- Mutual Response -->
+<item id="6">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="10578" count="1" enchant="0"/>
+</item>
+<!-- Spirit of the Cat -->
+<item id="7">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="14204" count="1" enchant="0"/>
+</item>
+<!-- Magician's Will -->
+<item id="8">
+<ingredient id="14721" count="5" enchant="0"/>
+<production id="14219" count="1" enchant="0"/>
+</item>
+</list> 
