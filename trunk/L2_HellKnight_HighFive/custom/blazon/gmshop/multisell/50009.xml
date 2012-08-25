@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+
+  <!-- Recipe: Sealed Tateossian Necklace(70%) -->
+  <item id="1">
+  	<ingredient id="57" count="8000000"/>
+    <production id="6851" count="1"/>
+  </item>
+
+  <!-- Recipe: Sealed Tateossian Earring (70%) -->
+  <item id="2">
+  	<ingredient id="57" count="7000000"/>
+    <production id="6847" count="1"/>
+  </item>
+
+  <!-- Recipe: Sealed Tateossian Ring(70%) -->
+  <item id="3">
+  	<ingredient id="57" count="6000000"/>
+    <production id="6849" count="1"/>
+  </item>
+
+
+</list>

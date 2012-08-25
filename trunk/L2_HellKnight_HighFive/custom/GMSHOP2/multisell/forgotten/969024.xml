@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shillien Saint -->
+
+<list>
+<!-- Protection of Alignment -->
+<item id="1">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="2">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="3">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Lord of Vampire 81 -->
+<item id="4">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10587" count="1" enchant="0"/>
+</item>
+<!-- Lord of Vampire 83 -->
+<item id="5">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10588" count="1" enchant="0"/>
+</item>
+<!-- Throne Root 81 -->
+<item id="6">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10587" count="1" enchant="0"/>
+</item>
+<!-- Throne Root 83 -->
+<item id="7">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14196" count="1" enchant="0"/>
+</item>
+<!-- Enlightenment - Healer -->
+<item id="8">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14213" count="1" enchant="0"/>
+</item>
+<!-- Turn Stone -->
+<item id="9">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14221" count="1" enchant="0"/>
+</item>
+<!-- Magician's Will -->
+<item id="10">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14219" count="1" enchant="0"/>
+</item>
+</list> 

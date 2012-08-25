@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Doom Cryer -->
+
+<list>
+<!-- Protection of Alignment -->
+<item id="1">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10551" count="1" enchant="0"/>
+</item>
+<!-- Protection of Elemental -->
+<item id="2">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10550" count="1" enchant="0"/>
+</item>
+<!-- Protection of Rune -->
+<item id="3">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="10549" count="1" enchant="0"/>
+</item>
+<!-- Great Fury 83 -->
+<item id="4">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14227" count="1" enchant="0"/>
+</item>
+<!-- Enlightenment - Healer -->
+<item id="5">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14213" count="1" enchant="0"/>
+</item>
+<!-- Turn Stone -->
+<item id="6">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14221" count="1" enchant="0"/>
+</item>
+<!-- Magician's Will -->
+<item id="7">
+<ingredient id="4356" count="3" enchant="0"/>
+<production id="14219" count="1" enchant="0"/>
+</item>
+</list> 
