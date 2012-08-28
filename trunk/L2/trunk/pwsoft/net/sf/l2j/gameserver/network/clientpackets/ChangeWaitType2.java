@@ -1,0 +1,48 @@
+package net.sf.l2j.gameserver.network.clientpackets;
+
+import net.sf.l2j.gameserver.instancemanager.CastleManager;
+import net.sf.l2j.gameserver.model.L2Object;
+import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
+import net.sf.l2j.gameserver.model.actor.instance.L2StaticObjectInstance;
+import net.sf.l2j.gameserver.network.L2GameClient;
+import net.sf.l2j.gameserver.network.serverpackets.ChairSit;
+
+public final class ChangeWaitType2 extends L2GameClientPacket
+{
+  private boolean _typeStand;
+
+  protected void readImpl()
+  {
+    _typeStand = (readD() == 1);
+  }
+
+  protected void runImpl()
+  {
+    L2PcInstance player = ((L2GameClient)getClient()).getActiveChar();
+    if (player == null) {
+      return;
+    }
+    L2Object target = player.getTarget();
+
+    if (player.isOutOfControl())
+    {
+      player.sendActionFailed();
+      return;
+    }
+
+    if (player.getMountType() != 0)
+      return;
+    if ((target != null) && (!player.isSitting()) && ((target instanceof L2StaticObjectInstance)) && (((L2StaticObjectInstance)target).getType() == 1) && (CastleManager.getInstance().getCastle(target) != null) && (player.isInsideRadius(target, 150, false, false)))
+    {
+      ChairSit cs = new ChairSit(player, ((L2StaticObjectInstance)target).getStaticObjectId());
+      player.sendPacket(cs);
+      player.sitDown();
+      player.broadcastPacket(cs);
+    }
+
+    if (_typeStand)
+      player.standUp();
+    else
+      player.sitDown();
+  }
+}

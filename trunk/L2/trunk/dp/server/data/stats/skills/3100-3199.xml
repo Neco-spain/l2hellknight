@@ -1,0 +1,1783 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Done By L2Jevo D1emond Vampire Pts -->
+<list>
+<skill id="3100" levels="10" name="Item Skill: Sleep">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="SLEEP"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="1" name="Sleep" time="30" val="0"/>
+  </for>
+</skill>
+<skill id="3101" levels="10" name="Item Skill: Paralyze">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="PARALYZE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+      <effect count="1" name="Paralyze" time="30" val="0"/>
+  </for>
+</skill>
+<skill id="3102" levels="10" name="Item Skill: Medusa">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="PARALYZE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+      <effect count="1" name="Petrification" time="30" val="0" stackOrder="30" stackType="turn_stone"/>
+  </for>
+</skill>
+<skill id="3103" levels="10" name="Item Skill: Fear">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="FEAR"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="5" name="Fear" time="3" val="0"/>
+  </for>
+</skill>
+<skill id="3104" levels="10" name="Item Skill: Poison">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <table name="#dmg"> 24 24 54 54 72 72 93 114 132 144 </table>
+  <table name="#power"> 1.0 1.0 3.0 3.0 4.0 4.0 5.0 6.0 7.0 8.0 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="POISON"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
+  </for>
+</skill>
+<skill id="3105" levels="10" name="Item Skill: Bleed">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <table name="#dmg"> 39 39 51 51 66 66 81 81 93 102 </table>
+  <table name="#power"> 3.0 3.0 4.0 4.0 5.0 5.0 6.0 6.0 7.0 8.0 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BLEED"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="7" name="DamOverTime" time="3" val="#dmg" abnormal="bleeding"/>
+  </for>
+</skill>
+<skill id="3106" levels="10" name="Item Skill: Silence">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MUTE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="1" name="Mute" time="30" val="0" stackOrder="1" stackType="silence"/>
+  </for>
+</skill>
+<skill id="3107" levels="10" name="Item Skill: Doom">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MUTE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_MAGIC_OFFENSIVE"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+   <effect count="1" name="SilenceMagicPhysical" time="30" val="0" stackOrder="30" stackType="silence_all"/>
+  </for>
+</skill>
+<skill id="3108" levels="10" name="Item Skill: Aggression Up">
+  <table name="#aggr"> 438.0 467.0 495.0 523.0 549.0 574.0 597.0 617.0 635.0 659.0 </table>
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="1"/>
+  <set name="skillType" val="AGGDAMAGE"/>
+  <set name="isDebuff" val="true"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <for>
+    <effect count="1" name="TargetMe" time="1" val="0"/>
+  </for>
+</skill>
+<skill id="3109" levels="10" name="Item Skill: Aggression Down">
+  <table name="#aggr"> 219.0 234.0 248.0 262.0 275.0 287.0 299.0 309.0 318.0 330.0 </table>
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="isDebuff" val="true"/>
+  <set name="hitTime" val="1"/>
+  <set name="skillType" val="AGGREDUCE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <for>
+    <effect name="Buff" time="5" count="1" val="0">
+      <sub order="0x40" stat="aggression" val="#aggr"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3110" levels="10" name="Item Skill: Mana Burn">
+  <table name="#power"> 49 53 57 61 66 70 74 78 82 88 </table>
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MANADAM"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isMagic" val="true"/>
+</skill>
+<skill id="3111" levels="10" name="Item Skill: Slow">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <table name="#Tab-runSpd"> 0.7 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="1" name="Debuff" time="30" val="0" stackOrder="#Tab-runSpd" stackType="RunSpeedDown">
+      <mul order="0x30" stat="runSpd" val="#Tab-runSpd"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3112" levels="10" name="Item Skill: Winter">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="1" name="Debuff" time="30" val="0" stackOrder="0.77" stackType="pAtkSpdDown">
+      <mul order="0x30" stat="pAtkSpd" val="0.77"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3113" levels="10" name="Item Skill: Stun">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="STUN"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="1" name="Stun" time="6" val="0" stackOrder="1" stackType="Stun"/>
+  </for>
+</skill>
+<skill id="3114" levels="10" name="Item Skill: Hold">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="ROOT"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="1" name="Root" time="13" val="0" stackOrder="1" stackType="Root"/>
+  </for>
+</skill>
+<skill id="3115" levels="10" name="Item Skill: Sleep">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="SLEEP"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="1" name="Sleep" time="30" val="0"/>
+  </for>
+</skill>
+<skill id="3116" levels="10" name="Item Skill: Paralyze">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="PARALYZE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+      <effect count="1" name="Paralyze" time="30" val="0"/>
+  </for>
+</skill>
+<skill id="3117" levels="10" name="Item Skill: Medusa">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="PARALYZE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+      <effect count="1" name="Petrification" time="30" val="0" stackOrder="30" stackType="turn_stone"/>
+  </for>
+</skill>
+<skill id="3118" levels="10" name="Item Skill: Fear">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="FEAR"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="5" name="Fear" time="3" val="0"/>
+  </for>
+</skill>
+<skill id="3119" levels="10" name="Item Skill: Poison">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <table name="#dmg"> 24 24 54 54 72 72 93 114 132 144 </table>
+  <table name="#power"> 1.0 1.0 3.0 3.0 4.0 4.0 5.0 6.0 7.0 8.0 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="POISON"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
+  </for>
+</skill>
+<skill id="3120" levels="10" name="Item Skill: Bleed">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <table name="#dmg"> 39 39 51 51 66 66 81 81 93 102 </table>
+  <table name="#power"> 3.0 3.0 4.0 4.0 5.0 5.0 6.0 6.0 7.0 8.0 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BLEED"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="7" name="DamOverTime" time="3" val="#dmg" abnormal="bleeding"/>
+  </for>
+</skill>
+<skill id="3121" levels="10" name="Item Skill: Silence">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MUTE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="1" name="Mute" time="30" val="0" stackOrder="1" stackType="silence"/>
+  </for>
+</skill>
+<skill id="3122" levels="10" name="Item Skill: Doom">
+  <table name="#chance"> 2 2 2 3 3 3 4 4 5 5 </table>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MUTE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_CRIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <for>
+   <effect count="1" name="SilenceMagicPhysical" time="30" val="0" stackOrder="30" stackType="silence_all"/>
+  </for>
+</skill>
+<skill id="3123" levels="10" name="Item Skill: Heal">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#power"> 308 337 365 393 421 448 474 498 520 552 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="HEAL"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+  </for>
+</skill>
+<skill id="3124" levels="10" name="Item Skill: Blessed Body">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#Tab-maxHp"> 30 60 90 120 150 180 210 240 270 300 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#Tab-maxHp" stackType="MaxHPUpLS">
+      <add order="0x40" stat="maxHp" val="#Tab-maxHp"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3125" levels="10" name="Item Skill: Battle Roar">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#Tab-maxHp"> 1.1 1.1 1.15 1.15 1.2 1.2 1.25 1.25 1.3 1.3</table>
+  <table name="#reg-HP"> 9.1 13 16.6 20 23 25.7 26 28 30 32 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#reg-HP"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="600000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="HEAL_PERCENT"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#Tab-maxHp" stackType="MaxHPUpLS">
+      <mul order="0x30" stat="maxHp" val="#Tab-maxHp"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3126" levels="10" name="Item Skill: Prayer">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#tab-gainHp"> 1.08 1.08 1.08 1.08 1.10 1.10 1.10 1.12 1.12 1.12 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect name="Buff" time="120" count="1" val="0">
+      <mul order="0x30" stat="gainHp" val="#tab-gainHp"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3127" levels="10" name="Item Skill: Recharge">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#power"> 41 44 47 50 53 57 59 62 65 69 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="12000"/>
+  <set name="hitTime" val="6000"/>
+  <set name="skillType" val="MANARECHARGE"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+  </for>
+</skill>
+<skill id="3128" levels="10" name="Item Skill: Blessed Soul">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#Tab-maxMp"> 20 40 60 80 100 120 140 160 180 200 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#Tab-maxMp" stackType="MPregenLS">
+      <add order="0x30" stat="maxMp" val="#Tab-maxMp"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3129" levels="10" name="Item Skill: Mana Gain">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#Tab-maxMp"> 22 29 38 42 50 59 64 73 78 81 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#Tab-maxMp" stackType="MPregenLS">
+      <add order="0x30" stat="gainMp" val="#Tab-maxMp"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3130" levels="10" name="Item Skill: Ritual">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82</table>
+  <table name="#rateCp"> 264 289 313 337 361 384 406 428 446 473 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#rateCp"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="5000"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="skillType" val="COMBATPOINTHEAL"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+  </for>
+</skill>
+<skill id="3131" levels="10" name="Item Skill: Cheer">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#Tab-maxMp"> 30 60 90 120 150 180 210 240 270 300 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#Tab-maxMp" stackType="MPregen">
+      <add order="0x40" stat="maxCp" val="#Tab-maxMp"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3132" levels="10" name="Item Skill: Might">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 1.05 1.06 1.07 1.08 1.09 1.10 1.11 1.12 1.13 1.14 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="pAtkLS">
+      <mul order="0x30" stat="pAtk" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3133" levels="10" name="Item Skill: Empower">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 1.05 1.06 1.07 1.08 1.09 1.10 1.11 1.12 1.13 1.14 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="mAtkLS">
+      <mul order="0x30" stat="mAtk" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3134" levels="10" name="Item Skill: Duel Might">
+<!-- edited by Sarkazm -->
+  <table name="#mpConsume_Init"> 2 4 7 10 13 15 18 20 24 28 </table>
+  <table name="#mpConsume"> 48 53 55 59 64 65 79 73 77 82 </table>
+  <table name="#rate"> 1.06 1.07 1.08 1.09 1.1 1.11 1.12 1.13 1.14 1.15 </table>
+  <set name="mpInitialConsume" val="#mpConsume_Init"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="300000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackType="pvpPhysDmg">
+      <mul order="0x30" stat="pvpPhysDmg" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3135" levels="10" name="Item Skill: Shield">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 1.05 1.06 1.07 1.08 1.09 1.10 1.11 1.12 1.13 1.14 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="pDefLS">
+      <mul order="0x30" stat="pDef" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3136" levels="10" name="Item Skill: Magic Barrier">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 1.05 1.06 1.07 1.08 1.09 1.10 1.11 1.12 1.13 1.14 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="mDefLS">
+      <mul order="0x30" stat="mDef" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3137" levels="10" name="Item Skill: Duel Weakness">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 0.99 0.98 0.97 0.96 0.95 0.94 0.93 0.92 0.91 0.9 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="80"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Debuff" time="120" val="0" stackOrder="#rate" stackType="pvpPhysDmg">
+      <mul order="0x30" stat="pvpPhysDmg" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3138" levels="10" name="Item Skill: Heal Empower">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 1.08 1.08 1.08 1.08 1.10 1.10 1.10 1.12 1.12 1.12 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="gainHp">
+      <mul order="0x30" stat="gainHp" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3139" levels="10" name="Item Skill: Agility">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 2 2 2 2 3 3 3 4 4 4 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="rEvasLS">
+      <add order="0x30" stat="rEvas" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3140" levels="10" name="Item Skill: Guidance">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 2 2 2 2 3 3 3 4 4 4 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="accCombatLS">
+      <add order="0x30" stat="accCombat" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3141" levels="10" name="Item Skill: Focus">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#rate"> 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#rate" stackType="rCritLS">
+      <basemul order="0x30" stat="rCrit" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3142" levels="10" name="Item Skill: Wild Magic">
+<!-- edited by Sarkazm -->
+  <table name="#mpConsume_Init"> 2 4 7 10 13 15 18 20 24 28 </table>
+  <table name="#mpConsume"> 48 53 55 59 64 65 79 73 77 82 </table>
+  <table name="#rate"> 1.1 1.11 1.12 1.13 1.30 1.35 1.45 1.65 1.85 2.5 </table>
+  <set name="mpInitialConsume" val="#mpConsume_Init"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="300000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackType="augment">
+      <mul order="0x30" stat="mCritRate" val="#rate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3143" levels="10" name="Item Skill: Kiss of Eva">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#breath"> 1.4 1.4 1.4 1.4 1.4 1.6 1.6 1.6 1.6 1.6 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="breath" val="#breath"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3144" levels="10" name="Item Skill: Acrobatics">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#falldamage"> 0.9 0.85 0.8 0.75 0.7 0.65 0.6 0.55 0.5 0.45 </table>
+  <set name="mpConsume" val="#mpConsume" />
+  <set name="power" val="0.0" />
+  <set name="target" val="TARGET_SELF" />
+  <set name="hitTime" val="4000" />
+  <set name="reuseDelay" val="300000" />
+  <set name="skillType" val="BUFF" />
+  <set name="isMagic" val="true" />
+  <set name="operateType" val="OP_ACTIVE" />
+  <set name="castRange" val="-1" />
+  <set name="effectRange" val="-1" />
+  <for>
+    <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x40" stat="fallVuln" val="#falldamage" />
+    </effect>
+  </for>
+</skill>
+<skill id="3145" levels="10" name="Item Skill: Iron Body">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#falldamage"> 0.9 0.85 0.8 0.75 0.7 0.65 0.6 0.55 0.5 0.45 </table>
+  <set name="mpConsume" val="#mpConsume" />
+  <set name="power" val="0.0" />
+  <set name="target" val="TARGET_SELF" />
+  <set name="hitTime" val="4000" />
+  <set name="reuseDelay" val="300000" />
+  <set name="skillType" val="BUFF" />
+  <set name="isMagic" val="true" />
+  <set name="operateType" val="OP_ACTIVE" />
+  <set name="castRange" val="-1" />
+  <set name="effectRange" val="900" />
+  <for>
+    <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x40" stat="fallVuln" val="#falldamage" />
+    </effect>
+  </for>
+</skill>
+<skill id="3146" levels="1" name="Item Skill: Recall">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume">110</table> 
+  <set name="mpConsume" val="#mpConsume" /> 
+  <set name="target" val="TARGET_SELF" /> 
+  <set name="skillRadius" val="1000" /> 
+  <set name="reuseDelay" val="600000" /> 
+  <set name="hitTime" val="20000" /> 
+  <set name="skillType" val="RECALL" /> 
+  <set name="isMagic" val="true" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="-1" /> 
+  <for>
+  </for>
+</skill>
+<skill id="3147" levels="1" name="Item Skill: Recall">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume">159</table> 
+  <set name="mpConsume" val="#mpConsume" /> 
+  <set name="target" val="TARGET_SELF" /> 
+  <set name="skillRadius" val="1000" /> 
+  <set name="reuseDelay" val="600000" /> 
+  <set name="hitTime" val="20000" /> 
+  <set name="skillType" val="RECALL" /> 
+  <set name="isMagic" val="true" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="-1" /> 
+  <for>
+  </for>
+</skill>
+<skill id="3148" levels="10" name="Item Skill: Vampiric Rage">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#Tab-absorbDam"> 6 6 6 7 7 7 8 8 9 9 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400" />
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect name="Buff" time="120" count="1" val="0" stackOrder="#Tab-absorbDam" stackType="vampRage">
+      <add order="0x40" stat="absorbDam" val="#Tab-absorbDam"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3149" levels="10" name="Item Skill: Aggression">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 21 22 24 25 27 29 30 31 33 35 </table>
+  <table name="#power"> 438 467 495 523 549 574 597 617 635 659 </table>
+  <table name="#castRange"> 400 400 400 400 400 400 400 400 400 400 </table>
+  <table name="#effectRange"> 900  900  900  900  900  900  900  900  900  900 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="3000"/>
+  <set name="hitTime" val="1000"/>
+  <set name="isDebuff" val="true"/>
+  <set name="skillType" val="AGGDAMAGE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="#castRange"/>
+  <set name="effectRange" val="#effectRange"/>
+  <for>
+    <effect count="1" name="TargetMe" time="1" val="0"/>
+  </for>
+</skill>
+<skill id="3150" levels="10" name="Item Skill: Charm">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#aggr"> 219 234 248 262 275 287 299 309 318 330 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="isDebuff" val="true"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="AGGREDUCE"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect name="Debuff" time="120" count="1" val="0">
+      <sub order="0x40" stat="aggression" val="#aggr"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3151" levels="10" name="Item Skill: Peace">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 48 53 55 59 64 65 69 73 77 82 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="80"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="AGGREMOVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+  </for>
+</skill>
+<skill id="3152" levels="10" name="Item Skill: Trick">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 21 22 24 25 27 29 30 31 33 35 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="80"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="1200"/>
+  <set name="skillType" val="AGGREDUCE_CHAR"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="RemoveTarget" time="1" val="0"/>
+  </for>
+</skill>
+<skill id="3153" levels="10" name="Item Skill: Vampiric Touch">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 74 79 85 90 97 102 107 112 117 124 </table>
+  <table name="#power"> 48 53 57 61 66 70 74 78 82 88 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="12000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="DRAIN"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <set name="absorbPart" val="0.4" /><!-- absorbs 40% of damage -->
+  <for>
+  </for>
+</skill>
+<skill id="3154" levels="10" name="Item Skill: Mana Burn">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 62 67 70 75 80 85 89 94 98 104 </table>
+  <table name="#power"> 68 73 79 84 90 96 101 107 112 120 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="reuseDelay" val="16000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MANADAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <set name="isMagic" val="true"/>
+</skill>
+<skill id="3155" levels="10" name="Item Skill: Unlock">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 21 22 24 25 27 29 30 31 33 35 </table>
+  <table name="#itemConsumeCount"> 4 5 6 7 8 10 11 13 15 17 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="itemConsumeId" val="1661"/>
+  <set name="itemConsumeCount" val="#itemConsumeCount"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_UNLOCKABLE"/>
+  <set name="reuseDelay" val="120000"/>
+  <set name="hitTime" val="2500"/>
+  <set name="skillType" val="UNLOCK"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3156" levels="1" name="Item Skill: Firework">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <set name="mpConsume" val="8" />
+  <set name="power" val="0.0" />
+  <set name="target" val="TARGET_SELF" />
+  <set name="reuseDelay" val="10000" />
+  <set name="skillType" val="NOTDONE" /><!-- Needs core support -->
+  <set name="hitTime" val="0" />
+  <set name="operateType" val="OP_ACTIVE" />
+  <set name="castRange" val="-1" />
+  <set name="effectRange" val="-1" />
+  <for>
+  </for>
+</skill>
+<skill id="3157" levels="1" name="Item Skill: Large Firework">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <set name="mpConsume" val="24" />
+  <set name="power" val="0.0" />
+  <set name="target" val="TARGET_SELF" />
+  <set name="reuseDelay" val="10000" />
+  <set name="skillType" val="NOTDONE" /><!-- Needs core support -->
+  <set name="hitTime" val="0" />
+  <set name="operateType" val="OP_ACTIVE" />
+  <set name="castRange" val="-1" />
+  <set name="effectRange" val="-1" />
+  <for>
+  </for>
+</skill>
+<skill id="3158" levels="1" name="Item Skill: Celestial Shield">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <set name="mpConsume" val="82"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1000"/>
+  <set name="reuseDelay" val="2600000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/> 
+  <for>
+    <effect count="1" name="Invincible" time="10" val="0"/>
+  </for>
+</skill>
+<skill id="3159" levels="3" name="Item Skill: Stealth">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+<table name="#mpConsume"> 27 31 34 </table>
+  <table name="#pAtk"> 1.2 1.3 1.4 </table>
+  <table name="#accCombat"> 1.1 1.15 1.2 </table>
+  <table name="#rCrit"> 1.1 1.2 1.3 </table>
+  <table name="#pDef"> 1.1 1.2 1.3 </table>
+  <table name="#mDef"> 1.15 1.25 1.35 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="2000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="SilentMove" time="120" val="0">
+      <div order="0x30" stat="pAtk" val="#pAtk"/>
+      <div order="0x30" stat="accCombat" val="#accCombat"/>
+      <div order="0x30" stat="rCrit" val="#rCrit"/>
+      <div order="0x30" stat="pDef" val="#pDef"/>
+      <div order="0x30" stat="mDef" val="#mDef"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3160" levels="9" name="Item Skill: Resurrection">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 53 55 59 64 65 69 73 77 82 </table>
+  <table name="#power"> 0.0 20.0 30.0 40.0 50.0 55.0 60.0 65.0 70.0 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_CORPSE_PLAYER"/>
+  <set name="reuseDelay" val="120000"/>
+  <set name="hitTime" val="6000"/>
+  <set name="skillType" val="RESURRECT"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+  </for>
+</skill>
+<skill id="3161" levels="3" name="Item Skill: Skill Clarity">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 54 62 69 </table>
+  <table name="#MpConsumeRate"> 0.92 0.86 0.8 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="reuseDelay" val="7000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#mpConsume" stackType="MPrate">
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="#MpConsumeRate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3162" levels="3" name="Item Skill: Spell Clarity">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 54 62 69 </table>
+  <table name="#MpConsumeRate"> 0.92 0.86 0.8 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="reuseDelay" val="7000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#mpConsume" stackType="MPrate">
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="#MpConsumeRate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3163" levels="3" name="Item Skill: Music Clarity">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 54 62 69 </table>
+  <table name="#MpConsumeRate"> 0.92 0.86 0.8 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="reuseDelay" val="7000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#mpConsume" stackType="MPrate">
+      <mul order="0x30" stat="DanceMpConsumeRate" val="#MpConsumeRate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3164" levels="3" name="Item Skill: Clarity">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 54 62 69 </table>
+  <table name="#MpConsumeRate"> 0.92 0.86 0.8 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="reuseDelay" val="7000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="#mpConsume" stackType="MPrate">
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="#MpConsumeRate"/>
+      <mul order="0x30" stat="DanceMpConsumeRate" val="#MpConsumeRate"/> 
+      <mul order="0x30" stat="PhysicalMpConsumeRate" val="#MpConsumeRate"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3165" levels="10" name="Item Skill: Prominence">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="2"/> <!-- Fire -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3167" levels="10" name="Item Skill: Hydro Blast">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="3"/> <!-- Water -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3168" levels="10" name="Item Skill: Hurricane">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="1"/> <!-- Wind -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3169" levels="10" name="Item Skill: Stone">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="element" val="4"/> <!--EARTH-->
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3170" levels="10" name="Item Skill: Solar Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="5"/> <!-- Holy -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3171" levels="10" name="Item Skill: Shadow Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="3172" levels="10" name="Item Skill: Aura Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 61 66 72 77 82 87 92 97 102 110 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="25000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="50"/>
+  <for>
+  </for>
+</skill>
+<skill id="3173" levels="10" name="Item Skill: Prominence">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="2"/> <!-- Fire -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3174" levels="10" name="Item Skill: Hydro Blast">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="3"/> <!-- Water -->
+  <set name="power" val="#power"/> 
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3175" levels="10" name="Item Skill: Hurricane">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="1"/> <!-- Wind -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3176" levels="10" name="Item Skill: Stone">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="4"/> <!--EARTH-->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="200"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="500"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3177" levels="10" name="Item Skill: Solar Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="5"/> <!-- Holy -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="200"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="500"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3178" levels="10" name="Item Skill: Shadow Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="200"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="500"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3179" levels="10" name="Item Skill: Aura Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="200"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="25000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3180" levels="10" name="Item Skill: Prominence">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="2"/> <!-- Fire -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3181" levels="10" name="Item Skill: Hydro Blast">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="3"/> <!-- Water -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3182" levels="10" name="Item Skill: Hurricane">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="element" val="1"/> <!-- Wind -->
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3183" levels="10" name="Item Skill: Stone">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="element" val="4"/> <!--EARTH-->
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3184" levels="10" name="Item Skill: Solar Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="element" val="5"/> <!-- Holy -->
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3185" levels="10" name="Item Skill: Shadow Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="50000"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3186" levels="10" name="Item Skill: Aura Flare">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 31 33 36 39 41 44 46 49 51 55 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="25000"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="3187" levels="10" name="Item Skill: Slow">
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#magicLvl"> 35 40 44 48 52 56 58 60 62 64 </table>
+  <table name="#Tab-runSpd"> 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl" /> 
+  <set name="power" val="80"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="7000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="isDebuff" val="true"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="1" name="Debuff" time="30" val="0" stackOrder="#Tab-runSpd" stackType="RunSpeedDown">
+      <mul order="0x30" stat="runSpd" val="#Tab-runSpd"/>
+    </effect>
+  </for>
+</skill>
+<skill id="3188" levels="10" name="Item Skill: Winter">
+  <table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table> 
+  <table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table> 
+  <set name="mpConsume" val="#mpConsume" />  
+  <set name="magicLvl" val="#magicLvl" /> 
+  <set name="power" val="40" /> 
+  <set name="save" val="3" /> 
+  <set name="target" val="TARGET_AURA" /> 
+  <set name="skillRadius" val="250" /> 
+  <set name="reuseDelay" val="4000" /> 
+  <set name="hitTime" val="4000" /> 
+  <set name="skillType" val="DEBUFF" /> 
+  <set name="isMagic" val="true" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="600" /> 
+  <for>
+   <effect count="1" name="Buff" stackOrder="3" stackType="pAtkSpdDown" time="15" val="0">
+    <mul order="0x50" stat="pAtkSpd" val="0.77" /> 
+   </effect>
+  </for>
+</skill>
+<skill id="3189" levels="10" name="Item Skill: Stun">
+  <table name="#hitTime">4000 1500 1500 1500 1500 1500 1500 1500 1500 1500</table> 
+  <table name="#power">30 35 44 55 64 79 84 96 102 109</table> 
+  <table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table> 
+  <table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table> 
+  <set name="power" val="50" /> 
+  <set name="magicLvl" val="#magicLvl" /> 
+  <set name="mpConsume" val="#mpConsume" /> 
+  <set name="save" val="4" /> 
+  <set name="power" val="#power" /> 
+  <set name="target" val="TARGET_ONE" /> 
+  <set name="overHit" val="true" /> 
+  <set name="reuseDelay" val="25000" /> 
+  <set name="hitTime" val="#hitTime" /> 
+  <set name="skillType" val="PDAM" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="40" /> 
+  <set name="levelModifier" val="1" /> 
+  <set name="nextAction" val="attack" /> 
+  <for>
+  <effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="5" val="0" /> 
+  </for>
+</skill>
+<skill id="3190" levels="10" name="Item Skill: Hold">
+  <table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table>  
+  <table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table> 
+  <set name="mpConsume" val="#mpConsume" /> 
+  <set name="magicLvl" val="#magicLvl" /> 
+  <set name="power" val="30" /> 
+  <set name="save" val="3" /> 
+  <set name="target" val="TARGET_ONE" /> 
+  <set name="reuseDelay" val="4000" /> 
+  <set name="hitTime" val="4000" /> 
+  <set name="skillType" val="ROOT" /> 
+  <set name="isMagic" val="true" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="600" /> 
+  <for>
+   <effect count="1" name="Root" stackOrder="-1" stackType="Root" time="30" val="0" /> 
+  </for>
+</skill>
+<skill id="3191" levels="10" name="Item Skill: Sleep">
+  <table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table>  
+  <table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table> 
+  <set name="mpConsume" val="#mpConsume" /> 
+  <set name="magicLvl" val="#magicLvl" /> 
+  <set name="power" val="80" /> 
+  <set name="save" val="3" /> 
+  <set name="target" val="TARGET_ONE" /> 
+  <set name="reuseDelay" val="4000" /> 
+  <set name="hitTime" val="4000" /> 
+  <set name="skillType" val="SLEEP" /> 
+  <set name="isMagic" val="true" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="600" /> 
+  <for>
+   <effect count="1" name="Sleep" stackOrder="-1" stackType="Sleep" time="30" val="0" /> 
+  </for>
+</skill>
+<skill id="3192" levels="10" name="Item Skill: Paralyze">
+<table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table>
+<table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table>
+<set name="mpConsume" val="#mpConsume" />
+<set name="magicLvl" val="#magicLvl" />
+<set name="power" val="5" />
+<set name="save" val="1" />
+<set name="target" val="TARGET_ONE" />
+<set name="reuseDelay" val="170000" />
+<set name="hitTime" val="4000" />
+<set name="skillType" val="PARALYZE" />
+<set name="isMagic" val="true" />
+<set name="operateType" val="OP_ACTIVE" />
+<set name="castRange" val="150000" />
+<for>
+<effect count="1" name="Paralyze" stackOrder="-1" stackType="paralyze" time="10" val="0" />
+</for>
+</skill>
+<skill id="3193" levels="10" name="Item Skill: Medusa">
+  <table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table> 
+  <table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table> 
+  <set name="mpConsume" val="#mpConsume" /> 
+  <set name="magicLvl" val="#magicLvl" /> 
+  <set name="power" val="40" /> 
+  <set name="save" val="3" /> 
+  <set name="target" val="TARGET_ONE" /> 
+  <set name="skillRadius" val="300" /> 
+  <set name="reuseDelay" val="4000" /> 
+  <set name="hitTime" val="4000" /> 
+  <set name="skillType" val="PARALYZE" /> 
+  <set name="operateType" val="OP_ACTIVE" /> 
+  <set name="castRange" val="600" /> 
+  <for>
+   <effect count="1" name="Petrification" time="30" val="0">
+    <mul order="0x80" stat="regHp" val="0" /> 
+  </effect>
+  </for>
+</skill>
+<skill id="3194" levels="10" name="Item Skill: Fear">
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#magicLvl"> 46 49 52 55 58 61 64 67 70 76 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="40.0"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="FEAR"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="5" name="Fear" time="6" val="0"/>
+  </for>
+</skill>
+<skill id="3195" levels="10" name="Item Skill: Poison">
+  <table name="#dot"> 50 60 80 103 110 127 130 147 150 160 </table>
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <table name="#power"> 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 8.0 8.0 </table>
+  <table name="#magicLvl"> 46 49 52 55 58 61 64 67 70 76 </table>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="0"/>
+  <set name="skillType" val="POISON"/>
+  <set name="reuseDelay" val="9000" /> 
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="6" name="DamOverTime" time="3" val="#dot" abnormal="poison"/>
+  </for>
+</skill>
+<skill id="3196" levels="10" name="Item Skill: Bleed">
+  <!-- Full done L2Jevo D1emond L2Guru -->
+  <table name="#magicLvl"> 46 49 52 55 58 61 64 67 70 76 </table>
+  <table name="#dmg"> 43 56 64 73 85 90 95 103 105 113 </table>
+  <table name="#mpConsume"> 42 44 48 50 54 57 60 63 65 69 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="save" val="4"/>
+  <set name="power" val="10.0"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="13000"/>
+  <set name="hitTime" val="1080"/>
+  <set name="coolTime" val="720" />
+  <set name="skillType" val="BLEED"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="400"/>
+  <for>
+    <effect count="7" name="DamOverTime" time="3" val="#dmg" abnormal="bleeding"/>
+  </for>
+</skill>
+<skill id="3197" levels="10" name="Item Skill: Silence">
+  <table name="#mpConsume_Init"> 7 8 9 10 11 11 11 12 12 13 </table>
+  <table name="#mpConsume"> 28 31 35 38 41 43 44 46 48 49 </table>
+  <table name="#magicLvl"> 40 44 48 52 56 58 60 62 64 66 </table>
+  <set name="mpInitialConsume" val="#mpConsume_Init"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="80"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="isDebuff" val="true"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MUTE"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="1" name="Mute" time="30" val="0" stackOrder="1" stackType="silence"/>
+  </for>
+</skill>
+<skill id="3198" levels="10" name="Item Skill: Doom">
+  <table name="#mpConsume">42 44 48 50 54 57 60 63 65 69</table> 
+  <table name="#magicLvl">46 49 52 55 58 61 64 67 70 76</table> 
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="50"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="120000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MUTE"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="900"/>
+  <for>
+   <effect count="1" name="SilenceMagicPhysical" time="30" val="0"/>
+  </for>
+</skill>
+<skill id="3199" levels="3" name="Item Skill: Skill Refresh">
+  <table name="#mpConsume"> 27 31 34 </table>
+  <table name="#pReuseRate"> 0.9 0.8 0.7 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="300000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="pReuse" val="#pReuseRate"/>
+    </effect>
+  </for>
+</skill>
+</list>

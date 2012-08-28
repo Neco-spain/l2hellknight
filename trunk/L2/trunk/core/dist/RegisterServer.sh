@@ -1,0 +1,2 @@
+#!/bin/sh
+java -Djava.util.logging.config.file=./config/console.ini -cp ./libraries/javolution.jar:./libraries/c3p0-0.9.1.2.jar:./libraries/servercore.jar:./libraries/mysql-connector-java-5.1.6-bin.jar net.sf.l2j.gsregistering.GameServerRegister

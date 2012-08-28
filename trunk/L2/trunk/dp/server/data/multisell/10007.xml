@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Scythe -->
+  <item id="1">
+    <ingredient id="57" count="2500000"/>
+    <production id="96" count="1"/>
+  </item>
+
+  <!-- Orcish Glaive -->
+  <item id="2">
+    <ingredient id="57" count="2500000"/>
+    <production id="298" count="1"/>
+  </item>
+
+  <!-- Body Slasher -->
+  <item id="3">
+    <ingredient id="57" count="2500000"/>
+    <production id="302" count="1"/>
+  </item>
+
+  <!-- Bec de Corbin -->
+  <item id="4">
+    <ingredient id="57" count="3000000"/>
+    <production id="94" count="1"/>
+  </item>
+
+  <!-- Poleaxe -->
+  <item id="5">
+    <ingredient id="57" count="4500000"/>
+    <production id="95" count="1"/>
+  </item>
+
+  <!-- Scorpion -->
+  <item id="6">
+    <ingredient id="57" count="5000000"/>
+    <production id="301" count="1"/>
+  </item>
+
+  <!-- Widow Maker -->
+  <item id="7">
+    <ingredient id="57" count="5000000"/>
+    <production id="303" count="1"/>
+  </item>
+
+  <!-- Orcish Poleaxe -->
+  <item id="8">
+    <ingredient id="57" count="6000000"/>
+    <production id="299" count="1"/>
+  </item>
+
+  <!-- Great Axe -->
+  <item id="9">
+    <ingredient id="57" count="9000000"/>
+    <production id="300" count="1"/>
+  </item>
+
+  <!-- Lance -->
+  <item id="10">
+    <ingredient id="57" count="13000000"/>
+    <production id="97" count="1"/>
+  </item>
+
+  <!-- Halberd -->
+  <item id="11">
+    <ingredient id="57" count="18500000"/>
+    <production id="98" count="1"/>
+  </item>
+
+  <!-- Orcish Halberd -->
+  <item id="12">
+    <ingredient id="57" count="21500000"/>
+    <production id="304" count="1"/>
+  </item>
+
+  <!-- Tallum Glaive -->
+  <item id="13">
+    <ingredient id="57" count="27000000"/>
+    <production id="305" count="1"/>
+  </item>
+
+  <!-- Tiphon's Spear -->
+  <item id="14">
+    <ingredient id="57" count="34000000"/>
+    <production id="8683" count="1"/>
+  </item>
+
+  <!-- Saint Spear -->
+  <item id="15">
+    <ingredient id="57" count="75000000"/>
+    <production id="6370" count="1"/>
+  </item>
+
+</list>

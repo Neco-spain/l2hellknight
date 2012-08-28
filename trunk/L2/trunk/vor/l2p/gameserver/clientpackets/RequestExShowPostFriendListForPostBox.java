@@ -1,0 +1,23 @@
+package l2p.gameserver.clientpackets;
+
+import l2p.gameserver.model.Player;
+import l2p.gameserver.network.GameClient;
+import l2p.gameserver.serverpackets.ExReceiveShowPostFriend;
+
+public class RequestExShowPostFriendListForPostBox extends L2GameClientPacket
+{
+  protected void readImpl()
+    throws Exception
+  {
+  }
+
+  protected void runImpl()
+    throws Exception
+  {
+    Player player = ((GameClient)getClient()).getActiveChar();
+    if (player == null) {
+      return;
+    }
+    player.sendPacket(new ExReceiveShowPostFriend(player));
+  }
+}

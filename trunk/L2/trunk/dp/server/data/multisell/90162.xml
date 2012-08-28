@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Gold Bar / Adena -->
+  <item id="1">
+    <ingredient id="57" count="1500000000"/>
+    <production id="3470" count="1"/>
+  </item>
+  
+  <item id="2">
+    <ingredient id="3470" count="1"/>
+    <production id="57" count="1500000000"/>
+  </item>
+  
+
+</list>

@@ -1,0 +1,59 @@
+package net.sf.l2j.gameserver.skills.funcs;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import net.sf.l2j.gameserver.skills.Env;
+import net.sf.l2j.gameserver.skills.Stats;
+import net.sf.l2j.gameserver.skills.conditions.Condition;
+
+public final class FuncTemplate
+{
+  public Condition attachCond;
+  public Condition applayCond;
+  public final Class<?> func;
+  public final Constructor<?> constructor;
+  public final Stats stat;
+  public final int order;
+  public final Lambda lambda;
+
+  public FuncTemplate(Condition pAttachCond, Condition pApplayCond, String pFunc, Stats pStat, int pOrder, Lambda pLambda)
+  {
+    attachCond = pAttachCond;
+    applayCond = pApplayCond;
+    stat = pStat;
+    order = pOrder;
+    lambda = pLambda;
+    try {
+      func = Class.forName("net.sf.l2j.gameserver.skills.funcs.Func" + pFunc);
+    } catch (ClassNotFoundException e) {
+      throw new RuntimeException(e);
+    }
+    try {
+      constructor = func.getConstructor(new Class[] { Stats.class, Integer.TYPE, Object.class, Lambda.class });
+    }
+    catch (NoSuchMethodException e)
+    {
+      throw new RuntimeException(e);
+    }
+  }
+
+  public Func getFunc(Env env, Object owner)
+  {
+    if ((attachCond != null) && (!attachCond.test(env)))
+      return null;
+    try {
+      Func f = (Func)constructor.newInstance(new Object[] { stat, Integer.valueOf(order), owner, lambda });
+      if (applayCond != null)
+        f.setCondition(applayCond);
+      return f;
+    } catch (IllegalAccessException e) {
+      e.printStackTrace();
+      return null;
+    } catch (InstantiationException e) {
+      e.printStackTrace();
+      return null;
+    } catch (InvocationTargetException e) {
+      e.printStackTrace();
+    }return null;
+  }
+}

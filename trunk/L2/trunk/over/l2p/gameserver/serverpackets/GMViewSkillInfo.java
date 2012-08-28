@@ -1,0 +1,35 @@
+package l2p.gameserver.serverpackets;
+
+import java.util.Collection;
+import l2p.gameserver.model.Player;
+import l2p.gameserver.model.Skill;
+import l2p.gameserver.tables.SkillTable;
+
+public class GMViewSkillInfo extends L2GameServerPacket
+{
+  private String _charName;
+  private Collection<Skill> _skills;
+  private Player _targetChar;
+
+  public GMViewSkillInfo(Player cha)
+  {
+    _charName = cha.getName();
+    _skills = cha.getAllSkills();
+    _targetChar = cha;
+  }
+
+  protected final void writeImpl()
+  {
+    writeC(151);
+    writeS(_charName);
+    writeD(_skills.size());
+    for (Skill skill : _skills)
+    {
+      writeD(skill.isPassive() ? 1 : 0);
+      writeD(skill.getDisplayLevel());
+      writeD(skill.getId());
+      writeC(_targetChar.isUnActiveSkill(skill.getId()) ? 1 : 0);
+      writeC(SkillTable.getInstance().getMaxLevel(skill.getId()) > 100 ? 1 : 0);
+    }
+  }
+}

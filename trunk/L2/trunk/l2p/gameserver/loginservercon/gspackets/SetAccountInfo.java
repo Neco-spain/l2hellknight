@@ -1,0 +1,27 @@
+package l2p.gameserver.loginservercon.gspackets;
+
+import l2p.gameserver.loginservercon.SendablePacket;
+
+public class SetAccountInfo extends SendablePacket
+{
+  private String _account;
+  private int _size;
+  private int[] _deleteChars;
+
+  public SetAccountInfo(String account, int size, int[] deleteChars)
+  {
+    _account = account;
+    _size = size;
+    _deleteChars = deleteChars;
+  }
+
+  protected void writeImpl()
+  {
+    writeC(5);
+    writeS(_account);
+    writeC(_size);
+    writeD(_deleteChars.length);
+    for (int i : _deleteChars)
+      writeD(i);
+  }
+}

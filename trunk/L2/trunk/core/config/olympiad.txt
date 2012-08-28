@@ -1,0 +1,7 @@
+#Olympiad Properties
+#Wed Jun 29 23:33:33 MSD 2011
+CurrentCycle=3
+NextWeeklyChange=1309979953218
+OlympiadEnd=1309507200996
+Period=0
+ValdationEnd=1304323200059
