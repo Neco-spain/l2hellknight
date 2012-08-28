@@ -1,0 +1,20 @@
+package l2m.gameserver.network.serverpackets;
+
+public class ExSetPartyLooting extends L2GameServerPacket
+{
+  private int _result;
+  private int _mode;
+
+  public ExSetPartyLooting(int result, int mode)
+  {
+    _result = result;
+    _mode = mode;
+  }
+
+  protected void writeImpl()
+  {
+    writeEx(192);
+    writeD(_result);
+    writeD(_mode);
+  }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dp" default="dist" basedir=".">
+  <description>
+        
+  </description>
+
+  <property name="build" location="build"/>
+  <property name="dist" location="dist"/>
+  <property name="sql" location="sql"/>
+  <property name="server" location="server"/>
+  <property name="tools" location="tools"/>
+
+    <target name="dist">
+	  <delete dir="${build}"/>
+      <mkdir dir="${build}"/>
+	  <mkdir dir="${build}/dp"/>
+      <mkdir dir="${build}/dp/server"/>
+	  <mkdir dir="${build}/dp/server/data"/>
+	  
+	  <sync todir="${build}/dp/server/data">
+         <fileset dir="${server}/data">
+           <exclude name="clans/**"/>
+           <exclude name="crests/**"/>
+           <exclude name="**.svn**"/>
+           <exclude name="**/*.class"/>
+           <exclude name="**/*.jar"/>
+           <include name="**/*.*"/>
+         </fileset>
+      </sync>
+	  
+	  
+      <sync todir="${build}/dp/sql">
+         <fileset dir="${sql}">
+            <include name="*.*"/>
+            <include name="experimental/*.*"/>
+            <include name="updates/*.*"/>
+         </fileset>
+      </sync>
+	  
+	  
+
+      <sync todir="${build}/dp/tools">
+         <fileset dir="${tools}">
+           <include name="*.*"/>
+           <exclude name="Data Base Installer.bat"/>
+           <exclude name="*.txt"/>
+           <exclude name="*.log"/>
+           <exclude name="*backup.sql"/>
+         </fileset>
+      </sync>
+    	
+		 <zip destfile="${build}/DP.zip"
+		             basedir="${build}/dp" />
+    </target>
+
+
+
+	<target name="clean" description="Remove the output directories">
+      <delete dir="${build}"/>
+    </target>
+</project>

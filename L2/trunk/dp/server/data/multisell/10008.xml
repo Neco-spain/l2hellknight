@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Chakram -->
+  <item id="1">
+    <ingredient id="57" count="2500000"/>
+    <production id="263" count="1"/>
+  </item>
+
+  <!-- Fisted Blade -->
+  <item id="2">
+    <ingredient id="57" count="4000000"/>
+    <production id="265" count="1"/>
+  </item>
+
+  <!-- Great Pata -->
+  <item id="3">
+    <ingredient id="57" count="6000000"/>
+    <production id="266" count="1"/>
+  </item>
+
+  <!-- Pata -->
+  <item id="4">
+    <ingredient id="57" count="8000000"/>
+    <production id="264" count="1"/>
+  </item>
+
+  <!-- Arthro Nail -->
+  <item id="5">
+    <ingredient id="57" count="9000000"/>
+    <production id="267" count="1"/>
+  </item>
+
+  <!-- Bellion Cestus -->
+  <item id="6">
+    <ingredient id="57" count="13000000"/>
+    <production id="268" count="1"/>
+  </item>
+
+  <!-- Blood Tornado -->
+  <item id="7">
+    <ingredient id="57" count="180000000"/>
+    <production id="269" count="1"/>
+  </item>
+
+  <!-- Dragon Grinder -->
+  <item id="8">
+    <ingredient id="57" count="27000000"/>
+    <production id="270" count="1"/>
+  </item>
+
+  <!-- Sobekk's Hurricane -->
+  <item id="9">
+    <ingredient id="57" count="50000000"/>
+    <production id="8685" count="1"/>
+  </item>
+
+  <!-- Demon Splinter -->
+  <item id="10">
+    <ingredient id="57" count="75000000"/>
+    <production id="6371" count="1"/>
+  </item>
+
+
+</list>

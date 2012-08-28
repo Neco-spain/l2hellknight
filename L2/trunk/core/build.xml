@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="core" default="dist" basedir=".">
+    <description>
+    </description>
+    
+	<property name="src" location="java"/>
+	<property name="lib" location="lib"/>
+	<property name="build" location="build"/>
+	<property name="dist" location="dist"/>
+	<property name="config" location="config"/>
+	<property name="build.classes" location="${build}/classes"/>
+
+    <path id="classpath">
+        <fileset dir="${lib}">
+			<include name="*.jar"/>
+        </fileset>
+    </path>
+	
+
+	<target name="dist">
+		<delete dir="${build}"/>
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/server/" />
+		<mkdir dir="${build}/server/libraries" />
+		<mkdir dir="${build}/server/config" />
+		<mkdir dir="${build}/server/config/protected" />
+		<mkdir dir="${build}/server/config/chatfilter" />
+		<mkdir dir="${build}/server/data"/>
+		<mkdir dir="${build}/server/data/geodata"/>
+		<mkdir dir="${build}/server/data/pathnode"/>
+		<mkdir dir="${build}/server/data/clans"/>
+		<mkdir dir="${build}/server/data/crests"/>
+		<mkdir dir="${build}/server/logs"/>
+		<mkdir dir="${build}/server/log"/>
+		<mkdir dir="${build.classes}" />
+		<javac destdir="${build.classes}"
+               optimize="on"
+               debug="on"
+			   source="1.6"
+			   target="1.6"
+               nowarn="off">
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+        <jar destfile="${build}/servercore.jar">
+            <fileset dir="${build.classes}"/>
+        </jar>
+    	<tstamp>
+    	  <format property="build.tstamp"
+    	              pattern="dd.MM.yyyy_HH.mm"/>
+    	</tstamp>
+
+
+    	<exec dir="." executable="svnversion" outputproperty="l2j.revision"
+			  failifexecutionfails="false">
+    	  <arg line="-n ."/>
+    	</exec>
+    	
+    	<concat destfile="${build}/server/config/l2j-version.ini">
+    	version=${l2j.revision}
+    	builddate=${build.tstamp} 
+      detailed info:
+</concat>
+      <concat destfile="${build}/server/config/l2j-version.ini" append="true">
+        <filelist dir="${src}/../.svn/" files="entries"/>
+        <filterchain>
+          <prefixlines prefix="          "/>
+          <headfilter lines="8" skip="4"/>
+          <tokenfilter>
+             <ignoreblank/>
+          </tokenfilter>
+        </filterchain>
+</concat>
+		
+		<copy todir="${build}/server/libraries">
+		     <fileset dir="${lib}">
+		     <include name="bsh-2.0b5.jar"/>  
+			 <include name="bsh-engine.jar"/>
+			 <include name="c3p0-0.9.1.2.jar"/>
+			 <include name="commons-logging.jar"/>
+			 <include name="ecj.jar"/>
+			 <include name="java-engine.jar"/>
+			 <include name="javax.servlet.jar"/>
+			 <include name="javolution.jar"/>
+			 <include name="jython.jar"/>
+			 <include name="jython-engine.jar"/>
+			 <include name="mysql-connector-java-5.1.6-bin.jar"/>
+			 <include name="org.mortbay.jetty.jar"/>
+			 <include name="rrd4j-2.0.1.jar"/>
+			 <include name="trove.jar"/>
+			 <include name="gGuard.jar"/>			 
+			 </fileset>
+		</copy>
+		
+		<copy todir="${build}/server/libraries">
+		     <fileset dir="${build}">
+		     <include name="servercore.jar"/>   
+			 </fileset>
+		</copy>
+		
+		<copy todir="${build}/server/">
+		     <fileset dir="${dist}">
+		     <include name="*.cmd"/>
+		     <include name="*.sh"/>  
+			 </fileset>
+		</copy>
+		
+		<copy todir="${build}/server/config">
+		     <fileset dir="config">
+		     <include name="*.ini"/>
+		     <include name="*.cfg"/>
+		     <include name="*.txt"/>
+		     <include name="*.rrd"/> 
+			 </fileset>
+		</copy>
+		<copy todir="${build}/server/config/protected/">
+		     <fileset dir="config/protected/">
+		     <include name="*.ini"/>
+			 </fileset>
+		</copy>
+		<copy todir="${build}/server/config/chatfilter/">
+		     <fileset dir="config/chatfilter/">
+		     <include name="*.txt"/>
+			 </fileset>
+		</copy>
+		
+		 <zip destfile="${build}/core.zip"
+		             basedir="${build}/server/" />
+		
+		
+		<delete dir="${build}/server"/>
+		
+	</target>
+	
+   
+	
+</project>

@@ -1,0 +1,64 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Valakas Circlet -->
+  <item id="1">
+    <ingredient id="6657" count="1"/>
+    <ingredient id="6393" count="25000"/>
+    <production id="10296" count="1"/>
+  </item>
+
+  <!-- Angel Wings -->
+  <item id="2">
+    <ingredient id="6393" count="20000"/>
+    <production id="10297" count="1"/>
+  </item>
+
+  <!-- Fallen Angel Wings -->
+  <item id="3">
+    <ingredient id="6393" count="20000"/>
+    <production id="10298" count="1"/>
+  </item>
+
+  <!-- Gargoyle Wings -->
+  <item id="4">
+    <ingredient id="6393" count="20000"/>
+    <production id="10299" count="1"/>
+  </item>
+
+  <!-- Chaos Wings -->
+  <item id="5">
+    <ingredient id="6393" count="20000"/>
+    <production id="10300" count="1"/>
+  </item>
+
+  <!-- Eva Wings -->
+  <item id="6">
+    <ingredient id="6393" count="20000"/>
+    <production id="10301" count="1"/>
+  </item>
+
+  <!-- Netherworld Wings -->
+  <item id="7">
+    <ingredient id="6393" count="20000"/>
+    <production id="10302" count="1"/>
+  </item>
+
+  <!-- Succubus Wings -->
+  <item id="8">
+    <ingredient id="6393" count="20000"/>
+    <production id="10303" count="1"/>
+  </item>
+
+  <!-- Pixie Wings -->
+  <item id="9">
+    <ingredient id="6393" count="20000"/>
+    <production id="10304" count="1"/>
+  </item>
+
+
+</list>

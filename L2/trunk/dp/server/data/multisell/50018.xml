@@ -1,0 +1,28 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created by L2X Hellbound -->
+<!-- © 2008 by LoucoX -->
+
+<list maintainEnchantment="true">
+
+  <!-- Quest item Proof of blood -->
+  <item id="1">
+    <ingredient id='4356' count='10000'/> 
+    <production id="1419" count="1"/>
+  </item>
+
+  <!-- Quest item Proof of Aspiration -->
+  <item id="2">
+    <ingredient id='4356' count='10000'/>
+    <production id="3870" count="1"/>
+  </item>
+
+  <!-- Quest item Proof of Alliance -->
+  <item id="3">
+    <ingredient id='4356' count='10000'/>
+    <production id="3874" count="1"/>
+  </item>
+    
+</list>
+
+

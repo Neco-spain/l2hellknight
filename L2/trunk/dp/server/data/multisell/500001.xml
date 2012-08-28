@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+<item id="1">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8753" count="1" enchant="0"/>
+  </item>
+
+  <item id="2">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8754" count="1" enchant="0"/>
+  </item>
+
+  <item id="3">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8755" count="1" enchant="0"/>
+  </item>
+
+  <item id="4">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8756" count="1" enchant="0"/>
+  </item>
+
+  <item id="5">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8757" count="1" enchant="0"/>
+  </item>
+
+  <item id="6">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8758" count="1" enchant="0"/>
+  </item>
+
+  <item id="7">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8759" count="1" enchant="0"/>
+  </item>
+
+  <item id="8">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8760" count="1" enchant="0"/>
+  </item>
+
+  <item id="9">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8761" count="1" enchant="0"/>
+  </item>
+
+  <item id="10">
+    <ingredient id="57" count="1000000000" enchant="0"/>
+    <production id="8762" count="1" enchant="0"/>
+  </item>
+
+  <!-- D-GEM  -->
+  <item id="11">
+    <ingredient id="57" count="200000" enchant="0"/>
+    <production id="2130" count="1" enchant="0"/>
+  </item>
+
+  <!-- C-GEM -->
+  <item id="12">
+    <ingredient id="57" count="250000" enchant="0"/>
+    <production id="2131" count="1" enchant="0"/>
+  </item>
+
+</list>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- L2Evolution -->
+<list applyTaxes="false">
+
+<!-- teddy bear -->
+  <item id="1">
+   <ingredient id="65436" count="74560"/>
+   <production id="9177" count="1"/>
+  </item>
+
+  <item id="2">
+   <ingredient id="65436" count="74560"/>
+   <production id="9184" count="1"/>
+  </item>
+
+  <item id="3">
+   <ingredient id="65436" count="74560"/>
+   <production id="9191" count="1"/>
+  </item>
+
+  <item id="4">
+   <ingredient id="65436" count="74560"/>
+   <production id="9198" count="1"/>
+  </item>
+
+<!-- piggy -->
+  <item id="5">
+   <ingredient id="65436" count="71860"/>
+   <production id="9178" count="1"/>
+  </item>
+
+  <item id="6">
+   <ingredient id="65436" count="71860"/>
+   <production id="9185" count="1"/>
+  </item>
+
+  <item id="7">
+   <ingredient id="65436" count="71860"/>
+   <production id="9192" count="1"/>
+  </item>
+
+  <item id="8">
+   <ingredient id="65436" count="71860"/>
+   <production id="9199" count="1"/>
+  </item>
+
+<!-- jester -->
+  <item id="9">
+   <ingredient id="65436" count="62500"/>
+   <production id="9179" count="1"/>
+  </item>
+
+  <item id="10">
+   <ingredient id="65436" count="62500"/>
+   <production id="9186" count="1"/>
+  </item>
+
+  <item id="11">
+   <ingredient id="65436" count="62500"/>
+   <production id="9193" count="1"/>
+  </item>
+
+  <item id="12">
+   <ingredient id="65436" count="62500"/>
+   <production id="9200" count="1"/>
+  </item>
+
+<!-- wizard -->
+  <item id="13">
+   <ingredient id="65436" count="81640"/>
+   <production id="9180" count="1"/>
+  </item>
+
+  <item id="14">
+   <ingredient id="65436" count="81640"/>
+   <production id="9187" count="1"/>
+  </item>
+
+  <item id="15">
+   <ingredient id="65436" count="81640"/>
+   <production id="9194" count="1"/>
+  </item>
+
+  <item id="16">
+   <ingredient id="65436" count="81640"/>
+   <production id="9201" count="1"/>
+  </item>
+
+<!-- dapper -->
+  <item id="17">
+   <ingredient id="65436" count="51000"/>
+   <production id="9181" count="1"/>
+  </item>
+
+  <item id="18">
+   <ingredient id="65436" count="51000"/>
+   <production id="9188" count="1"/>
+  </item>
+
+  <item id="19">
+   <ingredient id="65436" count="51000"/>
+   <production id="9195" count="1"/>
+  </item>
+
+  <item id="20">
+   <ingredient id="65436" count="51000"/>
+   <production id="9202" count="1"/>
+  </item>
+
+<!-- romantic chapeau -->
+  <item id="21">
+   <ingredient id="65436" count="78800"/>
+   <production id="9182" count="1"/>
+  </item>
+
+  <item id="22">
+   <ingredient id="65436" count="78800"/>
+   <production id="9189" count="1"/>
+  </item>
+
+  <item id="23">
+   <ingredient id="65436" count="78800"/>
+   <production id="9196" count="1"/>
+  </item>
+
+  <item id="24">
+   <ingredient id="65436" count="78800"/>
+   <production id="9203" count="1"/>
+  </item>
+
+<!-- iron circlet -->
+  <item id="25">
+   <ingredient id="65436" count="72800"/>
+   <production id="9183" count="1"/>
+  </item>
+
+  <item id="26">
+   <ingredient id="65436" count="72800"/>
+   <production id="9190" count="1"/>
+  </item>
+
+  <item id="27">
+   <ingredient id="65436" count="72800"/>
+   <production id="9197" count="1"/>
+  </item>
+
+  <item id="28">
+   <ingredient id="65436" count="72800"/>
+   <production id="9204" count="1"/>
+  </item>
+</list>

@@ -1,0 +1,34 @@
+package l2p.gameserver.model.items;
+
+public class ManufactureItem
+{
+  private final int _recipeId;
+  private final long _cost;
+
+  public ManufactureItem(int recipeId, long cost)
+  {
+    _recipeId = recipeId;
+    _cost = cost;
+  }
+
+  public int getRecipeId()
+  {
+    return _recipeId;
+  }
+
+  public long getCost()
+  {
+    return _cost;
+  }
+
+  public boolean equals(Object o)
+  {
+    if (o == this)
+      return true;
+    if (o == null)
+      return false;
+    if (o.getClass() != getClass())
+      return false;
+    return ((ManufactureItem)o).getRecipeId() == getRecipeId();
+  }
+}

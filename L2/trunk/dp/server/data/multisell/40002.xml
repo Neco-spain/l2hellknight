@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by lGuardl  -->
+
+<!-- Weapon Shop: Weapon C Grade -->
+<list>
+<!-- Homunkulus's Sword -->
+  <item id="1">
+    <ingredient id="57" count="4000000"/>
+    <production id="84" count="1"/>
+  </item>
+
+  <!-- Raid Sword -->
+  <item id="6">
+    <ingredient id="57" count="4000000"/>
+    <production id="133" count="1"/>
+  </item>
+
+  <!-- Samurai Longsword -->
+  <item id="7">
+    <ingredient id="57" count="4000000"/>
+    <production id="135" count="1"/>
+  </item>
+
+  <!-- Orcish Glaive -->
+  <item id="12">
+    <ingredient id="57" count="4000000"/>
+    <production id="298" count="1"/>
+  </item>
+
+  <!-- Orcish Poleaxe -->
+  <item id="13">
+    <ingredient id="57" count="4000000"/>
+    <production id="299" count="1"/>
+  </item>
+
+  <!-- Great Pata -->
+  <item id="18">
+    <ingredient id="57" count="4000000"/>
+    <production id="266" count="1"/>
+  </item>
+
+  <!-- Fisted Blade -->
+  <item id="19">
+    <ingredient id="57" count="4000000"/>
+    <production id="265" count="1"/>
+  </item>
+
+  <!-- Spirit Sword*Spirit Sword -->
+  <item id="22">
+    <ingredient id="57" count="4000000"/>
+    <production id="2591" count="1"/>
+  </item>
+
+  <!-- Raid Sword*Raid Sword -->
+  <item id="23">
+    <ingredient id="57" count="4000000"/>
+    <production id="2599" count="1"/>
+  </item>
+
+  <!-- Katana*Katana -->
+  <item id="24">
+    <ingredient id="57" count="4000000"/>
+    <production id="2582" count="1"/>
+  </item>
+
+  <!-- Stormbringer*Stormbringer -->
+  <item id="25">
+    <ingredient id="57" count="4000000"/>
+    <production id="2561" count="1"/>
+  </item>
+
+  <!-- Crystal Dagger -->
+  <item id="26">
+    <ingredient id="57" count="4000000"/>
+    <production id="228" count="1"/>
+  </item>
+
+  <!-- Dark Screamer -->
+  <item id="32">
+    <ingredient id="57" count="4000000"/>
+    <production id="233" count="1"/>
+  </item>
+
+  <!-- Eminence Bow -->
+  <item id="33">
+    <ingredient id="57" count="4000000"/>
+    <production id="286" count="1"/>
+  </item>
+
+  <!-- Elemental Bow -->
+  <item id="38">
+    <ingredient id="57" count="4000000"/>
+    <production id="282" count="1"/>
+  </item>
+
+  <!-- Yaksa Mace -->
+  <item id="39">
+    <ingredient id="57" count="4000000"/>
+    <production id="2503" count="1"/>
+  </item>
+
+  <!-- Ecliptic Axe -->
+  <item id="44">
+    <ingredient id="57" count="4000000"/>
+    <production id="7891" count="1"/>
+  </item>
+
+  <!-- Big Hammer -->
+  <item id="45">
+    <ingredient id="57" count="4000000"/>
+    <production id="89" count="1"/>
+  </item>
+
+  <!-- Berserker Blade -->
+  <item id="50">
+    <ingredient id="57" count="4000000"/>
+    <production id="5286" count="1"/>
+  </item>
+
+  <!-- Dwarven Hammer -->
+  <item id="51">
+    <ingredient id="57" count="4000000"/>
+    <production id="7897" count="1"/>
+  </item>
+
+  <!-- Ghoul's Staff -->
+  <item id="56">
+    <ingredient id="57" count="4000000"/>
+    <production id="205" count="1"/>
+  </item>
+</list>

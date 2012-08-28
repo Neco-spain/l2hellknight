@@ -1,0 +1,183 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Spirit Ore -->
+  <item id="1">
+    <ingredient id="57" count="1000000"/>
+    <production id="3031" count="1000"/>
+  </item>
+
+  <!-- Soul Ore -->
+  <item id="2">
+    <ingredient id="57" count="1000000"/>
+    <production id="1785" count="1000"/>
+  </item>
+
+  <!-- Battle Symbol -->
+  <item id="3">
+    <ingredient id="57" count="1000000"/>
+    <production id="8875" count="100"/>
+  </item>
+
+  <!-- Magic Symbol -->
+  <item id="4">
+    <ingredient id="57" count="1000000"/>
+    <production id="8876" count="100"/>
+  </item>
+
+  <!-- Phoenix Blood -->
+  <item id="5">
+    <ingredient id="57" count="1000000"/>
+    <production id="8873" count="100"/>
+  </item>
+
+  <!-- Einhasad's Holy Water -->
+  <item id="6">
+    <ingredient id="57" count="1000000"/>
+    <production id="8874" count="100"/>
+  </item>
+
+  <!-- Cursed Bone -->
+  <item id="7">
+    <ingredient id="57" count="1000000"/>
+    <production id="2508" count="1000"/>
+  </item>
+
+  <!-- Iron Arrow -->
+  <item id="8">
+    <ingredient id="57" count="1000000"/>
+    <production id="1342" count="1000"/>
+  </item>
+
+  <!-- Bone Arrow -->
+  <item id="9">
+    <ingredient id="57" count="100000"/>
+    <production id="1341" count="1000"/>
+  </item>
+
+  <!-- Silver Arrow -->
+  <item id="10">
+    <ingredient id="57" count="1000000"/>
+    <production id="1343" count="1000"/>
+  </item>
+
+  <!-- Mithril Arrow -->
+  <item id="11">
+    <ingredient id="57" count="1000000"/>
+    <production id="1344" count="1000"/>
+  </item>
+
+  <!-- Shining Arrow -->
+  <item id="12">
+    <ingredient id="57" count="1000000"/>
+    <production id="1345" count="1000"/>
+  </item>
+
+  <!-- Special Bolt -->
+  <item id="13">
+    <ingredient id="57" count="1000000"/>
+    <production id="10113" count="1000"/>
+  </item>
+
+  <!-- Bone Bolt -->
+  <item id="14">
+    <ingredient id="57" count="100000"/>
+    <production id="9633" count="1000"/>
+  </item>
+
+  <!-- Steel Bolt -->
+  <item id="15">
+    <ingredient id="57" count="1000000"/>
+    <production id="9634" count="1000"/>
+  </item>
+
+  <!-- Silver Bolt -->
+  <item id="16">
+    <ingredient id="57" count="1000000"/>
+    <production id="9635" count="1000"/>
+  </item>
+
+  <!-- Mithril Bolt -->
+  <item id="17">
+    <ingredient id="57" count="1000000"/>
+    <production id="9636" count="1000"/>
+  </item>
+
+  <!-- Shining Bolt -->
+  <item id="18">
+    <ingredient id="57" count="1000000"/>
+    <production id="9637" count="1000"/>
+  </item>
+
+  <!-- Transform Sealbook - Onyx Beast -->
+  <item id="19">
+    <ingredient id="57" count="200000000"/>
+    <production id="9791" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Unicorn -->
+  <item id="20">
+    <ingredient id="57" count="200000000"/>
+    <production id="9651" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Death Blader -->
+  <item id="21">
+    <ingredient id="57" count="200000000"/>
+    <production id="9649" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Dragon Bomber -->
+  <item id="22">
+    <ingredient id="57" count="200000000"/>
+    <production id="9655" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Golem Guardian -->
+  <item id="23">
+    <ingredient id="57" count="200000000"/>
+    <production id="9653" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Grail Apostle -->
+  <item id="24">
+    <ingredient id="57" count="200000000"/>
+    <production id="9650" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Inferno Drake -->
+  <item id="25">
+    <ingredient id="57" count="200000000"/>
+    <production id="9654" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Lilim Knight -->
+  <item id="26">
+    <ingredient id="57" count="200000000"/>
+    <production id="9652" count="1"/>
+  </item>
+
+  <!-- Transform Sealbook - Onyx Beast -->
+  <item id="27">
+    <ingredient id="57" count="200000000"/>
+    <production id="9648" count="1"/>
+  </item>
+
+  <!-- Energy Stone -->
+  <item id="28">
+    <ingredient id="57" count="1000000"/>
+    <production id="5589" count="1000"/>
+  </item>
+
+   <!-- Scroll: Recovery (Grade S) -->
+  <item id="30">
+    <ingredient id="57" count="100000"/>
+    <production id="8599" count="1"/>
+  </item>
+
+
+</list>

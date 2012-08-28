@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Flamberge -->
+  <item id="1">
+    <ingredient id="57" count="2500000"/>
+    <production id="71" count="1"/>
+  </item>
+
+  <!-- Pa'agrian Sword -->
+  <item id="2">
+    <ingredient id="57" count="4000000"/>
+    <production id="7882" count="1"/>
+  </item>
+
+  <!-- Berserker Blade -->
+  <item id="3">
+    <ingredient id="57" count="6000000"/>
+    <production id="5286" count="1"/>
+  </item>
+
+  <!-- Great Sword -->
+  <item id="4">
+    <ingredient id="57" count="9000000"/>
+    <production id="78" count="1"/>
+  </item>
+
+  <!-- Guardian Sword -->
+  <item id="5">
+    <ingredient id="57" count="12000000"/>
+    <production id="7883" count="1"/>
+  </item>
+
+  <!-- Infernal Master -->
+  <item id="6">
+    <ingredient id="57" count="18000000"/>
+    <production id="7884" count="1"/>
+  </item>
+
+  <!-- Dragon Slayer -->
+  <item id="7">
+    <ingredient id="57" count="27000000"/>
+    <production id="81" count="1"/>
+  </item>
+
+  <!-- Sword of Ipos -->
+  <item id="8">
+    <ingredient id="57" count="50000000"/>
+    <production id="8679" count="1"/>
+  </item>
+
+  <!-- Heaven's Divider -->
+  <item id="9">
+    <ingredient id="57" count="75000000"/>
+    <production id="6372" count="1"/>
+  </item>
+
+
+</list>

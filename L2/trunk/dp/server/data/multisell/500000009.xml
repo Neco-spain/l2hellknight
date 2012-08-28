@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Quest items -->
+
+<list>
+
+<item id="1">
+<ingredient id="4037" count="60" enchant="0"/>
+<production id="6657" count="1" enchant="0"/>
+</item>
+
+  
+<item id="2">
+<ingredient id="4037" count="60" enchant="0"/>
+<production id="8191" count="1" enchant="0"/>
+</item>
+
+
+<item id="3">
+<ingredient id="4037" count="55" enchant="0"/>
+<production id="6656" count="1" enchant="0"/>
+</item>
+
+
+<item id="4">
+<ingredient id="4037" count="55" enchant="0"/>
+<production id="6658" count="1" enchant="0"/>
+</item>
+
+
+<item id="5">
+<ingredient id="4037" count="45" enchant="0"/>
+<production id="6659" count="1" enchant="0"/>
+</item>
+
+<item id="6">
+<ingredient id="4037" count="45" enchant="0"/>
+<production id="6660" count="1" enchant="0"/>
+</item>
+</list>

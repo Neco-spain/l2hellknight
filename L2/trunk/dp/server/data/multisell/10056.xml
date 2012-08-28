@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Greater Healing Potion -->
+  <item id="1">
+    <ingredient id="57" count="5000"/>
+    <production id="1539" count="100"/>
+  </item>
+
+  <!-- Greater Magic Haste Potion -->
+  <item id="4">
+    <ingredient id="57" count="5000"/>
+    <production id="6036" count="100"/>
+  </item>
+
+  <!-- Greater Swift Attack Potion -->
+  <item id="5">
+    <ingredient id="57" count="5000"/>
+    <production id="1375" count="100"/>
+  </item>
+
+  <!-- Greater Haste Potion -->
+  <item id="6">
+    <ingredient id="57" count="5000"/>
+    <production id="1374" count="100"/>
+  </item>
+
+  <!-- Mana Potion -->
+  <item id="7">
+    <ingredient id="57" count="5000"/>
+    <production id="728" count="100"/>
+  </item>
+
+  <!-- Mystery Potion -->
+  <item id="9">
+    <ingredient id="57" count="100000000"/>
+    <production id="5234" count="1"/>
+  </item>
+
+  <!-- Facelifting Potion - A -->
+  <item id="13">
+    <ingredient id="4037" count="5"/>
+    <production id="5235" count="1"/>
+  </item>
+
+  <!-- Facelifting Potion - B -->
+  <item id="14">
+    <ingredient id="4037" count="5"/>
+    <production id="5236" count="1"/>
+  </item>
+
+  <!-- Facelifting Potion - C -->
+  <item id="15">
+    <ingredient id="4037" count="5"/>
+    <production id="5237" count="1"/>
+  </item>
+
+  <!-- Dye Potion - A -->
+  <item id="16">
+    <ingredient id="4037" count="5"/>
+    <production id="5238" count="1"/>
+  </item>
+
+  <!-- Dye Potion - B -->
+  <item id="17">
+    <ingredient id="4037" count="5"/>
+    <production id="5239" count="1"/>
+  </item>
+
+  <!-- Dye Potion - C -->
+  <item id="18">
+    <ingredient id="4037" count="5"/>
+    <production id="5240" count="1"/>
+  </item>
+
+  <!-- Dye Potion - D -->
+  <item id="19">
+    <ingredient id="4037" count="5"/>
+    <production id="5241" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - A -->
+  <item id="20">
+    <ingredient id="4037" count="5"/>
+    <production id="5242" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - B -->
+  <item id="21">
+    <ingredient id="4037" count="5"/>
+    <production id="5243" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - C -->
+  <item id="22">
+    <ingredient id="4037" count="5"/>
+    <production id="5244" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - D -->
+  <item id="23">
+    <ingredient id="4037" count="5"/>
+    <production id="5245" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - E -->
+  <item id="24">
+    <ingredient id="4037" count="5"/>
+    <production id="5246" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - F -->
+  <item id="25">
+    <ingredient id="4037" count="5"/>
+    <production id="5247" count="1"/>
+  </item>
+
+  <!-- Hair Style Change Potion - G -->
+  <item id="26">
+    <ingredient id="4037" count="5"/>
+    <production id="5248" count="1"/>
+  </item>
+
+
+</list>

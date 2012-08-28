@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `character_buff_profiles`;CREATE TABLE `character_buff_profiles` (  `ownerId` int(10) unsigned NOT NULL DEFAULT '0',  `id` int(10) unsigned NOT NULL DEFAULT '0',  `level` int(10) unsigned NOT NULL DEFAULT '0',  `scheme` varchar(20) NOT NULL DEFAULT 'default') ENGINE=MyISAM DEFAULT CHARSET=latin1;

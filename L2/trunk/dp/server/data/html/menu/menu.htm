@@ -1,0 +1,105 @@
+﻿<html><title>Меню настроек l2jx.ru</title><body>
+<table bgcolor="666666">
+<tr>
+<td width=5></td><td width=280><center><font color="LEVEL">Online: %online%</font></center></td>
+</tr>
+</table><br>
+<center><font color="LEVEL">Личные настройки персонажа</font></center>
+
+<table bgcolor="666666">
+<tr>
+<td width=5></td>
+<td width=150>Описание команд:</td>
+<td width=50>Сейчас</td>
+<td width=30>ON</td>
+<td width=30>OFF</td>
+</tr>
+</table>
+<br>
+
+<table bgcolor="666666">
+<tr>
+<td width=5></td>
+<td width=150>Получение опыта:</td>
+<td width=30>%gainexp%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_exp 1" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_exp 0" value="OFF"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=150>Автолут:</td>
+<td width=30>%autoloot%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_loot 1" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_loot 0" value="OFF"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=150>Возможность обмена:</td>
+<td width=30>%trade%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_trade 0" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_trade 1" value="OFF"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=150>Прием личных сообщений:</td>
+<td width=30>%pm%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_pm 0" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_pm 1" value="OFF"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=150>Шанс прохождения скилов:</td>
+<td width=30>%skillchance%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_skillchance 0" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_skillchance 1" value="OFF"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=150>Анимировать NPC бафф:</td>
+<td width=30>%showanim%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_showanim 0" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_showanim 1" value="OFF"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=150>Привязка к ip:</td>
+<td width=30>%ip%</td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_ip 0" value="ON"></td>
+<td width=35><button width=35 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_ip 1" value="OFF"></td>
+</tr>
+</table bgcolor="666666">
+<br>
+
+<center><font color="LEVEL">Список доступных сервисов</font></center>
+<table bgcolor="666666">
+<tr>
+<td width=5></td>
+<td width=170>Описание кнопок:</td>
+<td width=100>Enable</td>
+</tr>
+</table>
+<br>
+
+<table bgcolor="666666">
+<tr>
+<td width=5></td>
+<td width=160>Эвенты:</td>
+<td width=120><button width=70 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_evt 0" value="INFO"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>Offline торговля:</td>
+<td width=120><button width=70 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_offline" value="ENABLE"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>Премиум аккаунт:</td>
+<td width=120><button width=70 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_prem 0" value="INFO"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=140>Восстановить игрока:</td>
+<td width=140><edit var="nick" width=70 height=10 length="16"><button width=70 height=15 back="sek.cbui94" fore="sek.cbui94" action="bypass -h eon_menu_repair $nick" value="REPAIR"></td>
+</tr>
+</table>
+</body></html>
