@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="Сервер" default="dist" basedir=".">
+	<description>
+	    Сервер от l2rt
+		2010-2011 Год, UA.
+	</description>
+
+	<property name="src" location="java"/>
+	<property name="lib" location="lib"/>
+	<property name="build" location="build"/>
+	<property name="scr" location="data"/>
+	<property name="build.classes" location="${build}/classes"/>
+	<property name="build.scripts" location="${build}/scripts"/>
+	<property name="build.dist" location="${build}/dist"/>
+	<property name="build.dist.login" location="${build.dist}/login"/>
+	<property name="build.dist.game" location="${build.dist}/game"/>
+
+	<path id="classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>	
+	
+	<target name="clean" description="Remove the output directories">
+
+		<delete dir="${build}"/>
+	</target>
+
+	<target name="cc" description="Remove the classes directories">
+
+		<delete dir="${build}/classes"/>
+	</target>
+
+	<target name="init" description="Create the output directories.">
+
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.classes}"/>
+		<mkdir dir="${build.dist}" />
+		<mkdir dir="${build.dist.login}" />
+		<mkdir dir="${build.dist.game}" />
+	</target>
+
+	<target name="compile" depends="init" description="Compile the source.">
+		<javac destdir="${build.classes}"
+			   optimize="on"
+			   debug="on"
+			   source="1.6"
+			   target="1.6"
+			   encoding="UTF-8"
+			   includeantruntime="false"
+			   nowarn="off">
+			<compilerarg value="-Xlint:all"></compilerarg>
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+
+	<target name="compile_scripts" depends="jar" description="Compile the source.">
+	
+        <copy todir="${lib}"> 
+			<fileset dir="${build}">
+				<include name="core.jar"/>
+			</fileset>
+        </copy>
+
+		<mkdir dir="${build.scripts}"/>
+		<javac destdir="${build.scripts}"
+			   optimize="on"
+			   debug="on"
+			   source="1.6"
+			   target="1.6"
+			   encoding="UTF-8"
+			   includeantruntime="false"
+			   nowarn="off">
+			<compilerarg value="-Xlint:all"></compilerarg>
+			<src path="${scr}"/>
+							<exclude name="scripts/commands/**/*.java"/>
+							<exclude name="scripts/events/**/*.java"/>
+							<exclude name="scripts/services/**/*.java"/>
+							<exclude name="scripts/Hooks.java"/>
+							<exclude name="scripts/actions/OnActionShift.java"/>
+							<exclude name="scripts/npc/model/QueenAntInstance.java"/>
+							<exclude name="scripts/npc/model/ThomasInstance.java"/>
+							<exclude name="scripts/ai/Queen_Ant_Nurse.java"/>
+			<classpath refid="classpath"/>
+		</javac>
+
+		<delete file="${lib}/core.jar"/>
+	</target>
+
+	<target name="debug" depends="init" description="Compile the source with debug info.">
+
+		<javac destdir="${build.classes}"
+			   optimize="off"
+			   debug="on"
+			   source="1.6"
+			   target="1.6"
+			   encoding="UTF-8"
+			   nowarn="off">
+			<compilerarg value="-Xlint:all"></compilerarg>
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+
+	<target name="jar" depends="clean,compile" description="Create the jar file">
+		<tstamp>
+			<format property="build.tstamp" pattern="yyyy.MM.dd HH:mm"/>
+		</tstamp>
+
+		<exec dir="subversion" executable="svnversion" outputproperty="l2rt.revision" failifexecutionfails="false">
+			<arg line="-n ."/>
+		</exec>
+
+		<concat destfile="${build.dist.game}/config/version.properties">
+            version=${l2rt.revision}
+            builddate=${build.tstamp}: ${user.name}/${os.name}
+        </concat>
+		
+		<jar destfile="${build}/core.jar" level="9">
+			<fileset dir="${build.classes}"/>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}"/>
+				<attribute name="Build-Date" value="${build.tstamp}"/>
+				<attribute name="Implementation-Build" value="${l2rt.revision}"/>
+				<attribute name="Main-Class" value="l2rt.Server"/>
+				<attribute name="Class-Path" value=". tools-game.jar"/>
+			</manifest>
+		</jar>
+
+		<copy todir="${build.dist.login}/lib" preservelastmodified="true">
+			<fileset dir="${build}">
+				<include name="core.jar"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.game}/lib" preservelastmodified="true">
+			<fileset dir="${build}">
+				<include name="core.jar"/>
+			</fileset>
+		</copy>
+
+	</target>
+
+	<target name="jar_scripts" depends="compile_scripts" description="Create the scripts jar file">
+
+		<jar destfile="${build}/tsrsvp.jar" level="9">
+			<fileset dir="${build.scripts}"/>
+
+			<manifest>
+				<attribute name="Build-By" value="${user.name}"/>
+				<attribute name="Build-Date" value="${build.tstamp}"/>
+				<attribute name="Implementation-Build" value="${l2rt.revision}"/>
+				<attribute name="Main-Class" value="l2rt.Server"/>
+				<attribute name="Class-Path" value=". tools-game.jar"/>
+			</manifest>
+		</jar>
+
+		<copy todir="${build.dist.game}/lib" preservelastmodified="true">
+			<fileset dir="${build}">
+				<include name="tsrsvp.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="compile.gcj" depends="jar" description="Build machine executable binary">
+
+		<exec dir="." executable="gcj" failifexecutionfails="false" os="linux:Linux:freebsd:FreeBSD" >
+			<arg line="-O3 ${build.dist}/core.jar -o ${build.dist}/core --main=l2rt.Server jbforth.jar"/>
+		</exec>
+	</target>
+
+	<target name="dist_common" depends="jar,jar_scripts">
+		<copy todir="${build.dist.login}/lib" preservelastmodified="true">
+			<fileset dir="${src}/../lib">
+				<include name="tools-login.jar"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.login}" preservelastmodified="true">
+			<fileset dir="${src}">
+				<include name="startAccountManager.*"/>
+				<include name="startSQLAccountManager.*"/>
+				<include name="LoginServer_loop.sh"/>
+				<include name="StartLoginServer.*"/>
+				<include name="RegisterGameServer.*"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.game}/lib" preservelastmodified="true">
+			<fileset dir="${src}/../lib">
+				<include name="tools-game.jar"/>
+				<include name="commons-net-ftp-2.0.jar"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.game}" preservelastmodified="true">
+			<fileset dir="${src}">
+				<include name="GameServer_loop.sh"/>
+				<include name="StartGameServer.*"/>
+			</fileset>
+		</copy>
+
+		<mkdir dir="${build.dist.game}/backup" />
+		<mkdir dir="${build.dist.login}/backup" />
+
+		<mkdir dir="${build.dist.game}/log" />
+		<mkdir dir="${build.dist.login}/log" />
+
+		<mkdir dir="${build.dist.game}/config" />
+		<mkdir dir="${build.dist.game}/config/defaults" />
+		<copy todir="${build.dist.game}/config" preservelastmodified="true">
+			<fileset dir="${src}/config">
+				<include name="version.properties"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dist.game}/config/defaults" preservelastmodified="true">
+			<fileset dir="${src}/config">
+				<include name="*.properties"/>
+				<include name="*.ini"/>
+				<include name="*.xml"/>
+				<include name="*.cfg"/>
+				<include name="*.txt"/>
+				<include name="fake_players.list" />
+				<exclude name="loginserver.ini" />
+				<exclude name="iptables.txt" />
+				<exclude name="ips_white.txt" />
+				<exclude name="ips_black.txt" />
+				<exclude name="protection_login.ini" />
+				<exclude name="login_telnet.ini" />
+				<exclude name="version.properties" />
+				<exclude name="AntiBrut.ini"/>
+			</fileset>
+		</copy>
+
+		<mkdir dir="${build.dist.game}/config/GMAccess.d"/>
+		<mkdir dir="${build.dist.game}/config/GMAccess.d/template"/>
+		<mkdir dir="${build.dist.game}/config/defaults/GMAccess.d"/>
+		<mkdir dir="${build.dist.game}/config/defaults/GMAccess.d/template"/>
+		<copy todir="${build.dist.game}/config/GMAccess.d/template" preservelastmodified="true">
+			<fileset dir="${src}/config/GMAccess.d/template">
+				<include name="*.xml"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dist.game}/config/defaults/GMAccess.d/template" preservelastmodified="true">
+			<fileset dir="${src}/config/GMAccess.d/template">
+				<include name="*.xml"/>
+			</fileset>
+		</copy>
+
+		<mkdir dir="${build.dist.login}/config" />
+		<mkdir dir="${build.dist.login}/config/defaults" />
+		<copy todir="${build.dist.login}/config/defaults" preservelastmodified="true">
+			<fileset dir="${src}/config">
+				<include name="loginserver.ini"/>
+				<include name="iptables.txt" />
+				<include name="ips_white.txt" />
+				<include name="ips_black.txt" />
+				<include name="protection_login.ini" />
+				<include name="login_telnet.ini"/>
+				<include name="log.ini"/>
+				<include name="console.cfg"/>
+				<include name="AntiBrut.ini"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.login}" preservelastmodified="true">
+			<fileset dir="data">
+				<include name="servername.xml"/>
+			</fileset>
+		</copy>
+
+		<mkdir dir="${build.dist.game}/data" />
+		<copy todir="${build.dist.game}/data" preservelastmodified="true">
+			<fileset dir="data">
+				<include name="**/*.*"/>
+				<exclude name="scripts/**/*.java"/>
+			</fileset>
+		</copy>
+
+		<fixcrlf 	srcdir="${build.dist.game}"
+					 eol="lf"
+					 eof="remove"
+					 includes="**/*.sh">
+		</fixcrlf>
+
+		<fixcrlf 	srcdir="${build.dist.login}"
+					 eol="lf"
+					 eof="remove"
+					 includes="**/*.sh">
+		</fixcrlf>
+
+		<fixcrlf 	srcdir="${build.dist.game}"
+					 eol="crlf"
+					 eof="remove"
+					 includes="**/*.bat">
+		</fixcrlf>
+
+		<fixcrlf 	srcdir="${build.dist.login}"
+					 eol="crlf"
+					 eof="remove"
+					 includes="**/*.bat">
+		</fixcrlf>
+
+		<mkdir dir="${build.dist}/sql"/>
+		<copy todir="${build.dist}/sql" preservelastmodified="true">
+			<fileset dir="sql">
+				<include name="**/*.*"/>
+			</fileset>
+		</copy>
+		<mkdir dir="${build.dist.game}/geodata"/>
+		<copy todir="${build.dist.game}/geodata/" preservelastmodified="true">
+			<fileset dir="geodata">
+				<include name="**/*.*"/>
+			</fileset>
+		</copy>
+		<mkdir dir="${build.dist.game}/webserver"/>
+		<copy todir="${build.dist.game}/webserver" preservelastmodified="true">
+			<fileset dir="webserver">
+				<include name="**/*.*"/>
+			</fileset>
+		</copy>
+	</target>
+
+	
+	<target name="dist" depends="dist_common">
+			<copy todir="${build.dist.game}/data" preservelastmodified="true">
+				<fileset dir="data">
+					<include name="scripts/commands/**/*.java"/>
+					<include name="scripts/events/**/*.java"/>
+					<include name="scripts/services/**/*.java"/>
+					<include name="scripts/Hooks.java"/>
+					<include name="scripts/actions/OnActionShift.java"/>
+					<include name="scripts/npc/model/QueenAntInstance.java"/>
+					<include name="scripts/npc/model/ThomasInstance.java"/>
+					<include name="scripts/ai/Queen_Ant_Nurse.java"/>
+				</fileset>
+			</copy>
+
+		<zip destfile="${build}/server.zip"
+			 basedir="${build.dist}" />
+	</target>
+	
+	<target name="with_jarscripts" depends="jar_scripts,dist_common">
+		<zip destfile="${build}/server.zip"
+			 basedir="${build.dist}" />
+	</target>
+</project>

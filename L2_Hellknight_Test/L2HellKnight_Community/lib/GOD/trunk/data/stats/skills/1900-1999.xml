@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<skill id="1901" levels="1" name="Ясная Цель">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="accCombat" val="3" />
+		</for>
+	</skill>
+	<skill id="1902" levels="1" name="Крепкая Психика">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mDef" val="18" />
+			<add order="0x40" stat="pAtk" val="31" />
+			<add order="0x40" stat="mAtk" val="32" />
+		</for>
+	</skill>
+	<skill id="1903" levels="1" name="Активность">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="regMp" val="1" />
+			<add order="0x40" stat="regHp" val="1" />
+		</for>
+	</skill>
+	<skill id="1904" levels="1" name="Упорство">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for />
+	</skill>
+	<skill id="1905" levels="1" name="Стремительность">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="pAtkSpd" val="4" />
+			<add order="0x40" stat="mAtkSpd" val="3" />
+			<add order="0x40" stat="runSpd" val="13" />
+		</for>
+	</skill>
+	<skill id="1906" levels="1" name="Благословенная Вода">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackWater" val="10" />
+			<add order="0x40" stat="waterRcpt" val="10" />
+			<add order="0x40" stat="regMp" val="2" />
+		</for>
+	</skill>
+	<skill id="1907" levels="1" name="Предвидение"> <!--В течение 15 сек. увеличивает Физ. Уклонение и Маг. Уклонение на 30. -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+	      <effect count="1" name="Buff" time="15" val="0" >
+			<add order="0x40" stat="rEvas" val="30" />
+			<add order="0x40" stat="mrEvas" val="30" />
+	      </effect>
+		</for>
+	</skill>
+	<skill id="1908" levels="1" name="Чуткость">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="rCrit" val="15" />
+			<add order="0x40" stat="mCritRate" val="10" />
+		</for>
+	</skill>
+	<skill id="1909" levels="1" name="Острота">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="cAtk" val="208" />
+			<add order="0x40" stat="mCritDamage" val="208" />
+		</for>
+	</skill>
+	<skill id="1910" levels="1" name="Темные Способности">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="INT" val="1">
+				<game night="true" />
+			</add>
+			<add order="0x40" stat="STR" val="1">
+				<game night="true" />
+			</add>
+		</for>
+	</skill>
+	<skill id="1911" levels="1" name="Благословенный Ветер">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackWind" val="10" />
+			<add order="0x40" stat="windRcpt" val="10" />
+		</for>
+	</skill>
+	<skill id="1912" levels="1" name="Бешеное Ускорение">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1913" levels="1" name="Высасывание Жизни">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1914" levels="1" name="Дикость">
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" >
+				<mul order="0x30" stat="pAtkSpd" val="1.17" />
+				<mul order="0x30" stat="pDef" val="0.85" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="1915" levels="1" name="Сила Огня">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="fireRcpt" val="10" />
+			<add order="0x40" stat="attackFire" val="10" />
+		</for>
+	</skill>
+	<skill id="1916" levels="1" name="Сильная Энергетика">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="regHp" val="3" />
+		</for>
+	</skill>
+	<skill id="1917" levels="1" name="Стойкость Бессмертия">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1919" levels="1" name="Ловкость">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.02" />
+			<mul order="0x30" stat="mAtk" val="1.02" />
+		</for>
+	</skill>
+	<skill id="1920" levels="1" name="Выносливость">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1921" levels="1" name="Благословенная Земля">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="attackEarth" val="10" />
+			<add order="0x40" stat="earthRcpt" val="10" />
+		</for>
+	</skill>
+	<skill id="1922" levels="1" name="Дрожь под Ногами">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1923" levels="1" name="Боевой Инстинкт">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1924" levels="1" name="Темная Тишина">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="unholyRcpt" val="10" />
+		</for>
+	</skill>
+	<skill id="1925" levels="1" name="Духовная Защита">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1926" levels="1" name="Укрепление Тела">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="1927" levels="1" name="strength Siegel">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="Siegel" val="0">
+				<mul order="0x30" stat="pAtk" val="1.06" >
+						<not>
+							<player classId="139" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1928" levels="1" name="strength Siegel">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="Siegel" val="0">
+				<mul order="0x30" stat="pAtk" val="1.06" >
+						<not>
+							<player classId="139" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1929" levels="1" name="force tyuranta">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="tyuranta" val="0">
+				<mul order="0x30" stat="rCrit" val="1.05" >
+					<not>
+						<player classId="140" />
+					</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1930" levels="1" name="force tyuranta">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="tyuranta" val="0">
+				<mul order="0x30" stat="rCrit" val="1.05" >
+					<not>
+						<player classId="140" />
+					</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1931" levels="1" name="force odala">
+	
+	<!-- WesteroS
+	Увеличивает для всех членов группы с холодным оружием Скорость на 5%.
+	Не действует на Разбойника Одала.
+	-->
+	
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="odala" val="0">
+				<mul order="0x30" stat="runSpd" val="1.05" >
+						<not>
+							<player classId="141" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1932" levels="1" name="force odala">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="odala" val="0">
+				<mul order="0x30" stat="runSpd" val="1.05" >
+						<not>
+							<player classId="141" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1933" levels="1" name="force eura">
+	
+	<!-- WesteroS
+	Увеличивает для всех членов группы Скор. Маг. на 3%,
+	бонус восстановления MP на 50%. Не действует на Лучника Эура.
+	-->
+	
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="eura" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="1.03" />				
+				<mul order="0x30" stat="regMp" val="1.5" >
+					<not>
+						<player classId="142" />
+					</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1934" levels="1" name="force tyuranta eura">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="eura" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="1.03" />
+				<mul order="0x30" stat="regMp" val="1.5" >
+					<not>
+						<player classId="142" />
+					</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1935" levels="1" name="force feo">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="feo" val="0">
+			<mul order="0x30" stat="atkBaseSpeed" val="1.05"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.03" >
+					<not>
+						<player classId="143" />
+					</not>
+			</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1936" levels="1" name="force feo">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="feo" val="0">
+			<mul order="0x30" stat="atkBaseSpeed" val="1.05" />
+			<mul order="0x30" stat="mAtkSpd" val="1.03" >
+						<not>
+							<player classId="143" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1937" levels="1" name="force venio">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="venio" val="0">
+				<mul order="0x30" stat="pReuse" val="1.05" />
+				<mul order="0x30" stat="mReuse" val="1.05" />
+				<mul order="0x30" stat="mpConsum" val="1.03" >
+					<not>
+						<player classId="144" />
+					</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1938" levels="1" name="force venio">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="venio" val="0">
+				<mul order="0x30" stat="pReuse" val="1.05" />
+				<mul order="0x30" stat="mReuse" val="1.05" />
+				<mul order="0x30" stat="mpConsum" val="1.03" >
+					<not>
+						<player classId="144" />
+					</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1939" levels="1" name="force algiza">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="algiza" val="0">
+				<mul order="0x30" stat="mAtk" val="1.05" />
+				<mul order="0x30" stat="pAtk" val="1.06" >
+						<not>
+							<player classId="145" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>		
+	<skill id="1940" levels="1" name="force algiza">
+		<table name="#magicLevel">85</table>
+		<set name="effectPoint" val="467" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMusic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>		
+			<effect count="1" name="Buff" stackOrder="1" time="120" stackType="algiza"  val="0">
+				<mul order="0x30" stat="mAtk" val="1.05" />
+				<mul order="0x30" stat="pAtk" val="1.06" >
+						<not>
+							<player classId="145" />
+						</not>
+				</mul>
+			</effect>
+		</for>
+	</skill>	
+	<skill id="1954" levels="1" name="Укрепление Тела в Полете">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLevel" val="85" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+</list>

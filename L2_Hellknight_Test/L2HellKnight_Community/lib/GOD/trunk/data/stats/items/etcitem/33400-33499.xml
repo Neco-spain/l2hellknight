@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<etcitem id="33478" name="Scroll: Enchant Weapon (R)" type="SCROLL">
+		<set name="icon" val="etc_scroll_of_enchant_weapon_i04"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="120"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="1800000"/>
+	</etcitem>
+	<etcitem id="33479" name="Scroll: Enchant Armor (R)" type="SCROLL">
+		<set name="icon" val="etc_scroll_of_enchant_armor_i04"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="120"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="240000"/>
+	</etcitem>
+</list>

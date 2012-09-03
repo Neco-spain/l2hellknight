@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="5500" levels="1" name="Black Dragon Claw">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5501" levels="1" name="Stuns">
+		<!--
+			Description: A state of instant paralysis caused by the stun
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5502" levels="1" name="Stuns">
+		<!--
+			Description: A state of instant paralysis caused by the stun
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5503" levels="1" name="Ultimate Guard">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5504" levels="1" name="Shield Defense">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5505" levels="1" name="Fire Blossom">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5506" levels="1" name="Water Blossom">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5507" levels="1" name="Wind Blossom">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5508" levels="1" name="Earth Blossom">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5509" levels="1" name="Fire Power">
+		<!--
+			Description: Fire resistance decreases.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5510" levels="1" name="Water Power">
+		<!--
+			Description: Water resistance decreases.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5511" levels="1" name="Wind Power">
+		<!--
+			Description: Wind resistance decreases.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5512" levels="1" name="Earth Power">
+		<!--
+			Description: Earth resistance decreases.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5513" levels="1" name="Fire Taint">
+		<!--
+			Description: Continuously damaged by the fire attribute.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5514" levels="1" name="Water Taint">
+		<!--
+			Description: Continuously damaged by the water attribute.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5515" levels="1" name="Wind Taint">
+		<!--
+			Description: Continuously damaged by the wind attribute.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5516" levels="1" name="Earth Taint">
+		<!--
+			Description: Continuously damaged by the Earth attribute.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5517" levels="1" name="Nurture">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5518" levels="1" name="Last Stand">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5519" levels="1" name="Chain Buff - Power Up">
+		<!--
+			Description: Made the contract of greed with the devil. Cannot wait to take every soul.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5520" levels="1" name="Chain Buff - Vampiric Shield">
+		<!--
+			Description: Made the contract of desire with the devil. The pain feels like the pleasure.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5521" levels="1" name="Chain Buff - Critical Sense">
+		<!--
+			Description: Made the contract of wrath with the devil. Every enemy will fear your wrath.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5522" levels="1" name="Chain Magic - Dark Explosion">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5523" levels="1" name="Chain Magic - Unholy Castle">
+		<!--
+			Description: The devil gave you the curse of jealousy. You cannot be more stronger than this.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5524" levels="1" name="Chain Buff - Resistance to Bow and Magic attacks">
+		<!--
+			Description: You have made the contract of arrogance with the devil. No one can stop you.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5525" levels="1" name="Chain Buff - Resistance to Melee Attacks">
+		<!--
+			Description: You have made the contract of gluttony with the devil. Everything you eat is good for your strength.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5526" levels="1" name="Challenger's Blessing">
+		<!--
+			Description: "You feel like full of a vicious hatred. Physical defense ability, Shield defense probability, and  Darkness resistance greatly increase."
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5527" levels="1" name="Overflow">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5528" levels="1" name="Self-Destruct">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5529" levels="12" name="Surrender to the Unholy">
+		<!--
+			Done by:	SYS
+			Description:	Darkness attribute temporarily weakened. Effect 2.
+		-->
+		<table name="#activateRate">40 44 48 52 56 58 60 62 64 66 68 70</table>
+		<set name="activateRate" val="#activateRate" />
+		<set name="save" val="3" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="UnholyAtr" time="30" val="0">
+				<add order="0x40" stat="unholyRcpt" val="25" />
+				<add order="0x40" stat="sacredRcpt" val="12" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5530" levels="12" name="Blood Storm">
+		<!--
+			Description: Damage and attack the bleed against the enemies around.. Drive the enemies to bleed temporarily. Effect 1.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5531" levels="1" name="Direction-Beleth Magic Skill 1">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5532" levels="1" name="Direction-Beleth Summon Skill 1">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5533" levels="1" name="Direction-Beleth Self-Destruction Skill 1">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5534" levels="1" name="Direction-Beleth Transformation Skill 1">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5535" levels="1" name="Little Angel Cuteness Trick">
+		<!--
+			Done by SYS
+			Description: See the summoned spirit perform cute tricks.
+		-->
+		<set name="power" val="150" />
+		<set name="useSS" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+	</skill>
+	<skill id="5536" levels="1" name="Little Devil Cuteness Trick">
+		<!--
+			Done by SYS
+			Description: See the summoned spirit perform cute tricks.
+		-->
+		<set name="power" val="150" />
+		<set name="useSS" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+	</skill>
+	<skill id="5537" levels="1" name="Rudolph Cuteness Trick">
+		<!--
+			Done by SYS
+			Description: See the summoned spirit perform cute tricks.
+		-->
+		<set name="power" val="150" />
+		<set name="useSS" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+	</skill>
+	<skill id="5538" levels="1" name="Little Angel Agathion Special Skill - Firecrackers">
+		<!--
+			Done by SYS
+			Description: Summoned Spirit's Special Skill : Set off Firecrackers.
+		-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16031"/>
+		</cond>
+	</skill>
+	<skill id="5539" levels="1" name="Little Angel Agathion Special Skill - Mysterious Power">
+		<!--
+			Done by SYS
+			Description: Summoned Spirit's Special Skill : Enlarges Head.
+		-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16031"/>
+		</cond>
+		<for>
+			<effect abnormal="bighead" count="1" name="Buff" stackType="BigHead" time="120" val="0" />
+		</for>
+	</skill>
+	<skill id="5540" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Return">
+		<!--
+			Done by SYS
+			Description: Summoned Spirit's Special Skill : Engages Blessed Return Ability.
+		-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16031"/>
+		</cond>
+	</skill>
+	<skill id="5541" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Resurrection">
+		<!--
+			Done by SYS
+			Description: Summoned Spirit's Special Skill : Engages Blessed Resurrection ability.
+		-->
+		<table name="#power">100.0</table>
+		<table name="#effectPoint">624</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_CORPSE_PLAYER" />
+		<set name="corpse" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16031"/>
+		</cond>
+	</skill>
+	<skill id="5542" levels="1" name="Little Devil Agathion Special Skill - Firecrackers">
+		<!--
+			Done by Magister
+			Description: Summoned Spirit's Special Skill : Set off Firecrackers.
+		-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16032"/>
+		</cond>
+	</skill>
+	<skill id="5543" levels="1" name="Little Devil Agathion Special Skill - Mysterious Power">
+		<!--
+			Done by Magister
+			Description: Summoned Spirit's Special Skill : Enlarges Head.
+		-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16032"/>
+		</cond>
+		<for>
+			<effect abnormal="bighead" count="1" name="Buff" stackType="BigHead" time="120" val="0" />
+		</for>
+	</skill>
+	<skill id="5544" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Return">
+		<!--
+			Done by Magister
+			Description: Summoned Spirit's Special Skill : Engages Blessed Return Ability.
+		-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16032"/>
+		</cond>
+	</skill>
+	<skill id="5545" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Resurrection">
+		<!--
+			Done by Magister
+			Description: Summoned Spirit's Special Skill : Engages Blessed Resurrection ability.
+		-->
+		<table name="#power">100.0</table>
+		<table name="#effectPoint">624</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_CORPSE_PLAYER" />
+		<set name="corpse" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="useSS" val="false" />
+		<cond msg="Agathion skills can be used only when Agathion is summoned.">
+			<player agathion="16032"/>
+		</cond>
+	</skill>
+	<skill id="5546" levels="1" name="Alert">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5547" levels="1" name="Maximum Ability">
+		<!--
+			Description: "Attack ability, magic power, and heal value increase ."
+			Это заглушка не требующая имплементации.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5548" levels="4" name="Critical Spiritual Energy Attack">
+		<!--
+			Description: Absorbs Soul after Critical Hit.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5549" levels="1" name="Physical Short-range Weakness">
+		<!--
+			Description: NPC Physical weakness
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5550" levels="12" name="NPC Trigger Stun">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5551" levels="12" name="Stun">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5552" levels="12" name="NPC Hill Up">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5553" levels="12" name="NPC HP Region">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5554" levels="12" name="NPC Silence Resistance enhanced">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5555" levels="12" name="NPC Silence Resistance weakened">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5556" levels="1" name="Protection Power">
+		<!--Done by L2Open-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="ADD;100" />
+		<for>
+			<effect count="1" name="AddSkills" stackType="ProtectionOf" stackOrder="1" time="10" val="0">
+				<add order="0x60" stat="mDef" val="1000" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5557" levels="1" name="Protection of Elemental">
+		<!--Done by L2Open-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="ADD;100" />
+		<for>
+			<effect count="1" name="AddSkills" stackType="ProtectionOf" stackOrder="1" time="10" val="0">
+				<add order="0x60" stat="mDef" val="1000" />
+				<add order="0x40" stat="fireRcpt" val="20" />
+				<add order="0x40" stat="waterRcpt" val="20" />
+				<add order="0x40" stat="windRcpt" val="20" />
+				<add order="0x40" stat="earthRcpt" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5558" levels="1" name="Protection of Alignment">
+		<!--Done by L2Open-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="ADD;100" />
+		<for>
+			<effect count="1" name="AddSkills" stackType="ProtectionOf" stackOrder="1" time="10" val="0">
+				<add order="0x60" stat="mDef" val="1000" />
+				<add order="0x40" stat="unholyRcpt" val="20" />
+				<add order="0x40" stat="sacredRcpt" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5559" levels="1" name="Physical Pose">
+		<!--Done by L2Open-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msg="Sword, Blunt,Dagger, Big Blunt, Pole, Fist, Dual Sword, Dual Fist, Big Sword, Rapier, Ancient Sword, Dual Dagger required.">
+			<using kind="Sword,Blunt,Dagger,Big Blunt,Pole,Fist,Dual Sword,Dual Fist,Big Sword,Rapier,Ancient Sword,Dual Dagger" />
+		</cond>
+		<for>
+			<effect count="1" name="AddSkills" stackType="PhysicalPose" stackOrder="1" time="10" val="0">
+				<using kind="Sword,Blunt,Dagger,Big Blunt,Pole,Fist,Dual Sword,Dual Fist,Big Sword,Rapier,Ancient Sword,Dual Dagger" />
+			</effect>
+			<mul order="0x30" stat="physDamage" val="1.05">
+				<using kind="Sword,Blunt,Dagger,Big Blunt,Pole,Fist,Dual Sword,Dual Fist,Big Sword,Rapier,Ancient Sword,Dual Dagger" />
+			</mul>
+			<add order="0x40" stat="rCrit" val="28">
+				<using kind="Sword,Blunt,Dagger,Big Blunt,Pole,Fist,Dual Sword,Dual Fist,Big Sword,Rapier,Ancient Sword,Dual Dagger" />
+			</add>
+		</for>
+	</skill>
+	<skill id="5560" levels="1" name="Archer's Will">
+		<!--Done by L2Open-->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msg="Bow, Crossbow required.">
+			<using kind="Bow,Crossbow" />
+		</cond>
+		<for>
+			<effect count="1" name="AddSkills" stackType="PhysicalPose" stackOrder="1" time="10" val="0">
+				<using kind="Bow,Crossbow" />
+			</effect>
+			<add order="0x40" stat="rCrit" val="9">
+				<using kind="Bow,Crossbow" />
+			</add>
+			<mul order="0x30" stat="physDamage" val="1.05">
+				<using kind="Bow,Crossbow" />
+			</mul>
+		</for>
+	</skill>
+	<skill id="5561" levels="3" name="Seed of Revenge">
+		<!--
+			Done by:	Diamond
+			Last modify:	17.02.2010
+
+			Description:
+			1. The growing seed of revenge. Attack power increases.
+			2. The growing seed of revenge. Attack power and the probability of Critical Hit increase.
+			3. The full grown seed of revenge. Attack power and the probability of Critical hit/damage increase,and the Insane Crusher can be used.
+		-->
+		<table name="#baseCrit">0 18 18</table>
+		<table name="#cAtk">1 1 1.3</table>
+		<table name="#pAtk">200 400 400</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF_CHARGER" />
+		<set name="targetBuff" val="5561" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;15;UNDER_SKILL_ATTACK;15" />
+		<set name="addSkills" val="5561;1" />
+		<set name="negateSkill" val="761" />
+		<for>
+			<effect count="1" name="AddSkills" time="20" val="0">
+				<add order="0x60" stat="pAtk" val="#pAtk" />
+				<add order="0x60" stat="baseCrit" val="#baseCrit" />
+				<mul order="0x50" stat="cAtk" val="#cAtk" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5562" levels="3" name="Spirit of Phoenix">
+		<!--
+			Done by:	Diamond
+			Last modify:	23.02.2010, SYS
+
+			Description:
+			1. Growing Spirit of Phoenix. Increases P. Def.
+			2. Growing Spirit of Phoenix. Defense power,darkness attributes and resistance to fire attributes are increased.
+			3. Spirit of Phoenix which is full of strength. Defense power, darkness attributes and resistance to fire attributes/the amount of received heal are increased, and Flame Gust can be used.
+		-->
+		<table name="#attackUnholy">0 30 30</table>
+		<table name="#fireRcpt">0 30 30</table>
+		<table name="#hpEff">1 1 1.30</table>
+		<table name="#pDef">500 500 500</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF_CHARGER" />
+		<set name="targetBuff" val="5562" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;15;UNDER_SKILL_ATTACK;15" />
+		<set name="addSkills" val="5562;1" />
+		<set name="negateSkill" val="784" />
+		<for>
+			<effect count="1" name="AddSkills" time="20" val="0">
+				<add order="0x60" stat="pDef" val="#pDef" />
+				<add order="0x60" stat="attackUnholy" val="#attackUnholy" />
+				<add order="0x60" stat="fireRcpt" val="#fireRcpt" />
+				<mul order="0x50" stat="hpEff" val="#hpEff" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5563" levels="3" name="Eva's Will">
+		<!--
+			Done by:	Diamond
+			Last modify:	17.02.2010
+
+			Description:
+			1. The growing will of Eva. Increases M. Def.
+			2. The growing will of Eva. M. Def. and Water attribute attacking power increase.
+			3. Revealed Eva's will. M. Def.,Water attribute attacking power,and Critical hit probability increase. Touch of Eva can be used.
+		-->
+		<table name="#mDef">200 400 400</table>
+		<table name="#attackWater">0 30 30</table>
+		<table name="#baseCrit">0 0 18</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF_CHARGER" />
+		<set name="targetBuff" val="5563" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;15;UNDER_SKILL_ATTACK;15" />
+		<set name="addSkills" val="5563;1" />
+		<set name="negateSkill" val="786" />
+		<for>
+			<effect count="1" name="AddSkills" time="20" val="0">
+				<add order="0x60" stat="mDef" val="#mDef" />
+				<add order="0x60" stat="attackWater" val="#attackWater" />
+				<add order="0x60" stat="baseCrit" val="#baseCrit" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5564" levels="3" name="Pain of Shillien">
+		<!--
+			Done by:	Diamond
+			Last modify:	20.09.2009, SYS
+			Description:
+			1. Growing pain of Shillien. Critical damage increases.
+			2. Growing pain of Shillien. Critical damage and Wind attribute attacking power  increases.
+			3. Pain of Shillien in despair. Critical damage and Wind attribute attacking power increases, and part of damage can be absorbed as HP when striking. Can use Touch of Shillien.
+		-->
+		<table name="#attackWind">0 30 30</table>
+		<table name="#absorbDam">0 0 9</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF_CHARGER" />
+		<set name="targetBuff" val="5564" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;15;UNDER_SKILL_ATTACK;15" />
+		<set name="addSkills" val="5564;1" />
+		<set name="negateSkill" val="788" />
+		<for>
+			<effect count="1" name="AddSkills" time="20" val="0">
+				<mul order="0x50" stat="cAtk" val="1.3" />
+				<add order="0x60" stat="attackWind" val="#attackWind" />
+				<add order="0x60" stat="absorbDam" val="#absorbDam" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5565" levels="1" name="Expose Weak Point">
+		<!--
+			Description: "The probability of Critical hit has been increased, and defense power has been decreased."
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5566" levels="1" name="Post of Destruction">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5567" levels="1" name="Flame Armor">
+		<!--
+			Done by:	Diamond
+			Need correct:	power, val
+			Last modify:	04.02.2009, Diamond
+		-->
+		<set name="power" val="100" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="fire" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;5" />
+		<for>
+			<effect count="15" name="DamOverTime" time="1" val="118" />
+		</for>
+	</skill>
+	<skill id="5568" levels="1" name="Frost Armor">
+		<!--
+			Done by:	Diamond
+			Need correct:	power, val
+			Last modify:	04.02.2009, Diamond
+
+			Description:
+			Moving speed has been slowed down.
+		-->
+		<set name="power" val="100" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="water" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;5" />
+		<for>
+			<effect count="1" name="Buff" time="30" val="0">
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5569" levels="1" name="Hurricane Armor">
+		<!--
+			Done by:	Diamond
+			Last modify:	11.04.2010, SYS
+
+			Description: Attacking speed has been slowed down.
+		-->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;5;UNDER_SKILL_ATTACK;5" />
+		<for>
+			<effect count="1" name="Buff" time="30" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="0.77" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5570" levels="1" name="Excessive Royalty">
+		<!--
+			Description: Summoner's Wrath.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5571" levels="1" name="Mutual Response">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5572" levels="1" name="Warrior Ability - Haste">
+		<!--
+			Description: Atk. Spd. increases momentarily.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5573" levels="1" name="Knight Ability - Defense">
+		<!--
+			Description: Defense Power of Knight. Defense Power/Magic Resistance are increased momentarily.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5574" levels="1" name="Log Ability - Critical Chance">
+		<!--
+			Description: Probability of Critical hit increases momentarily.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5575" levels="1" name="Wizard Ability - Mana Steel">
+		<table name="#power">150</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="power" val="#power" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="ATTACK;10" />
+		<for />
+	</skill>
+	<skill id="5576" levels="1" name="Enchanter Ability - Barrier">
+		<!--
+			Description: Enchanter's Defense Barrier Becomes unbeatable momentarily.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5577" levels="1" name="Healer Ability - Heal">
+		<!--
+			Description: Cure by Healer.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5578" levels="1" name="Summoner Ability - Spirit">
+		<!--
+			Description: "Summoner's Possessed Soul. Due to being possessed by the ancient summoner, attack power/attack speed/magic power/magic speed increase."
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5579" levels="1" name="Cubic Cure">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5580" levels="1" name="Divine Beast Bite">
+		<!--
+			Done by:	Diamond
+			Last modify:	26.12.2009
+
+			Description: Bite ferociously with sharp teeth.
+		-->
+		<set name="power" val="2238" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="coolTime" val="720" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+		<for />
+	</skill>
+	<skill id="5581" levels="1" name="Divine Beast Stun Attack">
+		<!--
+			Done by Abaddon 20.08.09
+			Description: Stun and damage enemy. Over-hit is available. Power 704.
+		-->
+		<set name="activateRate" val="50" />
+		<set name="save" val="4" />
+		<set name="power" val="704" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="levelModifier" val="2" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5582" levels="1" name="Divine Beast Fire Breath">
+		<!--
+			Done by Abaddon 20.08.09
+			Description: Attack the enemy by breathing fire. Power 875.
+		-->
+		<set name="power" val="875" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="1" />
+	</skill>
+	<skill id="5583" levels="1" name="Divine Beast Roar">
+		<!--
+			Done by:	Diamond
+			Last modify:	26.12.2009
+
+			Description: Dominate nearby enemies with a mighty roar.
+		-->
+		<set name="effectPoint" val="800" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activateRate" val="80" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0">
+				<mul order="0x30" stat="pAtk" val="0.77" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5584" levels="1" name="Wolf Howl">
+		<!--
+			Done by:	Diamond
+			Last modify:	26.12.2009
+
+			Description: Dominate nearby enemies with a mighty roar. Decrease attack power and magic power.
+		-->
+		<set name="effectPoint" val="1000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activateRate" val="80" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0">
+				<mul order="0x30" stat="pAtk" val="0.77" />
+				<mul order="0x30" stat="mAtk" val="0.77" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5585" levels="1" name="Strider Roar">
+		<!--
+			Done by:	Diamond
+			Last modify:	26.12.2009
+
+			Description: Scare the enemies with a mighty roar. Decrease the attacking speed and magic speed.
+		-->
+		<set name="effectPoint" val="1000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activateRate" val="80" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="0.77" />
+				<mul order="0x30" stat="mAtkSpd" val="0.77" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5586" levels="3" name="Pet Might">
+		<table name="#rate">1.08 1.12 1.15</table>
+		<table name="#abnormal_lv">1 2 3</table>
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="pAtk" time="120" val="0">
+				<mul order="0x30" stat="pAtk" val="#rate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5587" levels="3" name="Pet Shield">
+		<table name="#rate">1.08 1.12 1.15</table>
+		<table name="#abnormal_lv">1 2 3</table>
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="pDef" time="120" val="0">
+				<mul order="0x30" stat="pDef" val="#rate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5588" levels="3" name="Pet Focus">
+		<table name="#rCrit">20 25 30</table>
+		<table name="#abnormal_lv">1 2 3</table>
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="rCrit" time="120" val="0">
+				<add order="0x40" stat="rCrit" val="#rCrit" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5589" levels="3" name="Pet Death Wisper">
+		<table name="#rate">1.30 1.325 1.35</table>
+		<table name="#abnormal_lv">1 2 3</table>
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="cAtk" time="120" val="0">
+				<mul order="0x30" stat="cAtk" val="#rate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5590" levels="12" name="Pet Battle Heal">
+		<table name="#power">91 166 269 398 544 690 817 867 909 954 985 1005</table>
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5591" levels="8" name="Light Flow">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5592" levels="46" name="Lightning Barrier">
+		<!--
+			Description: Temporarily paralyzed.
+		-->
+		<table name="#freq">5 6 6 6 6 6 7 7 7 7 7 8 8 8 8 9 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5</table>
+		<table name="#chance">80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 81 81 82 82 83 83 84 84 85 85 86 86 87 87 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94</table>
+		<set name="activateRate" val="#chance" />
+		<set name="displayLevel" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ON_ACTION" />
+		<set name="triggerActions" val="UNDER_ATTACK;#freq;UNDER_SKILL_ATTACK;#freq" />
+		<for>
+			<effect count="1" name="Paralyze" stackOrder="-1" stackType="paralyze" time="3" val="0" />
+		</for>
+	</skill>
+	<skill id="5593" levels="1" name="Vampiric Mana Burn">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5594" levels="1" name="Poison">
+		<!--
+			Description: HP decreased momentarily by poison. Effect 11.
+		-->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="poison" count="9" name="Poison" stackType="Poison" stackOrder="11" time="3" val="0" />
+		</for>
+	</skill>
+	<skill id="5595" levels="1" name="Bleed">
+		<!--
+			Description: Inflicts a wound that reduces HP. Effect 11.
+		-->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="bleeding" count="10" name="Bleed" stackType="Bleed" stackOrder="11" time="3" val="0" />
+		</for>
+	</skill>
+	<skill id="5596" levels="1" name="Flame">
+		<!--
+			Description: Covered by flames with temporarily decreased HP. Effect 11.
+		-->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5597" levels="1" name="Invalid Skill cancel">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5598" levels="12" name="Flash Resistance">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+	<skill id="5599" levels="12" name="Stun Resistance">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+</list>

@@ -1,0 +1,602 @@
+<list>
+	<zone id="2120" name="[gludio_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="1" />
+		<shape>
+			<coords loc="-22615 104510" />
+			<coords loc="-13290 104564" />
+			<coords loc="-13313 116950" />
+			<coords loc="-22638 116896" />
+		</shape>
+		<restart_point>
+			<coords loc="-16554 109382 -1799 0" />
+			<coords loc="-16869 109375 -1799 0" />
+			<coords loc="-16659 109261 -1799 0" />
+			<coords loc="-16618 109485 -1799 0" />
+		</restart_point>
+	</zone>
+	<zone id="2122" name="[dion_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="2" />
+		<shape>
+			<coords loc="26575 165240" />
+			<coords loc="17250 165186" />
+			<coords loc="17273 152800" />
+			<coords loc="26598 152854" />
+		</shape>
+		<restart_point>
+			<coords loc="20514 160368 -1993 0" />
+			<coords loc="20829 160375 -1993 0" />
+			<coords loc="20619 160489 -1993 0" />
+			<coords loc="20578 160265 -1993 0" />
+		</restart_point>
+	</zone>
+	<zone id="2124" name="[giran_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="3" />
+		<shape>
+			<coords loc="121412 140594" />
+			<coords loc="121358 149919" />
+			<coords loc="108972 149896" />
+			<coords loc="109026 140571" />
+		</shape>
+		<restart_point>
+			<coords loc="116540 146655 -1866 0" />
+			<coords loc="116547 146340 -1866 0" />
+			<coords loc="116661 146550 -1866 0" />
+			<coords loc="116437 146591 -1866 0" />
+		</restart_point>
+	</zone>
+	<zone id="2126" name="[oren_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="4" />
+		<shape>
+			<coords loc="87488 32689" />
+			<coords loc="87434 42014" />
+			<coords loc="75048 41991" />
+			<coords loc="75102 32666" />
+		</shape>
+		<restart_point>
+			<coords loc="82616 38750 -1593 0" />
+			<coords loc="82623 38435 -1593 0" />
+			<coords loc="82737 38645 -1593 0" />
+			<coords loc="82513 38686 -1593 0" />
+		</restart_point>
+	</zone>
+	<zone id="2128" name="[aden_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="5" />
+		<shape>
+			<coords loc="142431 362" />
+			<coords loc="152319 344" />
+			<coords loc="152282 15197" />
+			<coords loc="142393 15215" />
+		</shape>
+		<restart_point>
+			<coords loc="147700 4608 -2784 0" />
+			<coords loc="147705 4865 -2784 0" />
+			<coords loc="147200 4865 -2784 0" />
+			<coords loc="147200 4350 -2784 0" />
+			<coords loc="147705 4350 -2784 0" />
+		</restart_point>
+	</zone>
+	<zone id="2130" name="[innadrile_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="6" />
+		<shape>
+			<coords loc="120526 254019" />
+			<coords loc="111201 253965" />
+			<coords loc="111224 241579" />
+			<coords loc="120549 241633" />
+		</shape>
+		<restart_point>
+			<coords loc="114465 249147 -89 0" />
+			<coords loc="114780 249154 -89 0" />
+			<coords loc="114570 249268 -89 0" />
+			<coords loc="114529 249044 -89 0" />
+		</restart_point>
+	</zone>
+	<zone id="2132" name="[goddard_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="7" />
+		<shape>
+			<coords loc="141457 -51510" />
+			<coords loc="151949 -51510" />
+			<coords loc="151949 -39107" />
+			<coords loc="145899 -39107" />
+			<coords loc="141457 -44407" />
+		</shape>
+		<restart_point>
+			<coords loc="147408 -46448 -963 0" />
+			<coords loc="147520 -46432 -963 0" />
+			<coords loc="147408 -46896 -963 0" />
+			<coords loc="147536 -46896 -963 0" />
+		</restart_point>
+	</zone>
+	<zone id="2133" name="[rune_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="8" />
+		<shape>
+			<coords loc="7000 -55500" />
+			<coords loc="27000 -55500" />
+			<coords loc="27000 -41716" />
+			<coords loc="7000 -41716" />
+		</shape>
+		<restart_point>
+			<coords loc="10598 -49056 3838 0" />
+			<coords loc="10600 -49273 3838 0" />
+			<coords loc="10910 -49270 3838 0" />
+			<coords loc="10893 -49075 3838 0" />
+		</restart_point>
+	</zone>
+	<zone id="2136" name="[schuttgart_castle_002]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="9" />
+		<shape>
+			<coords loc="73000 -156600" />
+			<coords loc="80740 -156600" />
+			<coords loc="80740 -147592" />
+			<coords loc="73000 -147592" />
+		</shape>
+		<restart_point>
+			<coords loc="77550 -150800 771 0" />
+			<coords loc="77550 -150675 771 0" />
+			<coords loc="77610 -150750 771 0" />
+			<coords loc="77470 -150750 771 0" />
+		</restart_point>
+	</zone>
+	<zone id="2141" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="116" />
+		<shape>
+			<coords loc="84333 90362" />
+			<coords loc="78983 95216" />
+			<coords loc="74628 92948" />
+			<coords loc="78791 86678" />
+		</shape>
+		<restart_point>
+			<coords loc="79420 90732 -2487 0" />
+			<coords loc="79376 90658 -2487 0" />
+			<coords loc="79476 90690 -2487 0" />
+			<coords loc="79374 90718 -2487 0" />
+		</restart_point>
+	</zone>
+	<zone id="2142" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="104" />
+		<shape>
+			<coords loc="121771 122233" />
+			<coords loc="127670 118234" />
+			<coords loc="129105 126287" />
+			<coords loc="121832 126712" />
+		</shape>
+		<restart_point>
+			<coords loc="126566 123397 -2286 0" />
+			<coords loc="126446 123407 -2286 0" />
+			<coords loc="126450 123244 -2286 0" />
+			<coords loc="126567 123243 -2286 0" />
+		</restart_point>
+	</zone>
+	<zone id="2143" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="112" />
+		<shape>
+			<coords loc="1113 154622" />
+			<coords loc="1751 144565" />
+			<coords loc="10679 145883" />
+			<coords loc="8571 155110" />
+		</shape>
+		<restart_point>
+			<coords loc="5653 150135 -2592 0" />
+			<coords loc="5713 150141 -2592 0" />
+			<coords loc="5702 150191 -2592 0" />
+			<coords loc="5638 150184 -2592 0" />
+		</restart_point>
+	</zone>
+	<zone id="2144" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="119" />
+		<shape>
+			<coords loc="68143 186247" />
+			<coords loc="71993 180620" />
+			<coords loc="77918 186119" />
+			<coords loc="73931 190453" />
+		</shape>
+		<restart_point>
+			<coords loc="73437 186224 -2284 0" />
+			<coords loc="73469 186269 -2284 0" />
+			<coords loc="73434 186296 -2284 0" />
+			<coords loc="73404 186265 -2284 0" />
+			<coords loc="73455 186233 -2284 0" />
+		</restart_point>
+	</zone>
+	<zone id="2145" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="102" />
+		<shape>
+			<coords loc="-27687 218713" />
+			<coords loc="-28092 220013" />
+			<coords loc="-27297 221398" />
+			<coords loc="-24294 223041" />
+			<coords loc="-20610 223453" />
+			<coords loc="-17490 220504" />
+			<coords loc="-17587 218800" />
+			<coords loc="-18374 217801" />
+			<coords loc="-20840 216746" />
+			<coords loc="-22424 216015" />
+			<coords loc="-24936 216169" />
+		</shape>
+		<restart_point>
+			<coords loc="-22785 219445 -2939 0" />
+			<coords loc="-22732 219423 -2939 0" />
+			<coords loc="-22696 219422 -2939 0" />
+			<coords loc="-22679 219450 -2939 0" />
+			<coords loc="-22764 219389 -2939 0" />
+		</restart_point>
+	</zone>
+	<zone id="2146" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="113" />
+		<shape>
+			<coords loc="-57177 86988" />
+			<coords loc="-49478 87901" />
+			<coords loc="-49292 94718" />
+			<coords loc="-57562 94716" />
+		</shape>
+		<restart_point>
+			<coords loc="-52852 91183 -2522 0" />
+			<coords loc="-52803 91259 -2522 0" />
+			<coords loc="-52874 91245 -2522 0" />
+			<coords loc="-52842 91233 -2522 0" />
+			<coords loc="-52831 91265 -2522 0" />
+		</restart_point>
+	</zone>
+	<zone id="2147" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="106" />
+		<shape>
+			<coords loc="157551 50264" />
+			<coords loc="159337 57292" />
+			<coords loc="153710 60256" />
+			<coords loc="149314 52236" />
+		</shape>
+		<restart_point>
+			<coords loc="155180 55542 -2955 0" />
+			<coords loc="155258 55539 -2955 0" />
+			<coords loc="155201 55615 -2955 0" />
+			<coords loc="155221 55568 -2955 0" />
+			<coords loc="155262 55575 -2955 0" />
+		</restart_point>
+	</zone>
+	<zone id="2148" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="120" />
+		<shape>
+			<coords loc="103286 -58593" />
+			<coords loc="97758 -58744" />
+			<coords loc="98217 -52057" />
+			<coords loc="104245 -52453" />
+		</shape>
+		<restart_point>
+			<coords loc="100772 -54976 -348 0" />
+			<coords loc="100694 -54921 -348 0" />
+			<coords loc="100667 -54950 -348 0" />
+			<coords loc="100751 -54939 -348 0" />
+			<coords loc="100724 -54977 -348 0" />
+		</restart_point>
+	</zone>
+	<zone id="2149" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="110" />
+		<shape>
+			<coords loc="66562 -56044" />
+			<coords loc="74129 -59085" />
+			<coords loc="71769 -66196" />
+			<coords loc="66014 -64570" />
+		</shape>
+		<restart_point>
+			<coords loc="70197 -61594 -2489 0" />
+			<coords loc="70211 -61629 -2489 0" />
+			<coords loc="70203 -61675 -2489 0" />
+			<coords loc="70252 -61587 -2489 0" />
+			<coords loc="70248 -61650 -2489 0" />
+		</restart_point>
+	</zone>
+	<zone id="2150" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="121" />
+		<shape>
+			<coords loc="70021 -90035" />
+			<coords loc="77838 -93225" />
+			<coords loc="73863 -99226" />
+			<coords loc="67407 -96979" />
+		</shape>
+		<restart_point>
+			<coords loc="72560 -94904 -1131 0" />
+			<coords loc="72579 -94931 -1131 0" />
+			<coords loc="72625 -94898 -1131 0" />
+			<coords loc="72610 -94862 -1131 0" />
+			<coords loc="72522 -94953 -1131 0" />
+		</restart_point>
+	</zone>
+	<zone id="2151" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="114" />
+		<shape>
+			<coords loc="62299 143456" />
+			<coords loc="62871 136134" />
+			<coords loc="56461 137781" />
+			<coords loc="57505 144193" />
+		</shape>
+		<restart_point>
+			<coords loc="60676 139337 -1456 0" />
+			<coords loc="60695 139267 -1456 0" />
+			<coords loc="60698 139215 -1456 0" />
+			<coords loc="60735 139231 -1456 0" />
+			<coords loc="60725 139310 -1456 0" />
+		</restart_point>
+	</zone>
+	<zone id="2152" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="118" />
+		<shape>
+			<coords loc="122029 90828" />
+			<coords loc="120235 98330" />
+			<coords loc="129159 98860" />
+			<coords loc="129420 91709" />
+		</shape>
+		<restart_point>
+			<coords loc="125620 95062 -1841 0" />
+			<coords loc="125659 95103 -1841 0" />
+			<coords loc="125625 95126 -1841 0" />
+			<coords loc="125680 95144 -1841 0" />
+			<coords loc="125686 95069 -1841 0" />
+		</restart_point>
+	</zone>
+	<zone id="2153" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="115" />
+		<shape>
+			<coords loc="14978 98219" />
+			<coords loc="14494 91666" />
+			<coords loc="7195 93022" />
+			<coords loc="7557 98392" />
+		</shape>
+		<restart_point>
+			<coords loc="11967 95011 -3129 0" />
+			<coords loc="11938 95036 -3128 0" />
+			<coords loc="11930 94985 -3128 0" />
+			<coords loc="11942 94934 -3128 0" />
+			<coords loc="11969 94952 -3128 0" />
+		</restart_point>
+	</zone>
+	<zone id="2154" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="103" />
+		<shape>
+			<coords loc="19488 183815" />
+			<coords loc="12589 184932" />
+			<coords loc="13615 190923" />
+			<coords loc="20643 192233" />
+		</shape>
+		<restart_point>
+			<coords loc="16891 187828 -2625 0" />
+			<coords loc="16880 187741 -2625 0" />
+			<coords loc="16906 187781 -2625 0" />
+			<coords loc="16955 187791 -2625 0" />
+			<coords loc="16929 187733 -2625 0" />
+		</restart_point>
+	</zone>
+	<zone id="2155" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="108" />
+		<shape>
+			<coords loc="116731 200146" />
+			<coords loc="123721 202847" />
+			<coords loc="120887 211391" />
+			<coords loc="114308 207796" />
+		</shape>
+		<restart_point>
+			<coords loc="118586 204551 -3036 0" />
+			<coords loc="118549 204508 -3036 0" />
+			<coords loc="118518 204486 -3036 0" />
+			<coords loc="118581 204459 -3036 0" />
+			<coords loc="118591 204509 -3036 0" />
+		</restart_point>
+	</zone>
+	<zone id="2156" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="101" />
+		<shape>
+			<coords loc="-57410 160483" />
+			<coords loc="-57616 151883" />
+			<coords loc="-46073 153219" />
+			<coords loc="-46897 159477" />
+		</shape>
+		<restart_point>
+			<coords loc="-52472 156840 -1728 0" />
+			<coords loc="-52440 156952 -1728 0" />
+			<coords loc="-52712 157016 -1728 0" />
+			<coords loc="-52744 156904 -1728 0" />
+		</restart_point>
+	</zone>
+	<zone id="2157" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="107" />
+		<shape>
+			<coords loc="186381 34394" />
+			<coords loc="189400 46025" />
+			<coords loc="193862 37166" />
+			<coords loc="192939 34653" />
+		</shape>
+		<restart_point>
+			<coords loc="190333 39745 -3112 0" />
+			<coords loc="190364 39680 -3111 0" />
+			<coords loc="190333 39668 -3111 0" />
+			<coords loc="190347 39633 -3111 0" />
+			<coords loc="190323 39699 -3111 0" />
+		</restart_point>
+	</zone>
+	<zone id="2158" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="105" />
+		<shape>
+			<coords loc="75874 9374" />
+			<coords loc="76108 -237" />
+			<coords loc="65437 4017" />
+			<coords loc="74604 9539" />
+		</shape>
+		<restart_point>
+			<coords loc="73179 4508 -2746 0" />
+			<coords loc="73208 4500 -2746 0" />
+			<coords loc="73254 4471 -2746 0" />
+			<coords loc="73245 4506 -2746 0" />
+			<coords loc="73230 4540 -2746 0" />
+		</restart_point>
+	</zone>
+	<zone id="2159" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="109" />
+		<shape>
+			<coords loc="153824 -65571" />
+			<coords loc="164278 -68611" />
+			<coords loc="161641 -75824" />
+			<coords loc="151928 -73586" />
+		</shape>
+		<restart_point>
+			<coords loc="159420 -70063 -2565 0" />
+			<coords loc="159489 -70052 -2565 0" />
+			<coords loc="159474 -70021 -2565 0" />
+			<coords loc="159425 -70022 -2565 0" />
+			<coords loc="159403 -69999 -2565 0" />
+		</restart_point>
+	</zone>
+	<zone id="2160" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="111" />
+		<shape>
+			<coords loc="112978 -144933" />
+			<coords loc="104085 -142609" />
+			<coords loc="106007 -134697" />
+			<coords loc="117085 -140079" />
+		</shape>
+		<restart_point>
+			<coords loc="109655 -140837 -2658 0" />
+			<coords loc="109706 -140831 -2658 0" />
+			<coords loc="109719 -140815 -2658 0" />
+			<coords loc="109679 -140786 -2658 0" />
+			<coords loc="109678 -140823 -2658 0" />
+		</restart_point>
+	</zone>
+	<zone id="2161" name="[fortress_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="117" />
+		<shape>
+			<coords loc="108274 -20844" />
+			<coords loc="107469 -11286" />
+			<coords loc="116772 -11528" />
+			<coords loc="114865 -22437" />
+		</shape>
+		<restart_point>
+			<coords loc="111806 -15141 -698 0" />
+			<coords loc="111790 -15204 -698 0" />
+			<coords loc="111781 -15156 -698 0" />
+			<coords loc="111816 -15175 -698 0" />
+			<coords loc="111777 -15174 -698 0" />
+		</restart_point>
+	</zone>
+	<zone id="2171" name="[partisan_agit_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="21" />
+		<shape>
+			<coords loc="42768 109156" />
+			<coords loc="44460 107584" />
+			<coords loc="47219 108081" />
+			<coords loc="48281 109544" />
+			<coords loc="47600 112400" />
+			<coords loc="44092 113504" />
+			<coords loc="43180 112736" />
+		</shape>
+		<restart_point>
+			<coords loc="43370 108839 -1980 0" />
+		</restart_point>
+	</zone>
+	<zone id="2172" name="[devastated_castle_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="34" />
+		<shape>
+			<coords loc="176367 -19559" />
+			<coords loc="180367 -19559" />
+			<coords loc="180367 -13059" />
+			<coords loc="176367 -13059" />
+		</shape>
+		<restart_point>
+			<coords loc="177930 -18629 -2240 0" />
+		</restart_point>
+	</zone>
+	<zone id="2173" name="[bandits_stronghold_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="35" />
+		<shape>
+			<coords loc="79028 -17588" />
+			<coords loc="84640 -19528" />
+			<coords loc="86952 -16888" />
+			<coords loc="83636 -13448" />
+			<coords loc="79196 -13584" />
+		</shape>
+		<restart_point>
+			<coords loc="80339 -15442 -1804 0" />
+		</restart_point>
+	</zone>
+	<zone id="2174" name="[hot_springs_guild_house_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="62" />
+		<shape>
+			<coords loc="141435 -124500" />
+			<coords loc="140575 -124500" />
+			<coords loc="140575 -124710" />
+			<coords loc="141435 -124710" />
+		</shape>
+		<restart_point>
+			<coords loc="141005 -124605 -1870 0" />
+		</restart_point>
+	</zone>
+	<zone id="2175" name="[beast_farm_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="63" />
+		<shape>
+			<coords loc="61250 -93735" />
+			<coords loc="59887 -93735" />
+			<coords loc="59887 -94338" />
+			<coords loc="61250 -94338" />
+		</shape>
+		<restart_point>
+			<coords loc="60568 -94036 -1370 0" />
+		</restart_point>
+	</zone>
+	<zone id="2176" name="[fortress_of_the_dead_siege]" type="Siege" >
+		<set name="enabled" val="false" />
+		<set name="index" val="64" />
+		<shape>
+			<coords loc="59858 -30495" />
+			<coords loc="58555 -31489" />
+			<coords loc="58139 -31962" />
+			<coords loc="57785 -31883" />
+			<coords loc="57178 -31566" />
+			<coords loc="56375 -30479" />
+			<coords loc="55636 -28569" />
+			<coords loc="55340 -26421" />
+			<coords loc="55657 -25513" />
+			<coords loc="56814 -24922" />
+			<coords loc="59058 -25009" />
+			<coords loc="60078 -25196" />
+			<coords loc="60264 -27370" />
+			<coords loc="60983 -28038" />
+			<coords loc="61750 -29064" />
+			<coords loc="61312 -30259" />
+		</shape>
+		<restart_point>
+			<coords loc="57962 -27515 590 0" />
+		</restart_point>
+	</zone>
+</list>

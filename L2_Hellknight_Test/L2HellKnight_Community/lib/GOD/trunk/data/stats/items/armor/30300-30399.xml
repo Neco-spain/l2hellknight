@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="30307" name="R99(Rare) Пояс" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.armor_belt_i03"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1666"/>
+		<set name="p_def" val="25"/>
+	</armor>
+	<armor id="30308" name="R99(Rare) Браслет" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LBRACELET"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="0"/>
+	</armor>
+	<armor id="30309" name="R99(Rare) Рубашка" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="333"/>
+		<set name="p_def" val="50"/>
+	</armor>
+	<armor id="30310" name="Мантия Авелиуса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Рыцарь Сигеля"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30311" name="Мантия Сафироса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Воин Тира"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30312" name="Мантия Кайшунаги" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Разбойник Одала"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30313" name="Мантия Кронвиста" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Лучник Эура"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30314" name="Мантия Сольткрига" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Волшебник Фео"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30315" name="Мантия Набиаропа" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Призыватель Веньо"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30316" name="Мантия Райстера" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Заклинатель Иса"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30317" name="Мантия Лакисиса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="additional_name" val="Целитель Альгиза"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1066"/>
+		<set name="p_def" val="50"/>
+		<set name="m_def" val="40"/>
+	</armor>
+	<armor id="30330" name="Лучшее Ожерелье Хранителя Глудио: Вода" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30331" name="Лучшее Ожерелье Хранителя Диона: Святость" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30332" name="Лучшее Ожерелье Хранителя Гирана: Ветер" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30333" name="Лучшее Ожерелье Хранителя Орена: Тьма" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30334" name="Лучшее Ожерелье Хранителя Адена: Земля" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30335" name="Лучшее Ожерелье Хранителя Иннадрила: Вода" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30336" name="Лучшее Ожерелье Хранителя Годдарда: Огонь" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30337" name="Лучшее Ожерелье Хранителя Руны: Огонь" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30338" name="Лучшее Ожерелье Хранителя Шутгарта: Ветер" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="842"/>
+		<set name="m_def" val="158"/>
+		<set name="mp_bonus" val="62"/>
+	</armor>
+	<armor id="30339" name="Лучшая Серьга Хранителя Глудио: Вода" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30340" name="Лучшая Серьга Хранителя Диона: Святость" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30341" name="Лучшая Серьга Хранителя Гирана: Ветер" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30342" name="Лучшая Серьга Хранителя Орена: Тьма" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30343" name="Лучшая Серьга Хранителя Адена: Земля" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30344" name="Лучшая Серьга Хранителя Иннадрила: Вода" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30345" name="Лучшая Серьга Хранителя Годдарда: Огонь" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30346" name="Лучшая Серьга Хранителя Руны: Огонь" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30347" name="Лучшая Серьга Хранителя Шутгарта: Ветер" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="629"/>
+		<set name="m_def" val="118"/>
+		<set name="mp_bonus" val="46"/>
+	</armor>
+	<armor id="30348" name="Лучшее Кольцо Хранителя Глудио: Земля" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30349" name="Лучшее Кольцо Хранителя Диона: Вода" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30350" name="Лучшее Кольцо Хранителя Гирана: Огонь" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30351" name="Лучшее Кольцо Хранителя Орена: Земля" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30352" name="Лучшее Кольцо Хранителя Адена: Святость" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30353" name="Лучшее Кольцо Хранителя Иннадрила: Святость" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30354" name="Лучшее Кольцо Хранителя Годдарда: Тьма" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30355" name="Лучшее Кольцо Хранителя Руны: Ветер" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30356" name="Лучшее Кольцо Хранителя Шутгарта: Тьма" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="421"/>
+		<set name="m_def" val="79"/>
+		<set name="mp_bonus" val="31"/>
+	</armor>
+	<armor id="30365" name="Шлем" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="608"/>
+		<set name="p_def" val="114"/>
+	</armor>
+	<armor id="30366" name="Сапоги" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t97_b_i00"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1621"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="30367" name="Перчатки" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t97_g_i00"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="405"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="30368" name="Футболка" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="202"/>
+		<set name="p_def" val="38"/>
+	</armor>
+	<armor id="30369" name="Ремень" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.armor_belt_i03"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="30370" name="Браслет" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LBRACELET"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="0"/>
+	</armor>
+	<armor id="30372" name="Мантия Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1333"/>
+		<set name="p_def" val="60"/>
+		<set name="m_def" val="50"/>
+	</armor>
+	<armor id="30373" name="Восхитительная Мантия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BACK"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="weight" val="220"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1333"/>
+		<set name="p_def" val="60"/>
+		<set name="m_def" val="50"/>
+	</armor>
+	<armor id="30383" name="Кольцо Наставника" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessary_enchanted_ring_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="146"/>
+		<set name="m_def" val="55"/>
+		<set name="mp_bonus" val="22"/>
+	</armor>
+</list>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="32318" name="Обычный Талисман - Скор. Физ. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_active"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="32319" name="Обычный Талисман - Физ. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="32320" name="Обычный Талисман - Физ. Защ." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="32321" name="Обычный Талисман - Скор. Маг." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_active"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="32322" name="Обычный Талисман - Маг. Защ." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="32323" name="Обычный Талисман - Маг. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="60"/>
+	</armor>
+	<armor id="32338" name="Фантастическая Бронзовая Кираса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t34_u_i00"/>
+		<set name="weight" val="8920"/>
+		<set name="p_def" val="68"/>
+		<set name="m_def" val="1"/>
+	</armor>
+	<armor id="32339" name="Фантастические Бронзовые Набедренники" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t34_l_i00"/>
+		<set name="weight" val="3960"/>
+		<set name="p_def" val="43"/>
+		<set name="m_def" val="1"/>
+	</armor>
+	<armor id="32340" name="Фантастическая Рубаха из Толстой Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t30_u_i00"/>
+		<set name="weight" val="4720"/>
+		<set name="p_def" val="53"/>
+		<set name="m_def" val="1"/>
+	</armor>
+	<armor id="32341" name="Фантастические Набедренники из Толстой Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t30_l_i00"/>
+		<set name="weight" val="1610"/>
+		<set name="p_def" val="33"/>
+		<set name="m_def" val="1"/>
+	</armor>
+	<armor id="32342" name="Фантастическая Туника Магии" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t58_u_i00"/>
+		<set name="weight" val="2080"/>
+		<set name="p_def" val="34"/>
+		<set name="mp_bonus" val="86"/>
+	</armor>
+	<armor id="32343" name="Фантастические Штаны Магии" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t58_l_i00"/>
+		<set name="weight" val="1030"/>
+		<set name="p_def" val="21"/>
+		<set name="mp_bonus" val="54"/>
+	</armor>
+	<armor id="32344" name="Фантастические Наручи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t30_g_i00"/>
+		<set name="weight" val="650"/>
+		<set name="p_def" val="17"/>
+	</armor>
+	<armor id="32345" name="Фантастические Сапоги" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t30_b_i00"/>
+		<set name="weight" val="1310"/>
+		<set name="p_def" val="17"/>
+		<set name="m_def" val="1"/>
+	</armor>
+	<armor id="32346" name="Фантастический Шлем из Толстой Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="640"/>
+		<set name="p_def" val="26"/>
+	</armor>
+	<armor id="32360" name="Фантастическая Мифриловая Кираса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t19_u_i00"/>
+		<set name="weight" val="8670"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="126"/>
+		<set name="p_def" val="95"/>
+	</armor>
+	<armor id="32361" name="Фантастическиe Мифриловые Набедренники" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t19_l_i00"/>
+		<set name="weight" val="3830"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="122"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="32362" name="Фантастическая Укрепленная Кожаная Рубаха" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t13_u_i00"/>
+		<set name="weight" val="4570"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="97"/>
+		<set name="p_def" val="73"/>
+	</armor>
+	<armor id="32363" name="Фантастическиe Укрепленные Кожаные Набедренники" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t13_l_i00"/>
+		<set name="weight" val="1570"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="92"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32364" name="Фантастическая Туника Знаний" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t41_u_i00"/>
+		<set name="weight" val="2020"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="65"/>
+		<set name="p_def" val="49"/>
+		<set name="mp_bonus" val="147"/>
+	</armor>
+	<armor id="32365" name="Фантастическиe Штаны Знаний" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t41_l_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="60"/>
+		<set name="p_def" val="30"/>
+		<set name="mp_bonus" val="92"/>
+	</armor>
+	<armor id="32366" name="Фантастическиe Укрепленные Кожаные Перчатки" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t13_g_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="16"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32367" name="Фантастическиe Рукавицы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t10_g_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="16"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32368" name="Фантастическиe Кожаные Перчатки Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t1002_g_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="16"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32369" name="Фантастическиe Рукавицы Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t1001_g_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="16"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32370" name="Фантастическиe Пластинчатые Перчатки Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t1003_g_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="16"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32371" name="Фантастическиe Перчатки Знаний" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t41_g_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="16"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32372" name="Фантастическиe Железные Сапоги" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t10_b_i00"/>
+		<set name="weight" val="1280"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="64"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32373" name="Фантастическиe Укрепленные Кожаные Сапоги" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t13_b_i00"/>
+		<set name="weight" val="1280"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="64"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32374" name="Фантастическиe Солереты Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t1001_b_i00"/>
+		<set name="weight" val="1280"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="64"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32375" name="Фантастическиe Сандалии Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t1003_b_i00"/>
+		<set name="weight" val="1280"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="64"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32376" name="Фантастическиe Ботинки Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t1002_b_i00"/>
+		<set name="weight" val="1280"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="64"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32377" name="Фантастическиe Сапоги Знаний" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t41_b_i00"/>
+		<set name="weight" val="1270"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="64"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32378" name="Фантастический Шлем Клятвы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="24"/>
+		<set name="p_def" val="37"/>
+	</armor>
+	<armor id="32379" name="Фантастический Шлем" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="640"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="0"/>
+		<set name="p_def" val="37"/>
+		<set name="m_def" val="1"/>
+	</armor>
+</list>

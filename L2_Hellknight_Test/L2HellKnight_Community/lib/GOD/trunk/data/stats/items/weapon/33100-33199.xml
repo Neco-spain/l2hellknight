@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="33100" name="Расчленитель - Артефакт Судьбы (Огонь)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="210"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33101" name="Лук Угрозы - Артефакт Судьбы (Огонь)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="400"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33102" name="Цербер - Артефакт Судьбы (Огонь)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="245"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33103" name="Топор Мертвеца - Артефакт Судьбы (Огонь)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_deadmans_glory_i01"/>
+		<set name="weight" val="160"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33104" name="Кости Каим Ванула - Артефакт Судьбы (Огонь)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="weight" val="157"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33105" name="Посох Злых Духов - Артефакт Судьбы (Огонь)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Благословение Тела"/>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="weight" val="93"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="189"/>
+		<set name="m_dam" val="145"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33106" name="Пика - Артефакт Судьбы (Огонь)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="weight" val="192"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33107" name="Цестус Беллиона - Артефакт Судьбы (Огонь)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Ускорение"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="weight" val="139"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33108" name="Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Судьбы (Огонь)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="208"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33109" name="Кинжал Демона - Артефакт Судьбы (Вода)" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_demons_sword_i01"/>
+		<set name="weight" val="97"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33110" name="Дамаскус - Артефакт Судьбы (Вода)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_sword_of_damascus_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33111" name="Слезы Чародея - Артефакт Судьбы (Вода)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33112" name="Колишмард - Артефакт Судьбы (Вода)" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_colichemarde_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="176"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33113" name="Меч Стража - Артефакт Судьбы (Вода)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_guardians_sword_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33114" name="Расчленитель - Артефакт Судьбы (Вода)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="210"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33115" name="Лук Угрозы - Артефакт Судьбы (Вода)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="400"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33116" name="Цербер - Артефакт Судьбы (Вода)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="245"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33117" name="Топор Мертвеца - Артефакт Судьбы (Вода)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_deadmans_glory_i01"/>
+		<set name="weight" val="160"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33118" name="Кости Каим Ванула - Артефакт Судьбы (Вода)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="weight" val="157"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33119" name="Посох Злых Духов - Артефакт Судьбы (Вода)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Благословение Тела"/>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="weight" val="93"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="189"/>
+		<set name="m_dam" val="145"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33120" name="Пика - Артефакт Судьбы (Вода)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="weight" val="192"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33121" name="Цестус Беллиона - Артефакт Судьбы (Вода)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Ускорение"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="weight" val="139"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33122" name="Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Судьбы (Вода)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="208"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33123" name="Кинжал Демона - Артефакт Судьбы (Ветер)" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_demons_sword_i01"/>
+		<set name="weight" val="97"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33124" name="Дамаскус - Артефакт Судьбы (Ветер)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_sword_of_damascus_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33125" name="Слезы Чародея - Артефакт Судьбы (Ветер)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33126" name="Колишмард - Артефакт Судьбы (Ветер)" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_colichemarde_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="176"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33127" name="Меч Стража - Артефакт Судьбы (Ветер)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_guardians_sword_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33128" name="Расчленитель - Артефакт Судьбы (Ветер)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="210"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33129" name="Лук Угрозы - Артефакт Судьбы (Ветер)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="400"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33130" name="Цербер - Артефакт Судьбы (Ветер)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="245"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33131" name="Топор Мертвеца - Артефакт Судьбы (Ветер)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_deadmans_glory_i01"/>
+		<set name="weight" val="160"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33132" name="Кости Каим Ванула - Артефакт Судьбы (Ветер)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="weight" val="157"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33133" name="Посох Злых Духов - Артефакт Судьбы (Ветер)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Благословение Тела"/>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="weight" val="93"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="189"/>
+		<set name="m_dam" val="145"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33134" name="Пика - Артефакт Судьбы (Ветер)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="weight" val="192"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33135" name="Цестус Беллиона - Артефакт Судьбы (Ветер)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Ускорение"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="weight" val="139"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33136" name="Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Судьбы (Ветер)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="208"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33137" name="Кинжал Демона - Артефакт Судьбы (Земля)" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_demons_sword_i01"/>
+		<set name="weight" val="97"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33138" name="Дамаскус - Артефакт Судьбы (Земля)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_sword_of_damascus_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33139" name="Слезы Чародея - Артефакт Судьбы (Земля)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33140" name="Колишмард - Артефакт Судьбы (Земля)" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_colichemarde_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="176"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33141" name="Меч Стража - Артефакт Судьбы (Земля)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_guardians_sword_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33142" name="Расчленитель - Артефакт Судьбы (Земля)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="210"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33143" name="Лук Угрозы - Артефакт Судьбы (Земля)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="400"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33144" name="Цербер - Артефакт Судьбы (Земля)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="245"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33145" name="Топор Мертвеца - Артефакт Судьбы (Земля)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_deadmans_glory_i01"/>
+		<set name="weight" val="160"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33146" name="Кости Каим Ванула - Артефакт Судьбы (Земля)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="weight" val="157"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33147" name="Посох Злых Духов - Артефакт Судьбы (Земля)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Благословение Тела"/>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="weight" val="93"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="189"/>
+		<set name="m_dam" val="145"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33148" name="Пика - Артефакт Судьбы (Земля)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="weight" val="192"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33149" name="Цестус Беллиона - Артефакт Судьбы (Земля)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Ускорение"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="weight" val="139"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33150" name="Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Судьбы (Земля)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="208"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33151" name="Кинжал Демона - Артефакт Судьбы (Святость)" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_demons_sword_i01"/>
+		<set name="weight" val="97"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33152" name="Дамаскус - Артефакт Судьбы (Святость)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_sword_of_damascus_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33153" name="Слезы Чародея - Артефакт Судьбы (Святость)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33154" name="Колишмард - Артефакт Судьбы (Святость)" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_colichemarde_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="176"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33155" name="Меч Стража - Артефакт Судьбы (Святость)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_guardians_sword_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33156" name="Расчленитель - Артефакт Судьбы (Святость)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="210"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33157" name="Лук Угрозы - Артефакт Судьбы (Святость)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="400"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33158" name="Цербер - Артефакт Судьбы (Святость)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="245"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33159" name="Топор Мертвеца - Артефакт Судьбы (Святость)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_deadmans_glory_i01"/>
+		<set name="weight" val="160"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33160" name="Кости Каим Ванула - Артефакт Судьбы (Святость)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="weight" val="157"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33161" name="Посох Злых Духов - Артефакт Судьбы (Святость)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Благословение Тела"/>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="weight" val="93"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="189"/>
+		<set name="m_dam" val="145"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33162" name="Пика - Артефакт Судьбы (Святость)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="weight" val="192"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33163" name="Цестус Беллиона - Артефакт Судьбы (Святость)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Ускорение"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="weight" val="139"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33164" name="Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Судьбы (Святость)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="208"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33165" name="Кинжал Демона - Артефакт Судьбы (Тьма)" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_demons_sword_i01"/>
+		<set name="weight" val="97"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33166" name="Дамаскус - Артефакт Судьбы (Тьма)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_sword_of_damascus_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33167" name="Слезы Чародея - Артефакт Судьбы (Тьма)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33168" name="Колишмард - Артефакт Судьбы (Тьма)" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_colichemarde_i01"/>
+		<set name="weight" val="135"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="176"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33169" name="Меч Стража - Артефакт Судьбы (Тьма)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_guardians_sword_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33170" name="Расчленитель - Артефакт Судьбы (Тьма)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="weight" val="193"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="210"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33171" name="Лук Угрозы - Артефакт Судьбы (Тьма)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="400"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33172" name="Цербер - Артефакт Судьбы (Тьма)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="weight" val="170"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="245"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33173" name="Топор Мертвеца - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_deadmans_glory_i01"/>
+		<set name="weight" val="160"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33174" name="Кости Каим Ванула - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="weight" val="157"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="155"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33175" name="Посох Злых Духов - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Благословение Тела"/>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="weight" val="93"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="189"/>
+		<set name="m_dam" val="145"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33176" name="Пика - Артефакт Судьбы (Тьма)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="weight" val="192"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="194"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33177" name="Цестус Беллиона - Артефакт Судьбы (Тьма)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Ускорение"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="weight" val="139"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="33178" name="Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Судьбы (Тьма)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="208"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="236"/>
+		<set name="m_dam" val="99"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33184" name="Щит Темного Дракона - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.shield_dark_dragon_shield_i00"/>
+		<set name="weight" val="480"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="230"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+	<weapon id="33199" name="Щит Темного Дракона - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.shield_dark_dragon_shield_i00"/>
+		<set name="weight" val="480"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="230"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+</list>

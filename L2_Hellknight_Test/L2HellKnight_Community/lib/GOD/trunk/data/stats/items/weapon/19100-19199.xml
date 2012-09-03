@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="19100" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19101" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Радиус Удара"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19102" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19103" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19104" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Замедление"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19105" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19106" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19107" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Магические Оковы"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19108" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19109" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="19110" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19111" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Магические Оковы"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19112" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Регенерация MP"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19113" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19114" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="19115" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19116" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19117" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="19118" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19119" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19120" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19121" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19122" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19123" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19124" name="Благословенное Острие Богов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение + Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="559"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19125" name="Благословенное Острие Богов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="559"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19126" name="Благословенное Острие Богов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Наведение"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="559"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19127" name="Благословенный Резак Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19128" name="Благословенный Резак Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Здоровье"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="19129" name="Благословенный Резак Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье + Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19130" name="Благословенный Эспадон Богов" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19131" name="Благословенный Эспадон Богов" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19132" name="Благословенный Эспадон Богов" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19133" name="Благословенный Мститель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение + Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19134" name="Благословенный Мститель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение + Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19135" name="Благословенный Мститель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Наведение"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19136" name="Благословенный Воитель Богов" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_octoclaw_i01"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19137" name="Благословенный Воитель Богов" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Ускорение"/>
+		<set name="icon" val="icon.weapon_octoclaw_i01"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19138" name="Благословенный Воитель Богов" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Фокусировка"/>
+		<set name="icon" val="icon.weapon_octoclaw_i01"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19139" name="Благословенный Буревестник Богов" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Поглощение HP + Наведение"/>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3602" lvl="10"/>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19140" name="Благословенный Буревестник Богов" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19141" name="Благословенный Буревестник Богов" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Поглощение HP"/>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3602" lvl="10"/>
+		</skills>
+	</weapon>
+	<weapon id="19142" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Радиус Удара"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19143" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Радиус Удара + Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19144" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19145" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Крит. Замедление"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="19146" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Замедление + Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19147" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19148" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность + Магические Оковы"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19149" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Магические Оковы + Добавление Маны"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19150" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны + Проницательность"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19151" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление + Добавление Маны"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19152" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны + Магические Оковы"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19153" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Магические Оковы + Воодушевление"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="19154" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Регенерация MP + Проницательность"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="19155" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность + Воодушевление"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="19156" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление + Регенерация MP"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="19157" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19158" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Здоровье"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="19159" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье + Ускорение"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19160" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Фокусировка"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="19161" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Наведение"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19162" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение + Увелич. Урона "/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19163" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка + Наведение"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19164" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение + Увелич. Урона"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="19165" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Увелич. Урона + Фокусировка "/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+</list>

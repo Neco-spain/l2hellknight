@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="32800" name="Скованные Запечатанные Перчатки Синего Волка" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t68_g_i02"/>
+		<set name="weight" val="590"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="32801" name="Скованные Запечатанные Перчатки Рока" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t71_g_i02"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="32802" name="Скованные Запечатанные Сапоги Зубея" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t64_b_i00"/>
+		<set name="weight" val="1180"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="328"/>
+		<set name="p_def" val="41"/>
+	</armor>
+	<armor id="32803" name="Скованные Запечатанные Сапоги Авадона" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t66_b_i00"/>
+		<set name="weight" val="1180"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="328"/>
+		<set name="p_def" val="41"/>
+	</armor>
+	<armor id="32804" name="Скованные Запечатанные Сапоги Синего Волка" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t68_b_i02"/>
+		<set name="weight" val="1130"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="32805" name="Скованные Запечатанные Сапоги Рока" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t71_b_i02"/>
+		<set name="weight" val="1130"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="32806" name="Скованные Запечатанные Перчатки Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t74_g_i02"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="122"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32807" name="Скованные Запечатанные Перчатки Таллума" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t77_g_i02"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="122"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32808" name="Скованные Запечатанные Рукавицы Кошмаров" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t80_g_i02"/>
+		<set name="weight" val="550"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="130"/>
+		<set name="p_def" val="49"/>
+	</armor>
+	<armor id="32809" name="Скованные Запечатанные Рукавицы Величия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t83_g_i02"/>
+		<set name="weight" val="540"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="130"/>
+		<set name="p_def" val="49"/>
+	</armor>
+	<armor id="32810" name="Скованные Запечатанные Сапоги Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t74_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="490"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32811" name="Скованные Запечатанные Сапоги Таллума" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t77_b_i02"/>
+		<set name="weight" val="1130"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="490"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32812" name="Скованные Запечатанные Сапоги Кошмаров" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t80_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="522"/>
+		<set name="p_def" val="49"/>
+	</armor>
+	<armor id="32813" name="Скованные Запечатанные Сапоги Величия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t83_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="522"/>
+		<set name="p_def" val="49"/>
+	</armor>
+	<armor id="32871" name="Деревянный Шлем - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="66"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32872" name="Деревянная Кираса - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t06_u_i00"/>
+		<set name="weight" val="482"/>
+		<set name="p_def" val="47"/>
+	</armor>
+	<armor id="32873" name="Деревянные Набедренники - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t06_l_i00"/>
+		<set name="weight" val="167"/>
+		<set name="p_def" val="29"/>
+	</armor>
+	<armor id="32875" name="Кожаный Шлем - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="65"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32876" name="Туника Преданности - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t55_u_i00"/>
+		<set name="weight" val="209"/>
+		<set name="p_def" val="30"/>
+		<set name="mp_bonus" val="67"/>
+	</armor>
+	<armor id="32877" name="Штаны Преданности - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t55_l_i00"/>
+		<set name="weight" val="104"/>
+		<set name="p_def" val="19"/>
+		<set name="mp_bonus" val="42"/>
+	</armor>
+	<armor id="32878" name="Кожаные Перчатки - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t32_g_i00"/>
+		<set name="weight" val="65"/>
+		<set name="p_def" val="15"/>
+	</armor>
+	<armor id="32879" name="Простые Сапоги - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t32_b_i00"/>
+		<set name="weight" val="132"/>
+		<set name="p_def" val="15"/>
+	</armor>
+	<armor id="32880" name="Деревянный Шлем - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="66"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32881" name="Деревянная Кираса - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t06_u_i00"/>
+		<set name="weight" val="482"/>
+		<set name="p_def" val="47"/>
+	</armor>
+	<armor id="32882" name="Деревянные Набедренники - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t06_l_i00"/>
+		<set name="weight" val="167"/>
+		<set name="p_def" val="29"/>
+	</armor>
+	<armor id="32884" name="Кожаный Шлем - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="65"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32885" name="Туника Преданности - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t55_u_i00"/>
+		<set name="weight" val="209"/>
+		<set name="p_def" val="30"/>
+		<set name="mp_bonus" val="67"/>
+	</armor>
+	<armor id="32886" name="Штаны Преданности - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t55_l_i00"/>
+		<set name="weight" val="104"/>
+		<set name="p_def" val="19"/>
+		<set name="mp_bonus" val="42"/>
+	</armor>
+	<armor id="32887" name="Кожаные Перчатки - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t32_g_i00"/>
+		<set name="weight" val="65"/>
+		<set name="p_def" val="15"/>
+	</armor>
+	<armor id="32888" name="Простые Сапоги - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t32_b_i00"/>
+		<set name="weight" val="132"/>
+		<set name="p_def" val="15"/>
+	</armor>
+</list>

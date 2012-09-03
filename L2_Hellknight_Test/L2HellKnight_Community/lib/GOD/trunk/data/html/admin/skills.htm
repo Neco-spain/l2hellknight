@@ -1,0 +1,36 @@
+﻿<html><title>WesteroS Админ Панель</title><body>
+<table width=260>
+<tr>
+<td width=40><button value="Главная" action="bypass -h admin_admin" width=40 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>Меню умений</center></td>
+<td width=40><button value="Назад" action="bypass -h admin_show_skills" width=40 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=200>
+<tr><td><a action="bypass -h admin_show_html skills/Human/human.htm"><font color="deba73">Умения человека</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Elf/elf.htm"><font color="bddf94">Умения эльфа</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/DarkElf/delf.htm"><font color="b5a6c6">Умения темного эльфа</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Orc/orc.htm"><font color="b5dfad">Умения орка</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Dwarf/dwarf.htm"><font color="d6aa63">Умения гнома</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Kamael/kamael.htm"><font color="ffffff">Умения камаэль</font></a></td></tr>
+<tr><td><br><a action="bypass -h admin_show_html skills/Special/Common_Skills.htm"><font color="676767">Общие умения</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Special/Clan_Skills.htm"><font color="9a9a9a">Клановые умения</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Special/Hero_Skills.htm"><font color="88aaaa">Умения героев</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Special/Nobless_Skills.htm"><font color="77bbbb">Умения нублес</font></a></td></tr>
+<tr><td><a action="bypass -h admin_show_html skills/Special/GM_Skills.htm"><font color="66cccc">Умения Гма</font></a></td></tr>
+</table>
+<br><br>Добавить умение через ID:<br>
+<table width=270>
+<tr>
+<td>Умение ID:</td>
+<td>Уровень:</td>
+<td></td>
+</tr>
+<tr>
+<td><edit var="id" width=60></td>
+<td><edit var="level" width=60></td>
+<td><button value="Дать умение" action="bypass -h admin_add_skill $id $level" width=100 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+</body></html>

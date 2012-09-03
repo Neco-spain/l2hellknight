@@ -1,0 +1,1 @@
+ant -f build_core.xml -l compile_core.log

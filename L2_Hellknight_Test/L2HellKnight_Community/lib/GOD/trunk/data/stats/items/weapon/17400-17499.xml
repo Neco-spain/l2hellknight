@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="17401" name="Щит Кадейры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="505"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="17416" name="Острие Хелиоса" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_stanpid_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="527"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17417" name="Резак Хелиоса" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_plenitas_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="602"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17418" name="Эспадон Хелиоса" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_bauen_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="733"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17419" name="Мститель Хелиоса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_qutram_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="602"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17420" name="Воитель Хелиоса" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_octoclaw_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="733"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17421" name="Буревестник Хелиоса" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_crabel_i00"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="602"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17422" name="Бросок Хелиоса" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_castron_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1185"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17423" name="Страж Хелиоса" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_stilla_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="763"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="17424" name="Расчленитель Хелиоса" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weaon_serapear_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="350"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17425" name="Заклинатель Хелиоса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_pilia_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="350"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17426" name="Возмездие Хелиоса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_shaelon_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="587"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17427" name="Парные Мечи Хелиоса" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="733"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17428" name="Парные Кинжалы Хелиоса" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="602"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17429" name="Парные Дубины Хелиоса" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="733"/>
+		<set name="m_dam" val="298"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17435" name="Щит Айдиоса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.weapon_akra_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="526"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="17450" name="Благословенное Острие Богов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_shaper_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="559"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17451" name="Благословенный Резак Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_cutter_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17452" name="Благословенный Эспадон Богов" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_slasher_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17453" name="Благословенный Мститель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_avenger_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17454" name="Благословенный Воитель Богов" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_octoclaw_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17455" name="Благословенный Буревестник Богов" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_stormer_i00"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17456" name="Благословенный Бросок Богов" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_thrower_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1257"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17457" name="Благословенный Страж Богов" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_schutze_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="809"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="17458" name="Благословенный Расчленитель Богов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_burster_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17459" name="Благословенный Заклинатель Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_caster_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="511"/>
+		<set name="m_dam" val="371"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17460" name="Благословенное Возмездие Богов" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_singer_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="622"/>
+		<set name="m_dam" val="408"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17461" name="Благословенные Парные Мечи Богов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17462" name="Благословенные Парные Кинжалы Богов" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="639"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17463" name="Благословенные Парные Дубины Богов" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="778"/>
+		<set name="m_dam" val="327"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17469" name="Благословенный Щит Богов" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="547"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+</list>

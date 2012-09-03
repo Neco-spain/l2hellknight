@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="16025" name="Freya Necklace" type="NONE">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 19.01.2011-21:55-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="accessary_queen_of_ice_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="S80"/>
+		<set name="crystal_count" val="237"/>
+		<set name="m_def" val="125"/>
+		<set name="mp_bonus" val="50"/>
+		<set name="price" val="4940000"/>
+		<skills>
+			<skill id="8459" lvl="1"/>
+		</skills>
+	</armor>
+	<armor id="16026" name="Blessed Freya Necklace" type="NONE">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 19.01.2011-21:55-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="accessary_queen_of_ice_necklace_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="S80"/>
+		<set name="crystal_count" val="237"/>
+		<set name="m_def" val="132"/>
+		<set name="mp_bonus" val="50"/>
+		<set name="price" val="4940000"/>
+		<skills>
+			<skill id="8460" lvl="1"/>
+		</skills>
+	</armor>
+</list>

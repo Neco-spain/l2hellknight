@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="17823" name="Камень Жизни Головных Аксессуаров (Воин)" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>
+	<etcitem id="17824" name="Камень Жизни Головных Аксессуаров (Маг)" type="OTHER">
+		<set name="icon" val=""/>
+		<set name="class" val="MISC"/>
+		<set name="stackable" val="true"/>
+		<set name="weight" val="2"/>
+		<set name="price" val="0"/>	
+	</etcitem>	
+</list>

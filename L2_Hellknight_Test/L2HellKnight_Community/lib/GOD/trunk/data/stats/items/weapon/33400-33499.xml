@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="33400" name="Возмездие Венеры - Артефакт Судьбы (Святость)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_vesper_retributer_i01"/>
+		<set name="weight" val="174"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33401" name="Певец Венеры - Артефакт Судьбы (Святость)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="108"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="386"/>
+		<set name="m_dam" val="257"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33402" name="Буревестник Венеры - Артефакт Судьбы (Святость)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01"/>
+		<set name="weight" val="201"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="396"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33403" name="Воитель Венеры - Артефакт Судьбы (Святость)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01"/>
+		<set name="weight" val="155"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33404" name="Парные Мечи Венеры - Артефакт Судьбы (Святость)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="152"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33405" name="Острие Венеры - Артефакт Судьбы (Тьма)" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="weight" val="152"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="346"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33406" name="Парные Кинжалы Венеры - Артефакт Судьбы (Тьма)" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.dual_dagger_i00"/>
+		<set name="weight" val="205"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="360"/>
+		<set name="m_dam" val="181"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="33407" name="Резак Венеры - Артефакт Судьбы (Тьма)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="weight" val="152"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="396"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33408" name="Расчленитель Венеры - Артефакт Судьбы (Тьма)" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="weight" val="152"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="317"/>
+		<set name="m_dam" val="234"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33409" name="Клещи Венеры - Артефакт Судьбы (Тьма)" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="weight" val="128"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="359"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33410" name="Эспадон Венеры - Артефакт Судьбы (Тьма)" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="weight" val="174"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33411" name="Оскал Венеры - Артефакт Судьбы (Тьма)" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_nagen_i01"/>
+		<set name="weight" val="180"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="429"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33412" name="Бросок Венеры - Артефакт Судьбы (Тьма)" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="weight" val="152"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="6"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="724"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33413" name="Страж Венеры - Артефакт Судьбы (Тьма)" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="weight" val="158"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="444"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33414" name="Мститель Венеры - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="weight" val="174"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="396"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33415" name="Заклинатель Венеры - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="weight" val="108"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="317"/>
+		<set name="m_dam" val="234"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="33416" name="Возмездие Венеры - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_vesper_retributer_i01"/>
+		<set name="weight" val="174"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="33417" name="Певец Венеры - Артефакт Судьбы (Тьма)" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="weight" val="108"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="386"/>
+		<set name="m_dam" val="257"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="33418" name="Буревестник Венеры - Артефакт Судьбы (Тьма)" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01"/>
+		<set name="weight" val="201"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="396"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33419" name="Воитель Венеры - Артефакт Судьбы (Тьма)" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01"/>
+		<set name="weight" val="155"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="33420" name="Парные Мечи Венеры - Артефакт Судьбы (Тьма)" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="152"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="482"/>
+		<set name="m_dam" val="176"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="33424" name="Щит Венеры - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="weight" val="113"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="371"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+	<weapon id="33441" name="Защитник Венеры - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="weight" val="113"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="371"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+</list>

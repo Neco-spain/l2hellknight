@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="32200" name="Благословенный Кожаный Шлем Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="additional_name" val="Смерт."/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="32201" name="Благословенный Кожаный Доспех Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="additional_name" val="Смерт."/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2677"/>
+		<set name="p_def" val="251"/>
+	</armor>
+	<armor id="32202" name="Благословенные Кожаные Брюки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="additional_name" val="Смерт."/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2512"/>
+		<set name="p_def" val="157"/>
+	</armor>
+	<armor id="32203" name="Благословенные Кожаные Перчатки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="additional_name" val="Смерт."/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32204" name="Благословенные Кожаные Сапоги Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="additional_name" val="Смерт."/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32205" name="Благословенная Диадема Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Маг."/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="32206" name="Благословенная Туника Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="additional_name" val="Маг."/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="168"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="32207" name="Благословенные Штаны Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="additional_name" val="Маг."/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1680"/>
+		<set name="p_def" val="105"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="32208" name="Благословенные Перчатки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="additional_name" val="Маг."/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32209" name="Благословенные Ботинки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="additional_name" val="Маг."/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32210" name="Благословенный Шлем Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Защит."/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="32211" name="Благословенная Кираса Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t401_u_i00"/>
+		<set name="additional_name" val="Защит."/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3573"/>
+		<set name="p_def" val="335"/>
+	</armor>
+	<armor id="32212" name="Благословенные Набедренники Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t401_l_i00"/>
+		<set name="additional_name" val="Защит."/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3344"/>
+		<set name="p_def" val="209"/>
+	</armor>
+	<armor id="32213" name="Благословенные Рукавицы Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t401_g_i00"/>
+		<set name="additional_name" val="Защит."/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32214" name="Благословенные Сапоги Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t401_b_i00"/>
+		<set name="additional_name" val="Защит."/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32216" name="Благословенный Кожаный Шлем Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="additional_name" val="Усил."/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="32217" name="Благословенный Кожаный Доспех Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="additional_name" val="Усил."/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2677"/>
+		<set name="p_def" val="251"/>
+	</armor>
+	<armor id="32218" name="Благословенные Кожаные Брюки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="additional_name" val="Усил."/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2512"/>
+		<set name="p_def" val="157"/>
+	</armor>
+	<armor id="32219" name="Благословенные Кожаные Перчатки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="additional_name" val="Усил."/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32220" name="Благословенные Кожаные Сапоги Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="additional_name" val="Усил."/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32221" name="Благословенная Диадема Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="additional_name" val="Восст."/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="32222" name="Благословенная Туника Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="additional_name" val="Восст."/>
+		<set name="weight" val="1750"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="168"/>
+		<set name="mp_bonus" val="649"/>
+	</armor>
+	<armor id="32223" name="Благословенные Штаны Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="additional_name" val="Восст."/>
+		<set name="weight" val="850"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1680"/>
+		<set name="p_def" val="105"/>
+		<set name="mp_bonus" val="427"/>
+	</armor>
+	<armor id="32224" name="Благословенные Перчатки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="additional_name" val="Восст."/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32225" name="Благословенные Ботинки Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="additional_name" val="Восст."/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32289" name="Кольцо Воина-Хранителя Олимпиады" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LRFINGER"/>
+		<set name="icon" val="icon.accessory_ring_of_hero_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="464"/>
+		<set name="m_def" val="87"/>
+		<set name="mp_bonus" val="28"/>
+	</armor>
+	<armor id="32290" name="Ожерелье Воина-Хранителя Олимпиады" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="NECK"/>
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="928"/>
+		<set name="m_def" val="174"/>
+		<set name="mp_bonus" val="57"/>
+	</armor>
+	<armor id="32291" name="Серьга Воина-Хранителя Олимпиады" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LREAR"/>
+		<set name="icon" val="icon.accessory_earring_of_hero_i00"/>
+		<set name="weight" val="150"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="698"/>
+		<set name="m_def" val="131"/>
+		<set name="mp_bonus" val="42"/>
+	</armor>
+</list>

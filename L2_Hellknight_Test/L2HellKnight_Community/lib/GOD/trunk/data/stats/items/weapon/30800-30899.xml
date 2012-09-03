@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="30800" name="Скованный Топор Войны" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_war_axe_i01"/>
+		<set name="weight" val="1660"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="139"/>
+		<set name="m_dam" val="76"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="30801" name="Скованный Молот Войны" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_war_hammer_i00"/>
+		<set name="weight" val="2080"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="64"/>
+		<set name="m_dam" val="39"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30802" name="Скованный Джамадхар" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_single-edged_jamadhr_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="62"/>
+		<set name="m_dam" val="32"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="30803" name="Скованная Секира Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i00"/>
+		<set name="weight" val="1950"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30804" name="Скованная Секира Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="weight" val="1950"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30805" name="Скованная Секира Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Радиус Удара"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="weight" val="1950"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30806" name="Скованная Секира Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Угол Атаки"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="weight" val="1950"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30807" name="Скованная Глефа Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_orcish_glaive_i00"/>
+		<set name="weight" val="2030"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="107"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30808" name="Скованная Глефа Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Злость"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i01"/>
+		<set name="weight" val="2030"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="107"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30809" name="Скованная Глефа Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Оглушение"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i01"/>
+		<set name="weight" val="2030"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="107"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30810" name="Скованная Глефа Орков" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Радиус Удара"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i01"/>
+		<set name="weight" val="2030"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="107"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30816" name="Скованный Пронзатель Душ" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="weight" val="1660"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="528"/>
+		<set name="m_dam" val="125"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30817" name="Скованный Пронзатель Душ" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Экономия"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="weight" val="1660"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="528"/>
+		<set name="m_dam" val="125"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30818" name="Скованный Пронзатель Душ" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="weight" val="1660"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="528"/>
+		<set name="m_dam" val="125"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30819" name="Скованный Пронзатель Душ" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Отравление"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="weight" val="1660"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="528"/>
+		<set name="m_dam" val="125"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30820" name="Скованный Глаз Духа" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="30821" name="Скованный Глаз Духа" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Добавление Маны"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3014" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="30822" name="Скованный Глаз Духа" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Отравление"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30823" name="Скованный Глаз Духа" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Проницательность"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3047" lvl="3"/>
+		</skills>
+	</weapon>
+	<weapon id="30826" name="Скованный Рог Славы" type="ETC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_horn_of_glory_i00"/>
+		<set name="weight" val="540"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="98"/>
+		<set name="m_dam" val="91"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30827" name="Скованная Булава Мага" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_mace_of_miracle_i00"/>
+		<set name="weight" val="1250"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="41"/>
+		<set name="m_dam" val="43"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="30829" name="Скованный Меч Эльфов*Меч Революции" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="2410"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="136"/>
+		<set name="m_dam" val="63"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30830" name="Скованный Меч Эльфов*Меч Эльфов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="2440"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="118"/>
+		<set name="m_dam" val="56"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30831" name="Скованный Меч Эльфов*Длинный Меч Эльфов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="2410"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="148"/>
+		<set name="m_dam" val="68"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30832" name="Скованный Меч Эльфов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elven_sword_i00"/>
+		<set name="weight" val="1470"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="64"/>
+		<set name="m_dam" val="39"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30833" name="Скованный Эльфийский Лук" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elven_bow_i00"/>
+		<set name="weight" val="1850"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="2"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="105"/>
+		<set name="m_dam" val="32"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30841" name="Скованный Длинный Меч Эльфов*Длинный Меч Эльфов" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="weight" val="2340"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="162"/>
+		<set name="m_dam" val="73"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30842" name="Скованный Длинный Меч Эльфов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elven_long_sword_i00"/>
+		<set name="weight" val="1440"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="92"/>
+		<set name="m_dam" val="54"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30843" name="Скованный Длинный Меч Эльфов" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elven_long_sword_i00"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="92"/>
+		<set name="m_dam" val="54"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30846" name="Скованный Элизиум" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="232"/>
+		<set name="m_dam" val="114"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="30847" name="Скованный Элизиум" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="232"/>
+		<set name="m_dam" val="114"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="30848" name="Скованный Элизиум" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Злость"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="232"/>
+		<set name="m_dam" val="114"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30849" name="Скованный Элизиум" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Поглощение HP"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="232"/>
+		<set name="m_dam" val="114"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30850" name="Скованный Меч Стихий" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="weight" val="830"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30851" name="Скованный Меч Стихий" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Маг. Сила"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="weight" val="830"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30852" name="Скованный Меч Стихий" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Паралич"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="weight" val="830"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30853" name="Скованный Меч Стихий" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Воодушевление"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="weight" val="830"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="170"/>
+		<set name="m_dam" val="143"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3575" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="30854" name="Скованный Лук Стихии" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_elemental_bow_i00"/>
+		<set name="weight" val="1770"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="277"/>
+		<set name="m_dam" val="75"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30855" name="Скованный Лук Стихии" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i01"/>
+		<set name="weight" val="1770"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="277"/>
+		<set name="m_dam" val="75"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="30856" name="Скованный Лук Стихии" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Скупость"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i01"/>
+		<set name="weight" val="1770"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="277"/>
+		<set name="m_dam" val="75"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30857" name="Скованный Лук Стихии" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i01"/>
+		<set name="weight" val="1770"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="277"/>
+		<set name="m_dam" val="75"/>
+		<set name="atk_speed" val="227"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30858" name="Скованный Элдарейк" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.shield_eldarake_i00"/>
+		<set name="weight" val="1290"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="166"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+	<weapon id="30859" name="Скованный Убийца Ангелов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="weight" val="950"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="246"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30860" name="Скованный Убийца Ангелов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Крит. Урон"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="weight" val="950"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="246"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3572" lvl="2"/>
+		</skills>
+	</weapon>
+	<weapon id="30861" name="Скованный Убийца Ангелов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Поглощение HP"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="weight" val="950"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="246"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3602" lvl="10"/>
+		</skills>
+	</weapon>
+	<weapon id="30862" name="Скованный Убийца Ангелов" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Ускорение"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="weight" val="950"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="246"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8297" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="30863" name="Скованная Длинная Рапира" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="weight" val="1450"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="72"/>
+		<set name="m_dam" val="47"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="30864" name="Скованная Длинная Шпага" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="weight" val="1470"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="58"/>
+		<set name="m_dam" val="39"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="30865" name="Скованная Длинная Шпага" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="weight" val="1470"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="58"/>
+		<set name="m_dam" val="39"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="30866" name="Скованный Лук Превосходства" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_eminence_bow_i00"/>
+		<set name="weight" val="1720"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="323"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30867" name="Скованный Лук Превосходства" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="weight" val="1720"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="323"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="30868" name="Скованный Лук Превосходства" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Скупость"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="weight" val="1720"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="323"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30869" name="Скованный Лук Превосходства" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Экономия"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="weight" val="1720"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="323"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30870" name="Скованный Ледяной Лук" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="220"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30871" name="Скованный Ледяной Лук" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="220"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="30872" name="Скованный Ледяной Лук" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Уклонение"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="220"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30873" name="Скованный Ледяной Лук" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="220"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30874" name="Скованный Нож Ассасина" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_assassin_knife_i00"/>
+		<set name="weight" val="1100"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="35"/>
+		<set name="m_dam" val="26"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="30875" name="Скованная Боевая Рапира" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_assult_fleuret_i00"/>
+		<set name="weight" val="1370"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="159"/>
+		<set name="m_dam" val="91"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="30876" name="Скованная Боевая Рапира" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i01"/>
+		<set name="weight" val="1370"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="159"/>
+		<set name="m_dam" val="91"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="30877" name="Скованная Боевая Рапира" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Фокусировка"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i01"/>
+		<set name="weight" val="1370"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="159"/>
+		<set name="m_dam" val="91"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="8289" lvl="1"/>
+		</skills>
+	</weapon>
+	<weapon id="30878" name="Скованная Боевая Рапира" type="RAPIER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Удар в Спину"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i01"/>
+		<set name="weight" val="1370"/>
+		<set name="rnd_dam" val="40"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="159"/>
+		<set name="m_dam" val="91"/>
+		<set name="atk_speed" val="406"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30879" name="Скованный Военный Тальвар" type="ANCIENTSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_tulwar_i00"/>
+		<set name="weight" val="2080"/>
+		<set name="rnd_dam" val="15"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="55"/>
+		<set name="m_dam" val="32"/>
+		<set name="atk_speed" val="350"/>
+		<set name="critical" val="8"/>
+		<set name="avoid_modify" val="2"/>
+	</weapon>
+	<weapon id="30880" name="Скованный Двуручный Меч" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_two_handed_sword_i00"/>
+		<set name="weight" val="2180"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="78"/>
+		<set name="m_dam" val="39"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30881" name="Скованная Булава Якса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_yaksa_mace_i00"/>
+		<set name="weight" val="1640"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="30882" name="Скованная Булава Якса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Злость"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="weight" val="1640"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30883" name="Скованная Булава Якса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="weight" val="1640"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+	<weapon id="30884" name="Скованная Булава Якса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Риск. Фокусировка"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="weight" val="1640"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="156"/>
+		<set name="m_dam" val="83"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30886" name="Скованный Крушитель Костей" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_hunting_gun_i00"/>
+		<set name="weight" val="1820"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="100"/>
+		<set name="m_dam" val="47"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="30887" name="Скованный Усиленный Арбалет" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_arbalest_i00"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="135"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="30888" name="Скованный Усиленный Арбалет" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Наведение"/>
+		<set name="icon" val="icon.weapon_arbalest_i01"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="135"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3008" lvl="6"/>
+		</skills>
+	</weapon>
+	<weapon id="30889" name="Скованный Усиленный Арбалет" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Уклонение"/>
+		<set name="icon" val="icon.weapon_arbalest_i01"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="135"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30890" name="Скованный Усиленный Арбалет" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Быстрое Восстановление"/>
+		<set name="icon" val="icon.weapon_arbalest_i01"/>
+		<set name="weight" val="1790"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="135"/>
+		<set name="m_dam" val="61"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="30892" name="Скованный Щит Кошмаров" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00"/>
+		<set name="weight" val="1180"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="256"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+	<weapon id="30898" name="Скованный Меч Кошмаров" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_sword_of_nightmare_i00"/>
+		<set name="weight" val="1400"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="139"/>
+		<set name="m_dam" val="76"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="30899" name="Скованный Меч Кошмаров" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Здоровье"/>
+		<set name="icon" val="icon.weapon_sword_of_nightmare_i01"/>
+		<set name="weight" val="1400"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="C"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="p_dam" val="139"/>
+		<set name="m_dam" val="76"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+		<set name="isSa" val="true"/>
+		<skills>
+			<skill id="3013" lvl="5"/>
+		</skills>
+	</weapon>
+</list>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="21088" name="Jet Bike Mounting Bracelet" type="NONE">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 10.05.2011-17:01-->
+		<set name="bodypart" val="LBRACELET"/>
+		<set name="icon" val="BranchSys2.icon.br_z_bike_i00"/>
+		<set name="weight" val="30"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+		<set name="destroyable" val="false"/>
+		<skills>
+			<skill id="21171" lvl="1"/>
+		</skills>
+	</armor>
+</list>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="33200" name="Шлем Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="58"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="33201" name="Кожаный Доспех Синего Волка  - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t69_ul_i00"/>
+		<set name="weight" val="550"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="404"/>
+		<set name="p_def" val="202"/>
+	</armor>
+	<armor id="33202" name="Перчатки Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t69_g_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="59"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33203" name="Сапоги Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t69_b_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="113"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33204" name="Шлем Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="58"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="33205" name="Туника Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t70_u_i00"/>
+		<set name="weight" val="192"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="332"/>
+		<set name="p_def" val="83"/>
+		<set name="mp_bonus" val="377"/>
+	</armor>
+	<armor id="33206" name="Штаны Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t70_l_i00"/>
+		<set name="weight" val="92"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="312"/>
+		<set name="p_def" val="52"/>
+		<set name="mp_bonus" val="236"/>
+	</armor>
+	<armor id="33207" name="Перчатки Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t70_g_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="59"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33208" name="Сапоги Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t70_b_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="113"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33299" name="Диадема Величия - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="55"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="194"/>
+		<set name="p_def" val="73"/>
+	</armor>
+</list>

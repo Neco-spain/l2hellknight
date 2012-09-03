@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="33600" name="Скованные Кожаные Перчатки Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t92_g_i00"/>
+		<set name="weight" val="520"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="203"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="33601" name="Скованные Кожаные Сапоги Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t92_b_i00"/>
+		<set name="weight" val="1090"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="813"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="33602" name="Скованная Туника Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t93_u_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="753"/>
+		<set name="p_def" val="113"/>
+		<set name="mp_bonus" val="592"/>
+	</armor>
+	<armor id="33603" name="Скованные Штаны Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t93_l_i00"/>
+		<set name="weight" val="860"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="710"/>
+		<set name="p_def" val="71"/>
+		<set name="mp_bonus" val="370"/>
+	</armor>
+	<armor id="33604" name="Скованная Диадема Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="306"/>
+		<set name="p_def" val="92"/>
+	</armor>
+	<armor id="33605" name="Скованные Перчатки Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t93_g_i00"/>
+		<set name="weight" val="520"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="203"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="33606" name="Скованные Ботинки Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t93_b_i00"/>
+		<set name="weight" val="1090"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="813"/>
+		<set name="p_def" val="61"/>
+	</armor>
+	<armor id="33607" name="Скованный Символ Династии - для Возвратившегося Героя" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LHAND"/>
+		<set name="icon" val="icon.dynasty_sigil_i00"/>
+		<set name="weight" val="930"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="450"/>
+		<set name="p_def" val="15"/>
+	</armor>
+	<armor id="33649" name="Шлем с Пером Кукурина" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HAIRALL"/>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="weight" val="10"/>
+	</armor>
+</list>

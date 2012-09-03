@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="31411" name="Скованный Шлем из Драконьей Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="550"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="276"/>
+		<set name="p_def" val="83"/>
+	</armor>
+	<armor id="31412" name="Скованный Доспех из Драконьей Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t89_ul_i00"/>
+		<set name="weight" val="4950"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="830"/>
+		<set name="p_def" val="249"/>
+	</armor>
+	<armor id="31413" name="Скованные Сапоги из Драконьей Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t89_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="733"/>
+		<set name="p_def" val="55"/>
+	</armor>
+	<armor id="31414" name="Скованные Перчатки из Драконьей Кожи" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t89_g_i00"/>
+		<set name="weight" val="540"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="183"/>
+		<set name="p_def" val="55"/>
+	</armor>
+	<armor id="31416" name="Скованный Шлем Рока" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="31417" name="Скованный Латный Доспех Рока" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t71_ul_i00"/>
+		<set name="weight" val="9980"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="540"/>
+		<set name="p_def" val="270"/>
+	</armor>
+	<armor id="31427" name="Скованные Сапоги Рока" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t71_b_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="1130"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="31428" name="Скованные Сапоги Рока" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t72_b_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="1130"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="31429" name="Скованные Сапоги Рока" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t73_b_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="1130"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="31430" name="Скованные Перчатки Рока" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t71_g_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="31431" name="Скованные Перчатки Рока" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t72_g_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="31432" name="Скованные Перчатки Рока" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t73_g_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="31462" name="Скованная Кираса Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t74_u_i00"/>
+		<set name="weight" val="7700"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="912"/>
+		<set name="p_def" val="171"/>
+	</armor>
+	<armor id="31463" name="Скованный Шлем Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="570"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="184"/>
+		<set name="p_def" val="69"/>
+	</armor>
+	<armor id="31465" name="Скованные Сапоги Кристалла Тьмы" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t15_b_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="490"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="31466" name="Скованные Сапоги Кристалла Тьмы" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t15_b_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="490"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="31467" name="Скованные Сапоги Кристалла Тьмы" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t15_b_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="1110"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="490"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="31468" name="Скованная Мантия Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t76_ul_i00"/>
+		<set name="weight" val="2450"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="370"/>
+		<set name="p_def" val="139"/>
+		<set name="mp_bonus" val="665"/>
+	</armor>
+	<armor id="31469" name="Скованный Кожаный Доспех Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t75_u_i00"/>
+		<set name="weight" val="4300"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="682"/>
+		<set name="p_def" val="128"/>
+	</armor>
+	<armor id="31470" name="Скованные Перчатки Кристалла Тьмы" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t15_g_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="122"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="31471" name="Скованные Перчатки Кристалла Тьмы" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t15_g_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="122"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="31472" name="Скованные Перчатки Кристалла Тьмы" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t15_g_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="580"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="122"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="31473" name="Скованные Набедренники Кристалла Тьмы" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t74_l_i00"/>
+		<set name="weight" val="3320"/>
+		<set name="crystal_type" val="A"/>
+		<set name="crystal_count" val="856"/>
+		<set name="p_def" val="107"/>
+	</armor>
+</list>

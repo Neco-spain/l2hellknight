@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="32600" name="Фантастический Кожаный Шлем Венеры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="S80"/>
+		<set name="crystal_count" val="464"/>
+		<set name="p_def" val="116"/>
+	</armor>
+	<armor id="32601" name="Фантастический Шлем Венеры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="S80"/>
+		<set name="crystal_count" val="464"/>
+		<set name="p_def" val="116"/>
+	</armor>
+	<armor id="32603" name="Фантастический Символ Венеры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LHAND"/>
+		<set name="icon" val="icon.verper_sigil_i00"/>
+		<set name="weight" val="920"/>
+		<set name="crystal_type" val="S80"/>
+		<set name="crystal_count" val="612"/>
+		<set name="p_def" val="17"/>
+	</armor>
+	<armor id="32608" name="Рубашка Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="202"/>
+		<set name="p_def" val="38"/>
+	</armor>
+	<armor id="32609" name="Рубашка Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="202"/>
+		<set name="p_def" val="38"/>
+	</armor>
+	<armor id="32610" name="Рубашка Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="202"/>
+		<set name="p_def" val="38"/>
+	</armor>
+	<armor id="32611" name="Рубашка Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="224"/>
+		<set name="p_def" val="42"/>
+	</armor>
+	<armor id="32612" name="Рубашка Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="224"/>
+		<set name="p_def" val="42"/>
+	</armor>
+	<armor id="32613" name="Рубашка Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="224"/>
+		<set name="p_def" val="42"/>
+	</armor>
+	<armor id="32614" name="Рубашка Кадейры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="276"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32615" name="Рубашка Кадейры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="276"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32616" name="Рубашка Кадейры" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="276"/>
+		<set name="p_def" val="46"/>
+	</armor>
+	<armor id="32617" name="Рубашка Айдиоса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="320"/>
+		<set name="p_def" val="48"/>
+	</armor>
+	<armor id="32618" name="Рубашка Айдиоса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="320"/>
+		<set name="p_def" val="48"/>
+	</armor>
+	<armor id="32619" name="Рубашка Айдиоса" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="weight" val="130"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="320"/>
+		<set name="p_def" val="48"/>
+	</armor>
+	<armor id="32620" name="Пояс Бессмертия с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32621" name="Пояс Бессмертия с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32622" name="Пояс Бессмертия с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32623" name="Пояс Бессмертия с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32624" name="Пояс Бессмертия с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32625" name="Пояс Бессмертия с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32626" name="Пояс Бессмертия с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32627" name="Пояс Бессмертия с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32628" name="Пояс Бессмертия с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32629" name="Пояс Бессмертия с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32630" name="Пояс Бессмертия с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32631" name="Пояс Бессмертия с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32632" name="Пояс Бессмертия с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32633" name="Пояс Бессмертия с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32634" name="Пояс Бессмертия с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32635" name="Пояс Бессмертия с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32636" name="Пояс Бессмертия с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32637" name="Пояс Бессмертия с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32638" name="Пояс Бессмертия с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32639" name="Пояс Бессмертия с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1013"/>
+		<set name="p_def" val="19"/>
+	</armor>
+	<armor id="32640" name="Пояс Ада с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32641" name="Пояс Ада с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32642" name="Пояс Ада с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32643" name="Пояс Ада с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32644" name="Пояс Ада с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32645" name="Пояс Ада с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32646" name="Пояс Ада с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32647" name="Пояс Ада с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32648" name="Пояс Ада с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32649" name="Пояс Ада с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32650" name="Пояс Ада с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32651" name="Пояс Ада с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32652" name="Пояс Ада с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32653" name="Пояс Ада с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32654" name="Пояс Ада с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32655" name="Пояс Ада с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32656" name="Пояс Ада с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32657" name="Пояс Ада с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32658" name="Пояс Ада с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32659" name="Пояс Ада с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1120"/>
+		<set name="p_def" val="21"/>
+	</armor>
+	<armor id="32660" name="Пояс Кадейры с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32661" name="Пояс Кадейры с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32662" name="Пояс Кадейры с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32663" name="Пояс Кадейры с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32664" name="Пояс Кадейры с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32665" name="Пояс Кадейры с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32666" name="Пояс Кадейры с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32667" name="Пояс Кадейры с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32668" name="Пояс Кадейры с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32669" name="Пояс Кадейры с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32670" name="Пояс Кадейры с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32671" name="Пояс Кадейры с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32672" name="Пояс Кадейры с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32673" name="Пояс Кадейры с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32674" name="Пояс Кадейры с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32675" name="Пояс Кадейры с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32676" name="Пояс Кадейры с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32677" name="Пояс Кадейры с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32678" name="Пояс Кадейры с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32679" name="Пояс Кадейры с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="1380"/>
+		<set name="p_def" val="23"/>
+	</armor>
+	<armor id="32680" name="Пояс Айдиоса с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32681" name="Пояс Айдиоса с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32682" name="Пояс Айдиоса с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32683" name="Пояс Айдиоса с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление НР"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32684" name="Пояс Айдиоса с Плохой Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32685" name="Пояс Айдиоса с Нормальной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32686" name="Пояс Айдиоса с Хорошей Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32687" name="Пояс Айдиоса с Совершенной Магической Заколкой" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Восстановление MP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32688" name="Пояс Айдиоса с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32689" name="Пояс Айдиоса с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32690" name="Пояс Айдиоса с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32691" name="Пояс Айдиоса с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Обычная атака во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32692" name="Пояс Айдиоса с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32693" name="Пояс Айдиоса с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32694" name="Пояс Айдиоса с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32695" name="Пояс Айдиоса с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Атака умением во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32696" name="Пояс Айдиоса с Плохим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32697" name="Пояс Айдиоса с Нормальным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32698" name="Пояс Айдиоса с Хорошим Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+	<armor id="32699" name="Пояс Айдиоса с Совершенным Магическим Украшением" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="BELT"/>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="additional_name" val="Защита во время PVP"/>
+		<set name="weight" val="440"/>
+		<set name="crystal_type" val="R99"/>
+		<set name="crystal_count" val="1600"/>
+		<set name="p_def" val="24"/>
+	</armor>
+</list>
