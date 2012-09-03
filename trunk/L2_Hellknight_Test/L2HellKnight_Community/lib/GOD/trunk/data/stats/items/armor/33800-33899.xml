@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="33891" name="Шлем Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Тяжелые доспехи / Ивент"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="608"/>
+		<set name="p_def" val="114"/>
+	</armor>
+	<armor id="33892" name="Кираса Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t501_u_i00"/>
+		<set name="additional_name" val="Тяжелые доспехи / Ивент"/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3242"/>
+		<set name="p_def" val="304"/>
+	</armor>
+	<armor id="33893" name="Набедренники Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t501_l_i00"/>
+		<set name="additional_name" val="Тяжелые доспехи / Ивент"/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3040"/>
+		<set name="p_def" val="190"/>
+	</armor>
+	<armor id="33894" name="Рукавицы Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t501_g_i00"/>
+		<set name="additional_name" val="Тяжелые доспехи / Ивент"/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="405"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="33895" name="Сапоги Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t501_b_i00"/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1621"/>
+		<set name="p_def" val="76"/>
+	</armor>
+	<armor id="33897" name="Кожаный Шлем Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="608"/>
+		<set name="p_def" val="114"/>
+	</armor>
+	<armor id="33898" name="Кожаный Доспех Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="weight" val="4140"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2432"/>
+		<set name="p_def" val="228"/>
+	</armor>
+	<armor id="33899" name="Кожаные Брюки Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="weight" val="1320"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="2288"/>
+		<set name="p_def" val="143"/>
+	</armor>
+</list>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="17831" name="Скованное Острие Реквиема" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_aspeda_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="369"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17832" name="Скованный Резак Реквиема" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_estia_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="422"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17833" name="Скованный Эспадон Реквиема" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_polion_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="514"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17834" name="Скованный Мститель Реквиема" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_batista_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="422"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17835" name="Скованный Воитель Реквиема" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_fantasma_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="514"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17836" name="Скованный Буревестник Реквиема" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_soryu_i00"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="422"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17837" name="Скованный Бросок Реквиема" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_grabathus_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="831"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17838" name="Скованный Страж Реквиема" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_shyayaka_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="535"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="17839" name="Скованный Расчленитель Реквиема" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_kaynon_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="338"/>
+		<set name="m_dam" val="245"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17840" name="Скованный Заклинатель Реквиема" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_anatrian_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="338"/>
+		<set name="m_dam" val="245"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17841" name="Скованное Возмездие Реквиема" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_grangkaz_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="411"/>
+		<set name="m_dam" val="270"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17842" name="Скованные Парные Мечи Реквиема" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="514"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17843" name="Скованные Парные Кинжалы Реквиема" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="422"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17844" name="Скованные Парные Дубины Реквиема" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="514"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17850" name="Скованный Щит Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="415"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="17865" name="Скованное Острие Апокалипсиса" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_phasian_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="428"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17866" name="Скованный Резак Апокалипсиса" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_pasis_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17867" name="Скованный Эспадон Апокалипсиса" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_volver_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17868" name="Скованный Мститель Апокалипсиса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_raksilion_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17869" name="Скованный Воитель Апокалипсиса" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_kirche_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17870" name="Скованный Буревестник Апокалипсиса" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_grave_i00"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17871" name="Скованный Бросок Апокалипсиса" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_spina_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="963"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17872" name="Скованный Страж Апокалипсиса" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_medianox_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="620"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="17873" name="Скованный Расчленитель Апокалипсиса" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_imerose_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="392"/>
+		<set name="m_dam" val="285"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17874" name="Скованный Заклинатель Апокалипсиса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_yuke_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="392"/>
+		<set name="m_dam" val="285"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17875" name="Скованное Возмездие Апокалипсиса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_herencia_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="477"/>
+		<set name="m_dam" val="314"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17876" name="Скованные Парные Мечи Апокалипсиса" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17877" name="Скованные Парные Кинжалы Апокалипсиса" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17878" name="Скованные Парные Дубины Апокалипсиса" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17884" name="Скованный Щит Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="458"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="17899" name="Скованное Острие Фантазмы" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_ignicion_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="496"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+</list>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Другое -->
+	<item brId="1080001" itemId="22000" name="Small fortuna box" category="5" /> <!-- 135p -->
+	<item brId="1080002" itemId="22001" name="Middle fortuna box" category="5" /> <!-- 270p -->
+	<item brId="1080003" itemId="22002" name="Large fortuna box" category="5" /> <!-- 405p -->
+	<item brId="1080004" itemId="22003" name="Small fortuna cube" category="5" /> <!-- 81p -->
+	<item brId="1080005" itemId="22004" name="Middle fortuna cube" category="5" /> <!-- 216p -->
+	<item brId="1080006" itemId="22005" name="Large fortuna cube" category="5" /> <!-- 324p -->
+	<item brId="1080229" itemId="13276" name="Hunting Helper Exchange Coupon - 1 sheet" category="5" /> <!-- 169р -->
+	<item brId="1080230" itemId="13275" name="Hunting Helper Exchange Coupon - 3 sheet" category="5" /> <!-- 506р -->
+	<item brId="1080233" itemId="20494" name="Steam Beatle Mounting Bracelet 7 Day Pack" category="5" /> <!-- 2,695p -->
+	<item brId="1080234" itemId="20059" name="Light Purple Maned Horse Bracelet 30-Day Pack" category="5" /> <!-- 2,695p -->
+	<!-- Упаковки -->
+	<item brId="1080049" itemId="22087" name="A Scroll Bundle of Fighter" category="4" /> <!-- 52p -->
+	<item brId="1080050" itemId="22088" name="A Scroll Bundle of Mage" category="4" /> <!-- 59p -->
+	<!-- Украшения -->
+	<item brId="1080091" itemId="22124" name="Wrapped daisy hairpin" category="3" /> <!-- 338p -->
+	<item brId="1080092" itemId="22125" name="Wrapped forget-me-not hairpin" category="3" /> <!-- 338p -->
+	<item brId="1080093" itemId="22126" name="Wrapped outlaw's eyepatch" category="3" /> <!-- 338p -->
+	<item brId="1080094" itemId="22127" name="Wrapped pirate's eyepatch" category="3" /> <!-- 338p -->
+	<item brId="1080095" itemId="22128" name="Wrapped Monocle" category="3" /> <!-- 338p -->
+	<item brId="1080096" itemId="22129" name="Wrapped Red Mask of Victory" category="3" /> <!-- 338p -->
+	<item brId="1080097" itemId="22130" name="Wrapped Red Horn of Victory" category="3" /> <!-- 338p -->
+	<item brId="1080098" itemId="22131" name="Wrapped Party Mask" category="3" /> <!-- 338p -->
+	<item brId="1080099" itemId="22132" name="Wrapped Red Party Mask" category="3" /> <!-- 338p -->
+	<item brId="1080100" itemId="22133" name="Wrapped Cat Ear" category="3" /> <!-- 338p -->
+	<item brId="1080101" itemId="22134" name="Wrapped Noblewoman's Hairpin" category="3" /> <!-- 338p -->
+	<item brId="1080102" itemId="22135" name="Wrapped Raccoon Ear" category="3" /> <!-- 338p -->
+	<item brId="1080103" itemId="22136" name="Wrapped Rabbit Ear" category="3" /> <!-- 338p -->
+	<item brId="1080104" itemId="22137" name="Wrapped Little Angel's Wings" category="3" /> <!-- 338p -->
+	<item brId="1080105" itemId="22138" name="Wrapped Fairy's Tentacle" category="3" /> <!-- 338p -->
+	<item brId="1080106" itemId="22139" name="Wrapped Dandy's Chapeau" category="3" /> <!-- 338p -->
+	<item brId="1080107" itemId="22140" name="Wrapped Artisan's Goggles" category="3" /> <!-- 338p -->
+	<item brId="1080201" itemId="139" name="Sudden Agathion 7 Day Pack" category="3" /> <!-- 338p -->
+	<item brId="1080202" itemId="140" name="Shiny Agathion 7 Day Pack" category="3" /> <!-- 338p -->
+	<item brId="1080203" itemId="141" name="Sobbing Agathion 7 Day Pack" category="3" /> <!-- 338p -->
+	<item brId="1080204" itemId="13280" name="Agathion of Love 7 Day Pack" category="3" /> <!-- 228p -->
+	<item brId="1080205" itemId="13281" name="Pumpkin Transformation Stick 7 Day Pack" category="3" /> <!-- 254p -->
+	<item brId="1080206" itemId="13282" name="Kat the Cat Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080207" itemId="13283" name="Feline Queen Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080208" itemId="13284" name="Monster Eye Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080209" itemId="13285" name="Brown Bear Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080210" itemId="13286" name="Fungus Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080211" itemId="13287" name="Skull Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080212" itemId="13288" name="Ornithomimus Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080213" itemId="13289" name="Feline King Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<item brId="1080214" itemId="13290" name="Kai the Cat Hat 7 Day Pack" category="3" /> <!-- 169p -->
+	<!-- Припасы -->
+	<item brId="1080007" itemId="22025" name="Powerful Healing Potion" category="2" /> <!-- 3p -->
+	<item brId="1080008" itemId="22026" name="High-grade Healing Potion" category="2" /> <!-- 1p -->
+	<item brId="1080019" itemId="22037" name="Potion of Will" category="2" /> <!-- 4p -->
+	<item brId="1080021" itemId="22039" name="Wind Walk Scroll" category="2" /> <!-- 4p -->
+	<item brId="1080022" itemId="22040" name="Haste Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080023" itemId="22041" name="Might Scroll" category="2" /> <!-- 4p -->
+	<item brId="1080024" itemId="22042" name="Shield Scroll" category="2" /> <!-- 4p -->
+	<item brId="1080025" itemId="22043" name="Death Whisper Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080026" itemId="22044" name="Guidance Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080027" itemId="22045" name="Empower Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080028" itemId="22046" name="Grater Acumen Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080029" itemId="22047" name="Vampiric Rage Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080030" itemId="22048" name="Bless the Body Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080031" itemId="22049" name="Berserker Spirit Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080032" itemId="22050" name="Magic Barrier Scroll" category="2" /> <!-- 4p -->
+	<item brId="1080033" itemId="22051" name="Bless the Soul Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080034" itemId="22052" name="Clarity Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080035" itemId="22053" name="Wild Magic Scroll" category="2" /> <!-- 8p -->
+	<item brId="1080051" itemId="22089" name="Bone Quiver" category="2" /> <!-- 21 p -->
+	<item brId="1080052" itemId="22090" name="Steel Quiver" category="2" /> <!-- 34 p -->
+	<item brId="1080053" itemId="22091" name="Silver Quiver" category="2" /> <!-- 48 p -->
+	<item brId="1080054" itemId="22092" name="Mithril Quiver" category="2" /> <!-- 54 p -->
+	<item brId="1080055" itemId="22093" name="Quiver of Light" category="2" /> <!-- 68 p -->
+	<item brId="1080056" itemId="22149" name="Bone Bolt Container" category="2" /> <!-- 21 p -->
+	<item brId="1080057" itemId="22150" name="Steel Bolt Container" category="2" /> <!-- 34 p -->
+	<item brId="1080058" itemId="22151" name="Silver Bolt Container" category="2" /> <!-- 48 p -->
+	<item brId="1080059" itemId="22152" name="Mithril Bolt Container" category="2" /> <!-- 54 p -->
+	<item brId="1080060" itemId="22153" name="Bolt Container of Light" category="2" /> <!-- 68 p -->
+	<item brId="1080061" itemId="22094" name="Blessed Spiritshot Pack - D grade" category="2" /> <!-- 31 p -->
+	<item brId="1080062" itemId="22095" name="Blessed Spiritshot Pack - C grade" category="2" /> <!-- 61 p -->
+	<item brId="1080063" itemId="22096" name="Blessed Spiritshot Pack - B grade" category="2" /> <!-- 166 p -->
+	<item brId="1080064" itemId="22097" name="Blessed Spiritshot Pack - A grade" category="2" /> <!-- 196 p -->
+	<item brId="1080065" itemId="22098" name="Blessed Spiritshot Pack - S grade" category="2" /> <!-- 237 p -->
+	<item brId="1080066" itemId="22099" name="Spiritshot Pack - D grade" category="2" /> <!-- 12 p -->
+	<item brId="1080067" itemId="22100" name="Spiritshot Pack - C grade" category="2" /> <!-- 24 p -->
+	<item brId="1080068" itemId="22101" name="Spiritshot Pack -  B grade" category="2" /> <!-- 68 p -->
+	<item brId="1080069" itemId="22102" name="Spiritshot Pack - A grade" category="2" /> <!-- 81 p -->
+	<item brId="1080070" itemId="22103" name="Spiritshot Pack - S grade" category="2" /> <!-- 102 p -->
+	<item brId="1080071" itemId="22104" name="Soulshot Pack - D grade" category="2" /> <!-- 8 p -->
+	<item brId="1080072" itemId="22105" name="Soulshot Pack - C grade" category="2" /> <!-- 10 p -->
+	<item brId="1080073" itemId="22106" name="Soulshot Pack -  B grade" category="2" /> <!-- 34 p -->
+	<item brId="1080074" itemId="22107" name="Soulshot Pack - A grade" category="2" /> <!-- 54 p -->
+	<item brId="1080075" itemId="22108" name="Soulshot Pack - S grade" category="2" /> <!-- 68 p -->
+	<item brId="1080076" itemId="22109" name="Blessed Spiritshot Large Pack - D grade" category="2" /> <!-- 61 p -->
+	<item brId="1080077" itemId="22110" name="Blessed Spiritshot Large Pack - C grade" category="2" /> <!-- 122 p -->
+	<item brId="1080078" itemId="22111" name="Blessed Spiritshot Large Pack - B grade" category="2" /> <!-- 331 p -->
+	<item brId="1080079" itemId="22112" name="Blessed Spiritshot Large Pack - A grade" category="2" /> <!-- 392 p -->
+	<item brId="1080080" itemId="22113" name="Blessed Spiritshot Large Pack - S grade" category="2" /> <!-- 473 p -->
+	<item brId="1080081" itemId="22114" name="Spiritshot Large Pack - D grade" category="2" /> <!-- 24 p -->
+	<item brId="1080082" itemId="22115" name="Spiritshot Large Pack - C grade" category="2" /> <!-- 48 p -->
+	<item brId="1080083" itemId="22116" name="Spiritshot Large Pack -  B grade" category="2" /> <!-- 135 p -->
+	<item brId="1080084" itemId="22117" name="Spiritshot Large Pack - A grade" category="2" /> <!-- 162 p -->
+	<item brId="1080085" itemId="22118" name="Spiritshot Large Pack - S grade" category="2" /> <!-- 203 p -->
+	<item brId="1080086" itemId="22119" name="Soulshot Large Pack - D grade" category="2" /> <!-- 14 p -->
+	<item brId="1080087" itemId="22120" name="Soulshot Large Pack - C grade" category="2" /> <!-- 21 p -->
+	<item brId="1080088" itemId="22121" name="Soulshot Large Pack -  B grade" category="2" /> <!-- 68 p -->
+	<item brId="1080089" itemId="22122" name="Soulshot Large Pack - A grade" category="2" /> <!-- 108 p -->
+	<item brId="1080090" itemId="22123" name="Soulshot Large Pack - S grade" category="2" /> <!-- 135 p -->
+	<item brId="1080140" itemId="20326" name="Beast Soulshot Pack" category="2" /> <!-- 14 p -->
+	<item brId="1080141" itemId="20327" name="Beast Spiritshot Pack" category="2" /> <!-- 11 p -->
+	<item brId="1080142" itemId="20328" name="Blessed Beast Spiritshot Pack" category="2" /> <!-- 68 p -->
+	<item brId="1080143" itemId="20329" name="Beast Soulshot Large Pack" category="2" /> <!-- 27 p -->
+	<item brId="1080144" itemId="20330" name="Beast Spiritshot Large Pack" category="2" /> <!-- 22 p -->
+	<item brId="1080145" itemId="20331" name="Blessed Beast Spiritshot Large Pack" category="2" /> <!-- 135 p -->
+	<item brId="1080146" itemId="20364" name="Omen Beast Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080147" itemId="20365" name="Death Blader Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080148" itemId="20366" name="Grail Apostle Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080149" itemId="20367" name="Unicorn Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080150" itemId="20368" name="Lilim Knight Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080151" itemId="20369" name="Golem Guardian Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080152" itemId="20370" name="Inferno Drake Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080153" itemId="20371" name="Dragon Bomber Transformation Scroll" category="2" /> <!-- 30 p -->
+	<item brId="1080154" itemId="20372" name="Escape - Talking Island Village" category="2" /> <!-- 27 p -->
+	<item brId="1080155" itemId="20373" name="Escape - Elven Village" category="2" /> <!-- 27 p -->
+	<item brId="1080156" itemId="20374" name="Escape - Dark Elven Village" category="2" /> <!-- 27 p -->
+	<item brId="1080157" itemId="20375" name="Escape - Orc Village" category="2" /> <!-- 27 p -->
+	<item brId="1080158" itemId="20376" name="Escape - Dwarven Village" category="2" /> <!-- 27 p -->
+	<item brId="1080159" itemId="20377" name="Escape - Gludin Village" category="2" /> <!-- 27 p -->
+	<item brId="1080160" itemId="20378" name="Escape - Town of Gludio" category="2" /> <!-- 27 p -->
+	<item brId="1080161" itemId="20379" name="Escape - Town of Dion" category="2" /> <!-- 27 p -->
+	<item brId="1080162" itemId="20380" name="Escape - Floran Village" category="2" /> <!-- 27 p -->
+	<item brId="1080163" itemId="20381" name="Escape - Giran Castle Town" category="2" /> <!-- 27 p -->
+	<item brId="1080164" itemId="20382" name="Escape - Hardin's Academy" category="2" /> <!-- 27 p -->
+	<item brId="1080165" itemId="20383" name="Escape - Heine" category="2" /> <!-- 27 p -->
+	<item brId="1080166" itemId="20384" name="Escape - Town of Oren" category="2" /> <!-- 27 p -->
+	<item brId="1080167" itemId="20385" name="Escape - Ivory Tower" category="2" /> <!-- 27 p -->
+	<item brId="1080168" itemId="20386" name="Escape - Hunters Village" category="2" /> <!-- 27 p -->
+	<item brId="1080169" itemId="20387" name="Escape - Town of Aden" category="2" /> <!-- 27 p -->
+	<item brId="1080170" itemId="20388" name="Escape - Town of Goddard" category="2" /> <!-- 27 p -->
+	<item brId="1080171" itemId="20389" name="Escape - Rune Township" category="2" /> <!-- 27 p -->
+	<item brId="1080172" itemId="20390" name="Escape - Town of Schuttgart" category="2" /> <!-- 27 p -->
+	<item brId="1040137" itemId="13015" name="Teleport Spellbook" category="2" /> <!-- 675 p -->
+	<item brId="1080174" itemId="20181" name="Free Teleport Spellbook 5 Sheet Bundle" category="2" /> <!-- 135 p -->
+	<item brId="1080175" itemId="20182" name="Free Teleport Spellbook 10 Sheet Bundle" category="2" /> <!-- 270 p -->
+	<item brId="1080176" itemId="20183" name="Free Teleport Flag 5 Sheet Bundle" category="2" /> <!-- 338 p -->
+	<item brId="1080177" itemId="20184" name="Free Teleport Flag 10 Sheet Bundle" category="2" /> <!-- 675 p -->
+	<item brId="1080178" itemId="20185" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 5 Sheet Bundle" category="2" /> <!-- 338 p -->
+	<item brId="1080179" itemId="20187" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 10 Sheet Bundle" category="2" /> <!-- 675 p -->
+	<item brId="1080180" itemId="20179" name="Extra Entrance Pass - Near Kamaloka 5 Sheet Bundle" category="2" /> <!-- 338 p -->
+	<item brId="1080181" itemId="20180" name="Extra Entrance Pass - Near Kamaloka 10 Sheet Bundle" category="2" /> <!-- 675 p -->
+	<item brId="1080182" itemId="20186" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 5 Sheet Bundle" category="2" /> <!-- 338 p -->
+	<item brId="1080183" itemId="20188" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 10 Sheet Bundle" category="2" /> <!-- 675 p -->
+	<item brId="1080185" itemId="13021" name="Color Name" category="2" /> <!-- 268 p -->
+	<item brId="1080186" itemId="20353" name="High Grade Potion of Will" category="2" /> <!-- 14 p -->
+	<item brId="1080187" itemId="20354" name="Secret medicine of Will - D grade" category="2" /> <!-- 4 p -->
+	<item brId="1080188" itemId="20355" name="Secret medicine of Will - C grade" category="2" /> <!-- 13 p -->
+	<item brId="1080189" itemId="20356" name="Secret medicine of Will - B grade" category="2" /> <!-- 22 p -->
+	<item brId="1080190" itemId="20357" name="Secret medicine of Will - A grade" category="2" /> <!-- 34 p -->
+	<item brId="1080191" itemId="20358" name="Secret medicine of Will - S grade" category="2" /> <!-- 49 p -->
+	<item brId="1080192" itemId="20359" name="Secret medicine of Life - D grade" category="2" /> <!-- 10 p -->
+	<item brId="1080193" itemId="20360" name="Secret medicine of Life - C grade" category="2" /> <!-- 30 p -->
+	<item brId="1080194" itemId="20361" name="Secret medicine of Life - B grade" category="2" /> <!-- 54 p -->
+	<item brId="1080195" itemId="20362" name="Secret medicine of Life - A grade" category="2" /> <!-- 85 p -->
+	<item brId="1080196" itemId="20363" name="Secret medicine of Life - S grade" category="2" /> <!-- 122 p -->
+	<item brId="1080197" itemId="20391" name="Potion of Energy Maintenance" category="2" /> <!-- 142 p -->
+	<item brId="1080198" itemId="20392" name="Potion of Energy Replenishing" category="2" /> <!-- 68 p -->
+	<item brId="1080199" itemId="20393" name="Sweet Fruit Cocktail" category="2" /> <!-- 79 p -->
+	<item brId="1080200" itemId="20394" name="Fresh Fruit Cocktail" category="2" /> <!-- 91 p -->
+	<!-- Руны -->
+	<item brId="1080048" itemId="22066" name="Rune of Feather" category="1" /> <!-- 68 p -->
+	<item brId="1080112" itemId="20335" name="Rune of Exp. Points 30% - 5 hours" category="1" /> <!-- 33 p -->
+	<item brId="1080113" itemId="20336" name="Rune of Exp. Points 50% - 5 hours" category="1" /> <!-- 54 p -->
+	<item brId="1080114" itemId="20337" name="Rune of Exp. Points 30% - 10 hours" category="1" /> <!-- 52 p -->
+	<item brId="1080115" itemId="20338" name="Rune of Exp. Points 50% - 10 hours" category="1" /> <!-- 87 p -->
+	<item brId="1080116" itemId="20339" name="Rune of Exp. Points 30% - 7 days" category="1" /> <!-- 697 p -->
+	<item brId="1080117" itemId="20340" name="Rune of Exp. Points 50% - 7 days" category="1" /> <!-- 1,161 p -->
+	<item brId="1080118" itemId="20341" name="Rune of SP 30% - 5 hours" category="1" /> <!-- 17 p -->
+	<item brId="1080119" itemId="20342" name="Rune of SP 50% - 5 hours" category="1" /> <!-- 27 p -->
+	<item brId="1080120" itemId="20343" name="Rune of SP 30% - 10 hours" category="1" /> <!-- 26 p -->
+	<item brId="1080121" itemId="20344" name="Rune of SP 50% - 10 hours" category="1" /> <!-- 44 p -->
+	<item brId="1080122" itemId="20345" name="Rune of SP 30% - 7 days" category="1" /> <!-- 349 p -->
+	<item brId="1080123" itemId="20346" name="Rune of SP 50% - 7 days" category="1" /> <!-- 581 p -->
+	<item brId="1080124" itemId="20347" name="Rune of Crystal level 3 - 5 hours" category="1" /> <!-- 33 p -->
+	<item brId="1080125" itemId="20348" name="Rune of Crystal level 5 - 5 hours" category="1" /> <!-- 54 p -->
+	<item brId="1080126" itemId="20349" name="Rune of Crystal level 3 - 10 hours" category="1" /> <!-- 52 p -->
+	<item brId="1080127" itemId="20350" name="Rune of Crystal level 5 - 10 hours" category="1" /> <!-- 87 p -->
+	<item brId="1080128" itemId="20351" name="Rune of Crystal level 3 - 7 days" category="1" /> <!-- 697 p -->
+	<item brId="1080129" itemId="20352" name="Rune of Crystal level 5 - 7 days" category="1" /> <!-- 1,161 p -->
+	<item brId="1080130" itemId="12362" name="Weapon-type Enhance Backup Stone (D-Grade)" category="1" /> <!-- 21 p -->
+	<item brId="1080131" itemId="12363" name="Weapon-type Enhance Backup Stone (C-Grade)" category="1" /> <!-- 45 p -->
+	<item brId="1080132" itemId="12364" name="Weapon-type Enhance Backup Stone (B-Grade)" category="1" /> <!-- 203 p -->
+	<item brId="1080133" itemId="12365" name="Weapon-type Enhance Backup Stone (A-Grade)" category="1" /> <!-- 729 p -->
+	<item brId="1080134" itemId="12366" name="Weapon-type Enhance Backup Stone (S-Grade)" category="1" /> <!-- 2,025 p -->
+	<item brId="1080135" itemId="12367" name="Armor-type Enhance Backup Stone (D-Grade)" category="1" /> <!-- 4 p -->
+	<item brId="1080136" itemId="12368" name="Armor-type Enhance Backup Stone (C-Grade)" category="1" /> <!-- 7 p -->
+	<item brId="1080137" itemId="12369" name="Armor-type Enhance Backup Stone (B-Grade)" category="1" /> <!-- 29 p -->
+	<item brId="1080138" itemId="12370" name="Armor-type Enhance Backup Stone (A-Grade)" category="1" /> <!-- 104 p -->
+	<item brId="1080139" itemId="12371" name="Armor-type Enhance Backup Stone (S-Grade)" category="1" /> <!-- 290 p -->
+</list>

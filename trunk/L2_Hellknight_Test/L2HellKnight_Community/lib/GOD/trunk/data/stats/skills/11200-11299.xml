@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="11241" levels="1" name="Черная Дыра">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11242" levels="1" name="Прореха в Пространстве">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11245" levels="1" name="Образец ">
+		<table name="#power">126</table>
+		<table name="#magicLevel">85</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="coolTime" val="3000"/>
+		<set name="flyRadius" val="280"/>
+		<set name="flyType" val="THROW_HORIZONTAL" />
+		<set name="isDebuff" val="true"/>
+		<set name="isMagic" val="true"/>
+		<set name="lvlDepend" val="1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="power" val="#power"/>
+		<set name="skillRadius" val="350"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="saveVs" val="CON"/>
+		<set name="target" val="TARGET_AURA"/>
+		<for />
+	</skill>
+    <skill id="11247" levels="1" name="Волшебник - Сковывающая Атака">
+		<table name="#effectPoint">655</table>
+		<table name="#magicLevel">85</table>
+		<table name="#time">9</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="80" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="levelModifier" val="1" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="#time" val="0">
+			</effect>
+		</for>
+	</skill>
+    <skill id="11248" levels="1" name="Волшебник - Опрокидывающая Атака">
+		<table name="#effectPoint">655</table>
+		<table name="#magicLevel">85</table>
+		<table name="#time">9</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="80" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="levelModifier" val="1" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="#time" val="0">
+			</effect>
+		</for>
+	</skill>
+    <skill id="11249" levels="1" name="Волшебник - Сковывающая Атака">
+		<table name="#effectPoint">655</table>
+		<table name="#magicLevel">85</table>
+		<table name="#time">9</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="80" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="levelModifier" val="1" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="#time" val="0">
+			</effect>
+		</for>
+	</skill>
+    <skill id="11250" levels="1" name="Волшебник - Опрокидывающая Атака">
+		<table name="#effectPoint">655</table>
+		<table name="#magicLevel">85</table>
+		<table name="#time">9</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="80" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="levelModifier" val="1" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="#time" val="0">
+			</effect>
+		</for>
+	</skill>
+    <skill id="11251" levels="1" name="Великое Владение Оружием">
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="INT" val="2"/>
+			<add order="0x40" stat="mAtk" val="103.7"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.23"/>
+			<add order="0x40" stat="pAtk" val="82.9"/>
+			<basemul order="0x30" stat="mCritRate" val="1.06"/>
+			<basemul order="0x30" stat="MagicalMpConsumeRate" val="0.94"/>
+			<basemul order="0x30" stat="regMp" val="1.2"/>
+		</for>
+   </skill>
+    <skill id="11252" levels="1" name="Великое Владение Магической Броней">
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="INT" val="2"/>
+			<add order="0x40" stat="pDef" val="135">
+				<using kind="Magic"/>
+			</add>
+			<add order="0x40" stat="mAtkSpd" val="1.05">
+				<using kind="Magic"/>
+			</add>
+		</for>
+   </skill>
+    <skill id="11253" levels="1" name="Великое Владение Магией">
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mDef" val="139"/>
+			<mul order="0x30" stat="magicRcpt" val="0.65"/>
+			<mul order="0x30" stat="mReuse" val="0.75"/>
+		</for>
+   </skill>
+    <skill id="11254" levels="4" name="Великое Владение Призывом">
+		<table name="#magicLevel">85 86 87 88</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for />
+	</skill>
+    <skill id="11255" levels="1" name="Великое Владение Духом">
+		<table name="#vuln">30</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_PASSIVE" />
+			<for>
+				<add order="0x40" stat="INT" val="2"/>
+				<add order="0x40" stat="bleedRcpt" val="#vuln" />
+				<add order="0x40" stat="sleepRcpt" val="#vuln" />
+				<!--<add order="0x40" stat="confusionVuln" val="#vuln" />!-->
+				<add order="0x40" stat="paralyzeRcpt" val="#vuln" />
+			</for>
+   </skill>
+    <skill id="11256" levels="8" name="Призыв Милого Медвежонка">
+		<table name="#itemConsumeCount">1 2 3 4 5 6 7 8</table>
+		<table name="#itemConsumeCountInTime">1 1 2 2 2 2 2 2</table>
+		<table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="lifeTime" val="#lifeTime" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="itemConsumeIdInTime" val="3031" />
+		<set name="itemConsumeCountInTime" val="#itemConsumeCountInTime" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SUMMON" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<table name="#npcIds">14947 14948 14949 14950 14951 14952 14953 14971</table>
+		<set name="npcId" val="#npcIds" />
+		<enchant1 levels="10" name="Power">
+			<table name="#npcIds">15022 15023 15024 15025 15026 15027 15028 15029 15030 15031</table>
+		</enchant1>
+		<for />
+	</skill>
+    <skill id="11257" levels="8" name="Призыв Саблезубого Кугуара">
+		<table name="#itemConsumeCount">1 2 3 4 5 6 7 8</table>
+		<table name="#itemConsumeCountInTime">1 1 2 2 2 2 2 2</table>
+		<table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="lifeTime" val="#lifeTime" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="itemConsumeIdInTime" val="3031" />
+		<set name="itemConsumeCountInTime" val="#itemConsumeCountInTime" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SUMMON" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<table name="#npcIds">14954 14955 14956 14957 14958 14959 14960 14972</table>
+		<set name="npcId" val="#npcIds" />
+		<enchant1 levels="10" name="Power">
+			<table name="#npcIds">15032 15033 15034 15035 15036 15037 15038 15039 15040 15041</table>
+		</enchant1>
+		<for />
+	</skill>
+    <skill id="11258" levels="8" name="Призыв Жнеца Смерти">
+		<table name="#itemConsumeCount">1 2 3 4 5 6 7 8</table>
+		<table name="#itemConsumeCountInTime">1 1 2 2 2 2 2 2</table>
+		<table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="lifeTime" val="#lifeTime" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="itemConsumeIdInTime" val="3031" />
+		<set name="itemConsumeCountInTime" val="#itemConsumeCountInTime" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SUMMON" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<table name="#npcIds">14961 14962 14963 14964 14965 14966 14967 14973</table>
+		<set name="npcId" val="#npcIds" />
+		<enchant1 levels="10" name="Power">
+			<table name="#npcIds">15042 15043 15044 15045 15046 15047 15048 15049 15050 15051</table>
+		</enchant1>
+		<for />
+	</skill>
+    <skill id="11259" levels="8" name="Знак Слабости">
+		<table name="#DOT">269 272 276 280 283 287 290 294</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="mpInitialConsume" val="5" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison" abnormal="poison"/>
+		</for>
+   </skill>
+    <skill id="11260" levels="5" name="Знак Пустоты">
+		<table name="#DOT">335 343 350 356 363</table>
+		<table name="#magicLevel">85 86 87 88 89</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="mpInitialConsume" val="5" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="DRAIN" />
+		<set name="absorbPart" val="0.4" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="bleeding" count="4" name="Bleed" stackType="Bleed" time="2" val="#DOT" />
+		</for>
+   </skill>
+    <skill id="11261" levels="6" name="Знак Чумы">
+       <table name="#DOT">370 375 382 389 397 404</table>
+		<table name="#magicLevel">85 86 87 88 89 90</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="mpInitialConsume" val="5" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="15" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison" abnormal="poison"/>
+		</for>
+   </skill>
+    <skill id="11262" levels="6" name="Знак Хитрости">
+       <table name="#DOT">303 305 311 317 322 328</table>
+		<table name="#magicLevel">85 86 87 88 89 90</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="mpInitialConsume" val="5"/>
+		<set name="power" val="70"/> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="isDebuff" val="true"/>
+		<set name="saveVs" val="CON"/>
+		<set name="skillType" val="POISON"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="5" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison" abnormal="poison"/>
+			<effect name="Mute" time="5" val="0" stackOrder="1" stackType="silence"/>
+		</for>
+   </skill>
+    <skill id="11263" levels="7" name="Созвать">
+		<table name="#power">308 332 357 382 407 432 457</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="levelModifier" val="2" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="criticalRate" val="10" />
+		<table name="#mpConsume">340</table>
+		<set name="effectPoint" val="679" />
+		<set name="mpConsum" val="#mpConsume" />
+		<set name="overHit" val="true" />
+		<set name="shieldignore" val="true" />
+		<table name="#elementPower">0</table>
+		<table name="#element">none</table>
+		<set name="elementPower" val="#elementPower" />
+		<set name="element" val="#element" />
+		<for />
+	</skill>
+    <skill id="11264" levels="4" name="Жажда">	
+		<table name="#hpConsume">209 280 318 366</table>		
+		<table name="#effectPoint">379 495 549 611</table>
+		<table name="#magicLevel">85 86 87 88</table>
+		<table name="#power">200 210 220 230</table>
+		<set name="hpConsume" val="#hpConsume" />
+		<table name="#power2">0</table>
+		<table name="#count">0</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="#count" name="CombatPointHealOverTime" time="0" val="#power2" />
+		</for>
+	</skill>
+    <skill id="11265" levels="1" name="Призыв Соратника">
+		<set name="target" val="TARGET_PARTY_ONE" />
+		<set name="skillType" val="CALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="party" val="true" />
+		<set name="skillRadius" val="-2" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<for />
+	</skill>
+    <skill id="11266" levels="1" name="Призыв Врат Смерти">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11267" levels="3" name="Дух Набиаропа">
+		<table name="#magicLevel">85 86 87</table>
+		<table name="#npc">14968 14969 14970</table>
+		<set name="isHandler" val="true" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="580;3;581;3;582;3;583;3" />
+		<set name="npcId" val="#npc" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msg="You cannot use that skill in a Grand Olympiad Games match.">
+			<not>
+				<zone type="OlympiadStadia" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="300" val="246">
+			</effect>
+		</for>
+	</skill>
+    <skill id="11268" levels="8" name="Вызвать Карающий Куб">
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="38" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SUMMON" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="npcId" val="10" />
+		<set name="expPenalty" val="0.0" />
+		<set name="summonType" val="cubic" />
+		<for />
+	</skill>
+    <skill id="11269" levels="3" name="Разделение Маны">
+	    <table name="#pwr">1510 1490 1460</table>
+        <table name="#magicLevel">85 86 87</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="power" val="#pwr"/>
+		<set name="target" val="TARGET_PARTY"/>
+		<set name="skillType" val="MANAHEAL"/>
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE"/>
+   </skill>
+    <skill id="11270" levels="4" name="Избавление от Боли">
+		<table name="#magicLevel">85 86 87 88</table>
+		<table name="#Trans-per">70 72 74 75</table> 
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="CONT" />
+		<set name="operateType" val="OP_TOGGLE" />
+		<for>
+			<effect count="0x7fffffff" name="LDManaDamOverTime" time="3" val="0.2">
+				<add order="0x40" stat="transferPetDam" val="#Trans-per" />
+			</effect>
+		</for>
+	</skill>
+    <skill id="11271" levels="8" name="Снятие Знака">
+		<table name="#magicLevel">85 86 87 88 89</table>
+		<set name="target" val="TARGET_ONE" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="skillType" val="CANCEL" />
+		<set name="cancelRate" val="70" />
+		<set name="dispelType" val="negative" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for />
+	</skill>
+    <skill id="11272" levels="1" name="Перемена Мест">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11273" levels="5" name="Изгнание">
+		<table name="#effectPoint">828 877 921 958 987</table>
+		<table name="#magicLevel">85 86 87 88 89</table>
+		<table name="#power">355 365 375 385 395</table>
+		<table name="#activateRate">60</table>
+		<set name="effectPoint" val="#effectPoint" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="#activateRate" />
+		<set name="save" val="3" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+		<set name="delayedEffect" val="5459" />
+		<for>
+			<effect count="1" name="Debuff" time="10" val="0" />
+		</for>
+	</skill>
+    <skill id="11274" levels="4" name="Призыв Барьера">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11275" levels="2" name="Сияние Знака">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11276" levels="3" name="Пространственные Оковы">
+		<table name="#magicLevel">85 86 87</table>
+		<table name="#activateRate">60</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="#activateRate" />
+		<set name="save" val="3" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+		<set name="delayedEffect" val="5459" />
+		<for>
+			<effect count="1" name="Debuff" time="10" val="0" />
+		</for>
+	</skill>
+    <skill id="11277" levels="1" name="Величие">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11278" levels="9" name="Медвежьи Когти">
+		<table name="#magicLevel">85 86 87 88 89 90 91 92 93</table>
+		<table name="#power">7850 7900 7950 8000 8050 8100 8150 8200 8250</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="shieldignore" val="true" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Aggression" time="3" val="0" />
+		</for>
+	</skill>
+    <skill id="11279" levels="1" name="Медвежий Гнев">
+       <!--!-->
+		<set name="weaponsAllowed" val="1024" />
+		<set name="effectPoint" val="268" />
+		<set name="magicLevel" val="85" />
+       <set name="operateType" val="OP_ACTIVE" />
+       <set name="skillType" val="BUFF" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="possession" time="120" val="0">
+				<mul order="0x30" stat="pAtk" val="1.3">
+					<using kind="Fist, Dual Fist" />
+				</mul>
+				<mul order="0x30" stat="cAtk" val="1.3">
+					<using kind="Fist, Dual Fist" />
+				</mul>
+			</effect>
+       </for>
+   </skill>
+    <skill id="11280" levels="9" name="Клык Кугуара">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11281" levels="9" name="Прыжок Кугуара">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11282" levels="9" name="Прикосновение Жнеца">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11283" levels="9" name="Сила Жнеца">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11284" levels="4" name="Удар Набиаропа">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11285" levels="4" name="Сила Набиаропа">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11286" levels="1" name="Искусство Насильного Призыва">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11287" levels="1" name="Великое Сопротивление">
+       <set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="INT" val="2" />
+			<add order="0x40" stat="waterRcpt" val="20" />
+			<add order="0x40" stat="fireRcpt" val="20" />
+			<add order="0x40" stat="windRcpt" val="20" />
+			<add order="0x40" stat="earthRcpt" val="20" />
+			<add order="0x40" stat="mDef" val="199" />
+		</for>
+   </skill>
+      <skill id="11288" levels="3" name="Последнее Разделение Судьбы">
+		<table name="#magicLevel">85 86 87</table>
+		<table name="#abnormal_time">1800</table>
+        <set name="magicLevel" val="#magicLevel"/>        
+   		<set name="target" val="TARGET_PET" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<table name="#abnormal_time">1600 1700 1800</table>
+		<for>
+			<effect name="Buff" abnormalLvl="1" abnormalType="multi_buff" time="#abnormal_time" val="0">
+				<mul order="0x30" stat="pAtk" val="1.5" />
+				<mul order="0x30" stat="pDef" val="1.5" />
+				<mul order="0x30" stat="mAtk" val="1.25" />
+				<mul order="0x30" stat="mDef" val="1.25" />
+				<mul order="0x30" stat="maxHp" val="1.1" />
+				<mul order="0x30" stat="maxMp" val="1.1" />
+				<basemul order="0x30" stat="rCrit" val="0.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.1" />
+				<mul order="0x30" stat="mAtkSpd" val="1.03" />
+			</effect>
+		</for>
+	</skill>
+    <skill id="11289" levels="1" name="Корни Врат">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11290" levels="1" name="Призыв Хордлинга">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11291" levels="1" name="Вихрь Врат">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11292" levels="8" name="Искупление Куба">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11293" levels="8" name="Отмена Куба">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11294" levels="8" name="Корень Куба">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+    <skill id="11295" levels="1" name="Великое Владение Легкой Броней">
+	
+	<!-- WesteroS
+	Увеличивает ИНТ на 2. При использовании легких доспехов увеличивает Физ. Защ. на 132.
+	-->
+	
+		<table name="#pDef">132</table>
+		<set name="magicLevel" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<enchant1 levels="10" name="power01">
+			<table name="#pDef">140 149 157 166 175 183 192 200 209 218</table>
+		</enchant1>
+		<for>
+			<add order="0x40" stat="INT" val="2" />
+			<add order="0x40" stat="pDef" val="#pDef" />
+			<using kind="Light"/>
+		</for>
+   </skill>
+    <skill id="11296" levels="6" name="Массовое Изгнание">
+		<table name="#magicLevel">85 86 87</table>
+		<table name="#activateRate">60</table>
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="activateRate" val="#activateRate" />
+		<set name="save" val="3" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+		<set name="delayedEffect" val="5459" />
+		<for>
+			<effect count="1" name="Debuff" time="10" val="0" />
+		</for>
+	</skill>
+    <skill id="11297" levels="4" name="Благословение Гиганта">
+		<table name="#magicLevel">85 86 87 88</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_PET"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="Buff" time="1800" stackOrder="1" stackType="buff">
+				<mul order="0x30" stat="pAtk" val="1.2"/>
+				<mul order="0x30" stat="pDef" val="1.2"/>
+				<mul order="0x30" stat="mDef" val="1.2"/>
+				<mul order="0x30" stat="regHp" val="1.2"/>
+				<mul order="0x30" stat="maxMp" val="1.2"/>
+				<mul order="0x30" stat="rCrit" val="1.2"/>
+				<mul order="0x30" stat="mAtkSpd" val="1.2"/>
+				<mul order="0x30" stat="runSpd" val="1.2"/>
+			</effect>
+		</for>
+   </skill>
+	<skill id="11298" levels="8" name="Огонь Знака">
+		<table name="#mAtk">168 170 175 180 185 189 194 199</table>
+		<table name="#effectPoint">566 582 597 611 624 635 646 655</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
+		<table name="#activateRate">80</table>
+		<set name="magicLevel" val="#magicLevel"/>
+        <set name="effectPoint" val="#effectPoint"/>        
+		<set name="activateRate" val="#activateRate" />
+		<set name="power" val="#mAtk"/>
+		<set name="save" val="3" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="levelModifier" val="2" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="4"  stackType="Debuff" time="30" val="0" />
+		</for>
+	</skill>
+    <skill id="11299" levels="1" name="Баланс Жизни Слуги">
+       <!--!-->
+       <set name="operateType" val="OP_PASSIVE" />
+       <set name="skillType" val="NOTDONE" />
+       <set name="target" val="TARGET_SELF" />
+       <for>
+       </for>
+   </skill>
+</list>

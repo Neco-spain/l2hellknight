@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="8600" levels="1" name="Верховой Небесный Скакун">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13311" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="129" />
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>
+	<skill id="8601" levels="1" name="Верховой Дикий Скакун">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13312" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="130" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+	<skill id="8602" levels="1" name="Верховой Кровавый Скакун">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13313" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="131" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+	<skill id="8603" levels="1" name="Верховая Безлимитная Стрела">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13314" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="132" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+	<skill id="8604" levels="1" name="Верховой Синий Фонтом">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13315" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="133" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+	<skill id="8605" levels="1" name="Верховое Белое Крыло">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13316" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="134" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+	<skill id="8606" levels="1" name="Верховая Скоростная Звезда">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13317" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="135" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+	<skill id="8607" levels="1" name="Верховая Сверкающая Леди. Небесный Скакун">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isReuseDelayPermanent" val="true" />
+		<set name="addSkills" val="9206;1;619;1" />
+		<set name="npcId" val="13318" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Transformation" time="30" val="136" />		
+			<add order="0x40" stat="runSpd" val="50" />
+		</for>
+	</skill>	
+</list>

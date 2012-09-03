@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<etcitem id="16100" name="Refined Green Skeleton Circlet" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16101" name="Refined Brown Skeleton Circlet" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16102" name="Refined Shark Hat" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16103" name="Chic Gold Horn Cap" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16104" name="Chic Silver Horn Cap" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16105" name="Refined Penguin Hat" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16106" name="Refined Brown Turban" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16107" name="Refined Yellow Turban" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16108" name="Refined Turtle Hat" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16109" name="Refined Cow Hat" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="weight" val="10"/>
+	</etcitem>
+	<etcitem id="16160" name="Life Stone - level 85" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_general_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="49680"/>
+	</etcitem>
+	<etcitem id="16161" name="Mid-Grade Life Stone - level 85" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_special_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="198960"/>
+	</etcitem>
+	<etcitem id="16162" name="High-Grade Life Stone - level 85" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_unique_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="9950400"/>
+	</etcitem>
+	<etcitem id="16163" name="Top-Grade Life Stone - Level 85" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_unique_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="9950400"/>
+	</etcitem>
+	<etcitem id="16164" name="Life Stone - level 86" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_general_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="59616"/>
+	</etcitem>
+	<etcitem id="16165" name="Mid-Grade Life Stone - level 86" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_special_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="238752"/>
+	</etcitem>
+	<etcitem id="16166" name="High-Grade Life Stone - level 86" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_rare_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="2387520"/>
+	</etcitem>
+	<etcitem id="16167" name="Top-Grade Life Stone - level 86" type="OTHER">
+		<!--Done By Byldas (c)Revolt-Team-->
+		<!--LastChange: 15.05.2011-00:34-->
+		<set name="icon" val="etc_mineral_unique_i03"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="2"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="11940480"/>
+	</etcitem>
+</list>

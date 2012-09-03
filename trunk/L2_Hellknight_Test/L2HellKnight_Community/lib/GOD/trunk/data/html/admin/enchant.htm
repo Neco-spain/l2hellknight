@@ -1,0 +1,68 @@
+﻿<html>
+<table width=260>
+<tr>
+<td width=40><button value="Главная" action="bypass -h admin_admin" width=40 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>Меню заточки</center></td>
+<td width=40><button value="Назад" action="bypass -h admin_admin" width=40 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<center>
+<br>
+<font color="LEVEL">Уровень заточки:</font><br>
+<table width=250>
+<tr>
+<td>Заточка до 0-65535:</td>
+<td><edit var="qbox" width=80 height=15></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td><button value="+6" action="bypass -h admin_seteh 6" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Шлем" action="bypass -h admin_seteh $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Серьга верх" action="bypass -h admin_setle $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_setle 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+6" action="bypass -h admin_setec 6" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Броня" action="bypass -h admin_setec $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Серьга низ" action="bypass -h admin_setre $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_setre 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+6" action="bypass -h admin_setel 6" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Штаны" action="bypass -h admin_setel $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Ожерелье" action="bypass -h admin_seten $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_seten 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+6" action="bypass -h admin_seteg 6" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Перчатки" action="bypass -h admin_seteg $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Кольцо верх" action="bypass -h admin_setlf $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_setlf 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+6" action="bypass -h admin_seteb 6" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Боты" action="bypass -h admin_seteb $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Кольцо низ" action="bypass -h admin_setrf $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_setrf 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+4" action="bypass -h admin_setba 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Плащ" action="bypass -h admin_setba $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+4" action="bypass -h admin_setun 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Рубаха" action="bypass -h admin_setun $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Belt" action="bypass -h admin_setbe $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_setbe 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="+4" action="bypass -h admin_setew 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Оружие" action="bypass -h admin_setew $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="Щит/Сигиль" action="bypass -h admin_setes $qbox" width=85 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+<td><button value="+4" action="bypass -h admin_setes 4" width=35 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+</center>
+</body></html>

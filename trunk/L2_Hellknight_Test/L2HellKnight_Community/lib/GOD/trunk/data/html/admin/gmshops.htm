@@ -1,0 +1,80 @@
+﻿<html><title>WesteroS Админ Панель</title><body>
+<center>
+<table width=260>
+<tr><td width=40><button value="Главная" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>Магазин</center></td>
+<td width=40><button value="Назад" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+</center>
+<br>
+<br>
+<center>
+<table width=260>
+<tr>
+<td align=center><button action="bypass -h admin_show_html gmshop/weapons.htm" value="Оружие" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/armors.htm" value="Броня" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_buy 9914" value="Браслеты" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td align=center><button action="bypass -h admin_show_html gmshop/jewels.htm" value="Бижа" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_buy 9913" value="Рубахи" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_buy 9915" value="Талисманы" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td align=center><button action="bypass -h admin_show_html gmshop/belts.htm" value="Ремни" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_buy 9909" value="Плащи" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/hair.htm" value="Hair" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td align=center><button action="bypass -h admin_buy 9902" value="Life Stones" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_buy 9903" value="Elemental" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/books.htm" value="Книги" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td align=center><button action="bypass -h admin_show_html gmshop/consumables.htm" value="Расходные" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/scrolls.htm" value="Свитки" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/craft.htm" value="Для крафта" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td align=center><button action="bypass -h admin_show_html gmshop/pets.htm" value="Живность" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/fishing.htm" value="Рыбалка" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/quest.htm" value="Квест" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td align=center><button action="bypass -h admin_buy 9916" value="Валюта" width=120 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/events.htm" value="Еветовые" width=120 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=260>
+<tr>
+<td align=center><button action="bypass -h admin_show_html gmshop/territory.htm" value="Территори итем" width=120 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td align=center><button action="bypass -h admin_show_html gmshop/fortress.htm" value="Форт итем" width=120 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<table width=260>
+<tr>
+<td>Предмет ID: <edit var="itemid" width=50></td>
+<td>Кол-во: <edit var="itemnum" width=50></td>
+<td>&nbsp;<button value="Создать" action="bypass -h admin_create_item $itemid $itemnum" width=85 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+<center>
+<table width=260>
+<tr>
+<p><font color="0066FF">Сделано WesteroS<br></font></p>
+</tr></table>
+</center>
+</body>
+</html>

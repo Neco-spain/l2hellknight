@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="14571" levels="5" name="Дыхание Шилен">
+		<table name="#stat">1 1 0.805 0.652 0.499</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+		    <effect name="Buff" time="600" count="1" val="0">
+				<mul order="0x30" stat="pAtk" val="#stat" />
+				<mul order="0x30" stat="mAtk" val="#stat" />
+				<mul order="0x30" stat="pDef" val="#stat" />
+				<mul order="0x30" stat="mDef" val="#stat" />
+				<mul order="0x30" stat="pAtkSpd" val="#stat" />
+				<mul order="0x30" stat="mAtkSpd" val="#stat" />
+				<mul order="0x30" stat="runSpd" val="#stat" />
+				<mul order="0x30" stat="rEvas" val="#stat" />
+				<mul order="0x30" stat="cAtk" val="#stat" />
+				<mul order="0x30" stat="accCombat" val="#stat" />
+				<mul order="0x30" stat="regHp" val="1.05" />
+            </effect>
+		</for>
+	</skill>
+</list>

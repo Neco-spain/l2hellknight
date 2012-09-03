@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance name="Cavern of the Pirate Captain (daydream)">
+	<activityTime val="60" />
+	<emptyDestroyTime val="300" />
+	<allowSummon val="false" />
+	<spawnPoint spawnX="52190" spawnY="219000" spawnZ="-3231" />
+</instance>

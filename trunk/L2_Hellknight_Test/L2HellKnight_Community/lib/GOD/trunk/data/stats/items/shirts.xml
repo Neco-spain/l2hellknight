@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='13389' name="Kratei Barbed Shirt - CP">
+		<add val='516' order='0x60' stat='maxCp'>
+			<and>
+				<using slotitem="13389;0;4" />
+			</and>
+		</add>
+	</item>
+	<item id='13390' name="Kratei Mithril Shirt - CP">
+		<add val='672' order='0x60' stat='maxCp'>
+			<and>
+				<using slotitem="13390;0;4" />
+			</and>
+		</add>
+	</item>
+	<item id='13391' name="Kratei Striped Barbed Shirt - CP">
+		<add val='564' order='0x60' stat='maxCp'>
+			<and>
+				<using slotitem="13391;0;4" />
+			</and>
+		</add>
+	</item>
+	<item id='13392' name="Kratei Striped Mithril Shirt - CP">
+		<add val='744' order='0x60' stat='maxCp'>
+			<and>
+				<using slotitem="13392;0;4" />
+			</and>
+		</add>
+	</item>
+</list>

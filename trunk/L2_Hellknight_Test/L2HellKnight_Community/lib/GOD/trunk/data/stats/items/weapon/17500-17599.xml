@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="17572" name="Тестовый Предмет - Щит" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="S84"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="457"/>
+		<set name="shield_def_rate" val="20"/>
+	</weapon>
+</list>

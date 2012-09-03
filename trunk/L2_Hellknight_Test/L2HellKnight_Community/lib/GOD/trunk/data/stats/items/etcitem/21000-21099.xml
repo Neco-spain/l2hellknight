@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<etcitem id="21000" name="L2Top Coin" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_magic_coin_silver_i02"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21001" name="Event Coin" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_magic_coin_blue_i01"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21002" name="Donate Coin" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_magic_coin_gold_i02"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem><etcitem id="21003" name="yellow cry" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_crystal_cave_crystal_i0"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21004" name="red cry" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_crystal_cave_crystal_i01"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21005" name="green cry" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_crystal_cave_crystal_i00"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21006" name="blue cry" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_crystal_cave_crystal_i03"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21007" name="special coin" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_coin_of_fair_i00"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	<etcitem id="21008" name="black cry" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="etc_crystal_cave_crystal_i02"/>
+		<set name="weight" val="0"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+</list>

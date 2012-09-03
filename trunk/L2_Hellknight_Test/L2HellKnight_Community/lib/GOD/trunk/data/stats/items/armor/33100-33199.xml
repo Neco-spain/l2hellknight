@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="33179" name="Шлем Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="58"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="33180" name="Кираса Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t68_u_i00"/>
+		<set name="weight" val="782"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="664"/>
+		<set name="p_def" val="166"/>
+	</armor>
+	<armor id="33181" name="Набедренники Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t68_l_i00"/>
+		<set name="weight" val="337"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="624"/>
+		<set name="p_def" val="104"/>
+	</armor>
+	<armor id="33182" name="Перчатки Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t68_g_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="59"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33183" name="Сапоги Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t68_b_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="113"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33185" name="Шлем Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="58"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="33186" name="Кожаный Доспех Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FULLARMOR"/>
+		<set name="icon" val="icon.armor_t69_ul_i00"/>
+		<set name="weight" val="550"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="404"/>
+		<set name="p_def" val="202"/>
+	</armor>
+	<armor id="33187" name="Перчатки Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t69_g_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="59"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33188" name="Сапоги Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="LIGHT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t69_b_i00"/>
+		<set name="additional_name" val="Легкий"/>
+		<set name="weight" val="113"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33189" name="Шлем Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="58"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="33190" name="Туника Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t70_u_i00"/>
+		<set name="weight" val="192"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="332"/>
+		<set name="p_def" val="83"/>
+		<set name="mp_bonus" val="377"/>
+	</armor>
+	<armor id="33191" name="Штаны Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t70_l_i00"/>
+		<set name="weight" val="92"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="312"/>
+		<set name="p_def" val="52"/>
+		<set name="mp_bonus" val="236"/>
+	</armor>
+	<armor id="33192" name="Перчатки Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t70_g_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="59"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33193" name="Сапоги Синего Волка - Артефакт Судьбы (Огонь, Ветер, Тьма)" type="MAGIC">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t70_b_i00"/>
+		<set name="additional_name" val="Магический"/>
+		<set name="weight" val="113"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33194" name="Шлем Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="58"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="132"/>
+		<set name="p_def" val="66"/>
+	</armor>
+	<armor id="33195" name="Кираса Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t68_u_i00"/>
+		<set name="weight" val="782"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="664"/>
+		<set name="p_def" val="166"/>
+	</armor>
+	<armor id="33196" name="Набедренники Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t68_l_i00"/>
+		<set name="weight" val="337"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="624"/>
+		<set name="p_def" val="104"/>
+	</armor>
+	<armor id="33197" name="Перчатки Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t68_g_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="59"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="88"/>
+		<set name="p_def" val="44"/>
+	</armor>
+	<armor id="33198" name="Сапоги Синего Волка - Артефакт Судьбы (Вода, Земля, Святость)" type="HEAVY">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t68_b_i00"/>
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="weight" val="113"/>
+		<set name="crystal_type" val="B"/>
+		<set name="crystal_count" val="352"/>
+		<set name="p_def" val="44"/>
+	</armor>
+</list>

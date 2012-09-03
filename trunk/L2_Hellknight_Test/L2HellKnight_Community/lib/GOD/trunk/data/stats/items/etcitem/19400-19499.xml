@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="19400" name="Рецепт - Неопознанная Диадема Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Диадемы Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19401" name="Рецепт - Неопознанная Туника Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Туники Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19402" name="Рецепт - Неопознанные Штаны Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Штанов Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19403" name="Рецепт - Неопознанные Перчатки Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Перчаток Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19404" name="Рецепт - Неопознанные Ботинки Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Ботинок Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19405" name="Рецепт - Неопознанный Символ Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Символа Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19406" name="Рецепт - Неопознанное Ожерелье Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Ожерелья Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19407" name="Рецепт - Неопознанная Серьга Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Серьги Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19408" name="Рецепт - Неопознанное Кольцо Кадейры (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Кольца Кадейры. Требуется умение "Создать Вещь" 13 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19409" name="Рецепт - Неопознанное Острие Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Острия Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19410" name="Рецепт - Неопознанный Резак Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Резака Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19411" name="Рецепт - Неопознанный Эспадон Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Эспадона Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19412" name="Рецепт - Неопознанный Мститель Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Мситителя Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19413" name="Рецепт - Неопознанный Воитель Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Воителя Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19414" name="Рецепт - Неопознанный Буревестник Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Буревестника Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19415" name="Рецепт - Неопознанный Бросок Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Броска Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19416" name="Рецепт - Неопознанный Страж Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Стража Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19417" name="Рецепт - Неопознанный Расчленитель Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Расчленителя Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19418" name="Рецепт - Неопознанный Заклинатель Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Заклинателя Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19419" name="Рецепт - Неопознанное Возмездие Хелиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Возмездия Хелиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19420" name="Рецепт - Неопознанный Шлем Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Шлема Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19421" name="Рецепт - Неопознанная Кираса Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Кирасы Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19422" name="Рецепт - Неопознанные Набедренники Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Набедренников Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19423" name="Рецепт - Неопознанные Рукавицы Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Рукавиц Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19424" name="Рецепт - Неопознанные Сапоги Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Сапог Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19425" name="Рецепт - Неопознанный Щит Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Щита Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19426" name="Рецепт - Неопознанный Кожаный Шлем Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Кожаного Шлема Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19427" name="Рецепт - Неопознанная Кожаная Кираса Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Кожаной Кирасы Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19428" name="Рецепт - Неопознанные Кожаные Брюки Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Кожаных Брюк Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19429" name="Рецепт - Неопознанные Кожаные Перчатки Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Кожаных Перчаток Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19430" name="Рецепт - Неопознанные Кожаные Сапоги Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Кожаных Сапог Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19431" name="Рецепт - Неопознанная Диадема Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Диадемы Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19432" name="Рецепт - Неопознанная Туника Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Туники Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19433" name="Рецепт - Неопознанные Штаны Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Штанов Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19434" name="Рецепт - Неопознанные Перчатки Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Перчаток Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19435" name="Рецепт - Неопознанные Ботинки Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанных Ботинок Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19436" name="Рецепт - Неопознанный Символ Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Символа Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19437" name="Рецепт - Неопознанное Ожерелье Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Ожерелья Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19438" name="Рецепт - Неопознанная Серьга Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанной Серьги Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19439" name="Рецепт - Неопознанное Кольцо Айдиоса (60%)" type="RECIPE">
+		<!--Только для Гномов. Рецепт для создания Неопознанного Кольца Айдиоса. Требуется умение "Создать Вещь" 14 уровня. Шанс успеха 60%.!-->
+		<set name="icon" val="" />
+		<set name="class" val="RECIPIES"/>
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="stackable" val="true" />
+	</etcitem>
+
+	<etcitem id="19440" name="Самоцвет: Ранг R" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	
+	<etcitem id="19441" name="Заряд Духа: Ранг R" type="SHOT">
+		<set name="icon" val=""/>
+		<set name="class" val="CONSUMABLE"/>
+		<set name="weight" val="1"/>
+		<set name="stackable" val="true"/>
+		<set name="crystal_type" val="R"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+	</etcitem>
+	
+	<etcitem id="19442" name="Благословенные Заряды Духа: Ранг R" type="SHOT">
+		<set name="icon" val=""/>
+		<set name="class" val="CONSUMABLE"/>
+		<set name="weight" val="1"/>
+		<set name="stackable" val="true"/>
+		<set name="crystal_type" val="R"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+	</etcitem>
+	
+	<etcitem id="19443" name="Медный Болт" type="BOLT">
+		<set name="bodypart" val="LHAND"/>
+		<set name="icon" val="br_cashtex.item.br_cash_mithril_bolt_i00"/>
+		<set name="class" val="EQUIPMENT"/>
+		<set name="weight" val="1"/>
+		<set name="stackable" val="true"/>
+		<set name="crystal_type" val="A"/>
+		<set name="tradeable" val="false"/>
+		<set name="dropable" val="false"/>
+	</etcitem>
+	
+	<etcitem id="19444" name="Свиток Снятия Оков - Ранг R" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+
+	
+	<etcitem id="19445" name="Свиток Снятия Оков - Ранг R95" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+
+	
+	<etcitem id="19446" name="Свиток Снятия Оков - Ранг R99" type="OTHER">
+		<set name="icon" val="" />
+		<set name="weight" val="100"/>
+		<set name="stackable" val="true"/>
+		<set name="tradeable" val="true"/>
+		<set name="dropable" val="true"/>
+	</etcitem>
+	
+	<etcitem id="19447" name="Благословенный Свиток: Модифицировать Оружие - Ранг R" type="SCROLL">
+		<set name="icon" val="etc_scroll_of_enchant_armor_i06"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="120"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="240000"/>
+	</etcitem>
+
+	<etcitem id="19448" name="Благословенный Свиток: Модифицировать Доспехи - Ранг R" type="SCROLL">
+		<set name="icon" val="etc_scroll_of_enchant_armor_i06"/>
+		<set name="class" val="MISC"/>
+		<set name="weight" val="120"/>
+		<set name="stackable" val="true"/>
+		<set name="price" val="240000"/>
+	</etcitem>
+</list>

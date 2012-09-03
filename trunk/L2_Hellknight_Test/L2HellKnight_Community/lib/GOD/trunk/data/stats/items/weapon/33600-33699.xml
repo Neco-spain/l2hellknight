@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="33650" name="Скипетр Шиллен" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_apprentices_wand_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="10"/>
+		<set name="m_dam" val="10"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+</list>

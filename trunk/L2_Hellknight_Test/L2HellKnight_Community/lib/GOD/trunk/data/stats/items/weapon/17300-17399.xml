@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="17300" name="Возмездие Реквиема" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_grangkaz_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="411"/>
+		<set name="m_dam" val="270"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17301" name="Парные Мечи Реквиема" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="514"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17302" name="Парные Кинжалы Реквиема" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="422"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17303" name="Парные Дубины Реквиема" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="514"/>
+		<set name="m_dam" val="186"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17309" name="Щит Бессмертия" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="415"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="17324" name="Острие Апокалипсиса" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_phasian_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="428"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17325" name="Резак Апокалипсиса" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_pasis_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17326" name="Эспадон Апокалипсиса" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_volver_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17327" name="Мститель Апокалипсиса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_raksilion_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17328" name="Воитель Апокалипсиса" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_kirche_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17329" name="Буревестник Апокалипсиса" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_grave_i00"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17330" name="Бросок Апокалипсиса" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_spina_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="963"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17331" name="Страж Апокалипсиса" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_medianox_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="620"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="17332" name="Расчленитель Апокалипсиса" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_imerose_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="392"/>
+		<set name="m_dam" val="285"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17333" name="Заклинатель Апокалипсиса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_yuke_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="392"/>
+		<set name="m_dam" val="285"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17334" name="Возмездие Апокалипсиса" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_herencia_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="477"/>
+		<set name="m_dam" val="314"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17335" name="Парные Мечи Апокалипсиса" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17336" name="Парные Кинжалы Апокалипсиса" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="489"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17337" name="Парные Дубины Апокалипсиса" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="595"/>
+		<set name="m_dam" val="226"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17343" name="Щит Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Тяжелый"/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="458"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="17372" name="Метательное Копье" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_doomed_dagger_i00"/>
+		<set name="weight" val="60"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="D"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="p_dam" val="5"/>
+		<set name="m_dam" val="5"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17382" name="Острие Фантазмы" type="DAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_ignicion_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="496"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17383" name="Резак Фантазмы" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_ninfea_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="567"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17384" name="Эспадон Фантазмы" type="BIGSWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_skia_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="690"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17385" name="Мститель Фантазмы" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_ikeon_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="567"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17386" name="Воитель Фантазмы" type="DUALFIST">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_deodos_i00"/>
+		<set name="weight" val="1550"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="690"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17387" name="Буревестник Фантазмы" type="POLE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_transgredi_i00"/>
+		<set name="weight" val="2010"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="567"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17388" name="Бросок Фантазмы" type="BOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_solenas_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="5"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="1117"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="293"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17389" name="Страж Фантазмы" type="CROSSBOW">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_lapis_i00"/>
+		<set name="weight" val="1580"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="719"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="303"/>
+		<set name="critical" val="10"/>
+	</weapon>
+	<weapon id="17390" name="Расчленитель Фантазмы" type="SWORD">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_zihel_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="454"/>
+		<set name="m_dam" val="330"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17391" name="Заклинатель Фантазмы" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_alacer_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="454"/>
+		<set name="m_dam" val="330"/>
+		<set name="atk_speed" val="379"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17392" name="Возмездие Фантазмы" type="BLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_rupe_i00"/>
+		<set name="weight" val="1080"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="RHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="553"/>
+		<set name="m_dam" val="363"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+	<weapon id="17393" name="Парные Мечи Фантазмы" type="DUAL">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="weight" val="1520"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="690"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="17394" name="Парные Кинжалы Фантазмы" type="DUALDAGGER">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="weight" val="2050"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="567"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="433"/>
+		<set name="critical" val="12"/>
+	</weapon>
+	<weapon id="17395" name="Парные Дубины Фантазмы" type="DUALBLUNT">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="weight" val="1740"/>
+		<set name="rnd_dam" val="20"/>
+		<set name="bodypart" val="LRHAND"/>
+		<set name="crystal_type" val="R95"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="p_dam" val="690"/>
+		<set name="m_dam" val="275"/>
+		<set name="atk_speed" val="325"/>
+		<set name="critical" val="4"/>
+		<set name="avoid_modify" val="8"/>
+	</weapon>
+</list>

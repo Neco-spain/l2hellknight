@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="32199" name="Благословенный Щит Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="additional_name" val="Атак."/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="weight" val="1130"/>
+		<set name="bodypart" val="LHAND"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3562"/>
+		<set name="shield_def" val="458"/>
+		<set name="shield_def_rate" val="20"/>
+		<set name="isSa" val="true"/>
+	</weapon>
+</list>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id="13687" name="Knight's Cloak">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+	</item>
+	<item id="13688" name="Knight's Cloak - Light Armor exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+	</item>
+	<item id="13689" name="Knight's Cloak - Robe exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+	</item>
+	<item id="13690" name="Knight's Cloak - Kamael exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+		<cond msg="Only for Kamael.">
+			<player race="kamael" />
+		</cond>
+	</item>
+	<item id="13889" name="Holy Spirit's Cloak - Kamael exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+		<cond msg="Only for Kamael.">
+			<player race="kamael" />
+		</cond>
+	</item>
+	<item id="13890" name="Holy Spirit's Cloak">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+	</item>
+	<item id="13891" name="Holy Spirit's Cloak - Light Armor exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+	</item>
+	<item id="13892" name="Holy Spirit's Cloak - Robe exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+	</item>
+	<item id='14601' name="Ancient Cloak - Kamael exclusive">
+		<sub order="0x40" stat="unholyRcpt" val="30" /> <!-- Dark Attribute Defense +30 -->
+		<cond msg="Only for Kamael.">
+			<player race="kamael" />
+		</cond>
+	</item>
+</list>

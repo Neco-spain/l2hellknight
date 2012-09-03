@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<armor id="32190" name="R Талисман - Физ. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="600"/>
+	</armor>
+	<armor id="32191" name="R Талисман - Скор. Физ. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_active"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="600"/>
+	</armor>
+	<armor id="32192" name="R Талисман - Маг. Атк." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="600"/>
+	</armor>
+	<armor id="32193" name="R Талисман - Скор. Маг." type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="TALISMAN"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_active"/>
+		<set name="weight" val="150"/>
+		<set name="durability" val="600"/>
+	</armor>
+	<armor id="32194" name="Благословенный Шлем Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="HEAD"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="additional_name" val="Атак."/>
+		<set name="weight" val="530"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="672"/>
+		<set name="p_def" val="126"/>
+	</armor>
+	<armor id="32195" name="Благословенная Кираса Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="CHEST"/>
+		<set name="icon" val="icon.armor_t401_u_i00"/>
+		<set name="additional_name" val="Атак."/>
+		<set name="weight" val="7520"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3573"/>
+		<set name="p_def" val="335"/>
+	</armor>
+	<armor id="32196" name="Благословенные Набедренники Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="LEGS"/>
+		<set name="icon" val="icon.armor_t401_l_i00"/>
+		<set name="additional_name" val="Атак."/>
+		<set name="weight" val="3170"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="3344"/>
+		<set name="p_def" val="209"/>
+	</armor>
+	<armor id="32197" name="Благословенные Рукавицы Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="GLOVES"/>
+		<set name="icon" val="icon.armor_t401_g_i00"/>
+		<set name="additional_name" val="Атак."/>
+		<set name="weight" val="510"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="448"/>
+		<set name="avoid_modify" val="1"/>
+		<set name="p_def" val="84"/>
+	</armor>
+	<armor id="32198" name="Благословенные Сапоги Ада" type="NONE">
+		<!--Done By ALF (c)L2-WT-->
+		<set name="bodypart" val="FEET"/>
+		<set name="icon" val="icon.armor_t401_b_i00"/>
+		<set name="additional_name" val="Атак."/>
+		<set name="weight" val="1070"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1792"/>
+		<set name="p_def" val="84"/>
+	</armor>
+</list>

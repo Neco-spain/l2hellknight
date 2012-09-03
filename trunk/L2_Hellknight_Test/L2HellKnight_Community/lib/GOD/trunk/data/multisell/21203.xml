@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Сделано Shaigy -->
+<!-- Свитки-->
+
+<list>
+
+ 
+  <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30310" count="1"/>
+  </item>
+
+
+    <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30311" count="1"/>
+  </item>
+  
+   <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30312" count="1"/>
+  </item>
+  
+    <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30313" count="1"/>
+  </item>
+  
+    <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30314" count="1"/>
+  </item>
+  
+    <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30315" count="1"/>
+  </item>
+  
+    <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30316" count="1"/>
+  </item>
+  
+    <item id="1">
+  <ingredient id="21007" count="11700"/>
+    <production id="30317" count="1"/>
+  </item>
+  
+  
+    <item id="1">
+  <ingredient id="21007" count="20000"/>
+    <production id="30372" count="1"/>
+  </item>
+  
+    <item id="1">
+  <ingredient id="21007" count="20000"/>
+    <production id="30373" count="1"/>
+  </item>
+</list>
