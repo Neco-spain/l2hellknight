@@ -19,6 +19,8 @@ import gnu.trove.procedure.TObjectProcedure;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.Config;
 import l2.hellknight.L2DatabaseFactory;
 import l2.hellknight.gameserver.datatables.ClanTable;
@@ -597,6 +599,8 @@ public class Shutdown extends Thread
 		// Save all global variables data
 		GlobalVariablesManager.getInstance().saveVars();
 		_log.info("Global Variables Manager: Variables saved("+tc.getEstimatedTimeAndRestartCounter()+"ms).");
+
+		PhoenixInterface.shutdown();
 		
 		//Save items on ground before closing
 		if (Config.SAVE_DROPPED_ITEM)

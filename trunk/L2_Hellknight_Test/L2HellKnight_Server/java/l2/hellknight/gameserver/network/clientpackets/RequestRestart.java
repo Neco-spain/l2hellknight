@@ -18,6 +18,8 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.Config;
 import l2.hellknight.gameserver.SevenSignsFestival;
 import l2.hellknight.gameserver.instancemanager.AntiFeedManager;
@@ -82,6 +84,12 @@ public final class RequestRestart extends L2GameClientPacket
 				_log.fine("Player " + player.getName() + " tried to logout while fighting.");
 			
 			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANT_RESTART_WHILE_FIGHTING));
+			sendPacket(RestartResponse.valueOf(false));
+			return;
+		}
+
+		if(PhoenixInterface.logout(player.getObjectId()))
+		{
 			sendPacket(RestartResponse.valueOf(false));
 			return;
 		}

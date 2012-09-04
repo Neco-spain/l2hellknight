@@ -19,6 +19,8 @@ import static l2.hellknight.gameserver.ai.CtrlIntention.AI_INTENTION_ACTIVE;
 import java.util.Collection;
 import java.util.logging.Level;
 
+import net.phoenixengine.PhoenixInterface;
+
 import javolution.util.FastList;
 
 import l2.hellknight.Config;
@@ -1287,6 +1289,19 @@ public class L2Npc extends L2Character
 				filename = (getHtmlPath(npcId, val));
 				break;
 		}
+
+		if(PhoenixInterface.talkNpc(player.getObjectId(),getObjectId()))
+			return;
+		
+		if (npcId == PhoenixInterface.getInt("managerNpcId", 0))
+		{
+			PhoenixInterface.showFirstHtml(player.getObjectId(), getObjectId());
+			return;
+		}
+		
+		if (PhoenixInterface.isParticipating(player.getObjectId()))
+			if (PhoenixInterface.onTalkNpc(getObjectId(), player.getObjectId()))
+				return;
 		
 		// Send a Server->Client NpcHtmlMessage containing the text of the L2NpcInstance to the L2PcInstance
 		NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());

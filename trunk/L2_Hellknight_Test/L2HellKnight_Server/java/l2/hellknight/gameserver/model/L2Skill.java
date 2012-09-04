@@ -21,6 +21,7 @@ import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
 import l2.hellknight.gameserver.model.entity.TvTRoundEvent;
 
 import javolution.util.FastList;
@@ -1532,7 +1533,10 @@ public abstract class L2Skill implements IChanceSkillTrigger
 				
 				if (!TvTRoundEvent.checkForTvTRoundSkill(player, targetPlayer, skill))
 					return false;
-				
+
+			 	if(PhoenixInterface.isParticipating(player.getObjectId()) && PhoenixInterface.isParticipating(targetPlayer.getObjectId())) 
+			 		if(PhoenixInterface.areTeammates(player.getObjectId(), targetPlayer.getObjectId())) 
+					
 				if (!sourceInArena && !(targetPlayer.isInsideZone(L2Character.ZONE_PVP) && !targetPlayer.isInsideZone(L2Character.ZONE_SIEGE)))
 				{
 					if (player.getAllyId() != 0 && player.getAllyId() == targetPlayer.getAllyId())

@@ -27,6 +27,9 @@ import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
+import net.phoenixengine.Main;
+import net.phoenixengine.PhoenixInterface;
+
 import org.mmocore.network.SelectorConfig;
 import org.mmocore.network.SelectorThread;
 
@@ -428,6 +431,10 @@ public class GameServer
 		long freeMem = (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()) / 1048576;
 		long totalMem = Runtime.getRuntime().maxMemory() / 1048576;
 		_log.info("GameServer Started, free memory " + freeMem + " Mb of " + totalMem + " Mb");
+
+		Main.main();
+		PhoenixInterface.start();
+
 		Toolkit.getDefaultToolkit().beep();
 		
 		_loginThread = LoginServerThread.getInstance();
