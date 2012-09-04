@@ -16,6 +16,8 @@ package l2.hellknight.gameserver.skills.l2skills;
 
 import java.util.logging.Level;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.gameserver.instancemanager.GrandBossManager;
 import l2.hellknight.gameserver.instancemanager.MapRegionManager;
 import l2.hellknight.gameserver.model.L2Object;
@@ -70,6 +72,12 @@ public class L2SkillTeleport extends L2Skill
 				activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 				return;
 			}
+
+			if(PhoenixInterface.isParticipating(activeChar.getObjectId()))
+			{
+				activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+				return;
+			}
 			
 			if (activeChar.isAfraid())
 			{
@@ -110,6 +118,9 @@ public class L2SkillTeleport extends L2Skill
 						targetChar.sendMessage("You may not use an escape skill in a festival.");
 						continue;
 					}
+
+					if(PhoenixInterface.isParticipating(targetChar.getObjectId()))
+						continue;
 					
 					// Check to see if player is in jail
 					if (targetChar.isInJail())

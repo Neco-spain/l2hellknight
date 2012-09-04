@@ -17,6 +17,8 @@ package l2.hellknight.gameserver.network.clientpackets;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.Config;
 import l2.hellknight.gameserver.GameTimeController;
 import l2.hellknight.gameserver.ThreadPoolManager;
@@ -182,6 +184,11 @@ public final class UseItem extends L2GameClientPacket
 			{
 				return;
 			}
+
+			if(PhoenixInterface.isParticipating(activeChar.getObjectId())) 
+				if(!PhoenixInterface.onUseItem(activeChar.getObjectId(),item.getItemId(),item.getObjectId())) 
+					return;
+			
 			
 			// Equip or unEquip
 			if (FortSiegeManager.getInstance().isCombat(item.getItemId()))

@@ -25,6 +25,8 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
+
 import javolution.util.FastList;
 import javolution.util.WeakFastSet;
 
@@ -756,6 +758,20 @@ public abstract class L2Character extends L2Object
 	 */
 	protected void doAttack(L2Character target)
 	{
+		
+		if(this instanceof L2PcInstance && PhoenixInterface.doAttack(getObjectId(), target.getObjectId()))
+		{
+			sendPacket(ActionFailed.STATIC_PACKET);
+			return;
+		}
+
+		if(this instanceof L2Summon && PhoenixInterface.doAttack(((L2Summon)this).getOwner().getObjectId(), target.getObjectId()))
+		{
+			sendPacket(ActionFailed.STATIC_PACKET);
+			return;
+		}
+			
+	
 		if (Config.DEBUG)
 			_log.fine(getName() + " doAttack: target=" + target);
 		
@@ -1051,7 +1067,11 @@ public abstract class L2Character extends L2Object
 				((L2Summon) this).setChargedSoulShot(L2ItemInstance.CHARGED_NONE);
 			else if (weaponInst != null)
 				weaponInst.setChargedSoulshot(L2ItemInstance.CHARGED_NONE);
-			
+
+			if(this instanceof L2PcInstance && target instanceof L2PcInstance)
+				if(PhoenixInterface.isParticipating(getObjectId()))
+					PhoenixInterface.onHit(getObjectId(), target.getObjectId());
+				
 			if (player != null)
 			{
 				if (player.isCursedWeaponEquipped())
@@ -1589,6 +1609,95 @@ public abstract class L2Character extends L2Object
 	
 	private void beginCast(L2Skill skill, boolean simultaneously)
 	{
+		
+		if(this instanceof L2PcInstance)
+			if(PhoenixInterface.isParticipating(getObjectId()))
+			{
+				
+				if(this.getTarget() instanceof L2PcInstance)
+					if(PhoenixInterface.areTeammates(getObjectId(), getTarget().getObjectId()) && !PhoenixInterface.getBoolean("friendlyFireEnabled",0) && skill.isOffensive())
+					{
+						if (simultaneously)
+	    					setIsCastingSimultaneouslyNow(false);
+	    				else
+	    					setIsCastingNow(false);	    				
+	    	            
+		            	sendPacket(ActionFailed.STATIC_PACKET);
+						getAI().setIntention(AI_INTENTION_ACTIVE);
+		            
+	    				return;
+					}
+				
+				if(getTarget() != null)
+					if(!PhoenixInterface.canAttack(getObjectId(), getTarget().getObjectId()) && skill.isOffensive())
+					{
+						if (simultaneously)
+							setIsCastingSimultaneouslyNow(false);
+						else
+							setIsCastingNow(false);    				
+			            
+		            	sendPacket(ActionFailed.STATIC_PACKET);
+						getAI().setIntention(AI_INTENTION_ACTIVE);
+		            
+						return;
+					}
+				
+				if(!PhoenixInterface.onUseMagic(this.getObjectId(), skill.getId()))
+				{
+					if (simultaneously)
+						setIsCastingSimultaneouslyNow(false);
+					else
+						setIsCastingNow(false);    				
+		            
+	            	sendPacket(ActionFailed.STATIC_PACKET);
+    				getAI().setIntention(AI_INTENTION_ACTIVE);
+	            
+					return;
+				}
+			}
+				
+		
+		if(this instanceof L2Summon)
+		{
+			if(PhoenixInterface.isParticipating(((L2Summon)this).getOwner().getObjectId()))
+			{
+				if(this.getTarget() instanceof L2PcInstance)
+					if(PhoenixInterface.areTeammates(((L2Summon)this).getOwner().getObjectId(), getTarget().getObjectId()) && !PhoenixInterface.getBoolean("friendlyFireEnabled",0) && skill.isOffensive())
+					{
+						if (simultaneously)
+	    					setIsCastingSimultaneouslyNow(false);
+	    				else
+	    					setIsCastingNow(false);
+	    				
+	    				return;
+					}
+				
+				if(!PhoenixInterface.canAttack(((L2Summon)this).getOwner().getObjectId(), this.getTarget().getObjectId()))
+				{
+					if (simultaneously)
+						setIsCastingSimultaneouslyNow(false);
+					else
+						setIsCastingNow(false);
+					
+					return;
+				}
+				
+				if(!PhoenixInterface.onUseMagic(((L2Summon)this).getOwner().getObjectId(), skill.getId()))
+				{
+					if (simultaneously)
+						setIsCastingSimultaneouslyNow(false);
+					else
+						setIsCastingNow(false);    				
+		            
+	            	sendPacket(ActionFailed.STATIC_PACKET);
+					getAI().setIntention(AI_INTENTION_ACTIVE);
+	            
+					return;
+				}
+					
+			}			
+		}
+	
 		if (!checkDoCastConditions(skill))
 		{
 			if (simultaneously)

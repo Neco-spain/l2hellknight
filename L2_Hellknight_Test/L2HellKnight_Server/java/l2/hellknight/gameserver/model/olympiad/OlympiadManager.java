@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import net.phoenixengine.PhoenixInterface;
+
 import javolution.util.FastList;
 import javolution.util.FastMap;
 
@@ -468,6 +470,12 @@ public class OlympiadManager
 			return false;
 		}
 
+		if(PhoenixInterface.isRegistered(noble.getObjectId())) 
+	 	{ 
+	 		noble.sendMessage("You can't join olympiad while participating on an Event."); 
+	 		return false; 
+	 	} 
+		
 		if (isRegistered(noble, player, true))
 			return false;
 

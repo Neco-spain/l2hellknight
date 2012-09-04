@@ -18,6 +18,8 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.Config;
 import l2.hellknight.gameserver.SevenSignsFestival;
 import l2.hellknight.gameserver.model.L2Party;
@@ -80,6 +82,12 @@ public final class Logout extends L2GameClientPacket
 		{
 			player.sendMessage("A superior power doesn't allow you to leave the event.");
 			player.sendPacket(ActionFailed.STATIC_PACKET);
+			return;
+		}
+
+		if(PhoenixInterface.logout(player.getObjectId()))
+		{
+			sendPacket(ActionFailed.STATIC_PACKET);
 			return;
 		}
 		

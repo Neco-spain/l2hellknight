@@ -14,6 +14,8 @@
  */
 package l2.hellknight.gameserver.network.serverpackets;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.gameserver.datatables.AccessLevels;
 import l2.hellknight.gameserver.instancemanager.CHSiegeManager;
 import l2.hellknight.gameserver.instancemanager.CastleManager;
@@ -68,6 +70,11 @@ public class Die extends L2GameServerPacket
 		}
 		_charObjId = cha.getObjectId();
 		_canTeleport = !((cha instanceof L2PcInstance && ((TvTEvent.isStarted() && TvTEvent.isPlayerParticipant(_charObjId)) || (TvTRoundEvent.isStarted() && TvTRoundEvent.isPlayerParticipant(_charObjId)))) || cha.isPendingRevive());
+		
+		if(cha instanceof L2PcInstance)
+			if(PhoenixInterface.isParticipating(cha.getObjectId()))
+			   _canTeleport = false;
+		
 		if (cha instanceof L2Attackable)
 			_sweepable = ((L2Attackable)cha).isSweepActive();
 		

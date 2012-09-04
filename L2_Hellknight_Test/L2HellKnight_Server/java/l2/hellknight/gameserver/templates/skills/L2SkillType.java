@@ -45,6 +45,8 @@ import l2.hellknight.gameserver.templates.StatsSet;
 public enum L2SkillType
 {
 	// Damage
+	BOMB,
+	CAPTURE,	
 	PDAM,
 	MDAM,
 	CPDAM,

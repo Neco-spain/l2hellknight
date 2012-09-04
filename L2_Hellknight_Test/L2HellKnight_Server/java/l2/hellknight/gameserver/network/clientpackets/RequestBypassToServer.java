@@ -18,6 +18,8 @@ import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import net.phoenixengine.PhoenixInterface;
+
 import l2.hellknight.Config;
 import l2.hellknight.gameserver.ai.CtrlIntention;
 import l2.hellknight.gameserver.communitybbs.CommunityBoard;
@@ -247,6 +249,10 @@ public final class RequestBypassToServer extends L2GameClientPacket
 					Hero.getInstance().showHeroDiary(player, heroclass, heroid, heropage);
 				}
 			}
+			else if (_command.startsWith("phoenix "))
+			{
+				PhoenixInterface.bypass(activeChar.getObjectId(),_command.substring(8));
+			}			
 			else
 			{
 				final IBypassHandler handler = BypassHandler.getInstance().getBypassHandler(_command);
