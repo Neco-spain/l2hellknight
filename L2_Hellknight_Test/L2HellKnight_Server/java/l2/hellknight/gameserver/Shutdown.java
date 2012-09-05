@@ -599,7 +599,7 @@ public class Shutdown extends Thread
 		// Save all global variables data
 		GlobalVariablesManager.getInstance().saveVars();
 		_log.info("Global Variables Manager: Variables saved("+tc.getEstimatedTimeAndRestartCounter()+"ms).");
-
+		
 		PhoenixInterface.shutdown();
 		
 		//Save items on ground before closing

@@ -14,7 +14,7 @@
  */
 package l2.hellknight.gameserver.datatables;
 
-import gnu.trove.TIntObjectHashMap;
+import gnu.trove.map.hash.TIntObjectHashMap;
 
 import java.io.File;
 import java.util.logging.Level;

@@ -72,7 +72,7 @@ public class L2SkillTeleport extends L2Skill
 				activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 				return;
 			}
-
+			
 			if(PhoenixInterface.isParticipating(activeChar.getObjectId()))
 			{
 				activeChar.sendPacket(ActionFailed.STATIC_PACKET);
@@ -118,7 +118,7 @@ public class L2SkillTeleport extends L2Skill
 						targetChar.sendMessage("You may not use an escape skill in a festival.");
 						continue;
 					}
-
+					
 					if(PhoenixInterface.isParticipating(targetChar.getObjectId()))
 						continue;
 					

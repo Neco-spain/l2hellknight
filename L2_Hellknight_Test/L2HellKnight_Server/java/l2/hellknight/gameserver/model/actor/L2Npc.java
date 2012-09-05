@@ -1289,7 +1289,7 @@ public class L2Npc extends L2Character
 				filename = (getHtmlPath(npcId, val));
 				break;
 		}
-
+		
 		if(PhoenixInterface.talkNpc(player.getObjectId(),getObjectId()))
 			return;
 		

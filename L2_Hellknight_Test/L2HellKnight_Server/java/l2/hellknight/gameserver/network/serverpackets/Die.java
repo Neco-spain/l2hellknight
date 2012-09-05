@@ -70,11 +70,6 @@ public class Die extends L2GameServerPacket
 		}
 		_charObjId = cha.getObjectId();
 		_canTeleport = !((cha instanceof L2PcInstance && ((TvTEvent.isStarted() && TvTEvent.isPlayerParticipant(_charObjId)) || (TvTRoundEvent.isStarted() && TvTRoundEvent.isPlayerParticipant(_charObjId)))) || cha.isPendingRevive());
-		
-		if(cha instanceof L2PcInstance)
-			if(PhoenixInterface.isParticipating(cha.getObjectId()))
-			   _canTeleport = false;
-		
 		if (cha instanceof L2Attackable)
 			_sweepable = ((L2Attackable)cha).isSweepActive();
 		

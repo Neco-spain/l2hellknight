@@ -82,6 +82,7 @@ import l2.hellknight.gameserver.idfactory.IdFactory;
 import l2.hellknight.gameserver.instancemanager.AirShipManager;
 import l2.hellknight.gameserver.instancemanager.AntiFeedManager;
 import l2.hellknight.gameserver.instancemanager.AuctionManager;
+import l2.hellknight.gameserver.instancemanager.AutoVoteRewardHandler;
 import l2.hellknight.gameserver.instancemanager.BoatManager;
 import l2.hellknight.gameserver.instancemanager.CHSiegeManager;
 import l2.hellknight.gameserver.instancemanager.CastleManager;
@@ -281,7 +282,7 @@ public class GameServer
 		FourSepulchersManager.getInstance().init();
 		DimensionalRiftManager.getInstance();
 		EventDroplist.getInstance();
-		
+				
 		printSection("Siege");
 		SiegeManager.getInstance().getSieges();
 		FortSiegeManager.getInstance();
@@ -370,7 +371,7 @@ public class GameServer
 		SevenSignsFestival.getInstance();
 		AutoSpawnHandler.getInstance();
 		AutoChatHandler.getInstance();
-		
+		AutoVoteRewardHandler.getInstance();
 		FaenorScriptEngine.getInstance();
 		// Init of a cursed weapon manager
 		
@@ -434,7 +435,7 @@ public class GameServer
 
 		Main.main();
 		PhoenixInterface.start();
-
+		
 		Toolkit.getDefaultToolkit().beep();
 		
 		_loginThread = LoginServerThread.getInstance();

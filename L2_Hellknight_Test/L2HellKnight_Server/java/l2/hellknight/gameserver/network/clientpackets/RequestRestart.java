@@ -87,7 +87,7 @@ public final class RequestRestart extends L2GameClientPacket
 			sendPacket(RestartResponse.valueOf(false));
 			return;
 		}
-
+		
 		if(PhoenixInterface.logout(player.getObjectId()))
 		{
 			sendPacket(RestartResponse.valueOf(false));

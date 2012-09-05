@@ -176,7 +176,7 @@ public final class Say2 extends L2GameClientPacket
 				return;
 			}
 		}
-
+		
 		if(PhoenixInterface.isParticipating(activeChar.getObjectId()))
 			PhoenixInterface.onSay(_type, activeChar.getObjectId(), _text);
 		

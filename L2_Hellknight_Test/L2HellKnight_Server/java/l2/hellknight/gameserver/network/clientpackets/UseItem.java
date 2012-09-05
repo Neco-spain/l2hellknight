@@ -184,11 +184,6 @@ public final class UseItem extends L2GameClientPacket
 			{
 				return;
 			}
-
-			if(PhoenixInterface.isParticipating(activeChar.getObjectId())) 
-				if(!PhoenixInterface.onUseItem(activeChar.getObjectId(),item.getItemId(),item.getObjectId())) 
-					return;
-			
 			
 			// Equip or unEquip
 			if (FortSiegeManager.getInstance().isCombat(item.getItemId()))
