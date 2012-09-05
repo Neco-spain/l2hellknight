@@ -84,7 +84,7 @@ public final class Logout extends L2GameClientPacket
 			player.sendPacket(ActionFailed.STATIC_PACKET);
 			return;
 		}
-
+		
 		if(PhoenixInterface.logout(player.getObjectId()))
 		{
 			sendPacket(ActionFailed.STATIC_PACKET);

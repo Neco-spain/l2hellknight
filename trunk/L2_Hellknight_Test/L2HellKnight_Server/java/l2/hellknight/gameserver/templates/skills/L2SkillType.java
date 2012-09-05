@@ -46,7 +46,7 @@ public enum L2SkillType
 {
 	// Damage
 	BOMB,
-	CAPTURE,	
+	CAPTURE,
 	PDAM,
 	MDAM,
 	CPDAM,

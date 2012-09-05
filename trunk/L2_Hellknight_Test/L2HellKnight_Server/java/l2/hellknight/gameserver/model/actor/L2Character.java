@@ -771,7 +771,7 @@ public abstract class L2Character extends L2Object
 			return;
 		}
 			
-	
+		
 		if (Config.DEBUG)
 			_log.fine(getName() + " doAttack: target=" + target);
 		
@@ -1067,11 +1067,11 @@ public abstract class L2Character extends L2Object
 				((L2Summon) this).setChargedSoulShot(L2ItemInstance.CHARGED_NONE);
 			else if (weaponInst != null)
 				weaponInst.setChargedSoulshot(L2ItemInstance.CHARGED_NONE);
-
+			
 			if(this instanceof L2PcInstance && target instanceof L2PcInstance)
 				if(PhoenixInterface.isParticipating(getObjectId()))
 					PhoenixInterface.onHit(getObjectId(), target.getObjectId());
-				
+			
 			if (player != null)
 			{
 				if (player.isCursedWeaponEquipped())
@@ -1650,7 +1650,7 @@ public abstract class L2Character extends L2Object
 						setIsCastingNow(false);    				
 		            
 	            	sendPacket(ActionFailed.STATIC_PACKET);
-    				getAI().setIntention(AI_INTENTION_ACTIVE);
+					getAI().setIntention(AI_INTENTION_ACTIVE);
 	            
 					return;
 				}
@@ -1697,7 +1697,7 @@ public abstract class L2Character extends L2Object
 					
 			}			
 		}
-	
+		
 		if (!checkDoCastConditions(skill))
 		{
 			if (simultaneously)

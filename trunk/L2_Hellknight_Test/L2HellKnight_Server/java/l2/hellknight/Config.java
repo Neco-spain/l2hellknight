@@ -1070,6 +1070,42 @@ public final class Config
 	public static boolean ALT_STRICT_SEVENSIGNS;
 	public static boolean ALT_SEVENSIGNS_LAZY_UPDATE;
 	
+	//--------------------------------------------------
+	// vote Settings
+	//--------------------------------------------------
+	
+	public static boolean ALLOW_HOPZONE_VOTE_REWARD;
+	public static boolean ALLOW_TOP200_VOTE_REWARD;
+	public static int VOTE_DELAY_FOR_CHECK;
+	public static String HOPZONE_VOTE_EVENT_SITE;
+	public static int HOPZONE_VOTE_REWARD_ITEM_ID;
+	public static int HOPZONE_VOTE_REWARD_ITEM_COUNT;
+	public static int HOPZONE_VOTE_FOR_REWARD;
+	public static int HOPZONE_VOTE_MAX_STUCK_ITEM_COUNT;
+	public static boolean ALLOW_GS200_VOTE_REWARD;
+	public static String GS200_VOTE_EVENT_SITE;
+	public static int GS200_VOTE_REWARD_ITEM_ID;
+	public static long GS200_VOTE_REWARD_ITEM_COUNT;
+	public static int GS200_VOTE_FOR_REWARD;
+	public static int GS200_VOTE_MAX_STUCK_ITEM_COUNT;
+	public static boolean ALLOW_GT100_VOTE_REWARD;
+	public static String GT100_VOTE_EVENT_SITE;
+	public static int GT100_VOTE_REWARD_ITEM_ID;
+	public static long GT100_VOTE_REWARD_ITEM_COUNT;
+	public static int GT100_VOTE_FOR_REWARD;
+	public static int GT100_VOTE_MAX_STUCK_ITEM_COUNT;
+	public static boolean ALLOW_TGS_VOTE_REWARD;
+	public static String TGS_VOTE_EVENT_SITE;
+	public static int TGS_VOTE_REWARD_ITEM_ID;
+	public static long TGS_VOTE_REWARD_ITEM_COUNT;
+	public static int TGS_VOTE_FOR_REWARD;
+	public static int TGS_VOTE_MAX_STUCK_ITEM_COUNT;
+	public static boolean ALLOW_TZ_VOTE_REWARD;
+	public static String TZ_VOTE_EVENT_SITE;
+	public static int TZ_VOTE_REWARD_ITEM_ID;
+	public static long TZ_VOTE_REWARD_ITEM_COUNT;
+	public static int TZ_VOTE_FOR_REWARD;
+	public static int TZ_VOTE_MAX_STUCK_ITEM_COUNT;	
 	
 	//--------------------------------------------------
 	// Server Settings
@@ -2555,7 +2591,7 @@ public final class Config
 					
 					L2JMOD_ENABLE_WAREHOUSESORTING_CLAN = Boolean.valueOf(extraconfig.getProperty("EnableWarehouseSortingClan", "False"));
 					L2JMOD_ENABLE_WAREHOUSESORTING_PRIVATE = Boolean.valueOf(extraconfig.getProperty("EnableWarehouseSortingPrivate", "False"));
-					
+
 					BANKING_SYSTEM_ENABLED = Boolean.parseBoolean(extraconfig.getProperty("BankingEnabled", "false"));
 					BANKING_SYSTEM_GOLDBARS = Integer.parseInt(extraconfig.getProperty("BankingGoldbarCount", "1"));
 					BANKING_SYSTEM_ADENA = Integer.parseInt(extraconfig.getProperty("BankingAdenaCount", "500000000"));
