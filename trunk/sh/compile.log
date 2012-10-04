@@ -1,0 +1,109 @@
+
+init:
+
+compile-commons:
+   [delete] Deleting directory C:\svn\sh\build\classes
+    [mkdir] Created dir: C:\svn\sh\build\classes
+    [javac] C:\svn\sh\Build.xml:55: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 77 source files to C:\svn\sh\build\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\collections\EmptyIterator.java:11: warning: [rawtypes] found raw type: Iterator
+    [javac] 	private static final Iterator INSTANCE = new EmptyIterator();
+    [javac] 	                     ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\collections\EmptyIterator.java:11: warning: [rawtypes] found raw type: EmptyIterator
+    [javac] 	private static final Iterator INSTANCE = new EmptyIterator();
+    [javac] 	                                             ^
+    [javac]   missing type arguments for generic class EmptyIterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class EmptyIterator
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\collections\JoinedIterator.java:57: warning: [rawtypes] found raw type: Iterator
+    [javac] 		this(iterators.toArray(new Iterator[iterators.size()]));
+    [javac] 		                           ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\dbcp\BasicDataSource.java:23: error: BasicDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+    [javac] public class BasicDataSource implements DataSource
+    [javac]        ^
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\IClientFactory.java:3: warning: [rawtypes] found raw type: MMOClient
+    [javac] public interface IClientFactory<T extends MMOClient>
+    [javac]                                           ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\MMOClient.java:5: warning: [rawtypes] found raw type: MMOConnection
+    [javac] public abstract class MMOClient<T extends MMOConnection>
+    [javac]                                           ^
+    [javac]   missing type arguments for generic class MMOConnection<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOClient declared in class MMOConnection
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\MMOConnection.java:15: warning: [rawtypes] found raw type: MMOClient
+    [javac] public class MMOConnection<T extends MMOClient>
+    [javac]                                      ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\SelectorThread.java:24: warning: [rawtypes] found raw type: MMOClient
+    [javac] public class SelectorThread<T extends MMOClient> extends Thread
+    [javac]                                       ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\SelectorThread.java:51: warning: [rawtypes] found raw type: SelectorThread
+    [javac] 	private static final List<SelectorThread> ALL_SELECTORS = new ArrayList<SelectorThread>();
+    [javac] 	                          ^
+    [javac]   missing type arguments for generic class SelectorThread<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOClient declared in class SelectorThread
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\SelectorThread.java:51: warning: [rawtypes] found raw type: SelectorThread
+    [javac] 	private static final List<SelectorThread> ALL_SELECTORS = new ArrayList<SelectorThread>();
+    [javac] 	                                                                        ^
+    [javac]   missing type arguments for generic class SelectorThread<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOClient declared in class SelectorThread
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\SendablePacket.java:5: warning: [rawtypes] found raw type: MMOClient
+    [javac] public abstract class SendablePacket<T extends MMOClient> extends l2p.commons.net.nio.SendablePacket<T>
+    [javac]                                                ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\ReceivablePacket.java:5: warning: [rawtypes] found raw type: MMOClient
+    [javac] public abstract class ReceivablePacket<T extends MMOClient> extends l2p.commons.net.nio.ReceivablePacket<T>
+    [javac]                                                  ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\IPacketHandler.java:5: warning: [rawtypes] found raw type: MMOClient
+    [javac] public interface IPacketHandler<T extends MMOClient>
+    [javac]                                           ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\IMMOExecutor.java:4: warning: [rawtypes] found raw type: MMOClient
+    [javac] public interface IMMOExecutor<T extends MMOClient>
+    [javac]                                         ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\net\nio\impl\MMOExecutableQueue.java:9: warning: [rawtypes] found raw type: MMOClient
+    [javac] public class MMOExecutableQueue<T extends MMOClient> implements Queue<ReceivablePacket<T>>, Runnable
+    [javac]                                           ^
+    [javac]   missing type arguments for generic class MMOClient<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOConnection declared in class MMOClient
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\util\TroveUtils.java:22: warning: [serial] serializable class TIntObjectHashMapEmpty has no definition of serialVersionUID
+    [javac] 	private static class TIntObjectHashMapEmpty<V> extends TIntObjectHashMap<V>
+    [javac] 	               ^
+    [javac] C:\svn\sh\commons\src\main\java\l2p\commons\util\TroveUtils.java:42: warning: [serial] serializable class TIntArrayListEmpty has no definition of serialVersionUID
+    [javac] 	private static class TIntArrayListEmpty extends TIntArrayList
+    [javac] 	               ^
+    [javac] 1 error
+    [javac] 17 warnings
+
+BUILD FAILED
+C:\svn\sh\Build.xml:55: Compile failed; see the compiler error output for details.
+
+Total time: 3 seconds
