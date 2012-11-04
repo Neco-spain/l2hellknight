@@ -1,0 +1,77 @@
+<html>
+<body>
+<center>
+<table>
+<tr>
+<td><button value="News" action="bypass _bbspage:index" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Shop" action="bypass _bbspage:shop" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Services" action="bypass _bbspage:services" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Buffs" action="bypass _bbsbuff;" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Teleport" action="bypass _bbsteleport;" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Events" action="bypass _bbspage:events" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Career" action="bypass _bbscareer;" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Statistics" action="bypass _bbsstat" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Help" action="bypass _bbspage:help" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<img src="L2UI.SquareWhite" width=700 height=1>
+<table width=700 bgcolor=CCCCCC>
+  <tr><td width=200>
+  <a action="bypass _bbspage:index"><font color=F2C202>Home</font></a>
+  <font color=F2C202> -> </font>
+  <a action="bypass _bbsbuff;"><font color=F2C202>Buffs</font></a>
+  </td><td width=400 align=left>
+  <font color=D70000>Price of one buff 10k Adena</font></font>
+  </td></tr>
+</table>
+<img src="L2UI.SquareWhite" width=700 height=1>
+<table width=600 height=408>
+  <tr>
+    <td>
+    <center>
+    <br>
+    <button value="All Buffs" action="bypass _bbsbuff;usefixed;all;1" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Protection and Resists" action="bypass _bbsbuff;usefixed;rezist;1" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Song and Dance" action="bypass _bbsbuff;usefixed;dancesong;1" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Attack" action="bypass _bbsbuff;usefixed;ataka;1" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Others" action="bypass _bbsbuff;usefixed;other;1" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Set for Mage" action="bypass -h scripts_services.Buffer:doBuffGroup 2 0 %buffs_in_grp2%1" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Set for Fighter" action="bypass -h scripts_services.Buffer:doBuffGroup 1 0 %buffs_in_grp1%" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Set for Mage (pet)" action="bypass -h scripts_services.Buffer:doBuffGroup 2 1 %buffs_in_grp2%" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    <button value="Set for Fighter (pet)" action="bypass -h scripts_services.Buffer:doBuffGroup 1 1 %buffs_in_grp1%" width=200 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+    </center>
+    </td>
+    <td width=1>
+	<img src="L2UI.SquareWhite" width=1 height=380>
+	</td>
+    <td>
+    <center>
+     <br>	
+     <table width="140">
+      <tr>
+      <td>Additionally:</td>
+      </tr>
+      <tr>
+      <td><button value="Cancel" action="bypass _bbsbuff;cancel" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+      <td><button value="HP|MP|CP" action="bypass _bbsbuff;restore" width=80 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+      </tr>
+	  <tr><tr>
+      <td>Your sets:</td>
+      <td></td>
+      </tr>
+      <tr>
+      <td><edit var="name" width=150 length=10></td>
+      <td><button value="New" action="bypass _bbsbuff;addgrp; $name" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+      </tr>
+     </table>
+     %buffgrps%
+	</center>
+    </td>
+  </tr>
+</table>
+<img src="L2UI.SquareWhite" width=700 height=1>
+<br>
+<font color=3293F3>Community Board PVP | Rebellion-team.ru © 2012</font>
+</center>
+</body>
+</html>
