@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<announce delay="60" repeat="20">
+		<message text="мессага 1" />
+	</announce>
+	<announce delay="120" repeat="60">
+		<message text="мессага 2" />
+	</announce>
+	<announce delay="240" repeat="120">
+		<message text="мессага 3" />
+	</announce>
+</list>

@@ -1,0 +1,21 @@
+<title>Панель администратора</title>
+<center><table width=275 bgcolor=CCCCCC>
+<tr>
+<td><button value="Главная" action="bypass -h admin_admin" width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ивенты" action="bypass -h admin_show_html events/events.htm" width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонажи" action="bypass -h admin_char_manage" width=70 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервер" action="bypass -h admin_server admserver.htm" width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table></center><br>
+<center>
+[admin_sreload all|<button value="Перегрузить все скрипты" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+<br><br>
+[admin_sreload actions|<button value="Перегрузить действия" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+[admin_sreload commands|<button value="Перегрузить команды" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+[admin_sreload events|<button value="Перегрузить эвенты" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+[admin_sreload items|<button value="Перегрузить итемы" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+[admin_sreload npc|<button value="Перегрузить НПЦ" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+[admin_sreload services|<button value="Перегрузить сервисы" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]%%
+<br><br>
+[admin_sreload $Scriptsname|<button value="Перегрузить скрипт" width=250 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">]
+<br><edit var="Scriptsname" width=150 height=18>
+</center>

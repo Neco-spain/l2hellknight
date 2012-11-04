@@ -1,0 +1,67 @@
+<center><table width=275 bgcolor=CCCCCC>
+<tr>
+<td><button value="Главная" action="bypass -h admin_admin" width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ивенты" action="bypass -h admin_show_html events/events.htm" width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонажи" action="bypass -h admin_char_manage" width=65 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервер" action="bypass -h admin_server admserver.htm" width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table></center><br>
+
+Residence: %residence%
+
+<table>
+	<tr>
+		<td width="60">Owner:</td>
+		<td width="100">%owner%</td>
+		<td><edit var="owner" width=100></td>
+		<td><button value="Set" action="bypass -h admin_set_owner %id% $owner" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+
+Cycle: %cycle%; Paid Cycle: %paid_cycle%
+
+Reward Count: %reward_count%; Left time : %left_time%
+
+Date:
+<table>
+<tr>
+	<td>Hour</td>
+	<td>Minute</td>
+	<td>Day</td>
+	<td>Month</td>
+	<td>Year</td>
+</tr>
+<tr>
+	<td>%hour%</td>
+	<td>%minute%</td>
+	<td>%day%</td>
+	<td>%month%</td>
+	<td>%year%</td>
+</tr>
+<tr>
+	<td><edit var="hour" width=40></td>
+	<td><edit var="minute" width=40></td>
+	<td><edit var="day" width=40></td>
+	<td><edit var="month" width=40></td>
+	<td><edit var="year" width=50></td>
+</tr>
+</table>
+
+<button value="Set Time" action="bypass -h admin_set_siege_time %id% $hour $minute $day $month $year" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+
+<table>
+	<tr>
+		<td><edit var="q_sec" width=40></td>
+		<td width="30">sec</td>
+		<td><button value="Quick Start" action="bypass -h admin_quick_siege_start %id% $q_sec" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="Quick Stop" action="bypass -h admin_quick_siege_stop %id% $q_sec" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td width="100">Clan name</td>
+		<td width="100">Leader name</td>
+		<td width="100">Type</td>
+	</tr>
+	%clans%
+</table>

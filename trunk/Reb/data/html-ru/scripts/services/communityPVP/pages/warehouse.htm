@@ -1,0 +1,115 @@
+<html>
+<body>
+<center>
+<table><tr>
+<td><button value="Новости" action="bypass _bbspage:index" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Магазин" action="bypass _bbspage:shop" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервисы" action="bypass _bbspage:services" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Баффер" action="bypass _bbsbuff;" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Телепорт" action="bypass _bbsteleport;" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Эвенты" action="bypass _bbspage:events" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Карьера" action="bypass _bbscareer;" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table>
+<img src="L2UI.SquareWhite" width=600 height=1>
+<table width=700 bgcolor=CCCCCC>
+  <tr><td width=300>
+  <a action="bypass _bbspage:index"><font color=F2C202>Главная</font></a>
+  <font color=F2C202> -> </font>
+  <a action="bypass _bbspage:shop<"><font color=F2C202>Магазин</font></a>
+  <font color=F2C202> -> </font>
+  <a action="bypass _bbswarehouse<"><font color=F2C202>Склад</font></a>
+  </td><td width=300 align=left>
+  </td></tr>
+</table><img src="L2UI.SquareWhite" width=600 height=1><br><br>
+<table width=600 height=410><tr>
+
+    <td valign=top align=center>
+        <br>
+        <img src="L2UI.SquareWhite" width=280 height=1>
+        <table width=280 bgcolor=4a4840><tr>
+            <td height=20 width=280 align="center">
+                <font color=LEVEL>Личный склад</font>
+            </td></tr></table><img src="L2UI.SquareWhite" width=280 height=1><br>
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">Просмотр личного склада</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table>
+
+        <table width=200><tr>
+            <td height=30 align="center">
+                <combobox width="140" var="private_category" list="Все предметы;Оружие;Броня;Бижутерия;Украшения;Предметы снабжения;Материалы;Ключевые материалы;Рецепты;Книги;Разное;Прочее">
+            </td>
+            <td height=30 align="center">
+                <button value="Просмотр" action="bypass _bbswarehouse:private_retrieve: $private_category" width=100 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+            </td>
+        </tr></table>
+
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">Положить предметы<br1>в личный склад</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table><br>
+        <button value="Положить" action="bypass _bbswarehouse:private_deposit" width=120 height=25 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+    </td>
+
+
+    <td valign=top align=center>
+        <br>
+        <img src="L2UI.SquareWhite" width=280 height=1>
+        <table width=280 bgcolor=4a4840><tr>
+            <td height=20 width=280 align="center">
+                <font color=LEVEL>Клановый склад</font>
+            </td></tr></table><img src="L2UI.SquareWhite" width=280 height=1><br>
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">Просмотр кланового склада</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table>
+
+        <table width=200><tr>
+            <td height=30 align="center">
+                <combobox width="140" var="clan_category" list="Все предметы;Оружие;Броня;Бижутерия;Украшения;Предметы снабжения;Материалы;Ключевые материалы;Рецепты;Книги;Разное;Прочее">
+            </td>
+            <td height=30 align="center">
+                <button value="Просмотр" action="bypass _bbswarehouse:clan_retrieve: $clan_category" width=100 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+            </td>
+        </tr></table>
+
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">Положить предметы<br1>в клановый склад</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table><br>
+        <button value="Положить" action="bypass _bbswarehouse:clan_deposit" width=120 height=25 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+    </td>
+
+</tr></table><img src="L2UI.SquareWhite" width=600 height=1>
+<font color=3293F3>Community Board PVP | Rebellion-team.ru © 2012</font>
+</center>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="82168" y="148360" z="-3464" h="57343" /><!-- Гиран центр-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81672" y="148360" z="-3464" h="40959" /><!-- Гиран центр-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81672" y="148872" z="-3472" h="22517" /><!-- Гиран центр-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="82168" y="148856" z="-3464" h="8191" /><!-- Гиран центр-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81672" y="147560" z="-3464" h="16383" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81416" y="147560" z="-3464" h="32767" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="80808" y="148472" z="-3472" h="0" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="80808" y="148760" z="-3472" h="16962" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81416" y="149688" z="-3464" h="49151" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81656" y="149688" z="-3464" h="49151" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81416" y="149688" z="-3464" h="49151" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81656" y="149688" z="-3464" h="49151" /><!-- Гиран лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="147912" y="-57400" z="-2776" h="13028" /><!-- годарт лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="147512" y="-57384" z="-2776" h="13028" /><!-- годарт лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="149496" y="-56328" z="-2776" h="26056" /><!-- годарт лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="149256" y="-56664" z="-2776" h="24575" /><!-- годарт лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="146152" y="-56680" z="-2776" h="4836" /><!-- годарт лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="145928" y="-56328" z="-3776" h="6711" /><!-- годарт лестницы-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="14536" y="143128" z="-2656" h="32767" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="15640" y="144408" z="-3072" h="57343" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="18184" y="146152" z="-3080" h="57343" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="19368" y="145224" z="-3104" h="27131" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="20136" y="144792" z="-3104" h="23881" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="21240" y="143784" z="-3088" h="11547" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="21576" y="145640" z="-3144" h="8191" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="21576" y="146056" z="-3168" h="0" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="19768" y="145912" z="-3104" h="36123" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="18536" y="144376" z="-3094" h="43643" /><!-- дион-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-86360" y="242376" z="-3728" h="39391" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-85080" y="242472" z="-3728" h="29412" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-85816" y="241736" z="-3728" h="3355" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-84680" y="241928" z="-3728" h="27931" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-83592" y="241976" z="-3728" h="51210" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-82408" y="243144" z="-3728" h="57343" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-82552" y="242168" z="-3728" h="4836" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-83064" y="244728" z="-3728" h="48112" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-83992" y="244824" z="-3754" h="62180" /><!-- деревня говорящего острова-->
+		<npc id="30627" /><!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="83688" y="148856" z="-3430" h="32767" /><!-- Гиран-->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="82376" y="148600" z="-3492" h="0" /><!-- Гиран -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="82312" y="53288" z="-1521" h="14383" /><!-- Орен -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="81496" y="55384" z="-1550" h="16383" /><!-- Орен -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="146824" y="25592" z="-2015" h="16383" /><!-- Аден -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="147832" y="25592" z="-2038" h="22517" /><!-- Аден -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="147896" y="-56616" z="-2805" h="21220" /><!-- Годдарт -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="147512" y="-56616" z="-2805" h="6133" /><!-- Годдарт -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="87176" y="-142088" z="-1368" h="57343" /><!-- Шутгард -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="87560" y="-142088" z="-1365" h="32767" /><!-- Шутгард -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="44312" y="-48392" z="-822" h="16383" /><!-- Руна -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="43448" y="-48392" z="-822" h="16383" /><!-- Руна -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="110456" y="220168" z="-3624" h="0" /><!-- Хейн -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="111576" y="221000" z="-3571" h="32767" /><!-- Хейн -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="17080" y="144792" z="-3029" h="26634" /><!-- Дион -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="18024" y="145304" z="-3075" h="6133" /><!-- Дион -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="15528" y="142904" z="-2729" h="16383" /><!-- Дион -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-13976" y="121912" z="-3014" h="16383" /><!-- Глудио -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-13496" y="123448" z="-3142" h="24575" /><!-- Глудио -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-80696" y="149848" z="-3069" h="21220" /><!-- Глудин -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-83128" y="150760" z="-3154" h="0" /><!-- Глудин -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-84232" y="243272" z="-3754" h="13828" /><!-- д. людей -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="115080" y="-178056" z="-910" h="62980" /><!-- д. гномов -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="11272" y="16872" z="-4687" h="32767" /><!-- д. т. ельфов -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="46856" y="51480" z="-3002" h="53120" /><!-- д. ельфов -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-45272" y="-112584" z="-264" h="0" /><!-- д. орков -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-116872" y="-46472" z="342" h="16383" /><!-- д. камаель -->
+		<npc id="13100" /><!--NPCBuffer-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="npc_buffer">
+		<point x="-49928" y="-54168" z="2680" h="32767" /><!-- Остров фантазий -->
+		<npc id="31324" /><!--Свадебный менеджер-->
+	</spawn>
+	
+</list>
