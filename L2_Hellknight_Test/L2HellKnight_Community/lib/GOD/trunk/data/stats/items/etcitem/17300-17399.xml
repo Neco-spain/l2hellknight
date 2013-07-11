@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<list>
-	<etcitem id="17371" name="Кристалл Ранга R" type="OTHER">
-		<set name="class" val="CONSUMABLE"/>
-		<set name="crystal_type" val="R" />
-		<set name="stackable" val="true"/>
-		<set name="weight" val="0" />
-	</etcitem>
-</list>
